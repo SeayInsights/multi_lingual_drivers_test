@@ -54,10 +54,11 @@ function clickChoice(correct) {
   click(target);
 }
 
-test("empty state when nothing missed", async () => {
+test("empty state when nothing missed (with exit control)", async () => {
   view.innerHTML = reviewView();
   await tick();
   assert.match(q("#review-root").textContent, /Không có câu sai|Nothing to review/);
+  assert.ok(q("[data-act=exit]"), "exit visible on empty state");
 });
 
 test("deck drills missed questions: wrong recycles, correct clears", async () => {
@@ -97,6 +98,7 @@ test("deck drills missed questions: wrong recycles, correct clears", async () =>
   assert.match(q("#review-root strong").textContent, /1/);
   await answerCurrent(true);   // correct -> done
   assert.match(q("#review-root").textContent, /Hết câu sai|All cleared/);
+  assert.ok(q("[data-act=exit]"), "exit visible on done state");
 
   const reviewEvents = (await events.allEvents()).filter((e) => e.mode === "review");
   assert.equal(reviewEvents.length, 3, "every answer logged with mode=review");

@@ -29,6 +29,10 @@ async function loadBank() {
   return bank;
 }
 
+const exitBtn = () =>
+  `<button class="btn btn-secondary" data-act="exit"
+     style="width:auto;min-height:44px;padding:8px 16px;margin-bottom:10px">← ${esc(t("action.back"))}</button>`;
+
 function cardHtml() {
   const q = deck[pos];
   const front = `
@@ -48,6 +52,7 @@ function cardHtml() {
     </div>
     <p style="text-align:center;color:var(--muted);font-family:var(--font-sign);font-weight:700">${esc(q.sign.code)}</p>`;
   return `
+  ${exitBtn()}
   <section class="card" id="flashcard" data-flipped="${flipped}" style="cursor:pointer;touch-action:pan-y">
     <div style="display:flex;justify-content:space-between;margin-bottom:8px">
       <strong>${t("flash.cardOf", { current: pos + 1, total: deck.length })}</strong>
@@ -63,6 +68,7 @@ function cardHtml() {
 
 function doneHtml() {
   return `
+  ${exitBtn()}
   <section class="card card-green" style="text-align:center">
     <h2>${bilingual("flash.doneTitle")}</h2>
     <p>${t("flash.doneSummary", { known, total: deck.length })}</p>
@@ -72,6 +78,7 @@ function doneHtml() {
 
 function emptyHtml() {
   return `
+  ${exitBtn()}
   <section class="card" style="text-align:center">
     <h2>${bilingual("flash.emptyTitle")}</h2>
     <p>${bilingual("flash.emptyBody")}</p>
@@ -142,6 +149,11 @@ async function onClick(e) {
     if (act === "know") await resolveCard(true);
     if (act === "learning") await resolveCard(false);
     if (act === "again") await startSession(root);
+    if (act === "exit") {
+      // SRS state is per-card persisted — leaving mid-deck loses nothing
+      if (window.history.length > 1) window.history.back();
+      else location.hash = "#/study";
+    }
     return;
   }
   if (e.target.closest("#flashcard") && deck[pos]) {

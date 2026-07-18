@@ -53,6 +53,10 @@ export async function buildReviewDeck() {
   return missed.filter((id) => byId(id));
 }
 
+const exitBtn = () =>
+  `<button class="btn btn-secondary" data-act="exit"
+     style="width:auto;min-height:44px;padding:8px 16px;margin-bottom:10px">← ${esc(t("action.back"))}</button>`;
+
 function questionHtml() {
   const q = byId(queue[0]);
   if (!order || orderFor !== q.id) {
@@ -63,6 +67,7 @@ function questionHtml() {
     ? `<div style="display:flex;justify-content:center;margin-bottom:12px"><img src="${q.sign.image}" alt="${esc(q.sign.code)}" style="max-height:150px;max-width:70%"></div>`
     : "";
   return `
+  ${exitBtn()}
   <section class="card">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
       <strong>${t("review.remaining", { count: queue.length })}</strong>
@@ -97,12 +102,14 @@ function feedbackHtml(q, chosen) {
 }
 
 const doneHtml = () => `
+  ${exitBtn()}
   <section class="card card-green" style="text-align:center">
     <h2>${bilingual("review.doneTitle")}</h2>
     <p>${t("review.doneBody", { count: totalStart })}</p>
   </section>`;
 
 const emptyHtml = () => `
+  ${exitBtn()}
   <section class="card" style="text-align:center">
     <h2>${bilingual("review.emptyTitle")}</h2>
     <p>${bilingual("review.emptyBody")}</p>
@@ -158,6 +165,12 @@ async function onClick(e) {
       choiceIndex: chosen, correct: lastRight, sessionId,
       locale: document.documentElement.lang === "en" ? "en-US" : "vi-VN",
     }).catch(() => {});
+  }
+
+  if (btn.dataset.act === "exit") {
+    if (window.history.length > 1) window.history.back();
+    else location.hash = "#/study";
+    return;
   }
 
   if (btn.dataset.act === "next") {

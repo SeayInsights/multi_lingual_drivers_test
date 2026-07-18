@@ -81,6 +81,14 @@ test("getDueCount counts due + unseen", async () => {
   assert.equal(n, signCount - 3);
 });
 
+test("flashcards: exit control present on card, done, and empty states", async () => {
+  const { flashcardsView } = await import("../src/pages/flashcards/flashcards.js");
+  const view = document.getElementById("view");
+  view.innerHTML = flashcardsView();
+  await new Promise((r) => setTimeout(r, 30));
+  assert.ok(view.querySelector("[data-act=exit]"), "exit visible on card state");
+});
+
 test("flashcards flow: flip, know, still-learning, done; events logged", async () => {
   const { flashcardsView } = await import("../src/pages/flashcards/flashcards.js");
   const view = document.getElementById("view");
@@ -106,6 +114,7 @@ test("flashcards flow: flip, know, still-learning, done; events logged", async (
     await tick();
   }
   assert.match(view.querySelector("#flash-root").textContent, /Xong phiên|Session complete/, "done screen");
+  assert.ok(view.querySelector("[data-act=exit]"), "exit visible on done state");
 
   const { allEvents } = await import("../src/storage/events.js");
   const flashEvents = (await allEvents()).filter((e) => e.mode === "flashcard");
