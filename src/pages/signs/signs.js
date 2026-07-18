@@ -104,6 +104,7 @@ function detailHtml() {
     <img src="${esc(s.file)}" alt="${esc(s.code)}" style="max-height:220px;max-width:85%">
     <h2 style="margin-top:12px">${s.name ? `<span class="vi-main" lang="vi">${esc(s.name["vi-VN"] ?? s.name["en-US"])}</span><span class="en-sub" lang="en">${esc(s.name["en-US"])}</span>` : esc(s.code)}</h2>
     <p style="font-family:var(--font-sign);font-weight:700;color:var(--muted)">${esc(s.code)} · ${esc(t(`gallery.cat.${s.category}`))}</p>
+    ${s.name ? "" : `<p style="color:var(--muted);font-size:.9rem">${bilingual("gallery.unnamed")}</p>`}
     ${related.length ? `<button class="btn btn-primary" data-act="practice" style="margin-top:8px">🎯 ${bilingual("gallery.practiceSign")}</button>` : ""}
   </section>`;
 }

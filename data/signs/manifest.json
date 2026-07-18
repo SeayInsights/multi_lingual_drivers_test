@@ -720,7 +720,11 @@
     {
       "code": "D5-1",
       "category": "guide",
-      "file": "traffic_signs/guide/MUTCD_D5-1.svg"
+      "file": "traffic_signs/guide/MUTCD_D5-1.svg",
+      "name": {
+        "en-US": "Rest area",
+        "vi-VN": "Khu dừng nghỉ"
+      }
     },
     {
       "code": "D5-10",
@@ -2917,7 +2921,11 @@
     {
       "code": "R1-3P",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R1-3P.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R1-3P.svg",
+      "name": {
+        "en-US": "All way (plaque)",
+        "vi-VN": "Tất cả các hướng đều dừng"
+      }
     },
     {
       "code": "R1-4",
@@ -3152,7 +3160,11 @@
     {
       "code": "R10-11",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R10-11.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R10-11.svg",
+      "name": {
+        "en-US": "No turn on red",
+        "vi-VN": "Cấm quẹo khi đèn đỏ"
+      }
     },
     {
       "code": "R10-11a",
@@ -3557,7 +3569,11 @@
     {
       "code": "R10-6",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R10-6.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R10-6.svg",
+      "name": {
+        "en-US": "Stop here on red",
+        "vi-VN": "Dừng tại đây khi đèn đỏ"
+      }
     },
     {
       "code": "R10-6a",
@@ -3592,7 +3608,11 @@
     {
       "code": "R11-2",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R11-2.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R11-2.svg",
+      "name": {
+        "en-US": "Road closed",
+        "vi-VN": "Đường đóng"
+      }
     },
     {
       "code": "R11-2a",
@@ -3707,7 +3727,11 @@
     {
       "code": "R15-1",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R15-1.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R15-1.svg",
+      "name": {
+        "en-US": "Railroad crossing (crossbuck)",
+        "vi-VN": "Giao cắt đường sắt"
+      }
     },
     {
       "code": "R15-1 (Buckeye Crossbuck)",
@@ -4011,7 +4035,11 @@
     {
       "code": "R3-1",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R3-1.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R3-1.svg",
+      "name": {
+        "en-US": "No right turn",
+        "vi-VN": "Cấm quẹo phải"
+      }
     },
     {
       "code": "R3-10",
@@ -4430,7 +4458,11 @@
     {
       "code": "R3-3",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R3-3.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R3-3.svg",
+      "name": {
+        "en-US": "No turns",
+        "vi-VN": "Cấm quẹo (mọi hướng)"
+      }
     },
     {
       "code": "R3-30P",
@@ -4834,7 +4866,11 @@
     {
       "code": "R4-1",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R4-1.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R4-1.svg",
+      "name": {
+        "en-US": "Do not pass",
+        "vi-VN": "Cấm vượt"
+      }
     },
     {
       "code": "R4-10",
@@ -4889,7 +4925,11 @@
     {
       "code": "R4-2",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R4-2.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R4-2.svg",
+      "name": {
+        "en-US": "Pass with care",
+        "vi-VN": "Vượt cẩn thận"
+      }
     },
     {
       "code": "R4-20L",
@@ -4914,7 +4954,11 @@
     {
       "code": "R4-3",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R4-3.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R4-3.svg",
+      "name": {
+        "en-US": "Slower traffic keep right",
+        "vi-VN": "Xe chậm đi làn phải"
+      }
     },
     {
       "code": "R4-4",
@@ -4934,7 +4978,11 @@
     {
       "code": "R4-7",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R4-7.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R4-7.svg",
+      "name": {
+        "en-US": "Keep right",
+        "vi-VN": "Đi bên phải"
+      }
     },
     {
       "code": "R4-7a",
@@ -5052,7 +5100,11 @@
     {
       "code": "R5-2",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R5-2.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R5-2.svg",
+      "name": {
+        "en-US": "No trucks",
+        "vi-VN": "Cấm xe tải"
+      }
     },
     {
       "code": "R5-2aP",
@@ -5087,7 +5139,11 @@
     {
       "code": "R5-6",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R5-6.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R5-6.svg",
+      "name": {
+        "en-US": "No bicycles",
+        "vi-VN": "Cấm xe đạp"
+      }
     },
     {
       "code": "R5-7",
@@ -5180,7 +5236,11 @@
     {
       "code": "R7-1",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R7-1.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R7-1.svg",
+      "name": {
+        "en-US": "No parking any time",
+        "vi-VN": "Cấm đậu xe mọi lúc"
+      }
     },
     {
       "code": "R7-10",
@@ -5570,7 +5630,11 @@
     {
       "code": "R7-8",
       "category": "regulatory",
-      "file": "traffic_signs/regulatory/MUTCD_R7-8.svg"
+      "file": "traffic_signs/regulatory/MUTCD_R7-8.svg",
+      "name": {
+        "en-US": "Reserved parking (disability)",
+        "vi-VN": "Chỗ đậu dành cho người khuyết tật"
+      }
     },
     {
       "code": "R7-8aP",
@@ -6803,7 +6867,11 @@
     {
       "code": "W1-3R",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W1-3R.svg"
+      "file": "traffic_signs/warning/MUTCD_W1-3R.svg",
+      "name": {
+        "en-US": "Reverse turn (right)",
+        "vi-VN": "Đường gấp khúc (phải trước)"
+      }
     },
     {
       "code": "W1-4L",
@@ -6813,7 +6881,11 @@
     {
       "code": "W1-4R",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W1-4R.svg"
+      "file": "traffic_signs/warning/MUTCD_W1-4R.svg",
+      "name": {
+        "en-US": "Reverse curve (right)",
+        "vi-VN": "Đường cong liên tiếp (phải trước)"
+      }
     },
     {
       "code": "W1-5L",
@@ -7002,7 +7074,11 @@
     {
       "code": "W11-1",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W11-1.svg"
+      "file": "traffic_signs/warning/MUTCD_W11-1.svg",
+      "name": {
+        "en-US": "Bicycle crossing",
+        "vi-VN": "Xe đạp băng qua"
+      }
     },
     {
       "code": "W11-10",
@@ -7141,7 +7217,11 @@
     {
       "code": "W11-3",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W11-3.svg"
+      "file": "traffic_signs/warning/MUTCD_W11-3.svg",
+      "name": {
+        "en-US": "Deer crossing",
+        "vi-VN": "Nai băng qua đường"
+      }
     },
     {
       "code": "W11-4",
@@ -7196,7 +7276,11 @@
     {
       "code": "W12-2",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W12-2.svg"
+      "file": "traffic_signs/warning/MUTCD_W12-2.svg",
+      "name": {
+        "en-US": "Low clearance",
+        "vi-VN": "Chiều cao giới hạn"
+      }
     },
     {
       "code": "W12-2a",
@@ -7336,7 +7420,11 @@
     {
       "code": "W14-1",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W14-1.svg"
+      "file": "traffic_signs/warning/MUTCD_W14-1.svg",
+      "name": {
+        "en-US": "Dead end",
+        "vi-VN": "Đường cụt"
+      }
     },
     {
       "code": "W14-1aL",
@@ -7351,7 +7439,11 @@
     {
       "code": "W14-2",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W14-2.svg"
+      "file": "traffic_signs/warning/MUTCD_W14-2.svg",
+      "name": {
+        "en-US": "No outlet",
+        "vi-VN": "Không có lối ra"
+      }
     },
     {
       "code": "W14-2aL",
@@ -7626,7 +7718,11 @@
     {
       "code": "W2-1",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W2-1.svg"
+      "file": "traffic_signs/warning/MUTCD_W2-1.svg",
+      "name": {
+        "en-US": "Cross road ahead",
+        "vi-VN": "Ngã tư phía trước"
+      }
     },
     {
       "code": "W2-10",
@@ -7646,7 +7742,11 @@
     {
       "code": "W2-2R",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W2-2R.svg"
+      "file": "traffic_signs/warning/MUTCD_W2-2R.svg",
+      "name": {
+        "en-US": "Side road (right)",
+        "vi-VN": "Đường nhánh bên phải"
+      }
     },
     {
       "code": "W2-3aL",
@@ -7671,12 +7771,20 @@
     {
       "code": "W2-4",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W2-4.svg"
+      "file": "traffic_signs/warning/MUTCD_W2-4.svg",
+      "name": {
+        "en-US": "T intersection",
+        "vi-VN": "Ngã ba chữ T"
+      }
     },
     {
       "code": "W2-5",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W2-5.svg"
+      "file": "traffic_signs/warning/MUTCD_W2-5.svg",
+      "name": {
+        "en-US": "Y intersection",
+        "vi-VN": "Ngã ba chữ Y"
+      }
     },
     {
       "code": "W2-6",
@@ -7790,7 +7898,11 @@
     {
       "code": "W3-2",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W3-2.svg"
+      "file": "traffic_signs/warning/MUTCD_W3-2.svg",
+      "name": {
+        "en-US": "Yield ahead",
+        "vi-VN": "Sắp tới biển nhường đường"
+      }
     },
     {
       "code": "W3-2A",
@@ -8033,7 +8145,11 @@
     {
       "code": "W5-1",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W5-1.svg"
+      "file": "traffic_signs/warning/MUTCD_W5-1.svg",
+      "name": {
+        "en-US": "Road narrows",
+        "vi-VN": "Đường hẹp dần"
+      }
     },
     {
       "code": "W5-1 (1948)",
@@ -8043,7 +8159,11 @@
     {
       "code": "W5-2",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W5-2.svg"
+      "file": "traffic_signs/warning/MUTCD_W5-2.svg",
+      "name": {
+        "en-US": "Narrow bridge",
+        "vi-VN": "Cầu hẹp"
+      }
     },
     {
       "code": "W5-2a",
@@ -8088,7 +8208,11 @@
     {
       "code": "W6-1",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W6-1.svg"
+      "file": "traffic_signs/warning/MUTCD_W6-1.svg",
+      "name": {
+        "en-US": "Divided highway begins",
+        "vi-VN": "Bắt đầu đường có dải phân cách"
+      }
     },
     {
       "code": "W6-1A",
@@ -8103,7 +8227,11 @@
     {
       "code": "W6-2",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W6-2.svg"
+      "file": "traffic_signs/warning/MUTCD_W6-2.svg",
+      "name": {
+        "en-US": "Divided highway ends",
+        "vi-VN": "Hết đường có dải phân cách"
+      }
     },
     {
       "code": "W6-3",
@@ -8142,7 +8270,11 @@
     {
       "code": "W7-1",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W7-1.svg"
+      "file": "traffic_signs/warning/MUTCD_W7-1.svg",
+      "name": {
+        "en-US": "Steep hill",
+        "vi-VN": "Dốc đứng"
+      }
     },
     {
       "code": "W7-1A",
@@ -8227,7 +8359,11 @@
     {
       "code": "W8-1",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W8-1.svg"
+      "file": "traffic_signs/warning/MUTCD_W8-1.svg",
+      "name": {
+        "en-US": "Bump",
+        "vi-VN": "Đường gồ"
+      }
     },
     {
       "code": "W8-10",
@@ -8302,7 +8438,11 @@
     {
       "code": "W8-2",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W8-2.svg"
+      "file": "traffic_signs/warning/MUTCD_W8-2.svg",
+      "name": {
+        "en-US": "Dip",
+        "vi-VN": "Đường trũng"
+      }
     },
     {
       "code": "W8-21",
@@ -8342,7 +8482,11 @@
     {
       "code": "W8-3",
       "category": "warning",
-      "file": "traffic_signs/warning/MUTCD_W8-3.svg"
+      "file": "traffic_signs/warning/MUTCD_W8-3.svg",
+      "name": {
+        "en-US": "Pavement ends",
+        "vi-VN": "Hết đường nhựa"
+      }
     },
     {
       "code": "W8-3a",

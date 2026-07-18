@@ -1,6 +1,6 @@
 {
   "stateCode": "oh",
-  "version": 6,
+  "version": 7,
   "questions": [
     {
       "id": "oh-signs-001",
@@ -5562,6 +5562,888 @@
       "source": {
         "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
         "section": "Crashes"
+      }
+    },
+    {
+      "id": "oh-signs-023",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "R4-1",
+        "image": "traffic_signs/regulatory/MUTCD_R4-1.svg"
+      },
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Do not pass other vehicles here",
+            "vi-VN": "Cấm vượt xe khác tại đây"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No parking",
+            "vi-VN": "Cấm đậu xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "One way street",
+            "vi-VN": "Đường một chiều"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Slow traffic ahead",
+            "vi-VN": "Phía trước có xe chạy chậm"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "DO NOT PASS marks a no-passing zone — stay behind until passing is allowed again.",
+        "vi-VN": "DO NOT PASS là khu vực cấm vượt — chạy sau xe trước cho tới khi được phép vượt lại."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-024",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "R3-1",
+        "image": "traffic_signs/regulatory/MUTCD_R3-1.svg"
+      },
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No right turn",
+            "vi-VN": "Cấm quẹo phải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No left turn",
+            "vi-VN": "Cấm quẹo trái"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Right turn only",
+            "vi-VN": "Chỉ được quẹo phải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Curve to the right",
+            "vi-VN": "Đường cong qua phải"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The right-turn arrow inside a red circle and slash prohibits right turns.",
+        "vi-VN": "Mũi tên quẹo phải trong vòng đỏ gạch chéo nghĩa là cấm quẹo phải."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-025",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "R5-2",
+        "image": "traffic_signs/regulatory/MUTCD_R5-2.svg"
+      },
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No trucks allowed",
+            "vi-VN": "Cấm xe tải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Truck route",
+            "vi-VN": "Tuyến đường xe tải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Trucks must slow down",
+            "vi-VN": "Xe tải phải chạy chậm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Weigh station ahead",
+            "vi-VN": "Trạm cân phía trước"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "A truck symbol in a red circle-and-slash means trucks are prohibited on this road.",
+        "vi-VN": "Hình xe tải trong vòng đỏ gạch chéo nghĩa là cấm xe tải vào đường này."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-026",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "R7-1",
+        "image": "traffic_signs/regulatory/MUTCD_R7-1.svg"
+      },
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No parking at any time",
+            "vi-VN": "Cấm đậu xe mọi lúc"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Parking allowed with permit",
+            "vi-VN": "Được đậu nếu có giấy phép"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No stopping ever, even briefly",
+            "vi-VN": "Cấm dừng dù chỉ giây lát"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Loading zone",
+            "vi-VN": "Khu vực bốc dỡ hàng"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "NO PARKING ANY TIME prohibits leaving your vehicle here at all hours.",
+        "vi-VN": "NO PARKING ANY TIME nghĩa là cấm đậu xe tại đây bất kể giờ nào."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-027",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "R10-11",
+        "image": "traffic_signs/regulatory/MUTCD_R10-11.svg"
+      },
+      "text": {
+        "en-US": "What does this sign at a signal mean?",
+        "vi-VN": "Biển này đặt ở đèn giao thông có nghĩa gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "You may not turn right while the light is red",
+            "vi-VN": "Không được quẹo phải khi đèn đỏ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No turns at all",
+            "vi-VN": "Cấm quẹo mọi hướng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Right turns have a green arrow",
+            "vi-VN": "Quẹo phải có mũi tên xanh riêng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop only for pedestrians",
+            "vi-VN": "Chỉ dừng khi có người đi bộ"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "NO TURN ON RED removes the usual right-on-red permission — wait for green.",
+        "vi-VN": "NO TURN ON RED hủy quyền quẹo phải khi đèn đỏ — phải chờ đèn xanh."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-028",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "R15-1",
+        "image": "traffic_signs/regulatory/MUTCD_R15-1.svg"
+      },
+      "text": {
+        "en-US": "This X-shaped sign at a crossing means:",
+        "vi-VN": "Biển hình chữ X này ở chỗ giao cắt nghĩa là:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "You are AT a railroad crossing — yield to trains",
+            "vi-VN": "Bạn đang NGAY tại đường ray — nhường xe lửa"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A railroad crossing is one mile ahead",
+            "vi-VN": "Đường ray còn cách một dặm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Road crossing for animals",
+            "vi-VN": "Chỗ thú băng qua đường"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Intersection closed",
+            "vi-VN": "Ngã tư bị đóng"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The crossbuck marks the crossing itself. Treat it like a yield sign for trains — and trains cannot stop for you.",
+        "vi-VN": "Biển crossbuck đánh dấu ngay chỗ giao đường sắt. Nó như biển nhường đường cho xe lửa — và xe lửa không thể thắng kịp."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Railroad crossings"
+      }
+    },
+    {
+      "id": "oh-signs-029",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W2-1",
+        "image": "traffic_signs/warning/MUTCD_W2-1.svg"
+      },
+      "text": {
+        "en-US": "What does this yellow sign warn about?",
+        "vi-VN": "Biển vàng này cảnh báo điều gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "A crossroad (4-way intersection) ahead",
+            "vi-VN": "Phía trước có ngã tư"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A hospital ahead",
+            "vi-VN": "Phía trước có bệnh viện"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Railroad tracks",
+            "vi-VN": "Đường ray xe lửa"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Add lane from the right",
+            "vi-VN": "Có làn nhập từ bên phải"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The cross symbol warns of a 4-way intersection — watch for entering traffic.",
+        "vi-VN": "Ký hiệu chữ thập cảnh báo ngã tư phía trước — coi chừng xe từ các hướng vào."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-030",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W3-2",
+        "image": "traffic_signs/warning/MUTCD_W3-2.svg"
+      },
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "A YIELD sign is ahead — prepare to slow down",
+            "vi-VN": "Sắp tới biển NHƯỜNG ĐƯỜNG — chuẩn bị giảm tốc"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Yield to trucks only",
+            "vi-VN": "Chỉ nhường xe tải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A STOP sign is ahead",
+            "vi-VN": "Sắp tới bảng STOP"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Merging traffic has the right of way",
+            "vi-VN": "Xe nhập làn được ưu tiên"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Yield-ahead warns you before the actual YIELD sign so you can slow smoothly.",
+        "vi-VN": "Biển này báo trước sắp tới biển YIELD để bạn giảm tốc kịp và êm."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-031",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W5-2",
+        "image": "traffic_signs/warning/MUTCD_W5-2.svg"
+      },
+      "text": {
+        "en-US": "What does this sign warn about?",
+        "vi-VN": "Biển này cảnh báo điều gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "A narrow bridge ahead",
+            "vi-VN": "Phía trước có cầu hẹp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Road widens ahead",
+            "vi-VN": "Đường mở rộng phía trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Two-way traffic",
+            "vi-VN": "Đường hai chiều"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Bridge is closed",
+            "vi-VN": "Cầu bị đóng"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "NARROW BRIDGE: the bridge is narrower than the road — slow down and stay centered in your lane.",
+        "vi-VN": "CẦU HẸP: cầu hẹp hơn mặt đường — giảm tốc và giữ giữa làn."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-032",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W6-2",
+        "image": "traffic_signs/warning/MUTCD_W6-2.svg"
+      },
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "The divided highway ends — two-way traffic ahead",
+            "vi-VN": "Hết dải phân cách — sắp chạy chung đường hai chiều"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A divided highway begins",
+            "vi-VN": "Bắt đầu đường có dải phân cách"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Winding road",
+            "vi-VN": "Đường quanh co"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Keep right of the median",
+            "vi-VN": "Đi bên phải dải phân cách"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Divided highway ends: the median is ending; oncoming traffic will share the same roadway.",
+        "vi-VN": "Hết đường phân cách: dải giữa kết thúc; xe ngược chiều sẽ chạy chung mặt đường."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-033",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W7-1",
+        "image": "traffic_signs/warning/MUTCD_W7-1.svg"
+      },
+      "text": {
+        "en-US": "What does this sign advise?",
+        "vi-VN": "Biển này khuyên bạn điều gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Steep downhill ahead — check brakes, use lower gear",
+            "vi-VN": "Dốc xuống đứng phía trước — kiểm thắng, về số thấp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Truck parking ahead",
+            "vi-VN": "Chỗ đậu xe tải phía trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Trucks prohibited",
+            "vi-VN": "Cấm xe tải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Weigh station",
+            "vi-VN": "Trạm cân"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The hill sign warns of a steep grade — heavy braking can overheat brakes; use engine braking.",
+        "vi-VN": "Biển dốc cảnh báo độ dốc lớn — rà thắng liên tục dễ cháy thắng; hãy dùng số thấp hãm máy."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-034",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W8-3",
+        "image": "traffic_signs/warning/MUTCD_W8-3.svg"
+      },
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "The paved surface ends ahead",
+            "vi-VN": "Phía trước hết đường trải nhựa"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Road closed ahead",
+            "vi-VN": "Đường bị đóng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Bridge out",
+            "vi-VN": "Cầu bị sập"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Speed zone ends",
+            "vi-VN": "Hết khu giới hạn tốc độ"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "PAVEMENT ENDS: expect gravel or dirt — slow down before the surface changes.",
+        "vi-VN": "HẾT ĐƯỜNG NHỰA: sắp tới đường đá/đất — giảm tốc trước khi mặt đường thay đổi."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-035",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W11-3",
+        "image": "traffic_signs/warning/MUTCD_W11-3.svg"
+      },
+      "text": {
+        "en-US": "What does this sign warn about?",
+        "vi-VN": "Biển này cảnh báo điều gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Deer often cross here — especially at dawn and dusk",
+            "vi-VN": "Nai thường băng qua đây — nhất là lúc rạng sáng và chạng vạng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Zoo entrance",
+            "vi-VN": "Cổng sở thú"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Livestock market",
+            "vi-VN": "Chợ gia súc"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Hunting area",
+            "vi-VN": "Khu săn bắn"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Deer crossing zones are serious in Ohio — if one crosses, expect more to follow.",
+        "vi-VN": "Khu nai băng đường rất nguy hiểm ở Ohio — thấy một con thì thường còn con khác theo sau."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-036",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W12-2",
+        "image": "traffic_signs/warning/MUTCD_W12-2.svg"
+      },
+      "text": {
+        "en-US": "What does this sign tell drivers of tall vehicles?",
+        "vi-VN": "Biển này báo gì cho tài xế xe cao?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Maximum safe height — taller vehicles must not proceed",
+            "vi-VN": "Chiều cao tối đa an toàn — xe cao hơn không được đi tiếp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Minimum speed for trucks",
+            "vi-VN": "Tốc độ tối thiểu cho xe tải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Weight limit",
+            "vi-VN": "Giới hạn trọng tải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Bridge number",
+            "vi-VN": "Số hiệu cây cầu"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Low clearance: the number is the safe height under the structure ahead.",
+        "vi-VN": "Biển giới hạn chiều cao: con số là độ cao an toàn khi chui qua công trình phía trước."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-037",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W14-2",
+        "image": "traffic_signs/warning/MUTCD_W14-2.svg"
+      },
+      "text": {
+        "en-US": "What does NO OUTLET mean?",
+        "vi-VN": "Biển NO OUTLET nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "This street network has no other exit — you must come back this way",
+            "vi-VN": "Khu đường này không có lối ra khác — phải quay lại đường cũ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No electrical services",
+            "vi-VN": "Không có trạm điện"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Trucks cannot turn around",
+            "vi-VN": "Xe tải không quay đầu được"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Road under construction",
+            "vi-VN": "Đường đang thi công"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "NO OUTLET marks an area you can only leave the way you entered (similar to DEAD END for a single street).",
+        "vi-VN": "NO OUTLET là khu chỉ có một lối ra vào duy nhất (tương tự DEAD END cho một con đường)."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-038",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "R4-7",
+        "image": "traffic_signs/regulatory/MUTCD_R4-7.svg"
+      },
+      "text": {
+        "en-US": "What must you do at this sign?",
+        "vi-VN": "Gặp biển này bạn phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Keep to the right of the divider/obstruction",
+            "vi-VN": "Đi bên PHẢI dải phân cách/chướng ngại"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Turn right at the next street",
+            "vi-VN": "Quẹo phải ở đường kế"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop and keep right",
+            "vi-VN": "Dừng lại rồi đi bên phải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Right lane is closed",
+            "vi-VN": "Làn phải bị đóng"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "KEEP RIGHT directs traffic to pass on the right side of a median or obstruction ahead.",
+        "vi-VN": "KEEP RIGHT hướng dẫn đi vòng bên phải dải phân cách hay chướng ngại phía trước."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-039",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W2-4",
+        "image": "traffic_signs/warning/MUTCD_W2-4.svg"
+      },
+      "text": {
+        "en-US": "What intersection shape does this sign warn about?",
+        "vi-VN": "Biển này cảnh báo ngã đường hình gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "A T-intersection — the road ahead ends",
+            "vi-VN": "Ngã ba chữ T — đường phía trước kết thúc"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A four-way crossroad",
+            "vi-VN": "Ngã tư"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A roundabout",
+            "vi-VN": "Vòng xoay"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A freeway interchange",
+            "vi-VN": "Nút giao xa lộ"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The T symbol warns your road ends ahead — prepare to turn left or right and yield to cross traffic.",
+        "vi-VN": "Ký hiệu chữ T báo đường bạn sắp hết — chuẩn bị quẹo trái/phải và nhường xe trên đường ngang."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-signs-040",
+      "section": "signs",
+      "category": "signs",
+      "sign": {
+        "code": "W8-2",
+        "image": "traffic_signs/warning/MUTCD_W8-2.svg"
+      },
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "A dip in the road ahead — slow down",
+            "vi-VN": "Đường trũng phía trước — giảm tốc"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A bump ahead",
+            "vi-VN": "Gờ nhô phía trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Flooded road",
+            "vi-VN": "Đường ngập nước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Valley viewpoint",
+            "vi-VN": "Điểm ngắm thung lũng"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "DIP marks a low spot that can bottom out a fast car — and may hold water after rain.",
+        "vi-VN": "DIP báo chỗ trũng, chạy nhanh dễ sập gầm — sau mưa còn có thể đọng nước."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Signs"
       }
     }
   ]
