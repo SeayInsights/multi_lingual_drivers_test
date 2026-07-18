@@ -159,6 +159,18 @@ function showToast(html) {
 
 function wirePwa() {
   if (!("serviceWorker" in navigator)) return;
+  // Register after load + idle so the 50-asset precache never competes with
+  // first paint (Lighthouse TBT finding).
+  const idle = (fn) => {
+    if ("requestIdleCallback" in window) requestIdleCallback(fn, { timeout: 3000 });
+    else setTimeout(fn, 1500);
+  };
+  const start = () => registerSw();
+  if (document.readyState === "complete") idle(start);
+  else window.addEventListener("load", () => idle(start), { once: true });
+}
+
+function registerSw() {
   navigator.serviceWorker.register("sw.js").then((reg) => {
     reg.addEventListener("updatefound", () => {
       const sw = reg.installing;

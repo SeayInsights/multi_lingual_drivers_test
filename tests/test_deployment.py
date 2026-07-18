@@ -67,3 +67,14 @@ def test_index_boots_module_shell():
 def test_study_page_module_live():
     status, headers, body = _get(f"{BASE}/src/pages/study/study.js")
     assert status == 200 and b"logAnswer" in body
+
+
+def test_pwa_assets_live():
+    for path, marker in [
+        ("/manifest.webmanifest", b"maskable"),
+        ("/sw.js", b"mldt-"),
+        ("/assets/icons/icon-192.png", b"PNG"),
+    ]:
+        status, headers, body = _get(f"{BASE}{path}")
+        assert status == 200, f"{path} -> {status}"
+        assert marker in body[:2048], f"{path}: marker missing"
