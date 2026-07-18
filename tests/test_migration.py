@@ -4,18 +4,24 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 BANK = json.loads((REPO / "data" / "states" / "oh" / "questions.json").read_text(encoding="utf-8"))
+BASE = json.loads((REPO / "data" / "states" / "oh" / "base-questions.json").read_text(encoding="utf-8"))
 MANIFEST = json.loads((REPO / "data" / "signs" / "manifest.json").read_text(encoding="utf-8"))
 
 
-def test_every_legacy_question_migrated():
-    # Legacy bank: 57 questions (22 signs, 14 rules, 8 rightofway, 8 safety, 5 alcohol)
-    assert len(BANK["questions"]) == 57
-    sections = {}
-    for q in BANK["questions"]:
-        sections[q["section"]] = sections.get(q["section"], 0) + 1
-    assert sections == {"signs": 22, "rules": 35}
-    cats = {q["category"] for q in BANK["questions"]}
-    assert cats == {"signs", "rules", "rightofway", "safety", "alcohol"}
+def test_every_legacy_question_preserved():
+    # The 57 migrated legacy questions must survive every rebuild verbatim by id
+    # (answer-event history keys on question ids).
+    assert len(BASE["questions"]) == 57
+    bank_by_id = {q["id"]: q for q in BANK["questions"]}
+    for legacy in BASE["questions"]:
+        assert legacy["id"] in bank_by_id, f"legacy id lost: {legacy['id']}"
+        assert bank_by_id[legacy["id"]]["text"] == legacy["text"]
+        assert bank_by_id[legacy["id"]]["answerIndex"] == legacy["answerIndex"]
+
+
+def test_bank_ids_unique():
+    ids = [q["id"] for q in BANK["questions"]]
+    assert len(ids) == len(set(ids))
 
 
 def test_questions_are_bilingual_with_explanations():
