@@ -7,6 +7,7 @@ import { initI18n, t, bilingual, applyTranslations, getLangMode, applyLangMode, 
 import { register, setNotFound, startRouter, currentPath } from "./router.js";
 import { initSettings, migrateLegacyBestScore } from "../storage/settings.js";
 import { studyView } from "../pages/study/study.js";
+import { testView } from "../pages/test/test.js";
 
 const TABS = [
   { path: "/home", key: "tab.home", ico: "🏠" },
@@ -105,7 +106,7 @@ async function boot() {
   register("/home", homeView);
   register("/study", studyView);
   register("/signs", placeholder("tab.signs"));
-  register("/test", placeholder("tab.test"));
+  register("/test", testView);
   register("/progress", placeholder("tab.progress"));
   setNotFound(() => `<section class="card"><h2>404</h2><p><a href="#/home">${t("action.back")}</a></p></section>`);
 
