@@ -1,0 +1,221 @@
+/* MUTCD highway-sign theme — light + dark, text-size scaling, playful-rounded.
+   Brand tokens from the locked design brief. */
+
+:root {
+  /* MUTCD palette */
+  --green: #046A38;
+  --green-dk: #03572E;
+  --yellow: #FFC72C;
+  --red: #B32017;
+  --orange: #E87511;
+  --blue: #00539B;
+  --ink: #20242A;
+  --bg: #E9EBE6;
+  --card: #FFFFFF;
+  --muted: #5B6169;
+  --line: #C9CDC4;
+  --tab-bg: #FFFFFF;
+  --shadow: rgba(0, 0, 0, .15);
+
+  --font-body: 'Be Vietnam Pro', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-sign: 'Overpass', Arial, sans-serif;
+  --radius: 14px;
+  --radius-sm: 12px;
+  --touch: 48px;
+}
+
+/* Dark mode: auto via media query, manual override via data-theme */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --green: #0A8A4C;
+    --green-dk: #067A40;
+    --ink: #E8EAED;
+    --bg: #16181C;
+    --card: #23262C;
+    --muted: #9AA1AA;
+    --line: #3A3F47;
+    --tab-bg: #1C1F24;
+    --shadow: rgba(0, 0, 0, .5);
+  }
+}
+:root[data-theme="dark"] {
+  --green: #0A8A4C;
+  --green-dk: #067A40;
+  --ink: #E8EAED;
+  --bg: #16181C;
+  --card: #23262C;
+  --muted: #9AA1AA;
+  --line: #3A3F47;
+  --tab-bg: #1C1F24;
+  --shadow: rgba(0, 0, 0, .5);
+}
+
+/* Text size: A / A+ / A++ (task 4.5) */
+:root { font-size: 17px; }
+:root[data-textsize="2"] { font-size: 19px; }
+:root[data-textsize="3"] { font-size: 21px; }
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  padding-bottom: calc(72px + env(safe-area-inset-bottom));
+}
+
+button { font-family: inherit; cursor: pointer; }
+.hidden { display: none !important; }
+
+/* Language modes: default shows VI primary + EN secondary */
+.en-sub { display: block; color: var(--muted); font-size: .82em; font-weight: 500; }
+:root[data-langmode="vi"] .en-sub { display: none; }
+:root[data-langmode="en"] .vi-main { display: none; }
+:root[data-langmode="en"] .en-sub { color: inherit; font-size: 1em; font-weight: inherit; }
+
+/* ---- header: highway guide sign ---- */
+.hdr {
+  background: var(--green);
+  color: #fff;
+  padding: 14px 16px calc(12px);
+  text-align: center;
+  box-shadow: inset 0 -3px 0 #fff, 0 2px 8px var(--shadow);
+}
+.hdr h1 {
+  font-family: var(--font-sign);
+  font-weight: 900;
+  font-size: 1.25rem;
+  margin: 0;
+  line-height: 1.15;
+  letter-spacing: .01em;
+}
+.hdr .route {
+  display: inline-block;
+  background: #fff;
+  color: var(--green-dk);
+  font-family: var(--font-sign);
+  font-weight: 900;
+  font-size: .68rem;
+  letter-spacing: .14em;
+  padding: 2px 10px;
+  border-radius: 999px;
+  margin-bottom: 6px;
+}
+
+/* ---- main view ---- */
+#view { max-width: 640px; margin: 0 auto; padding: 16px 14px; }
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 18px 16px;
+  margin-bottom: 14px;
+  box-shadow: inset 0 0 0 3px var(--card), inset 0 0 0 5px var(--ink), 0 3px 10px var(--shadow);
+}
+.card h2 {
+  font-family: var(--font-sign);
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin: 0 0 10px;
+}
+.card-green {
+  background: var(--green);
+  color: #fff;
+  box-shadow: inset 0 0 0 3px var(--green), inset 0 0 0 6px #fff, 0 3px 10px var(--shadow);
+}
+.card-green .en-sub { color: rgba(255, 255, 255, .85); }
+
+/* ---- buttons ---- */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  min-height: var(--touch);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 13px 16px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  transition: transform .08s;
+}
+.btn:active { transform: scale(.985); }
+.btn-primary {
+  background: var(--green);
+  color: #fff;
+  box-shadow: inset 0 0 0 2px var(--green), inset 0 0 0 4px #fff;
+}
+.btn-secondary {
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 2px var(--card), inset 0 0 0 4px var(--ink);
+}
+
+/* ---- settings rows ---- */
+.setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: var(--touch);
+  padding: 8px 0;
+  border-bottom: 1.5px solid var(--line);
+}
+.setting-row:last-child { border-bottom: none; }
+.seg {
+  display: flex;
+  border: 2px solid var(--ink);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.seg button {
+  background: var(--card);
+  color: var(--ink);
+  border: none;
+  min-width: var(--touch);
+  min-height: 40px;
+  padding: 6px 12px;
+  font-weight: 700;
+  font-size: .95rem;
+}
+.seg button[aria-pressed="true"] { background: var(--green); color: #fff; }
+
+/* ---- bottom tab bar ---- */
+.tabbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background: var(--tab-bg);
+  border-top: 2.5px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 10;
+}
+.tabbar a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-height: 64px;
+  text-decoration: none;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 700;
+}
+.tabbar a .ico { font-size: 1.45rem; line-height: 1; }
+.tabbar a[aria-current="page"] {
+  color: var(--green);
+  box-shadow: inset 0 3px 0 var(--green);
+}
+.tabbar a:focus-visible { outline: 3px solid var(--blue); outline-offset: -3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

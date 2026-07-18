@@ -38,3 +38,27 @@ def test_404_page_serves_custom_content():
     text = body.decode("utf-8", errors="replace")
     assert status == 404
     assert "WRONG WAY" in text, "custom 404 page not served"
+
+
+def test_app_shell_assets_live():
+    """WO 4: every shell asset must be served (offline precache in WO 8 depends on these)."""
+    for path, marker in [
+        ("/src/app/app.js", b"initI18n"),
+        ("/src/app/router.js", b"hashchange"),
+        ("/src/app/theme.css", b"--green"),
+        ("/src/i18n/i18n.js", b"loadLocale"),
+        ("/assets/fonts/fonts.css", b"Be Vietnam Pro"),
+        ("/locales/vi-VN.json", "Luyện Thi".encode()),
+        ("/locales/en-US.json", b"Driver's License"),
+        ("/data/states/oh/state.json", b'"per-section"'),
+    ]:
+        status, headers, body = _get(f"{BASE}{path}")
+        assert status == 200, f"{path} -> {status}"
+        assert marker in body, f"{path}: expected content marker missing"
+
+
+def test_index_boots_module_shell():
+    status, headers, body = _get(f"{BASE}/")
+    text = body.decode("utf-8", errors="replace")
+    assert 'type="module"' in text and "src/app/app.js" in text
+    assert 'id="tabbar"' in text and 'id="view"' in text
