@@ -7,7 +7,7 @@
  * Strategy: cache-first for same-origin GETs, falling back to network, with a
  * versioned cache purged on activate. Bump VERSION on every release.
  */
-const VERSION = "v1.0.2";
+const VERSION = "v1.1.0";
 const CACHE = `mldt-${VERSION}`;
 
 const CORE = [
@@ -24,6 +24,9 @@ const CORE = [
   "./src/storage/settings.js",
   "./src/pages/study/study.js",
   "./src/pages/test/test.js",
+  "./src/pages/flashcards/flashcards.js",
+  "./src/srs/leitner.js",
+  "./src/srs/badge.js",
   "./assets/fonts/fonts.css",
   "./assets/fonts/BeVietnamPro-400-vietnamese.woff2",
   "./assets/fonts/BeVietnamPro-400-latin.woff2",

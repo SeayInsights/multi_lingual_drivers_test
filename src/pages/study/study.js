@@ -8,6 +8,7 @@
 import { t, bilingual } from "../../i18n/i18n.js";
 import { logAnswer, newSessionId } from "../../storage/events.js";
 import { getSetting, setSetting } from "../../storage/settings.js";
+import { fillDueBadges } from "../../srs/badge.js";
 
 let bank = null;          // loaded questions.json
 let stateCode = "oh";
@@ -45,7 +46,12 @@ function topicListHtml() {
     ? `<button class="btn btn-primary" data-act="resume" style="margin-bottom:14px">
          ${bilingual("study.resume")}</button>`
     : "";
+  queueMicrotask(fillDueBadges);
   return `
+  <a class="btn btn-secondary" href="#/flashcards" style="margin-bottom:14px;text-decoration:none;justify-content:space-between">
+    <span>🃏 ${bilingual("flash.entry")}</span>
+    <span class="flash-due-badge" style="font-weight:600;font-size:.85em;color:var(--muted)"></span>
+  </a>
   <section class="card">
     <h2>${bilingual("study.chooseTopic")}</h2>
     ${resumeCard}

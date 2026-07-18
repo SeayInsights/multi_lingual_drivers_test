@@ -8,6 +8,8 @@ import { register, setNotFound, startRouter, currentPath } from "./router.js";
 import { initSettings, migrateLegacyBestScore } from "../storage/settings.js";
 import { studyView } from "../pages/study/study.js";
 import { testView } from "../pages/test/test.js";
+import { flashcardsView } from "../pages/flashcards/flashcards.js";
+import { fillDueBadges } from "../srs/badge.js";
 
 const TABS = [
   { path: "/home", key: "tab.home", ico: "🏠" },
@@ -41,11 +43,16 @@ function segButtons(name, options, current) {
 }
 
 function homeView() {
+  queueMicrotask(fillDueBadges);
   return `
   <section class="card card-green">
     <h2>${bilingual("home.welcome")}</h2>
     <p>${bilingual("app.tagline")}</p>
   </section>
+  <a class="btn btn-secondary" href="#/flashcards" style="margin-bottom:14px;text-decoration:none;justify-content:space-between">
+    <span>🃏 ${bilingual("flash.entry")}</span>
+    <span class="flash-due-badge" style="font-weight:600;font-size:.85em;color:var(--muted)"></span>
+  </a>
   <section class="card">
     <h2>${bilingual("settings.title")}</h2>
     <div class="setting-row">
@@ -107,6 +114,7 @@ async function boot() {
   register("/study", studyView);
   register("/signs", placeholder("tab.signs"));
   register("/test", testView);
+  register("/flashcards", flashcardsView);
   register("/progress", placeholder("tab.progress"));
   setNotFound(() => `<section class="card"><h2>404</h2><p><a href="#/home">${t("action.back")}</a></p></section>`);
 
