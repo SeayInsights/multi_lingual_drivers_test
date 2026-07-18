@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luyện Thi Bằng Lái Xe Ohio · Ohio Driver's License Practice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Overpass:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#046A38; --green-dk:#03572E; --yellow:#FFC72C; --red:#B32017;
+  --orange:#E87511; --blue:#00539B; --ink:#20242A; --bg:#E9EBE6;
+  --card:#FFFFFF; --muted:#5B6169; --line:#C9CDC4;
+}
+*{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+html{font-size:17px}
+body{margin:0; background:var(--bg); color:var(--ink);
+  font-family:'Be Vietnam Pro',system-ui,Segoe UI,Roboto,sans-serif; line-height:1.5;
+  background-image:repeating-linear-gradient(90deg,transparent 0 46vw, rgba(255,199,44,.10) 46vw 54vw, transparent 54vw 100vw);}
+.wrap{max-width:640px; margin:0 auto; padding:14px 14px 56px}
+.hidden{display:none !important}
+button{font-family:inherit; cursor:pointer}
+.vi{display:block}
+.en,.en-lbl{display:block; color:var(--muted); font-size:.83em; font-weight:500}
+.en-lbl{display:inline; }
+body.en-only .quiz-area .vi{display:none}
+body.en-only .quiz-area .en{color:var(--ink); font-size:1em; font-weight:600}
+
+/* ---- highway guide-sign header ---- */
+.hdr{background:var(--green); border-radius:14px; padding:18px 16px 16px; color:#fff;
+  box-shadow:inset 0 0 0 3px var(--green), inset 0 0 0 6px #fff, 0 3px 10px rgba(0,0,0,.18);
+  text-align:center; position:relative}
+.hdr .route{display:inline-block; background:#fff; color:var(--green-dk);
+  font-family:Overpass,Arial; font-weight:900; font-size:.72rem; letter-spacing:.14em;
+  padding:3px 12px; border-radius:999px; margin-bottom:8px}
+.hdr h1{font-family:Overpass,Arial; font-weight:900; font-size:1.5rem; margin:0; letter-spacing:.01em; line-height:1.15}
+.hdr .sub{font-family:Overpass,Arial; font-weight:700; font-size:.9rem; opacity:.92; margin-top:4px}
+.hdr .arrow{position:absolute; right:14px; bottom:12px; font-family:Overpass; font-weight:900; opacity:.85}
+
+/* ---- home ---- */
+.home-btns{display:flex; flex-direction:column; gap:14px; margin-top:18px}
+.mode-btn{border:none; border-radius:14px; padding:20px 18px; text-align:left;
+  display:flex; align-items:center; gap:16px; font-size:1.15rem; transition:transform .08s}
+.mode-btn:active{transform:scale(.985)}
+.mode-btn .m-vi{font-weight:800; display:block; font-size:1.2rem}
+.mode-btn .m-en{display:block; font-size:.85rem; font-weight:600; opacity:.85; margin-top:2px}
+.mode-btn .m-desc{display:block; font-size:.82rem; font-weight:500; opacity:.8; margin-top:6px}
+.mode-btn .emoji{font-size:2rem}
+.btn-green{background:var(--green); color:#fff; box-shadow:inset 0 0 0 3px var(--green), inset 0 0 0 6px #fff, 0 3px 8px rgba(0,0,0,.15)}
+.btn-reg{background:#fff; color:var(--ink); box-shadow:inset 0 0 0 3px #fff, inset 0 0 0 6px var(--ink), 0 3px 8px rgba(0,0,0,.12)}
+.btn-reg .m-en,.btn-reg .m-desc{color:var(--muted)}
+#best-chip{margin-top:14px; background:#fff; border:2px solid var(--line); border-radius:10px;
+  padding:10px 14px; font-size:.95rem; text-align:center}
+#best-chip .vi,#best-chip .en-lbl{display:inline}
+
+/* ---- info panel ---- */
+.info{margin-top:16px; background:var(--yellow); border-radius:12px;
+  box-shadow:inset 0 0 0 3px var(--yellow), inset 0 0 0 5px var(--ink)}
+#info-toggle{width:100%; background:none; border:none; padding:14px 16px; font-size:1rem;
+  font-weight:800; text-align:left; display:flex; justify-content:space-between; align-items:center; color:var(--ink)}
+#info-toggle .car{transition:transform .2s}
+#info-toggle.open .car{transform:rotate(90deg)}
+#info-body{padding:0 16px 16px; font-size:.95rem}
+#info-body li{margin-bottom:10px}
+#info-body .en{margin-top:1px}
+#info-body a{color:var(--ink); font-weight:700}
+
+/* ---- topics ---- */
+.topic-card{width:100%; background:#fff; border:none; border-radius:12px; padding:12px 14px;
+  display:flex; align-items:center; gap:14px; margin-bottom:12px; text-align:left;
+  box-shadow:inset 0 0 0 2px #fff, inset 0 0 0 4px var(--green), 0 2px 6px rgba(0,0,0,.08)}
+.topic-icon{width:52px; flex:none}
+.topic-icon svg,.topic-icon img{width:100%; height:auto; display:block}
+.topic-icon .sign-fb svg{width:100%}
+.topic-txt{flex:1}
+.t-vi{display:block; font-weight:800; font-size:1.08rem}
+.t-en{display:block; color:var(--muted); font-size:.85rem; font-weight:600}
+.t-n{display:block; color:var(--green-dk); font-size:.78rem; font-weight:700; margin-top:2px}
+.chev{font-size:1.6rem; color:var(--green); font-weight:800}
+
+/* ---- quiz ---- */
+.q-top{display:flex; justify-content:space-between; align-items:center; margin:14px 2px 8px}
+#q-mode-tag{font-family:Overpass,Arial; font-weight:900; font-size:.7rem; letter-spacing:.12em;
+  background:var(--ink); color:#fff; padding:4px 10px; border-radius:999px}
+#q-count{font-weight:800; font-size:.95rem}
+#q-count .vi,#q-count .en-lbl{display:inline}
+.bar-track{height:7px; background:#fff; border-radius:99px; border:1.5px solid var(--line); overflow:hidden; margin-bottom:14px}
+#q-bar{height:100%; background:var(--green); border-radius:99px; transition:width .25s}
+.q-card{background:#fff; border-radius:14px; padding:18px 16px;
+  box-shadow:inset 0 0 0 3px #fff, inset 0 0 0 5px var(--ink), 0 3px 10px rgba(0,0,0,.1)}
+#q-sign{display:flex; justify-content:center; margin-bottom:14px}
+#q-sign img{max-height:160px; max-width:78%; width:auto; height:auto; filter:drop-shadow(0 2px 3px rgba(0,0,0,.2))}
+#q-sign .sign-fb svg{width:150px; max-width:60%; height:auto}
+#q-vi{font-size:1.22rem; font-weight:800; margin:0 0 3px; line-height:1.35}
+#q-en{color:var(--muted); font-size:.95rem; font-weight:500; margin:0 0 14px}
+body.en-only #q-vi{display:none}
+body.en-only #q-en{color:var(--ink); font-size:1.18rem; font-weight:800}
+.choice{width:100%; background:#fff; border:2.5px solid var(--line); border-radius:12px;
+  padding:12px; margin-bottom:10px; display:flex; gap:12px; align-items:center; text-align:left;
+  font-size:1rem; min-height:58px; transition:border-color .12s, background .12s}
+.choice .letter{flex:none; width:34px; height:34px; border-radius:8px; background:var(--ink); color:#fff;
+  font-family:Overpass,Arial; font-weight:900; display:flex; align-items:center; justify-content:center; font-size:1rem}
+.choice .c-txt{flex:1}
+.choice .vi{font-weight:700}
+.choice.is-sel{border-color:var(--blue); background:#EAF2FA}
+.choice.is-sel .letter{background:var(--blue)}
+.choice.is-right{border-color:var(--green); background:#EAF5EE}
+.choice.is-right .letter{background:var(--green)}
+.choice.is-wrong{border-color:var(--red); background:#FBEDEB}
+.choice.is-wrong .letter{background:var(--red)}
+.choice.is-dim{opacity:.55}
+.choice:disabled{cursor:default}
+.exp{margin-top:6px; border-radius:12px; padding:14px 14px 12px; font-size:.98rem}
+.exp-ok{background:#EAF5EE; box-shadow:inset 4px 0 0 var(--green)}
+.exp-no{background:#FFF6DC; box-shadow:inset 4px 0 0 var(--yellow)}
+.exp-head{font-weight:800; margin-bottom:6px}
+.exp p{margin:0 0 4px}
+#btn-next{width:100%; margin-top:14px; background:var(--green); color:#fff; border:none;
+  border-radius:12px; padding:15px; font-size:1.1rem; font-weight:800;
+  box-shadow:inset 0 0 0 2px var(--green), inset 0 0 0 4px #fff}
+#btn-next .vi,#btn-next .en-lbl{display:inline; color:#fff}
+#btn-next .en-lbl{opacity:.85; font-size:.85em; margin-left:6px}
+
+/* ---- test intro ---- */
+.ti-card{background:#fff; border-radius:14px; padding:20px 18px; margin-top:16px;
+  box-shadow:inset 0 0 0 3px #fff, inset 0 0 0 5px var(--ink)}
+.ti-card h2{font-family:Overpass,Arial; font-weight:900; margin:0 0 12px; font-size:1.3rem}
+.ti-card ul{padding-left:20px; margin:0 0 14px}
+.ti-card li{margin-bottom:9px; font-size:.98rem}
+.chk{display:flex; gap:12px; align-items:flex-start; background:#F4F5F1; border-radius:10px; padding:12px; margin-bottom:16px}
+.chk input{width:24px; height:24px; margin-top:2px; accent-color:var(--green)}
+.chk span{font-size:.95rem}
+.big-go{width:100%; background:var(--green); color:#fff; border:none; border-radius:12px;
+  padding:16px; font-size:1.15rem; font-weight:800;
+  box-shadow:inset 0 0 0 3px var(--green), inset 0 0 0 6px #fff}
+.big-go .vi,.big-go .en-lbl{display:inline; color:#fff}
+.big-go .en-lbl{opacity:.85; margin-left:6px; font-size:.85em}
+
+/* ---- results ---- */
+.res-sign{border-radius:14px; text-align:center; padding:26px 16px; color:#fff; margin-top:16px}
+.res-pass{background:var(--green); box-shadow:inset 0 0 0 3px var(--green), inset 0 0 0 6px #fff}
+.res-fail{background:var(--orange); box-shadow:inset 0 0 0 3px var(--orange), inset 0 0 0 6px #fff}
+.res-study{background:var(--blue); box-shadow:inset 0 0 0 3px var(--blue), inset 0 0 0 6px #fff}
+.res-big{font-family:Overpass,Arial; font-weight:900; font-size:2.3rem; line-height:1.1}
+.res-sub{font-family:Overpass,Arial; font-weight:800; letter-spacing:.1em; font-size:.85rem; opacity:.92; margin-top:4px}
+.res-score{font-family:Overpass,Arial; font-weight:900; font-size:1.6rem; margin-top:10px}
+.res-split{display:flex; gap:12px; margin-top:12px}
+.rs{flex:1; background:#fff; border-radius:12px; text-align:center; padding:12px;
+  box-shadow:inset 0 0 0 2px #fff, inset 0 0 0 4px var(--ink)}
+.rs b{display:block; font-family:Overpass,Arial; font-size:1.5rem; font-weight:900}
+.rs .vi{font-weight:700; font-size:.9rem}
+.res-note{background:#fff; border-radius:12px; padding:14px; font-size:.93rem; margin-top:12px;
+  box-shadow:inset 4px 0 0 var(--yellow)}
+.rev-h{margin:24px 0 12px; font-size:1.15rem}
+.rev-card{background:#fff; border-radius:12px; padding:14px; margin-bottom:12px; border:2px solid var(--line)}
+.rev-sign img{max-height:88px; max-width:170px; width:auto; height:auto; display:block; margin:0 auto 8px}
+.rev-sign .sign-fb svg{width:88px; height:auto; display:block; margin:0 auto 8px}
+.rev-q{font-weight:800; margin:0 0 8px}
+.rev-a{margin:0 0 8px; color:var(--green-dk); font-weight:700; background:#EAF5EE; border-radius:8px; padding:8px 10px}
+.rev-e{margin:0; font-size:.92rem; color:var(--muted)}
+.res-perfect{text-align:center; font-size:1.1rem; font-weight:700; margin-top:20px}
+.res-btns{display:flex; flex-direction:column; gap:10px; margin-top:20px}
+#btn-retry{background:var(--green); color:#fff; border:none; border-radius:12px; padding:15px; font-size:1.05rem; font-weight:800;
+  box-shadow:inset 0 0 0 2px var(--green), inset 0 0 0 4px #fff}
+#btn-retry .vi,#btn-retry .en-lbl{display:inline; color:#fff}
+#btn-retry .en-lbl{opacity:.85; margin-left:6px; font-size:.85em}
+
+/* ---- shared ---- */
+.btn-home{background:#fff; color:var(--ink); border:2.5px solid var(--ink); border-radius:12px;
+  padding:13px; font-size:1rem; font-weight:800; width:100%}
+.back-row{margin-top:16px}
+.quiz-home{margin-top:20px}
+.scr-title{font-family:Overpass,Arial; font-weight:900; font-size:1.25rem; margin:20px 2px 4px}
+.scr-sub{color:var(--muted); font-size:.9rem; margin:0 2px 14px}
+.foot{margin-top:34px; text-align:center; font-size:.8rem; color:var(--muted); line-height:1.6}
+.foot a{color:var(--green-dk); font-weight:700}
+:focus-visible{outline:3px solid var(--blue); outline-offset:2px}
+@media (prefers-reduced-motion: reduce){ *{transition:none !important} }
+
+/* ---- handbook ---- */
+.btn-blue{background:var(--blue); color:#fff; box-shadow:inset 0 0 0 3px var(--blue), inset 0 0 0 6px #fff, 0 3px 8px rgba(0,0,0,.15)}
+.book-card{box-shadow:inset 0 0 0 2px #fff, inset 0 0 0 4px var(--blue), 0 2px 6px rgba(0,0,0,.08)}
+.chev-b{color:var(--blue)}
+.ch-hdr{background:var(--blue); color:#fff; border-radius:14px; padding:18px 16px; margin-top:14px;
+  box-shadow:inset 0 0 0 3px var(--blue), inset 0 0 0 6px #fff}
+.ch-num{font-family:Overpass,Arial; font-weight:900; font-size:.7rem; letter-spacing:.14em; opacity:.9}
+.ch-vi{font-family:Overpass,Arial; font-weight:900; font-size:1.45rem; margin:6px 0 2px; line-height:1.15}
+.ch-en{margin:0 0 12px; opacity:.9; font-size:.92rem}
+.tts-btn{background:#fff; color:var(--ink); border:2px solid var(--ink); border-radius:999px;
+  padding:8px 14px; font-size:.9rem; font-weight:800; display:inline-flex; align-items:center; gap:6px; white-space:nowrap}
+.tts-btn.playing{background:var(--yellow); border-color:var(--ink)}
+.tts-all{border-color:#fff; width:100%; justify-content:center; white-space:normal}
+.sec{background:#fff; border-radius:12px; padding:16px 15px 14px; margin-top:12px;
+  box-shadow:inset 0 0 0 2px #fff, inset 0 0 0 4px var(--line)}
+.sec-head{display:flex; justify-content:space-between; align-items:flex-start; gap:10px; margin-bottom:8px}
+.sec-head h3{margin:0; font-size:1.12rem; line-height:1.3}
+.sec-head .en{font-size:.82rem}
+.sec-vi{margin:0 0 8px; font-size:1.02rem; line-height:1.65}
+.sec-en{margin:0; color:var(--muted); font-size:.88rem; line-height:1.55}
+.quiz-links{margin-top:14px; display:flex; flex-direction:column; gap:10px}
+.quiz-link{background:var(--green); color:#fff; border:none; border-radius:12px; padding:13px; font-size:1rem; font-weight:800;
+  box-shadow:inset 0 0 0 2px var(--green), inset 0 0 0 4px #fff; text-align:center}
+.quiz-link .vi,.quiz-link .en-lbl{display:inline; color:#fff}
+.quiz-link .en-lbl{opacity:.85; font-size:.85em; margin-left:6px}
+.ch-nav{display:flex; justify-content:space-between; gap:10px; margin-top:16px}
+.ch-nav button{flex:1; background:#fff; border:2px solid var(--blue); color:var(--blue); border-radius:10px;
+  padding:11px 8px; font-weight:800; font-size:.88rem}
+@media (min-width:520px){ .hdr h1{font-size:1.8rem} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hdr">
+    <span class="route">OHIO&nbsp;·&nbsp;BMV KNOWLEDGE TEST</span>
+    <h1>Luyện Thi Bằng Lái Xe</h1>
+    <div class="sub">Ohio Driver's License Practice</div>
+    <div class="arrow">↑</div>
+  </header>
+
+  <!-- HOME -->
+  <section id="scr-home">
+    <div class="home-btns">
+      <button id="btn-book" class="mode-btn btn-blue">
+        <span class="emoji">📚</span>
+        <span><span class="m-vi">Sách học lái xe</span><span class="m-en">Driver's handbook</span>
+        <span class="m-desc">7 chương theo sách luật Ohio, có nút nghe đọc tiếng Việt · 7 chapters following the Ohio manual, with read-aloud audio</span></span>
+      </button>
+      <button id="btn-study" class="mode-btn btn-green">
+        <span class="emoji">📖</span>
+        <span><span class="m-vi">Học bài theo chủ đề</span><span class="m-en">Study by topic</span>
+        <span class="m-desc">Xem đáp án và lời giải thích sau mỗi câu · See the answer and explanation after every question</span></span>
+      </button>
+      <button id="btn-test" class="mode-btn btn-reg">
+        <span class="emoji">📝</span>
+        <span><span class="m-vi">Thi thử 40 câu</span><span class="m-en">40-question practice test</span>
+        <span class="m-desc">Giống bài thi thật: 20 biển báo + 20 luật, cần 30/40 để đậu · Like the real test: 20 signs + 20 rules, 30/40 to pass</span></span>
+      </button>
+    </div>
+    <div id="best-chip" class="hidden"></div>
+
+    <div class="info">
+      <button id="info-toggle"><span>ℹ️ Về kỳ thi thật ở Ohio · About the real test</span><span class="car">›</span></button>
+      <div id="info-body" class="hidden">
+        <ul>
+          <li><span class="vi"><b>40 câu trắc nghiệm</b> — 20 câu biển báo, 20 câu luật. Đúng <b>30/40 (75%)</b> là đậu.</span><span class="en">40 multiple-choice questions — 20 signs, 20 rules. 30/40 (75%) passes.</span></li>
+          <li><span class="vi">Thi trên máy tính tại trạm thi (driver exam station), hoặc <b>thi online tại nhà</b> qua trang Ohio BMV (cần webcam).</span><span class="en">Taken on a computer at an exam station, or online at home through the Ohio BMV site (webcam required).</span></li>
+          <li><span class="vi"><b>Chưa có tiếng Việt</b> trong máy thi. Muốn thi bằng tiếng Việt phải đặt hẹn tại trạm thi và <b>dẫn theo thông dịch viên</b>. Vì vậy hãy tập làm quen với câu hỏi tiếng Anh!</span><span class="en">Vietnamese is not offered on the testing machines. To test in Vietnamese, schedule a proctored test at an exam station and bring an interpreter — so practice the English wording!</span></li>
+          <li><span class="vi">Dù thi bằng tiếng gì, bạn vẫn phải <b>đọc được biển báo bằng tiếng Anh</b> khi lái xe.</span><span class="en">Regardless of test language, you must be able to read traffic signs printed in English.</span></li>
+          <li><span class="vi">Rớt thì <b>chờ qua ngày hôm sau</b> thi lại được, không giới hạn số lần.</span><span class="en">If you fail, you can retake it the next business day — no attempt limit.</span></li>
+          <li><span class="vi">Tài liệu chính thức: <a href="https://www.bmv.ohio.gov" target="_blank" rel="noopener">bmv.ohio.gov</a> — "Digest of Ohio Motor Vehicle Laws".</span><span class="en">Official study guide: the Digest of Ohio Motor Vehicle Laws at bmv.ohio.gov.</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="foot">Làm với tình thương để giúp ba mẹ tự tin lái xe an toàn ở Ohio ❤️<br>
+    Đây là tài liệu luyện tập, không phải đề thi chính thức của BMV.<br>
+    Made with love to help Mom &amp; Dad drive safely in Ohio. Practice material only — not an official BMV exam.</p>
+  </section>
+
+  <!-- TOPICS -->
+  <section id="scr-topics" class="hidden">
+    <h2 class="scr-title">Chọn chủ đề</h2>
+    <p class="scr-sub">Choose a topic to study</p>
+    <div id="topic-list"></div>
+    <div class="back-row"><button class="btn-home">← Trang chính · Home</button></div>
+  </section>
+
+  <!-- TEST INTRO -->
+  <section id="scr-testintro" class="hidden">
+    <div class="ti-card">
+      <h2>📝 Thi thử · Practice Test</h2>
+      <ul>
+        <li><span class="vi"><b>40 câu</b>: 20 biển báo + 20 luật, xáo trộn ngẫu nhiên.</span><span class="en">40 questions: 20 signs + 20 rules, shuffled.</span></li>
+        <li><span class="vi">Cần <b>30/40</b> để đậu — giống thi thật.</span><span class="en">You need 30/40 to pass, just like the real test.</span></li>
+        <li><span class="vi"><b>Không</b> hiện đáp án giữa chừng — xem kết quả và ôn câu sai ở cuối.</span><span class="en">No answers shown during the test — review your mistakes at the end.</span></li>
+        <li><span class="vi">Chọn xong bấm <b>“Câu tiếp theo”</b>. Trước khi bấm vẫn đổi câu trả lời được.</span><span class="en">Tap “Next question” to confirm. You can change your answer before that.</span></li>
+      </ul>
+      <label class="chk">
+        <input type="checkbox" id="chk-en">
+        <span><span class="vi"><b>Chế độ giống thi thật:</b> chỉ hiện tiếng Anh (giấu tiếng Việt)</span><span class="en">Realistic mode: show English only (hide Vietnamese)</span></span>
+      </label>
+      <button id="btn-start-test" class="big-go"><span class="vi">Bắt đầu thi</span><span class="en-lbl">Start test</span> →</button>
+    </div>
+    <div class="back-row"><button class="btn-home">← Trang chính · Home</button></div>
+  </section>
+
+  <!-- HANDBOOK -->
+  <section id="scr-book" class="hidden">
+    <h2 class="scr-title">📚 Sách học lái xe</h2>
+    <p class="scr-sub">Driver's handbook — bấm 🔊 để nghe đọc. Nếu giọng đọc không phải tiếng Việt, hãy tải giọng tiếng Việt trong phần Cài đặt (Settings) của điện thoại. · Tap 🔊 to listen; if the voice is not Vietnamese, download a Vietnamese voice in your phone Settings.</p>
+    <div id="book-list"></div>
+    <div class="back-row"><button class="btn-home">← Trang chính · Home</button></div>
+  </section>
+
+  <!-- CHAPTER -->
+  <section id="scr-chapter" class="hidden">
+    <div id="ch-body"></div>
+    <div class="back-row">
+      <button id="btn-book-back" class="btn-home">☰ Mục lục · Contents</button>
+    </div>
+    <div class="back-row"><button class="btn-home">← Trang chính · Home</button></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="scr-quiz" class="hidden">
+    <div class="q-top"><span id="q-mode-tag"></span><span id="q-count"></span></div>
+    <div class="bar-track"><div id="q-bar"></div></div>
+    <div class="q-card quiz-area">
+      <div id="q-sign"></div>
+      <p id="q-vi"></p>
+      <p id="q-en"></p>
+      <div id="q-choices"></div>
+      <div id="q-exp" class="hidden"></div>
+      <button id="btn-next" class="hidden"></button>
+    </div>
+    <div class="quiz-home"><button class="btn-home">✕ Thoát · Exit</button></div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="scr-results" class="hidden">
+    <div id="res-body"></div>
+    <div class="res-btns">
+      <button id="btn-retry"></button>
+      <button class="btn-home">← Trang chính · Home</button>
+    </div>
+  </section>
+
+</div>
+<script>
+// ===== REAL MUTCD SIGN ARTWORK (official FHWA designs, public domain, served by Wikimedia Commons) =====
+const WM = c => 'https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_' + encodeURIComponent(c) + '.svg?width=400';
+function signImg(key, codes, alt){
+  return '<img class="sign-img" loading="lazy" alt="'+alt+'" data-codes="'+codes.join('|')+'" data-i="0" data-fb="'+key+'" src="'+WM(codes[0])+'" onerror="signErr(this)">';
+}
+// If Wikimedia is unreachable or a code changes, step through alternate codes, then a simple inline drawing.
+window.signErr = function(img){
+  const codes = img.dataset.codes.split('|');
+  let i = (+img.dataset.i) + 1;
+  if(i < codes.length){ img.dataset.i = i; img.src = WM(codes[i]); }
+  else { const w = document.createElement('span'); w.className = 'sign-fb'; w.innerHTML = FB[img.dataset.fb] || ''; img.replaceWith(w); }
+};
+const SIGNS = {
+  stop:      signImg('stop',      ['R1-1'],          'STOP sign'),
+  yield:     signImg('yield',     ['R1-2'],          'YIELD sign'),
+  dne:       signImg('dne',       ['R5-1'],          'DO NOT ENTER sign'),
+  wrongway:  signImg('wrongway',  ['R5-1a'],         'WRONG WAY sign'),
+  oneway:    signImg('oneway',    ['R6-1R','R6-2R'], 'ONE WAY sign'),
+  nouturn:   signImg('nouturn',   ['R3-4'],          'No U-turn sign'),
+  noleft:    signImg('noleft',    ['R3-2'],          'No left turn sign'),
+  speed:     signImg('speed',     ['R2-1'],          'Speed limit 50 sign'),
+  school:    signImg('school',    ['S1-1'],          'School zone sign'),
+  rxr:       signImg('rxr',       ['W10-1'],         'Railroad crossing ahead sign'),
+  signal:    signImg('signal',    ['W3-3'],          'Traffic signal ahead sign'),
+  merge:     signImg('merge',     ['W4-1R','W4-1'],  'Merge sign'),
+  twoway:    signImg('twoway',    ['W6-3'],          'Two-way traffic sign'),
+  slippery:  signImg('slippery',  ['W8-5'],          'Slippery when wet sign'),
+  ped:       signImg('ped',       ['W11-2'],         'Pedestrian crossing sign'),
+  stopahead: signImg('stopahead', ['W3-1','W3-1a'],  'Stop ahead sign'),
+  hospital:  signImg('hospital',  ['D9-2'],          'Hospital sign'),
+  roadwork:  signImg('roadwork',  ['W20-1','CW20-1'],'Road work ahead sign')
+};
+
+const FB = {
+stop:`<svg viewBox="0 0 120 120"><polygon points="36,3 84,3 117,36 117,84 84,117 36,117 3,84 3,36" fill="#B32017"/><polygon points="39,9 81,9 111,39 111,81 81,111 39,111 9,81 9,39" fill="none" stroke="#fff" stroke-width="4"/><text x="60" y="72" font-family="Overpass,Arial" font-size="30" font-weight="900" fill="#fff" text-anchor="middle">STOP</text></svg>`,
+yield:`<svg viewBox="0 0 120 120"><polygon points="60,114 4,14 116,14" fill="#B32017"/><polygon points="60,96 22,26 98,26" fill="#fff"/><text x="60" y="52" font-family="Overpass,Arial" font-size="17" font-weight="900" fill="#B32017" text-anchor="middle">YIELD</text></svg>`,
+dne:`<svg viewBox="0 0 120 120"><rect x="2" y="2" width="116" height="116" rx="10" fill="#fff" stroke="#20242A" stroke-width="2"/><circle cx="60" cy="60" r="52" fill="#B32017"/><rect x="18" y="52" width="84" height="16" rx="3" fill="#fff"/><text x="60" y="44" font-family="Overpass,Arial" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">DO NOT</text><text x="60" y="92" font-family="Overpass,Arial" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">ENTER</text></svg>`,
+wrongway:`<svg viewBox="0 0 190 120"><rect x="3" y="20" width="184" height="80" rx="8" fill="#B32017" stroke="#fff" stroke-width="4"/><text x="95" y="57" font-family="Overpass,Arial" font-size="26" font-weight="900" fill="#fff" text-anchor="middle">WRONG</text><text x="95" y="88" font-family="Overpass,Arial" font-size="26" font-weight="900" fill="#fff" text-anchor="middle">WAY</text></svg>`,
+oneway:`<svg viewBox="0 0 190 120"><rect x="3" y="28" width="184" height="64" rx="4" fill="#20242A" stroke="#fff" stroke-width="3"/><polygon points="20,60 58,38 58,50 150,50 150,70 58,70 58,82" fill="#fff"/><text x="104" y="66" font-family="Overpass,Arial" font-size="16" font-weight="900" fill="#20242A" text-anchor="middle">ONE WAY</text></svg>`,
+nouturn:`<svg viewBox="0 0 120 120"><rect x="2" y="2" width="116" height="116" rx="10" fill="#fff" stroke="#20242A" stroke-width="2"/><path d="M79,90 V56 A19,19 0 0 0 41,56 V66" fill="none" stroke="#20242A" stroke-width="10"/><polygon points="29,64 53,64 41,88" fill="#20242A"/><circle cx="60" cy="60" r="50" fill="none" stroke="#B32017" stroke-width="9"/><line x1="25" y1="25" x2="95" y2="95" stroke="#B32017" stroke-width="9"/></svg>`,
+noleft:`<svg viewBox="0 0 120 120"><rect x="2" y="2" width="116" height="116" rx="10" fill="#fff" stroke="#20242A" stroke-width="2"/><path d="M84,88 V60 a12,12 0 0 0 -12,-12 H52" fill="none" stroke="#20242A" stroke-width="10"/><polygon points="54,34 54,62 30,48" fill="#20242A"/><circle cx="60" cy="60" r="50" fill="none" stroke="#B32017" stroke-width="9"/><line x1="25" y1="25" x2="95" y2="95" stroke="#B32017" stroke-width="9"/></svg>`,
+speed:`<svg viewBox="0 0 110 130"><rect x="3" y="3" width="104" height="124" rx="10" fill="#fff" stroke="#20242A" stroke-width="4"/><text x="55" y="34" font-family="Overpass,Arial" font-size="17" font-weight="800" fill="#20242A" text-anchor="middle">SPEED</text><text x="55" y="54" font-family="Overpass,Arial" font-size="17" font-weight="800" fill="#20242A" text-anchor="middle">LIMIT</text><text x="55" y="110" font-family="Overpass,Arial" font-size="52" font-weight="900" fill="#20242A" text-anchor="middle">50</text></svg>`,
+school:`<svg viewBox="0 0 120 130"><polygon points="60,4 116,44 116,126 4,126 4,44" fill="#C9D82E" stroke="#20242A" stroke-width="4"/><circle cx="45" cy="52" r="8" fill="#20242A"/><circle cx="76" cy="46" r="8" fill="#20242A"/><path d="M45,60 L45,88 M45,66 L32,80 M45,66 L58,74 M45,88 L36,112 M45,88 L54,112" stroke="#20242A" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M76,54 L76,84 M76,60 L64,70 M76,60 L90,66 M76,84 L68,110 M76,84 L86,108" stroke="#20242A" stroke-width="7" fill="none" stroke-linecap="round"/></svg>`,
+rxr:`<svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="56" fill="#FFC72C" stroke="#20242A" stroke-width="4"/><line x1="30" y1="30" x2="90" y2="90" stroke="#20242A" stroke-width="9"/><line x1="90" y1="30" x2="30" y2="90" stroke="#20242A" stroke-width="9"/><text x="24" y="70" font-family="Overpass,Arial" font-size="26" font-weight="900" fill="#20242A" text-anchor="middle">R</text><text x="96" y="70" font-family="Overpass,Arial" font-size="26" font-weight="900" fill="#20242A" text-anchor="middle">R</text></svg>`,
+signal:`<svg viewBox="0 0 120 120"><rect x="18" y="18" width="84" height="84" rx="8" transform="rotate(45 60 60)" fill="#FFC72C" stroke="#20242A" stroke-width="4"/><rect x="46" y="30" width="28" height="60" rx="7" fill="#20242A"/><circle cx="60" cy="43" r="7" fill="#E03A2F"/><circle cx="60" cy="60" r="7" fill="#FFC72C"/><circle cx="60" cy="77" r="7" fill="#2E9E4F"/></svg>`,
+merge:`<svg viewBox="0 0 120 120"><rect x="18" y="18" width="84" height="84" rx="8" transform="rotate(45 60 60)" fill="#FFC72C" stroke="#20242A" stroke-width="4"/><path d="M66,96 V44 M44,92 C44,70 66,72 66,58" fill="none" stroke="#20242A" stroke-width="8"/><polygon points="66,24 56,46 76,46" fill="#20242A"/></svg>`,
+twoway:`<svg viewBox="0 0 120 120"><rect x="18" y="18" width="84" height="84" rx="8" transform="rotate(45 60 60)" fill="#FFC72C" stroke="#20242A" stroke-width="4"/><line x1="47" y1="46" x2="47" y2="92" stroke="#20242A" stroke-width="8"/><polygon points="47,26 36,50 58,50" fill="#20242A"/><line x1="73" y1="28" x2="73" y2="74" stroke="#20242A" stroke-width="8"/><polygon points="73,94 62,70 84,70" fill="#20242A"/></svg>`,
+slippery:`<svg viewBox="0 0 120 120"><rect x="18" y="18" width="84" height="84" rx="8" transform="rotate(45 60 60)" fill="#FFC72C" stroke="#20242A" stroke-width="4"/><rect x="48" y="34" width="34" height="18" rx="6" fill="#20242A" transform="rotate(14 65 43)"/><circle cx="52" cy="56" r="5" fill="#20242A"/><circle cx="80" cy="62" r="5" fill="#20242A"/><path d="M38,68 q8,8 0,16 q-8,8 0,16 M56,72 q8,8 0,16 q-8,8 0,16 M74,76 q8,8 0,16" fill="none" stroke="#20242A" stroke-width="5"/></svg>`,
+ped:`<svg viewBox="0 0 120 120"><rect x="18" y="18" width="84" height="84" rx="8" transform="rotate(45 60 60)" fill="#FFC72C" stroke="#20242A" stroke-width="4"/><circle cx="58" cy="34" r="8" fill="#20242A"/><path d="M58,42 L58,70 M58,48 L44,60 M58,48 L74,56 M58,70 L46,94 M58,70 L70,92" stroke="#20242A" stroke-width="7" fill="none" stroke-linecap="round"/></svg>`,
+stopahead:`<svg viewBox="0 0 120 120"><rect x="18" y="18" width="84" height="84" rx="8" transform="rotate(45 60 60)" fill="#FFC72C" stroke="#20242A" stroke-width="4"/><polygon points="50,26 70,26 84,40 84,60 70,74 50,74 36,60 36,40" fill="#B32017"/><text x="60" y="56" font-family="Overpass,Arial" font-size="13" font-weight="900" fill="#fff" text-anchor="middle">STOP</text><line x1="60" y1="94" x2="60" y2="80" stroke="#20242A" stroke-width="7"/></svg>`,
+hospital:`<svg viewBox="0 0 120 120"><rect x="4" y="4" width="112" height="112" rx="10" fill="#00539B"/><rect x="10" y="10" width="100" height="100" rx="6" fill="none" stroke="#fff" stroke-width="3"/><text x="60" y="88" font-family="Overpass,Arial" font-size="76" font-weight="900" fill="#fff" text-anchor="middle">H</text></svg>`,
+roadwork:`<svg viewBox="0 0 130 130"><rect x="22" y="22" width="86" height="86" rx="8" transform="rotate(45 65 65)" fill="#E87511" stroke="#20242A" stroke-width="4"/><text x="65" y="52" font-family="Overpass,Arial" font-size="14" font-weight="900" fill="#20242A" text-anchor="middle">ROAD</text><text x="65" y="70" font-family="Overpass,Arial" font-size="14" font-weight="900" fill="#20242A" text-anchor="middle">WORK</text><text x="65" y="88" font-family="Overpass,Arial" font-size="14" font-weight="900" fill="#20242A" text-anchor="middle">AHEAD</text></svg>`
+};
+
+
+// ===== QUESTION BANK — correct answer is always index 0; shuffled at render =====
+const Q = [
+// ---------- BIỂN BÁO / ROAD SIGNS ----------
+{cat:'signs',sign:'stop',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Dừng lại hẳn, nhìn kỹ, rồi mới đi khi an toàn','Come to a complete stop, then go when safe'],['Chạy chậm lại, không cần dừng nếu vắng xe','Slow down; no need to stop if clear'],['Nhường đường cho xe khác','Yield to other traffic'],['Cấm vào đường này','Do not enter this road']],a:0,
+ev:'Bảng STOP hình bát giác (8 cạnh) màu đỏ: phải dừng xe HẲN trước vạch trắng, dù không thấy xe nào hết.',ee:'The red octagon requires a FULL stop at the line, even if no traffic is visible.'},
+{cat:'signs',sign:'yield',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Chạy chậm lại, nhường đường; dừng hẳn nếu cần','Slow down and yield; stop if necessary'],['Dừng lại hẳn trong mọi trường hợp','Always come to a complete stop'],['Phía trước có khúc cua nguy hiểm','Dangerous curve ahead'],['Đường dành riêng cho xe tải','Truck-only road']],a:0,
+ev:'Biển YIELD (tam giác ngược đỏ-trắng) = nhường đường. Chạy chậm, để xe và người đi bộ trên đường chính đi trước.',ee:'YIELD means slow down and let traffic and pedestrians on the main road go first.'},
+{cat:'signs',sign:'dne',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Cấm vào — không được chạy vô đường này','Do not enter this road'],['Cấm đậu xe','No parking'],['Đường cụt phía trước','Dead end ahead'],['Cấm quẹo phải','No right turn']],a:0,
+ev:'DO NOT ENTER: đường này cấm vào (thường là đầu đường một chiều ngược hướng bạn). Chạy vô là ngược chiều, rất nguy hiểm.',ee:'DO NOT ENTER marks a road you must not enter — usually the wrong end of a one-way street.'},
+{cat:'signs',sign:'wrongway',qv:'Bạn thấy biển này ngay trước mặt. Bạn phải làm gì?',qe:'You see this sign facing you. What should you do?',
+c:[['Bạn đang chạy ngược chiều — tấp vô lề, quay đầu lại ngay khi an toàn','You are going the wrong way — pull over and turn around safely'],['Đi tiếp nhưng chạy chậm','Continue but drive slowly'],['Đường đang sửa chữa','Road under construction'],['Chỉ xe tải mới bị cấm','Only trucks are prohibited']],a:0,
+ev:'WRONG WAY = bạn đang chạy NGƯỢC chiều xe khác. Phải quay lại ngay lập tức khi an toàn.',ee:'WRONG WAY means you are driving against traffic. Turn around immediately when safe.'},
+{cat:'signs',sign:'oneway',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Đường một chiều — chỉ được chạy theo hướng mũi tên','One-way street — travel only in the arrow direction'],['Chỉ được quẹo theo hướng mũi tên','You must turn in the arrow direction'],['Làn đường dành cho xe vượt','Passing lane'],['Lối ra xa lộ','Highway exit']],a:0,
+ev:'ONE WAY: cả con đường chỉ chạy một chiều theo mũi tên. Không được chạy hay quẹo ngược hướng.',ee:'The entire street flows one direction. Never drive or turn against the arrow.'},
+{cat:'signs',sign:'nouturn',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Cấm quay đầu xe (quay chữ U)','No U-turn allowed'],['Cấm quẹo trái','No left turn'],['Phía trước có vòng xoay','Roundabout ahead'],['Đường cong phía trước','Curve ahead']],a:0,
+ev:'Vòng tròn đỏ có gạch chéo = CẤM. Mũi tên chữ U = quay đầu xe. Vậy: cấm quay đầu tại đây.',ee:'The red circle and slash means prohibited; the U arrow is a U-turn. No U-turns here.'},
+{cat:'signs',sign:'noleft',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Cấm quẹo trái','No left turn'],['Cấm quay đầu xe','No U-turn'],['Chỉ được quẹo trái','Left turn only'],['Đường cong về bên trái','Road curves left']],a:0,
+ev:'Mũi tên quẹo trái bị vòng đỏ gạch chéo = cấm quẹo trái tại giao lộ này.',ee:'A left-turn arrow inside a red circle and slash means left turns are prohibited.'},
+{cat:'signs',sign:'speed',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Tốc độ TỐI ĐA cho phép là 50 mph trong điều kiện tốt','Maximum legal speed is 50 mph in good conditions'],['Tốc độ TỐI THIỂU phải chạy là 50 mph','Minimum speed is 50 mph'],['Còn 50 dặm nữa tới thành phố','50 miles to the next city'],['Xa lộ số 50','Highway route 50']],a:0,
+ev:'SPEED LIMIT = tốc độ tối đa khi trời tốt, đường khô. Trời mưa, sương mù, đông xe thì phải chạy CHẬM HƠN.',ee:'A speed limit is the maximum in good conditions. In rain, fog, or traffic you must drive slower.'},
+{cat:'signs',sign:'school',qv:'Biển báo hình năm cạnh này có nghĩa là gì?',qe:'What does this five-sided sign mean?',
+c:[['Khu vực trường học / lối học sinh qua đường — chạy chậm, coi chừng trẻ em','School zone / school crossing — slow down, watch for children'],['Lối người đi bộ qua đường','Pedestrian crosswalk'],['Công viên phía trước','Park ahead'],['Bến xe buýt','Bus stop']],a:0,
+ev:'Hình năm cạnh (pentagon) màu vàng-xanh lá chỉ dành cho khu trường học. Trẻ em có thể băng ra bất ngờ — luôn chạy chậm và sẵn sàng dừng.',ee:'The pentagon shape is used only for school zones and crossings. Slow down and be ready to stop for children.'},
+{cat:'signs',sign:'rxr',qv:'Biển báo tròn màu vàng này có nghĩa là gì?',qe:'What does this round yellow sign mean?',
+c:[['Sắp tới đường ray xe lửa — chậm lại, nhìn hai bên, sẵn sàng dừng','Railroad crossing ahead — slow down, look both ways, be ready to stop'],['Cấm vượt xe','No passing zone'],['Ngã tư nguy hiểm','Dangerous intersection'],['Khu vực cấm dừng xe','No stopping zone']],a:0,
+ev:'Biển tròn vàng có chữ RXR báo trước đường ray xe lửa. Hình TRÒN chỉ dùng cho báo hiệu xe lửa.',ee:'The round RXR sign warns of a railroad crossing ahead. The round shape is used only for railroads.'},
+{cat:'signs',sign:'signal',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Phía trước có đèn giao thông — chuẩn bị giảm tốc độ','Traffic signal ahead — be ready to slow down'],['Đèn giao thông bị hư','Traffic signal is broken'],['Chỉ được đi khi đèn xanh','Go only on green'],['Khu vực kiểm tra của cảnh sát','Police checkpoint']],a:0,
+ev:'Biển vàng hình thoi có hình đèn = sắp tới đèn giao thông (thường ở chỗ khó thấy trước). Giảm ga, sẵn sàng dừng nếu đèn đỏ.',ee:'This warns of a traffic signal ahead, often where it is hard to see. Slow down and be ready to stop.'},
+{cat:'signs',sign:'merge',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Xe từ đường bên sẽ nhập vào làn của bạn — điều chỉnh tốc độ, nhường chỗ nếu được','Traffic will merge into your lane — adjust speed and make room if you can'],['Đường chia làm hai','Road divides ahead'],['Làn đường bị đóng','Lane closed'],['Chỉ được chạy một làn','Single lane only']],a:0,
+ev:'Biển MERGE: có xe sắp nhập làn. Người đang trên đường chính nên giữ tốc độ ổn định và tạo khoảng trống khi an toàn.',ee:'Merging traffic is entering. Keep a steady speed and make space for merging vehicles when safe.'},
+{cat:'signs',sign:'twoway',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Đường hai chiều — xe chạy ngược lại ở làn bên kia','Two-way traffic — oncoming cars use the other lane'],['Được phép vượt xe','Passing allowed'],['Đường một chiều','One-way street'],['Hai làn cùng chiều','Two lanes, same direction']],a:0,
+ev:'Bạn đang rời đường một chiều và vào đường HAI chiều. Giữ bên phải, cẩn thận xe ngược chiều, nhất là khi vượt.',ee:'You are entering a two-way road. Keep right and watch for oncoming traffic, especially when passing.'},
+{cat:'signs',sign:'slippery',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Đường trơn trượt khi ướt — chạy chậm khi trời mưa','Road is slippery when wet — slow down in rain'],['Đường cong liên tục','Winding road'],['Cấm thắng gấp','No hard braking'],['Khu vực hay có gió mạnh','Strong wind area']],a:0,
+ev:'Xe với vệt bánh ngoằn ngoèo = đường trơn khi ướt. Giảm tốc độ, tránh thắng gấp và quẹo gắt khi trời mưa.',ee:'The skidding car warns the road is slippery when wet. Slow down and avoid hard braking or sharp turns.'},
+{cat:'signs',sign:'ped',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Lối người đi bộ băng qua đường — chậm lại và nhường','Pedestrian crossing — slow down and yield'],['Khu vực cấm đi bộ','No pedestrians allowed'],['Trường học phía trước','School ahead'],['Công viên dành cho người đi bộ','Walking park']],a:0,
+ev:'Biển vàng hình thoi có người đi bộ: sắp tới chỗ người ta hay băng qua đường. Luôn nhường người đi bộ trong vạch.',ee:'Warns of a place where people cross. Always yield to pedestrians in the crosswalk.'},
+{cat:'signs',sign:'stopahead',qv:'Biển báo này có nghĩa là gì?',qe:'What does this sign mean?',
+c:[['Phía trước có bảng STOP — chuẩn bị dừng lại','STOP sign ahead — get ready to stop'],['Đã qua khỏi bảng STOP','You passed a stop sign'],['Dừng lại ngay tại đây','Stop here immediately'],['Cấm dừng xe phía trước','No stopping ahead']],a:0,
+ev:'Biển này đặt ở nơi bảng STOP bị khuất (sau khúc cua, dốc). Bắt đầu giảm tốc độ ngay từ bây giờ.',ee:'Placed where the STOP sign is hidden by a curve or hill. Begin slowing down now.'},
+{cat:'signs',sign:'hospital',qv:'Biển màu xanh dương này có nghĩa là gì?',qe:'What does this blue sign mean?',
+c:[['Bệnh viện ở gần đây','Hospital nearby'],['Khách sạn ở gần đây','Hotel nearby'],['Bãi đậu xe','Parking area'],['Xa lộ H','Highway H']],a:0,
+ev:'Biển XANH DƯƠNG = dịch vụ cho người lái xe (bệnh viện, xăng, đồ ăn, chỗ nghỉ). Chữ H là bệnh viện (Hospital).',ee:'Blue signs show driver services. H stands for Hospital.'},
+{cat:'signs',sign:'roadwork',qv:'Biển màu cam này có nghĩa là gì?',qe:'What does this orange sign mean?',
+c:[['Khu vực công trường phía trước — chậm lại, cẩn thận công nhân','Road work zone ahead — slow down, watch for workers'],['Đường dành cho xe tải','Truck route'],['Khu vực săn bắn','Hunting area'],['Cảnh báo thú rừng băng qua đường','Animal crossing']],a:0,
+ev:'Màu CAM = khu vực thi công. Ở Ohio, tiền phạt chạy quá tốc độ có thể TĂNG GẤP ĐÔI trong khu công trường khi có công nhân.',ee:'Orange means a work zone. In Ohio, speeding fines can double in work zones when workers are present.'},
+{cat:'signs',qv:'Biển báo hình thoi màu VÀNG thường có nghĩa là gì?',qe:'What do yellow, diamond-shaped signs generally mean?',
+c:[['Cảnh báo nguy hiểm hoặc thay đổi phía trước','Warning of a hazard or change ahead'],['Luật bắt buộc phải theo','A law you must obey'],['Chỉ đường và khoảng cách','Directions and distances'],['Khu vực công trường','Construction zone']],a:0,
+ev:'Vàng hình thoi = CẢNH BÁO (khúc cua, đường hẹp, người qua đường...). Thấy biển vàng: giảm tốc độ và chú ý.',ee:'Yellow diamonds are warning signs. Slow down and pay attention when you see one.'},
+{cat:'signs',qv:'Biển báo màu TRẮNG chữ đen (hình chữ nhật) có nghĩa là gì?',qe:'What do white rectangular signs with black letters mean?',
+c:[['Luật lệ bắt buộc phải tuân theo (tốc độ, cấm quẹo...)','Regulations you must obey (speed limits, turn rules...)'],['Chỉ là lời khuyên, không bắt buộc','Suggestions only, not required'],['Cảnh báo nguy hiểm','Hazard warning'],['Thông tin du lịch','Tourist information']],a:0,
+ev:'Biển trắng chữ đen là biển LUẬT (regulatory). Không tuân theo là phạm luật và có thể bị phạt.',ee:'White regulatory signs are laws, not suggestions. Violating them is a traffic offense.'},
+{cat:'signs',qv:'Hình BÁT GIÁC (8 cạnh) chỉ được dùng cho biển báo nào?',qe:'The octagon (8-sided) shape is used only for which sign?',
+c:[['Bảng STOP (dừng lại)','The STOP sign'],['Bảng YIELD (nhường đường)','The YIELD sign'],['Bảng tốc độ','Speed limit signs'],['Bảng đường ray xe lửa','Railroad signs']],a:0,
+ev:'Mỗi hình dạng có ý nghĩa riêng để nhận ra từ xa: bát giác = STOP, tam giác ngược = YIELD, tròn = xe lửa, năm cạnh = trường học.',ee:'Each shape has one meaning: octagon = STOP, triangle = YIELD, circle = railroad, pentagon = school.'},
+{cat:'signs',qv:'Biển màu XANH LÁ CÂY trên xa lộ dùng để làm gì?',qe:'What are green highway signs used for?',
+c:[['Chỉ đường, hướng đi, tên đường và lối ra','Guidance: directions, street names, and exits'],['Cảnh báo nguy hiểm','Hazard warnings'],['Luật bắt buộc','Regulations'],['Khu vực nghỉ ngơi','Rest areas']],a:0,
+ev:'Xanh lá = biển CHỈ ĐƯỜNG (guide sign): lối ra, khoảng cách, tên đường. Không phải cảnh báo hay luật.',ee:'Green signs guide you: exits, distances, and destinations.'},
+
+// ---------- NHƯỜNG ĐƯỜNG / RIGHT-OF-WAY ----------
+{cat:'rightofway',qv:'Tại ngã tư có bảng STOP ở CẢ BỐN hướng, hai xe tới cùng một lúc. Xe nào đi trước?',qe:'At a four-way stop, two cars arrive at the same time. Who goes first?',
+c:[['Xe bên PHẢI đi trước','The car on the RIGHT goes first'],['Xe bên trái đi trước','The car on the left goes first'],['Xe lớn hơn đi trước','The bigger car goes first'],['Xe nào bấm còi trước thì đi trước','Whoever honks first']],a:0,
+ev:'Luật chung: tới trước đi trước. Nếu tới CÙNG LÚC, nhường cho xe bên tay phải của mình.',ee:'First to arrive goes first. If you arrive together, yield to the driver on your right.'},
+{cat:'rightofway',qv:'Bạn muốn quẹo TRÁI tại ngã tư có đèn xanh. Xe ngược chiều đang chạy thẳng tới. Bạn phải làm gì?',qe:'You want to turn LEFT at a green light. Oncoming traffic is going straight. What do you do?',
+c:[['Nhường cho xe chạy thẳng ngược chiều đi qua trước, rồi mới quẹo','Yield to oncoming traffic, then turn when clear'],['Quẹo trước vì bạn có đèn xanh','Turn first because you have a green light'],['Bấm còi để xe kia nhường','Honk so they let you go'],['Dừng giữa ngã tư chờ đèn đỏ','Stop in the intersection and wait for red']],a:0,
+ev:'Đèn xanh KHÔNG có nghĩa là được quẹo trái tự do. Xe quẹo trái luôn phải nhường xe chạy thẳng ngược chiều.',ee:'A green light does not give left-turning drivers priority. Always yield to oncoming traffic before turning left.'},
+{cat:'rightofway',qv:'Khi vào vòng xoay (bùng binh), bạn phải nhường cho ai?',qe:'When entering a roundabout, who must you yield to?',
+c:[['Xe ĐANG CHẠY trong vòng xoay (từ bên trái tới)','Traffic already IN the roundabout (coming from your left)'],['Xe đang chuẩn bị vào từ hướng khác','Cars waiting to enter from other directions'],['Không cần nhường ai','No one — enter freely'],['Chỉ nhường xe tải','Only trucks']],a:0,
+ev:'Xe trong vòng xoay có quyền ưu tiên. Chậm lại, nhìn bên TRÁI, chờ khoảng trống rồi mới nhập vào.',ee:'Traffic in the circle has the right-of-way. Slow down, look left, and enter when there is a gap.'},
+{cat:'rightofway',qv:'Người đi bộ đang băng qua đường trong vạch qua đường (crosswalk). Bạn phải làm gì?',qe:'A pedestrian is crossing in a crosswalk. What must you do?',
+c:[['Dừng lại và nhường cho họ qua hết','Stop and yield until they have crossed'],['Bấm còi để họ đi nhanh hơn','Honk so they hurry'],['Lách qua phía sau lưng họ','Drive around behind them'],['Chỉ nhường nếu có đèn đỏ','Yield only at a red light']],a:0,
+ev:'Người đi bộ trong vạch qua đường LUÔN được ưu tiên. Không được vượt xe khác đang dừng nhường người đi bộ.',ee:'Pedestrians in a crosswalk always have the right-of-way. Never pass a car stopped for a pedestrian.'},
+{cat:'rightofway',qv:'Xe cứu thương hụ còi, đèn chớp đang chạy tới phía sau bạn. Bạn phải làm gì?',qe:'An ambulance with lights and siren approaches from behind. What must you do?',
+c:[['Tấp vô sát lề PHẢI và dừng lại cho tới khi xe đi qua','Pull to the RIGHT edge and stop until it passes'],['Tăng tốc chạy trước nó','Speed up to stay ahead'],['Dừng ngay giữa đường','Stop where you are, even mid-lane'],['Tấp qua bên trái','Pull to the left']],a:0,
+ev:'Luật Ohio: nghe còi/thấy đèn xe ưu tiên → tấp sát lề phải, dừng hẳn, chờ xe qua. Không dừng giữa ngã tư — chạy qua khỏi rồi mới tấp vô.',ee:'Pull to the right edge and stop. If you are in an intersection, clear it first, then pull over.'},
+{cat:'rightofway',qv:'Bạn chạy từ đường nhỏ (hoặc từ sân nhà) ra đường lớn. Ai được ưu tiên?',qe:'You are entering a main road from a driveway or small side road. Who has the right-of-way?',
+c:[['Tất cả xe và người đi bộ trên đường lớn — bạn phải nhường hết','All traffic and pedestrians on the main road — you yield to everyone'],['Bạn, vì bạn tới trước','You, because you arrived first'],['Xe nào lớn hơn','Whoever is bigger'],['Không ai cả','No one']],a:0,
+ev:'Ra từ driveway, hẻm, bãi đậu xe: nhường TẤT CẢ — người đi bộ trên lề, xe đạp, và xe trên đường.',ee:'When entering from a driveway, alley, or parking lot, yield to sidewalk pedestrians and all road traffic.'},
+{cat:'rightofway',qv:'Xe buýt trường học dừng lại, đèn ĐỎ chớp, trên đường hai làn. Bạn chạy ngược chiều. Bạn phải làm gì?',qe:'A school bus stops with flashing RED lights on a two-lane road. You are coming from the opposite direction. What must you do?',
+c:[['Dừng lại, cách xe buýt ít nhất 10 feet, chờ đèn tắt','Stop at least 10 feet from the bus until the lights stop'],['Chạy qua chậm chậm','Pass slowly'],['Chỉ chiều sau xe buýt mới phải dừng','Only traffic behind the bus stops'],['Bấm còi rồi chạy qua','Honk and pass']],a:0,
+ev:'Đường dưới 4 làn: CẢ HAI chiều đều phải dừng, cách ít nhất 10 feet. Chỉ khi đường có 4 làn trở lên và có dải phân cách thì chiều ngược lại mới không phải dừng.',ee:'On roads with fewer than four lanes, BOTH directions must stop at least 10 feet away. Only on divided highways of 4+ lanes may oncoming traffic continue.'},
+{cat:'rightofway',qv:'Bạn thấy xe cảnh sát đậu bên lề xa lộ, đèn chớp sáng (luật "Move Over"). Bạn nên làm gì?',qe:'A police car is stopped on the highway shoulder with flashing lights (the "Move Over" law). What should you do?',
+c:[['Chuyển qua làn xa hơn nếu an toàn; nếu không được thì giảm tốc độ rõ rệt','Move over a lane if safe; if not, slow down significantly'],['Giữ nguyên làn và tốc độ','Keep your lane and speed'],['Dừng lại phía sau xe cảnh sát','Stop behind the police car'],['Bấm còi báo hiệu','Honk to signal them']],a:0,
+ev:'Luật "Move Over" của Ohio áp dụng cho MỌI xe đậu bên lề có đèn chớp: cảnh sát, cứu hộ, và cả xe thường. Đổi làn hoặc chạy chậm lại.',ee:'Ohio\u2019s Move Over law applies to any stopped vehicle with flashing lights. Change lanes away, or slow down if you cannot.'},
+// ---------- LUẬT ĐI ĐƯỜNG & TỐC ĐỘ / RULES & SPEED ----------
+{cat:'rules',qv:'Đèn đỏ, bạn muốn quẹo PHẢI. Luật Ohio nói sao?',qe:'You want to turn RIGHT at a red light. What does Ohio law say?',
+c:[['Được quẹo SAU KHI dừng hẳn và nhường đường — trừ khi có bảng cấm','Allowed AFTER a complete stop and yielding — unless a sign prohibits it'],['Cấm hoàn toàn quẹo phải khi đèn đỏ','Never allowed on red'],['Được quẹo không cần dừng','Allowed without stopping'],['Chỉ được quẹo ban ngày','Only allowed in daytime']],a:0,
+ev:'Quẹo phải đèn đỏ: dừng hẳn trước vạch, nhường người đi bộ và xe, rồi quẹo — trừ khi có bảng "NO TURN ON RED".',ee:'Stop completely, yield to pedestrians and traffic, then turn — unless a NO TURN ON RED sign is posted.'},
+{cat:'rules',qv:'Đèn VÀNG (không chớp) bật lên khi bạn gần tới ngã tư. Nghĩa là gì?',qe:'The light turns steady YELLOW as you approach. What does it mean?',
+c:[['Đèn sắp đỏ — dừng lại nếu có thể dừng an toàn','The light is about to turn red — stop if you can do so safely'],['Tăng ga chạy qua cho kịp','Speed up to beat the red'],['Giống như đèn xanh','Same as a green light'],['Dừng lại rồi đi tiếp như bảng STOP','Stop then proceed like a stop sign']],a:0,
+ev:'Đèn vàng là CẢNH BÁO sắp đỏ. Nếu dừng an toàn được thì dừng; đừng bao giờ tăng ga để "vớt" đèn.',ee:'Steady yellow warns the light is changing. Stop if you can safely; never accelerate to beat it.'},
+{cat:'rules',qv:'Đèn ĐỎ CHỚP (nhấp nháy) tại ngã tư có nghĩa là gì?',qe:'What does a FLASHING RED light mean?',
+c:[['Giống bảng STOP: dừng hẳn, rồi đi khi an toàn','Treat it like a STOP sign: stop fully, then go when safe'],['Giống đèn vàng: chạy chậm qua','Like yellow: slow down and continue'],['Đèn bị hư, chạy bình thường','Broken light, drive normally'],['Cấm vào ngã tư','Do not enter the intersection']],a:0,
+ev:'Đỏ chớp = bảng STOP. Vàng chớp = chạy chậm, cẩn thận rồi đi tiếp (không cần dừng).',ee:'Flashing red = stop sign. Flashing yellow = slow down and proceed with caution.'},
+{cat:'rules',qv:'Bạn được đậu xe cách trụ nước chữa cháy (fire hydrant) tối thiểu bao xa?',qe:'How close may you park to a fire hydrant?',
+c:[['Không được đậu trong vòng 10 feet','No parking within 10 feet'],['Không được đậu trong vòng 3 feet','No parking within 3 feet'],['Đậu sát cũng được nếu còn ngồi trong xe','Right next to it if you stay in the car'],['Không được đậu trong vòng 50 feet','No parking within 50 feet']],a:0,
+ev:'Luật Ohio: cấm đậu trong vòng 10 feet (khoảng 3 mét) quanh trụ nước chữa cháy để xe cứu hỏa dùng được ngay.',ee:'Ohio prohibits parking within 10 feet of a hydrant so firefighters can reach it instantly.'},
+{cat:'rules',qv:'Khi đậu xe song song sát lề đường, bánh xe phải cách lề tối đa bao nhiêu?',qe:'When parallel parking, how far may your wheels be from the curb?',
+c:[['Không quá 12 inches (khoảng 1 gang tay lớn)','No more than 12 inches'],['Không quá 3 feet','No more than 3 feet'],['Bao xa cũng được','Any distance'],['Phải chạm sát vô lề','Must touch the curb']],a:0,
+ev:'Đậu song song: bánh xe cách lề không quá 12 inches (30 cm) để không cản trở làn xe chạy.',ee:'Park with your wheels within 12 inches of the curb so you do not block the travel lane.'},
+{cat:'rules',qv:'Đèn và chuông báo hiệu xe lửa đang hoạt động. Bạn phải dừng cách đường ray bao xa?',qe:'Railroad signals are flashing. How far from the tracks must you stop?',
+c:[['Từ 15 đến 50 feet trước đường ray','Between 15 and 50 feet from the tracks'],['Ngay sát đường ray','Right at the tracks'],['100 feet trở lên','At least 100 feet'],['Không cần dừng nếu không thấy xe lửa','No stop needed if you see no train']],a:0,
+ev:'Dừng cách đường ray 15–50 feet. TUYỆT ĐỐI không chạy vòng qua thanh chắn đang hạ — xe lửa không thể thắng kịp.',ee:'Stop 15\u201350 feet from the rails. Never drive around lowered gates — a train cannot stop in time.'},
+{cat:'rules',qv:'Theo luật Ohio, khi nào bạn BẮT BUỘC phải bật đèn xe?',qe:'Under Ohio law, when MUST your headlights be on?',
+c:[['Từ mặt trời lặn tới mặt trời mọc, VÀ bất cứ khi nào gạt nước mưa đang chạy','From sunset to sunrise, AND whenever your windshield wipers are in use'],['Chỉ khi trời tối hẳn','Only when it is completely dark'],['Chỉ trên xa lộ','Only on highways'],['Khi nào muốn thì bật','Whenever you feel like it']],a:0,
+ev:'Luật Ohio: mưa tới mức phải bật gạt nước = phải bật đèn xe. Cũng bắt buộc từ lúc mặt trời lặn tới mặt trời mọc và khi tầm nhìn kém.',ee:'Ohio\u2019s "wipers on, lights on" law: headlights are required whenever wipers are in use, and from sunset to sunrise.'},
+{cat:'rules',qv:'Trước khi quẹo, bạn phải bật đèn xi-nhan liên tục ít nhất bao xa?',qe:'How far before turning must you signal continuously?',
+c:[['Ít nhất 100 feet trước chỗ quẹo','At least 100 feet before the turn'],['Ít nhất 10 feet','At least 10 feet'],['Ngay lúc bắt đầu quẹo','Right as you start turning'],['Không bắt buộc nếu vắng xe','Not required if no traffic']],a:0,
+ev:'Ohio yêu cầu xi-nhan liên tục ít nhất 100 feet trước khi quẹo hoặc chuyển làn, để xe khác kịp phản ứng.',ee:'Ohio requires a continuous signal for at least 100 feet before turning or changing lanes.'},
+{cat:'rules',qv:'Trong khu vực TRƯỜNG HỌC ở Ohio, giờ học sinh đi học, tốc độ tối đa là bao nhiêu?',qe:'What is the speed limit in an Ohio SCHOOL ZONE during school hours?',
+c:[['20 mph','20 mph'],['25 mph','25 mph'],['35 mph','35 mph'],['15 mph','15 mph']],a:0,
+ev:'Khu trường học giờ quy định (thường có đèn chớp hoặc ghi giờ): tối đa 20 mph. Phạt rất nặng nếu vi phạm.',ee:'Ohio school zones are 20 mph during restricted hours, usually marked by flashing beacons or posted times.'},
+{cat:'rules',qv:'Trong khu dân cư của thành phố (không có bảng tốc độ), tốc độ tối đa thường là bao nhiêu?',qe:'On a residential city street with no posted sign, what is the usual speed limit?',
+c:[['25 mph','25 mph'],['40 mph','40 mph'],['15 mph','15 mph'],['55 mph','55 mph']],a:0,
+ev:'Ohio: đường khu dân cư trong thành phố mặc định 25 mph nếu không có bảng khác.',ee:'Ohio residential streets default to 25 mph unless otherwise posted.'},
+{cat:'rules',qv:'Tốc độ tối đa trên xa lộ liên bang (interstate) ở vùng quê Ohio là bao nhiêu?',qe:'What is the maximum speed on rural Ohio interstates?',
+c:[['70 mph','70 mph'],['80 mph','80 mph'],['55 mph','55 mph'],['65 mph','65 mph']],a:0,
+ev:'Xa lộ liên bang vùng quê: tối đa 70 mph. Nhiều đoạn khác là 65 hoặc 55 — luôn coi bảng.',ee:'Rural interstates are posted up to 70 mph; other freeways may be 65 or 55. Always check the signs.'},
+{cat:'rules',qv:'Trời mưa lớn, bảng tốc độ ghi 55 mph. Bạn nên chạy thế nào?',qe:'It is raining hard and the limit is 55 mph. How should you drive?',
+c:[['Chậm hơn 55 — bảng tốc độ chỉ áp dụng khi điều kiện TỐT','Slower than 55 — the limit applies only in GOOD conditions'],['Đúng 55 vì đó là luật','Exactly 55, because that is the law'],['Nhanh hơn để về sớm tránh mưa','Faster, to get out of the rain'],['Bật đèn khẩn cấp và chạy 55','Turn on hazards and drive 55']],a:0,
+ev:'Luật "tốc độ hợp lý": chạy quá nhanh SO VỚI điều kiện (mưa, sương mù, đông xe) vẫn là phạm luật dù dưới mức ghi trên bảng.',ee:'Ohio\u2019s basic speed law: driving too fast for conditions is illegal even below the posted limit.'},
+{cat:'rules',qv:'Ai trong xe bắt buộc phải thắt dây an toàn?',qe:'Who must wear a seat belt?',
+c:[['Tài xế và hành khách ghế trước; trẻ em phải có ghế an toàn đúng tuổi/cân nặng','Driver and front-seat passengers; children need proper car seats for their age and size'],['Chỉ tài xế','Only the driver'],['Chỉ khi chạy trên xa lộ','Only on highways'],['Không ai bắt buộc','No one is required']],a:0,
+ev:'Ohio bắt buộc dây an toàn cho tài xế và ghế trước; trẻ em dưới quy định tuổi/cân nặng phải ngồi ghế an toàn hoặc booster.',ee:'Ohio requires belts for the driver and front passengers; children must use car seats or boosters per age and weight rules.'},
+{cat:'rules',qv:'Vạch kẻ đường màu VÀNG ở giữa đường cho bạn biết điều gì?',qe:'What does a YELLOW center line tell you?',
+c:[['Ngăn cách hai chiều xe NGƯỢC nhau','It separates traffic moving in OPPOSITE directions'],['Ngăn cách các làn cùng chiều','It separates lanes going the same direction'],['Làn dành cho xe đạp','A bicycle lane'],['Khu vực cấm đậu xe','A no-parking zone']],a:0,
+ev:'Vàng = hai chiều ngược nhau (vàng đứt: được vượt khi an toàn; vàng liền đôi: cấm vượt). Trắng = các làn cùng chiều.',ee:'Yellow lines separate opposing traffic (broken = passing allowed when safe; double solid = no passing). White lines separate same-direction lanes.'},
+
+// ---------- RƯỢU BIA & ĐIỆN THOẠI / ALCOHOL & PHONE ----------
+{cat:'alcohol',qv:'Nồng độ cồn trong máu (BAC) tối đa cho người lái xe từ 21 tuổi trở lên ở Ohio là bao nhiêu?',qe:'What is the legal blood alcohol limit (BAC) for drivers 21 and older in Ohio?',
+c:[['0.08%','0.08%'],['0.10%','0.10%'],['0.05%','0.05%'],['0.02%','0.02%']],a:0,
+ev:'Từ 0.08% trở lên là phạm tội OVI (lái xe khi say). Nhưng dưới 0.08% vẫn có thể bị bắt nếu cảnh sát thấy bạn lái không an toàn.',ee:'0.08% or higher is OVI (impaired driving). You can still be arrested below 0.08% if visibly impaired.'},
+{cat:'alcohol',qv:'Người lái xe DƯỚI 21 tuổi ở Ohio bị giới hạn nồng độ cồn là bao nhiêu?',qe:'What is the BAC limit for drivers UNDER 21 in Ohio?',
+c:[['0.02% — gần như không được uống giọt nào','0.02% — essentially zero tolerance'],['0.08% giống người lớn','0.08%, same as adults'],['0.05%','0.05%'],['Không có giới hạn','No limit']],a:0,
+ev:'Ohio áp dụng mức 0.02% cho người dưới 21 — chỉ một ly cũng có thể vượt mức. Tốt nhất: đã uống thì không lái.',ee:'Ohio\u2019s under-21 limit is 0.02% — even one drink can exceed it. If you drink, do not drive.'},
+{cat:'alcohol',qv:'Cách DUY NHẤT để hết say rượu trước khi lái xe là gì?',qe:'What is the ONLY thing that makes you sober enough to drive?',
+c:[['Thời gian — chờ cơ thể tự thải cồn','Time — waiting for your body to process the alcohol'],['Uống cà phê đậm','Drinking strong coffee'],['Tắm nước lạnh','Taking a cold shower'],['Ăn thật no','Eating a big meal']],a:0,
+ev:'Cà phê, tắm lạnh, ăn no chỉ làm bạn TỈNH hơn chứ không giảm cồn trong máu. Chỉ có thời gian mới thải được cồn.',ee:'Coffee, cold showers, and food may make you feel alert but do not lower BAC. Only time works.'},
+{cat:'alcohol',qv:'Luật điện thoại của Ohio quy định thế nào khi đang lái xe?',qe:'What is Ohio\u2019s phone law while driving?',
+c:[['Cấm cầm điện thoại trên tay — chỉ được dùng chế độ rảnh tay; cảnh sát được dừng xe chỉ vì lỗi này','No holding a phone — hands-free only; police can stop you for this alone'],['Được cầm nếu chỉ nghe gọi','Holding is fine for calls only'],['Chỉ cấm nhắn tin','Only texting is banned'],['Không có luật về điện thoại','There is no phone law']],a:0,
+ev:'Luật Ohio (từ 2023): cầm hay đỡ điện thoại khi lái là lỗi CHÍNH — cảnh sát dừng xe được ngay. Dùng loa, tai nghe, hoặc gắn giá đỡ.',ee:'Since 2023, holding or supporting a phone while driving is a primary offense in Ohio. Use speaker, Bluetooth, or a mount.'},
+{cat:'alcohol',qv:'Nếu bị kết tội OVI (lái xe khi say) lần đầu ở Ohio, hậu quả có thể là gì?',qe:'What can happen after a FIRST OVI (impaired driving) conviction in Ohio?',
+c:[['Treo bằng lái, phạt tiền nặng, và có thể bị giam','License suspension, heavy fines, and possible jail time'],['Chỉ bị nhắc nhở','Just a warning'],['Chỉ đóng phạt nhỏ như lỗi đậu xe','A small fine like a parking ticket'],['Không có hậu quả nếu không gây tai nạn','Nothing, if there was no crash']],a:0,
+ev:'OVI lần đầu: có thể bị giam, phạt tiền lớn, treo bằng 1–3 năm, và hồ sơ theo suốt đời. Đây không phải lỗi nhỏ.',ee:'A first OVI can mean jail, large fines, a 1\u20133 year suspension, and a permanent record. It is a serious crime, not a ticket.'},
+// ---------- LÁI XE AN TOÀN / SAFE DRIVING ----------
+{cat:'safety',qv:'Trước khi chuyển làn, ngoài nhìn kiếng chiếu hậu, bạn còn phải làm gì?',qe:'Before changing lanes, besides checking mirrors, what must you also do?',
+c:[['Quay đầu nhìn qua vai để kiểm tra ĐIỂM MÙ','Turn your head and look over your shoulder to check the BLIND SPOT'],['Bấm còi báo hiệu','Honk your horn'],['Chỉ cần bật xi-nhan là đủ','Just signal — that is enough'],['Chạy chậm hẳn lại','Slow way down']],a:0,
+ev:'Kiếng chiếu hậu có ĐIỂM MÙ — chỗ xe khác "biến mất". Xi-nhan + nhìn kiếng + quay đầu liếc qua vai, rồi mới chuyển làn.',ee:'Mirrors have blind spots where cars disappear. Signal, check mirrors, then glance over your shoulder before moving.'},
+{cat:'safety',qv:'Xe bạn bị trượt bánh (mất lái) trên đường trơn. Bạn nên làm gì?',qe:'Your car begins to skid on a slippery road. What should you do?',
+c:[['Nhả chân ga, quẹo tay lái nhẹ theo hướng mình MUỐN xe đi','Ease off the gas and steer gently in the direction you WANT to go'],['Đạp thắng thật mạnh','Slam on the brakes'],['Quẹo ngược hướng trượt thật gắt','Jerk the wheel hard the opposite way'],['Tăng ga để thoát','Accelerate out of it']],a:0,
+ev:'Trượt bánh: bình tĩnh, nhả ga, KHÔNG đạp thắng gấp, lái nhẹ nhàng theo hướng muốn đi cho tới khi bánh bám đường lại.',ee:'Stay calm, ease off the gas, avoid hard braking, and steer smoothly where you want the car to go until the tires grip again.'},
+{cat:'safety',qv:'Trời mưa lớn, xe bạn bỗng "nổi" trên mặt nước, tay lái nhẹ hẫng (hydroplaning). Bạn nên làm gì?',qe:'In heavy rain your car hydroplanes — the steering suddenly feels light. What should you do?',
+c:[['Nhả ga từ từ, giữ tay lái thẳng, KHÔNG đạp thắng mạnh','Ease off the gas, hold the wheel straight, and do NOT brake hard'],['Đạp thắng ngay lập tức','Brake immediately'],['Quẹo gấp vô lề','Swerve to the shoulder'],['Tăng ga để bánh bám đường','Accelerate for traction']],a:0,
+ev:'Hydroplaning = bánh xe chạy trên lớp nước, không chạm mặt đường. Nhả ga cho xe tự chậm lại; thắng gấp sẽ làm xe xoay vòng.',ee:'Hydroplaning means your tires ride on water. Ease off the gas and let the car slow; hard braking can spin you.'},
+{cat:'safety',qv:'Chạy xe trong SƯƠNG MÙ dày, bạn nên dùng đèn nào?',qe:'Driving in thick FOG, which lights should you use?',
+c:[['Đèn cốt (chiếu gần / low beam)','Low-beam headlights'],['Đèn pha (chiếu xa / high beam)','High-beam headlights'],['Chỉ đèn khẩn cấp','Hazard lights only'],['Không bật đèn gì hết','No lights at all']],a:0,
+ev:'Đèn pha chiếu vô sương mù sẽ dội ngược lại làm CHÓI mắt bạn. Dùng đèn cốt, chạy chậm, giữ khoảng cách xa hơn.',ee:'High beams reflect off fog and blind you. Use low beams, slow down, and leave extra distance.'},
+{cat:'safety',qv:'Bạn nên giữ khoảng cách với xe phía trước ít nhất bao lâu (trời tốt)?',qe:'In good conditions, what is the minimum safe following distance?',
+c:[['Ít nhất 3–4 giây; tăng thêm khi trời xấu','At least 3\u20134 seconds; more in bad weather'],['1 giây là đủ','1 second is enough'],['Nửa chiều dài xe','Half a car length'],['Càng sát càng dễ thấy','As close as possible']],a:0,
+ev:'Chọn một điểm cố định (cột đèn, bảng hiệu): xe trước qua điểm đó, đếm "một ngàn lẻ một..." — bạn phải qua điểm đó SAU ít nhất 3–4 giây.',ee:'Pick a fixed object; after the car ahead passes it, you should reach it no sooner than 3\u20134 seconds later.'},
+{cat:'safety',qv:'Đang lái xe đường dài, bạn thấy buồn ngủ ríu mắt. Cách xử lý ĐÚNG là gì?',qe:'On a long drive you feel very sleepy. What is the RIGHT response?',
+c:[['Tấp vô chỗ an toàn (rest area) nghỉ hoặc ngủ một giấc ngắn','Pull off at a safe place or rest area and rest or nap'],['Mở cửa sổ và vặn nhạc to','Open the window and turn up the music'],['Uống cà phê rồi chạy tiếp ngay','Drink coffee and keep driving right away'],['Chạy nhanh hơn cho mau tới nơi','Drive faster to arrive sooner']],a:0,
+ev:'Buồn ngủ nguy hiểm như say rượu. Gió, nhạc, cà phê chỉ đỡ vài phút — cách duy nhất an toàn là DỪNG và nghỉ.',ee:'Drowsy driving is as dangerous as drunk driving. Wind, music, and coffee help only briefly — stopping to rest is the only safe fix.'},
+{cat:'safety',qv:'Xe bạn chết máy và kẹt trên đường ray, xe lửa đang chạy tới. Bạn phải làm gì?',qe:'Your car stalls on the tracks and a train is coming. What must you do?',
+c:[['Bỏ xe ngay, chạy ra xa đường ray theo hướng CHÉO VỀ PHÍA xe lửa đang tới','Get out immediately and run away from the tracks, at an angle TOWARD the coming train'],['Ở lại trong xe cố đề máy','Stay inside and keep trying to start it'],['Chạy theo hướng xe lửa đang chạy tới trước mặt','Run in the same direction the train is moving'],['Đứng cạnh xe vẫy tay báo hiệu','Stand by the car and wave']],a:0,
+ev:'Chạy chéo VỀ PHÍA tàu đang tới (nhưng ra xa đường ray) — vì khi tàu tông xe, mảnh vỡ sẽ văng về phía TRƯỚC theo hướng tàu chạy.',ee:'Run at an angle toward the oncoming train but away from the tracks — debris from the impact flies forward, in the train\u2019s direction of travel.'},
+{cat:'safety',qv:'Bánh xe bên phải của bạn lỡ rớt xuống lề đất mềm. Bạn nên làm gì?',qe:'Your right wheels drop off the pavement onto a soft shoulder. What should you do?',
+c:[['Nhả ga, giữ chắc tay lái, chậm lại rồi từ từ quay lên mặt đường khi an toàn','Ease off the gas, grip the wheel, slow down, then gently steer back when safe'],['Giật mạnh tay lái quay lên đường ngay','Jerk the wheel back onto the road immediately'],['Đạp thắng thật mạnh','Brake as hard as you can'],['Tăng ga vượt lên','Accelerate back up']],a:0,
+ev:'Giật tay lái đột ngột ở tốc độ cao là nguyên nhân lật xe. Bình tĩnh chậm lại trước, rồi mới đánh lái nhẹ lên mặt đường.',ee:'Jerking the wheel at speed causes rollovers. Slow down first, then steer gently back onto the pavement.'}
+];
+
+// ===== EXTRA ICONS =====
+SIGNS.license=`<svg viewBox="0 0 130 96"><rect x="3" y="3" width="124" height="90" rx="10" fill="#fff" stroke="#20242A" stroke-width="4"/><rect x="3" y="3" width="124" height="24" rx="10" fill="#046A38"/><rect x="3" y="17" width="124" height="10" fill="#046A38"/><text x="65" y="21" font-family="Overpass,Arial" font-size="12" font-weight="900" fill="#fff" text-anchor="middle">OHIO</text><rect x="14" y="38" width="34" height="42" rx="4" fill="#C9CDC4"/><circle cx="31" cy="52" r="8" fill="#5B6169"/><path d="M18,80 q13,-16 26,0" fill="#5B6169"/><rect x="58" y="42" width="58" height="7" rx="3" fill="#C9CDC4"/><rect x="58" y="56" width="58" height="7" rx="3" fill="#C9CDC4"/><rect x="58" y="70" width="40" height="7" rx="3" fill="#C9CDC4"/></svg>`;
+
+// ===== HANDBOOK — Sách học (mirrors the Digest of Ohio Motor Vehicle Laws) =====
+const BOOK=[
+{id:'c1',icon:'license',vi:'Lấy bằng lái xe ở Ohio',en:'Getting Your Ohio License',quiz:null,secs:[
+{tv:'Ai cần bằng lái?',te:'Who needs a license?',
+pv:'Muốn chạy xe hơi trên đường ở Ohio, bạn phải có bằng lái hoặc giấy phép tập lái còn hiệu lực. Nếu mới dọn tới Ohio từ tiểu bang khác hoặc từ nước ngoài, bạn có 30 ngày để đổi qua bằng lái Ohio. Bằng lái phải luôn mang theo người khi chạy xe.',
+pe:'To drive in Ohio you need a valid license or learner permit. New residents have 30 days to get an Ohio license. Carry it whenever you drive.'},
+{tv:'Các bước cho người lớn',te:'Steps for adult drivers',
+pv:'Bước một: đậu bài thi viết và khám mắt để lấy giấy phép tập lái, gọi là TIPIC. Bước hai: tập lái với người có bằng, từ 21 tuổi trở lên, ngồi ghế trước bên cạnh bạn. Bước ba: khi tự tin rồi thì đặt hẹn thi lái. Đậu thi lái xong, đem giấy tờ ra văn phòng BMV để làm bằng. Người lớn không cần học lớp lái xe, nhưng nếu rớt thi lái, người từ 21 tuổi trở lên phải học một khóa ngắn trước khi thi lại.',
+pe:'Pass the knowledge test and vision screening for a TIPIC permit, practice with a licensed driver 21 or older in the front seat, then take the road test. Adults who fail the road test must complete a short training course before retesting.'},
+{tv:'Bài thi viết',te:'The knowledge test',
+pv:'Bài thi viết có 40 câu trắc nghiệm: 20 câu biển báo và 20 câu luật. Đúng 30 câu, tức 75 phần trăm, là đậu. Có thể thi trên máy tại trạm thi, hoặc thi online tại nhà bằng máy tính có webcam. Máy thi chưa có tiếng Việt: muốn thi bằng tiếng Việt phải đặt hẹn tại trạm thi và dẫn theo thông dịch viên. Rớt thì qua ngày làm việc hôm sau thi lại được, không giới hạn số lần.',
+pe:'40 multiple-choice questions: 20 signs, 20 rules; 30 correct passes. Take it at an exam station or online with a webcam. Vietnamese is not on the machines — schedule a proctored test with an interpreter. If you fail, retake it the next business day.'},
+{tv:'Bài thi lái',te:'The road test',
+pv:'Bài thi lái có hai phần. Phần một: chạy ngoài đường thật với giám khảo, họ coi cách bạn quẹo, dừng, nhường đường và giữ tốc độ. Phần hai gọi là maneuverability: lái xe tới qua một khung cọc, rồi de lui lại thẳng hàng, không được đụng cọc. Nhớ đem xe có đăng ký, có bảo hiểm, đèn và thắng hoạt động tốt. Nên tập de xe qua cọc ở bãi đậu xe vắng trước ngày thi.',
+pe:'Two parts: driving in real traffic, and the maneuverability test — driving forward through a box of cones and backing out straight without touching them. Bring a registered, insured car in good working order, and practice the cone exercise beforehand.'},
+{tv:'Giấy tờ cần mang',te:'Documents to bring',
+pv:'Khi làm giấy phép hoặc bằng lái, đem giấy tờ GỐC, không phải bản photo: giấy tờ chứng minh tên họ và ngày sinh như hộ chiếu hoặc thẻ xanh, số an sinh xã hội nếu có, giấy tờ chứng minh đang ở Ohio như hóa đơn điện nước hoặc hợp đồng thuê nhà, thường cần hai loại, và giấy tờ chứng minh cư trú hợp pháp. Vô trang bmv.ohio.gov coi danh sách đầy đủ trước khi đi cho khỏi mất công.',
+pe:'Bring ORIGINAL documents: proof of name and birth date (passport or green card), Social Security number if assigned, two proofs of Ohio address (utility bill, lease), and proof of legal presence. Check bmv.ohio.gov for the full list before you go.'}
+]},
+{id:'c2',icon:'signal',vi:'Biển báo, đèn & vạch kẻ đường',en:'Signs, Signals & Road Markings',quiz:['signs'],secs:[
+{tv:'Màu sắc biển báo',te:'Sign colors',
+pv:'Mỗi màu có một ý nghĩa riêng, thuộc màu là đoán được biển từ xa. Đỏ: dừng lại, cấm, không được làm. Vàng: cảnh báo nguy hiểm phía trước. Cam: khu công trường đang thi công. Trắng chữ đen: luật bắt buộc phải theo. Xanh lá cây: chỉ đường, lối ra, khoảng cách. Xanh dương: dịch vụ như bệnh viện, cây xăng, đồ ăn. Nâu: khu du lịch, công viên. Vàng-xanh lá sáng: khu trường học và người đi bộ.',
+pe:'Red: stop or prohibition. Yellow: warning. Orange: work zone. White with black letters: laws you must obey. Green: guidance and exits. Blue: services. Brown: recreation areas. Fluorescent yellow-green: school and pedestrian zones.'},
+{tv:'Hình dạng biển báo',te:'Sign shapes',
+pv:'Hình dạng cũng nói lên ý nghĩa. Bát giác tám cạnh: chỉ dành cho bảng STOP. Tam giác ngược: nhường đường, YIELD. Hình tròn: báo trước đường ray xe lửa. Năm cạnh: khu trường học. Hình thoi: cảnh báo. Chữ nhật đứng: luật lệ. Còn có hình cờ đuôi nheo bên trái đường, chữ NO PASSING ZONE: bắt đầu đoạn cấm vượt xe.',
+pe:'Octagon: STOP only. Downward triangle: YIELD. Circle: railroad ahead. Pentagon: school. Diamond: warning. Vertical rectangle: regulations. The pennant shape on the left side marks a NO PASSING ZONE.'},
+{tv:'Đèn giao thông',te:'Traffic signals',
+pv:'Đèn đỏ: dừng hẳn trước vạch. Đèn vàng: sắp đỏ, dừng nếu dừng kịp an toàn, đừng tăng ga vớt đèn. Đèn xanh: được đi, nhưng vẫn phải nhường xe và người còn trong ngã tư. Mũi tên xanh: được quẹo theo hướng đó, xe ngược chiều đang bị đèn đỏ chặn. Đèn đỏ chớp: coi như bảng STOP. Đèn vàng chớp: chạy chậm, cẩn thận rồi đi. Đèn tắt hết vì cúp điện: coi ngã tư như có bảng STOP cả bốn hướng.',
+pe:'Red: full stop. Steady yellow: stop if you safely can. Green: go after yielding to traffic still in the intersection. Green arrow: protected turn. Flashing red: treat as a STOP sign. Flashing yellow: slow down and proceed. Dark signals: treat the intersection as an all-way stop.'},
+{tv:'Vạch kẻ đường',te:'Pavement markings',
+pv:'Vạch VÀNG ngăn hai chiều xe ngược nhau: vạch vàng đứt thì được vượt khi an toàn, vạch vàng liền đôi thì cấm vượt cả hai bên. Vạch TRẮNG ngăn các làn chạy cùng chiều: trắng đứt được đổi làn, trắng liền thì nên ở yên trong làn. Vạch trắng ngang lớn ở ngã tư là vạch dừng. Hai vạch song song băng ngang đường là lối người đi bộ. Mũi tên vẽ dưới làn nào thì làn đó chỉ được đi theo hướng mũi tên.',
+pe:'Yellow lines separate opposite directions: broken yellow allows passing, double solid forbids it. White lines separate same-direction lanes. The wide white bar is the stop line; parallel lines mark crosswalks; lane arrows are mandatory directions.'},
+{tv:'Khu công trường',te:'Work zones',
+pv:'Biển màu cam nghĩa là phía trước đang thi công: chạy chậm, giữ khoảng cách, chuẩn bị làn bị hẹp hay bị đóng. Nếu có người cầm cờ hoặc bảng STOP SLOW điều khiển, phải nghe theo họ, hiệu lệnh của họ mạnh hơn cả đèn và biển. Ở Ohio, tiền phạt chạy quá tốc độ trong khu công trường có thể tăng gấp đôi khi có công nhân đang làm việc.',
+pe:'Orange means construction: slow down and expect narrowed or closed lanes. Obey flaggers — their directions override signs and signals. Ohio can double speeding fines in work zones when workers are present.'},
+{tv:'Cảnh sát điều khiển giao thông',te:'Officers directing traffic',
+pv:'Khi cảnh sát đứng điều khiển giao thông, hiệu lệnh tay của họ mạnh hơn tất cả: hơn đèn, hơn biển, hơn vạch kẻ. Ví dụ đèn đang đỏ nhưng cảnh sát vẫy cho đi, thì cứ đi theo lệnh của cảnh sát.',
+pe:'A police officer directing traffic overrides every signal, sign, and marking. If the light is red but the officer waves you through, follow the officer.'}
+]},
+{id:'c3',icon:'yield',vi:'Luật đi đường',en:'Rules of the Road',quiz:['rightofway','rules'],secs:[
+{tv:'Nhường đường cơ bản',te:'Right-of-way basics',
+pv:'Ngã tư có bảng STOP bốn hướng: xe nào tới trước đi trước, tới cùng lúc thì nhường xe bên tay phải. Ngã tư không có đèn không có bảng: cũng nhường xe bên phải. Quẹo trái: luôn nhường xe chạy thẳng ngược chiều, dù mình có đèn xanh. Từ sân nhà, hẻm, hay bãi đậu xe chạy ra đường lớn: nhường hết, cả người đi bộ trên lề lẫn xe trên đường. Nhớ một điều: luật cho biết ai phải NHƯỜNG, chứ không cho ai quyền giành đường. Người kia chạy ẩu thì mình cứ nhường cho an toàn.',
+pe:'At a four-way stop, first to arrive goes first; if tied, yield to the right. Left turns always yield to oncoming traffic. Entering from a driveway or lot, yield to everyone. The law says who must yield — never insist on the right-of-way if the other driver does not give it.'},
+{tv:'Vòng xoay',te:'Roundabouts',
+pv:'Vòng xoay, trong Nam hay kêu là bùng binh, ngày càng nhiều ở Ohio. Cách chạy: chậm lại khi tới gần, nhìn qua TRÁI, nhường cho xe đang chạy trong vòng, thấy trống thì nhập vô. Trong vòng xoay luôn chạy ngược chiều kim đồng hồ và không dừng lại giữa chừng. Gần tới lối ra của mình thì bật xi-nhan phải rồi ra. Lỡ qua mất lối ra? Không sao, chạy thêm một vòng nữa, đừng de lui hay quẹo gắt.',
+pe:'Slow down, look left, yield to traffic already in the circle, and enter when clear. Travel counter-clockwise without stopping, signal right before your exit. Missed it? Just go around again — never reverse.'},
+{tv:'Tốc độ ở Ohio',te:'Ohio speed limits',
+pv:'Mấy con số cần thuộc lòng: khu trường học giờ học sinh ra vô là 20 mph. Đường khu dân cư trong thành phố là 25 mph. Phần lớn đường hai làn ngoài thành phố là 55 mph. Xa lộ liên bang vùng quê cao nhất là 70 mph. Luôn coi bảng vì mỗi đoạn mỗi khác. Và nhớ luật tốc độ hợp lý: bảng ghi tốc độ tối đa cho lúc trời TỐT. Trời mưa, sương mù, tuyết, đông xe mà chạy đúng số trên bảng vẫn có thể bị phạt vì chạy nhanh quá so với điều kiện.',
+pe:'School zones 20 mph, residential streets 25, most rural two-lane roads 55, rural interstates up to 70 — always check the signs. The posted limit applies to good conditions; driving that fast in rain, fog, or snow can still be a violation.'},
+{tv:'Quẹo & xi-nhan',te:'Turns & signals',
+pv:'Bật xi-nhan liên tục ít nhất 100 feet trước khi quẹo hay đổi làn, tức là bật sớm, đừng đợi tới sát mới bật. Quẹo từ làn gần nhất vô làn gần nhất: quẹo phải từ làn sát phải vô làn sát phải, quẹo trái từ làn sát trái. Quay đầu xe chỉ khi thấy rõ hai chiều, không có bảng cấm, và không cản trở xe khác.',
+pe:'Signal continuously for at least 100 feet before turning or changing lanes. Turn from the nearest lane into the nearest lane. U-turns only where visibility is clear, no sign prohibits them, and traffic is not disrupted.'},
+{tv:'Vượt xe',te:'Passing',
+pv:'Vượt bên trái, và chỉ khi vạch vàng bên mình là vạch đứt. Cấm vượt gần đỉnh dốc, khúc cua, ngã tư, đường ray, hay khi thấy biển cờ đuôi nheo NO PASSING ZONE. Trước khi vượt: nhìn kiếng, liếc điểm mù, xi-nhan trái, vượt dứt khoát. Khi nào thấy nguyên cái đầu xe vừa vượt trong kiếng chiếu hậu thì mới xi-nhan phải quay về làn. Bị xe khác vượt thì giữ tốc độ hoặc chậm lại chút, đừng tăng ga.',
+pe:'Pass on the left, only across a broken yellow line, never near hills, curves, intersections, or railroads. Return to your lane when you can see the passed car in your rearview mirror. When being passed, hold or reduce your speed.'},
+{tv:'Đậu xe',te:'Parking',
+pv:'Đậu song song: bánh xe cách lề không quá 12 inches. Chỗ CẤM đậu: trong vòng 10 feet quanh trụ nước chữa cháy, trên vạch người đi bộ, trong ngã tư, chắn lối ra vô nhà người ta, trên cầu, trong hầm, chỗ dành cho người khuyết tật nếu không có thẻ. Đậu trên dốc nhớ quay bánh: dốc XUỐNG quay bánh VÔ lề, dốc LÊN quay bánh RA ngoài lề, kéo thắng tay, xe số sàn thì gài số. Lỡ xe tuột thì lề đường sẽ chặn bánh lại.',
+pe:'Parallel park within 12 inches of the curb. No parking within 10 feet of a hydrant, on crosswalks, in intersections, blocking driveways, or in disability spaces without a permit. On hills: downhill, turn wheels toward the curb; uphill, turn them away — and set the parking brake.'},
+{tv:'Xe buýt trường học & luật Move Over',te:'School buses & the Move Over law',
+pv:'Xe buýt trường học màu vàng dừng lại, chớp đèn đỏ và xòe bảng STOP: trên đường dưới bốn làn, xe CẢ HAI CHIỀU phải dừng, cách xe buýt ít nhất 10 feet, chờ đèn tắt mới đi. Chỉ khi đường có từ bốn làn trở lên thì chiều ngược lại mới được chạy tiếp, mà vẫn nên chậm lại. Vượt xe buýt đang đón trả học sinh là lỗi rất nặng. Còn luật Move Over: thấy bất cứ xe nào đậu bên lề có đèn chớp, cảnh sát, cứu hộ, hay xe thường bật đèn khẩn cấp, thì đổi qua làn xa hơn, không đổi được thì giảm tốc độ rõ rệt.',
+pe:'When a bus flashes red lights on a road with fewer than four lanes, BOTH directions stop at least 10 feet away. Only on four-plus-lane roads may oncoming traffic proceed. The Move Over law: change lanes away from ANY stopped vehicle with flashing lights, or slow down significantly.'}
+]},
+{id:'c4',icon:'slippery',vi:'Lái xe an toàn',en:'Safe Driving',quiz:['safety'],secs:[
+{tv:'Dây an toàn & ghế trẻ em',te:'Seat belts & child seats',
+pv:'Cài dây an toàn trước khi nổ máy, tài xế và người ngồi ghế trước bắt buộc theo luật, nhưng ai trong xe cũng nên cài. Trẻ nhỏ phải ngồi ghế an toàn cho em bé, lớn hơn thì ghế booster, tới khi đủ tuổi và đủ cao theo luật, thường là 8 tuổi và cao 4 feet 9. Con nít ngồi ghế sau an toàn nhất. Người lái nên ngồi cách tay lái chừng 10 inches để túi khí bung ra không đập vô ngực.',
+pe:'Belts are required for the driver and front passengers; everyone should buckle up. Children ride in car seats, then boosters, until about age 8 and 4 feet 9 inches. Kids are safest in the back seat. Sit about 10 inches from the wheel for the airbag.'},
+{tv:'Khoảng cách & quan sát',te:'Following distance & scanning',
+pv:'Giữ khoảng cách với xe trước ít nhất 3 tới 4 giây: chọn một cột đèn hay bảng hiệu, xe trước chạy qua thì bắt đầu đếm một ngàn lẻ một, một ngàn lẻ hai, mình phải qua chỗ đó SAU 3 tới 4 giây. Trời xấu thì tăng gấp đôi. Mắt đừng dán vô đuôi xe trước: nhìn xa về phía trước cỡ 10 tới 15 giây đường chạy, liếc kiếng chiếu hậu vài giây một lần, và trước khi đổi làn phải quay đầu liếc điểm mù.',
+pe:'Keep at least a 3-to-4-second gap — double it in bad weather. Look 10 to 15 seconds down the road, check mirrors every few seconds, and always shoulder-check the blind spot before changing lanes.'},
+{tv:'Lái xe ban đêm',te:'Night driving',
+pv:'Ban đêm chạy chậm hơn vì thấy gần hơn: chỉ chạy nhanh tới mức có thể dừng kịp trong khoảng đèn chiếu tới. Trong phố dùng đèn cốt. Đường vắng tối thui thì bật đèn pha, nhưng phải hạ xuống đèn cốt khi có xe ngược chiều tới gần, trong khoảng 500 feet, hoặc khi chạy sau đuôi xe khác. Xe ngược chiều rọi pha chói mắt: đừng nhìn thẳng vô đèn, nhìn lệch qua phải, dò theo vạch trắng bên lề mà chạy.',
+pe:'Drive slower at night — never faster than you can stop within your headlight range. Use high beams on dark roads but dim them within about 500 feet of oncoming cars or when following. If blinded by oncoming lights, look to the right edge line.'},
+{tv:'Mưa, sương mù, tuyết & băng',te:'Rain, fog, snow & ice',
+pv:'Trời xấu: giảm tốc độ, tăng khoảng cách, bật đèn cốt, nhớ luật Ohio là gạt nước chạy thì đèn phải sáng. Sương mù dày dùng đèn cốt, đèn pha sẽ dội ngược làm chói mắt mình. Mùa đông Ohio có băng đen, black ice, nhìn như mặt đường ướt bình thường mà trơn như mỡ, hay nằm trên cầu vì cầu đóng băng TRƯỚC mặt đường. Chạy trên tuyết băng: khoảng cách 8 tới 10 giây, thắng nhẹ nhàng từ từ, xe có ABS thì đạp thắng giữ luôn chân, đừng nhồi.',
+pe:'Slow down, add distance, and use low beams — Ohio law: wipers on, lights on. In fog, high beams reflect back and blind you. Watch for black ice, especially on bridges, which freeze first. On snow and ice keep an 8-to-10-second gap; with ABS, press and hold the brake.'},
+{tv:'Xử lý tình huống khẩn cấp',te:'Handling emergencies',
+pv:'Trượt bánh: nhả ga, đừng đạp thắng gấp, lái nhẹ theo hướng mình muốn xe đi. Xe nổi trên nước mưa: nhả ga, giữ lái thẳng, chờ bánh bám đường lại. Nổ bánh xe: nắm chặt tay lái, nhả ga cho xe tự chậm, thắng nhẹ khi đã kiểm soát được, tấp vô lề. Thắng bị hư: xe không có ABS thì đạp nhồi liên tục, kéo thắng tay TỪ TỪ, về số thấp cho máy ghì xe lại. Bánh rớt xuống lề đất: đừng giật tay lái, chậm lại rồi mới đánh nhẹ lên mặt đường. Xe chết máy trên đường ray mà xe lửa đang tới: bỏ xe liền, chạy chéo VỀ PHÍA xe lửa nhưng ra xa đường ray, vì mảnh vỡ văng về phía trước theo hướng tàu chạy.',
+pe:'Skid: ease off gas, steer where you want to go. Hydroplane: ease off, hold straight. Blowout: grip the wheel, coast down, brake gently. Brake failure: pump non-ABS brakes, apply the parking brake slowly, downshift. Off the pavement: slow first, then steer gently back. Stalled on tracks with a train coming: get out and run at an angle toward the train, away from the tracks.'},
+{tv:'Buồn ngủ & nóng giận',te:'Drowsiness & road rage',
+pv:'Buồn ngủ nguy hiểm ngang say rượu, mà gió, nhạc, cà phê chỉ đỡ được vài phút. Ríu mắt thì tấp vô chỗ nghỉ, rest area, ngủ một giấc ngắn, đường dài nên nghỉ mỗi hai tiếng. Còn gặp người chạy hung hăng, ép xe, bấm còi chửi bới: đừng đua, đừng trả đũa, đừng nhìn thẳng khiêu khích, nhường cho họ đi trước, giữ khoảng cách. Về nhà an toàn quan trọng hơn hơn thua ngoài đường.',
+pe:'Drowsy driving is as dangerous as drunk driving — pull off and rest; take breaks every two hours. With aggressive drivers, do not race, retaliate, or make eye contact. Let them go. Getting home safely matters more than winning.'}
+]},
+{id:'c5',icon:'ped',vi:'Chia sẻ đường với người khác',en:'Sharing the Road',quiz:null,secs:[
+{tv:'Người đi bộ',te:'Pedestrians',
+pv:'Người đi bộ trong vạch qua đường luôn được ưu tiên, kể cả vạch không sơn rõ ở ngã tư. Không bao giờ vượt qua xe khác đang dừng trước vạch, có thể họ đang nhường người mình không thấy. Đặc biệt cẩn thận với người già, con nít, và người mù cầm gậy trắng hoặc dắt chó dẫn đường: thấy gậy trắng là phải nhường tuyệt đối. Khu trường học và khu dân cư: chân để hờ trên thắng, con nít hay chạy vụt ra bất ngờ.',
+pe:'Pedestrians in crosswalks — marked or unmarked — always have the right-of-way. Never pass a car stopped at a crosswalk. Give absolute priority to anyone with a white cane or guide dog, and cover the brake around children.'},
+{tv:'Xe đạp',te:'Bicycles',
+pv:'Xe đạp có quyền chạy trên đường như xe hơi. Luật Ohio: khi vượt xe đạp phải chừa cách ít nhất 3 feet, không đủ chỗ thì chờ. Coi chừng lỗi quẹo phải cắt đầu xe đạp đang chạy sát lề: liếc kiếng và điểm mù bên phải trước khi quẹo. Đậu xe xong, nhìn ra sau trước khi mở cửa kẻo cánh cửa hất trúng người chạy xe đạp.',
+pe:'Bicycles have full road rights. Ohio requires at least 3 feet of clearance when passing. Check right mirrors and blind spots before right turns, and look back before opening your door.'},
+{tv:'Xe máy hai bánh',te:'Motorcycles',
+pv:'Xe máy nhỏ, dễ lọt vô điểm mù và khó đoán khoảng cách, nhìn tưởng xa mà thật ra gần. Trước khi đổi làn hay quẹo trái phải nhìn kỹ hai lần. Xe máy được dùng nguyên một làn như xe hơi, đừng chen chung làn với họ. Giữ khoảng cách xa hơn bình thường vì xe máy thắng gấp và né ổ gà bất ngờ.',
+pe:'Motorcycles are small, hide in blind spots, and look farther away than they are — look twice. They are entitled to a full lane. Leave extra following distance.'},
+{tv:'Xe tải lớn',te:'Large trucks',
+pv:'Xe tải lớn có bốn vùng mù rất rộng gọi là No-Zone: hai bên hông, ngay trước đầu xe, và ngay sau đuôi. Quy tắc dễ nhớ: mình không thấy mặt tài xế trong kiếng chiếu hậu của họ, thì họ cũng không thấy mình. Đừng chạy kè kè bên hông, vượt là vượt dứt khoát rồi ra xa. Đừng chen vô sát trước đầu xe tải: xe nặng cần đường thắng dài gấp mấy lần xe hơi. Xe tải quẹo phải hay lấn qua trái lấy trớn, đừng luồn vô khoảng trống bên phải của họ.',
+pe:'Trucks have huge No-Zone blind spots on both sides, front, and rear — if you cannot see the driver in their mirror, they cannot see you. Pass decisively, never cut in close, and never slip into the right-side gap of a truck turning right.'},
+{tv:'Xe nông nghiệp & xe ngựa',te:'Farm vehicles & buggies',
+pv:'Vùng quê Ohio hay gặp máy cày, xe nông nghiệp, và cả xe ngựa của người Amish. Xe nào chạy dưới 25 mph phải gắn biển tam giác màu cam viền đỏ phía sau, gọi là biển xe chậm. Thấy biển đó là giảm ga liền, đừng thắng gấp sát đuôi. Kiên nhẫn chờ đoạn vạch đứt, không có xe ngược chiều, rồi mới vượt. Vượt xe ngựa thì chạy chậm, chừa rộng, đừng bấm còi làm ngựa hoảng.',
+pe:'Rural Ohio has farm equipment and Amish buggies. The orange triangle with a red border marks slow-moving vehicles under 25 mph — slow down early, pass only where legal and clear, and never honk near horses.'}
+]},
+{id:'c6',icon:'dne',vi:'Rượu bia, ma túy & điện thoại',en:'Alcohol, Drugs & Phones',quiz:['alcohol'],secs:[
+{tv:'Rượu ảnh hưởng thế nào',te:'How alcohol affects driving',
+pv:'Rượu đánh vô khả năng phán đoán TRƯỚC TIÊN, nên người uống luôn tưởng mình còn tỉnh. Rồi tới mắt, tới phản xạ. Một lon bia, một ly rượu vang, một ly rượu mạnh nhỏ: lượng cồn ngang nhau hết, đừng nghĩ bia là nhẹ. Cơ thể thải cồn rất chậm, cỡ một ly mỗi tiếng, và không có gì đẩy nhanh được: cà phê, tắm nước lạnh, ăn no chỉ làm tỉnh táo giả. Cách duy nhất là thời gian. Chắc ăn nhất: đã nhậu thì kêu người nhà chở, đi Uber, hoặc ngủ lại.',
+pe:'Alcohol hits judgment first, so drinkers feel fine. A beer, a glass of wine, and a shot contain the same alcohol. The body clears about one drink per hour and nothing speeds it up. If you drink, get a ride.'},
+{tv:'Mức phạm luật OVI',te:'Legal limits',
+pv:'Ở Ohio, lái xe khi say gọi là OVI. Từ 21 tuổi trở lên: nồng độ cồn trong máu từ 0.08 phần trăm là phạm tội. Dưới 21 tuổi: chỉ 0.02, coi như một ly cũng dính. Lái xe tải thương mại: 0.04. Mà dưới mức đó vẫn có thể bị bắt nếu cảnh sát thấy lái không an toàn. Ma túy cũng vậy, kể cả thuốc bác sĩ cho toa mà gây buồn ngủ: lái xe trong lúc thuốc hành cũng là OVI. Đọc kỹ nhãn thuốc trước khi lái.',
+pe:'OVI limits: 0.08 percent BAC at 21+, 0.02 under 21, 0.04 for commercial drivers — and you can be arrested below those if impaired. Drugs count too, including prescription medicine that causes drowsiness.'},
+{tv:'Luật đồng ý ngầm',te:'Implied consent',
+pv:'Cầm bằng lái Ohio nghĩa là bạn đã tự động đồng ý cho cảnh sát thử nồng độ cồn khi họ có lý do nghi ngờ: thổi hơi, thử máu hay nước tiểu. Từ chối thử là bị treo bằng NGAY LẬP TỨC, tự động, lần đầu là một năm, chưa cần ra tòa. Nhiều người tưởng từ chối là né được tội, thật ra là lãnh thêm phạt.',
+pe:'Driving in Ohio means you have already consented to BAC testing. Refusing the test triggers an immediate automatic suspension — one year for a first refusal — before any court date.'},
+{tv:'Hình phạt OVI',te:'OVI penalties',
+pv:'Dính OVI lần đầu: ngồi tù từ 3 ngày tới 6 tháng hoặc học lớp bắt buộc, phạt tiền nặng, treo bằng từ 1 tới 3 năm, và tiền bảo hiểm tăng vọt nhiều năm liền. Án OVI nằm trong hồ sơ suốt đời, không xóa được. Tái phạm thì nặng hơn nhiều lần, có khi bị tịch thu xe, gắn máy thử cồn trong xe. Chở con nít trong xe lúc say là thêm tội riêng. Một cuốc Uber rẻ hơn ngàn lần.',
+pe:'A first OVI: 3 days to 6 months in jail or a mandatory program, heavy fines, a 1-to-3-year suspension, years of higher insurance, and a permanent record. Repeat offenses can mean vehicle forfeiture and ignition interlocks. A ride home is always cheaper.'},
+{tv:'Điện thoại & phân tâm',te:'Phones & distraction',
+pv:'Luật Ohio: cấm cầm hay kê điện thoại lên người khi đang lái, kể cả lúc dừng đèn đỏ. Đây là lỗi CHÍNH, cảnh sát dừng xe được ngay chỉ vì thấy bạn cầm điện thoại. Được phép: dùng loa ngoài, tai nghe, gắn điện thoại lên giá đỡ, bấm MỘT chạm để nghe máy, và cầm thoải mái khi đã đậu xe hẳn. Muốn coi bản đồ thì cài đường đi trước khi chạy. Ăn uống, trang điểm, quay qua nói chuyện: cũng là phân tâm hết, hai giây cúi xuống ở tốc độ 55 là xe đi mù cả trăm mét.',
+pe:'Ohio law: no holding or supporting a phone while driving, even at red lights — a primary offense. Allowed: speaker, earpiece, a mount, a single touch to answer, or full use when parked. Set your GPS before you drive. Two seconds looking down at 55 mph covers the length of a football field blind.'}
+]},
+{id:'c7',icon:'hospital',vi:'Tai nạn, bảo hiểm & điểm phạt',en:'Crashes, Insurance & Points',quiz:null,secs:[
+{tv:'Khi bị tai nạn',te:'If you crash',
+pv:'Việc đầu tiên: DỪNG LẠI. Bỏ chạy khỏi hiện trường là tội hình sự, dù chỉ quẹt nhẹ. Coi có ai bị thương không, có thì gọi 911 liền và đừng di chuyển người bị thương nặng trừ khi có nguy hiểm như cháy. Nếu xe còn chạy được và không ai bị thương nặng, dời xe vô lề cho khỏi cản đường, bật đèn khẩn cấp. Ban đêm hay chỗ khuất thì đứng ra xa xe, đằng sau rào chắn nếu có.',
+pe:'STOP — leaving the scene is a crime even for minor damage. Call 911 if anyone is hurt. If the cars are drivable and no one is badly injured, move them out of traffic and turn on hazards. Stand away from the roadway.'},
+{tv:'Trao đổi thông tin',te:'Exchanging information',
+pv:'Trao đổi với tài xế kia: tên, địa chỉ, số điện thoại, số bằng lái, bảng số xe, và tên hãng bảo hiểm với số hợp đồng. Lấy luôn tên số điện thoại người làm chứng nếu có. Chụp hình hiện trường, vết hư, bảng số. Có người bị thương hay hư hại đáng kể thì gọi cảnh sát tới làm biên bản, xin số biên bản để khai bảo hiểm. Quan trọng: đừng nhận lỗi hay cãi lộn tại chỗ, chuyện ai đúng ai sai để bảo hiểm và cảnh sát tính.',
+pe:'Exchange names, contacts, license and plate numbers, and insurance details; photograph everything; get witness contacts. Call police for injuries or significant damage and keep the report number. Do not admit fault at the scene.'},
+{tv:'Bảo hiểm bắt buộc',te:'Required insurance',
+pv:'Ohio bắt buộc mọi xe phải có bảo hiểm trách nhiệm tối thiểu, hay gọi là mức 25 50 25: 25 ngàn đô cho một người bị thương, 50 ngàn cho cả vụ, 25 ngàn cho tài sản bị hư. Phải có bằng chứng bảo hiểm trong xe, thẻ giấy hay trong app đều được, cảnh sát hỏi là phải đưa ra. Lái xe không bảo hiểm: treo bằng, đóng phạt, đóng tiền phục hồi, và nếu gây tai nạn thì tự móc túi đền hết. Mức tối thiểu là mức sàn thôi, có điều kiện thì nên mua cao hơn cho chắc.',
+pe:'Ohio requires minimum liability coverage of 25/50/25 — 25,000 dollars per person, 50,000 per crash, 25,000 for property. Carry proof in the car. Driving uninsured means suspension, fees, and paying all damages yourself. Higher coverage is worth it.'},
+{tv:'Hệ thống điểm phạt',te:'The points system',
+pv:'Mỗi lần phạm luật giao thông, Ohio ghi điểm vô hồ sơ: chạy quá tốc độ cỡ 2 tới 4 điểm tùy mức, vượt ẩu 2 điểm, OVI một lần 6 điểm. Gom đủ 12 điểm trong 2 năm là treo bằng 6 tháng, tới 6 điểm là nhận thư cảnh cáo. Điểm nhiều thì tiền bảo hiểm cũng lên theo. Lái đàng hoàng, giữ hồ sơ sạch: vừa an toàn vừa đỡ tốn tiền.',
+pe:'Violations add points: speeding 2 to 4, reckless passing 2, OVI 6. Twelve points in two years means a six-month suspension; a warning letter comes at six. Points also raise your insurance — a clean record saves money.'}
+]}
+];
+
+// ===== APP STATE =====
+const CATS = [
+ {id:'signs',    vi:'Biển báo giao thông', en:'Road Signs', icon:'stop'},
+ {id:'rightofway',vi:'Nhường đường',       en:'Right-of-Way', icon:'yield'},
+ {id:'rules',    vi:'Luật đi đường & tốc độ', en:'Rules of the Road & Speed', icon:'speed'},
+ {id:'alcohol',  vi:'Rượu bia & điện thoại', en:'Alcohol & Phone Laws', icon:'dne'},
+ {id:'safety',   vi:'Lái xe an toàn',      en:'Safe Driving', icon:'slippery'}
+];
+let S = {mode:null, queue:[], idx:0, picked:null, locked:false, results:[], enOnly:false};
+
+const $ = id => document.getElementById(id);
+function show(screen){
+  ['scr-home','scr-topics','scr-quiz','scr-testintro','scr-results','scr-book','scr-chapter'].forEach(s=>$(s).classList.toggle('hidden', s!=='scr-'+screen));
+  window.scrollTo(0,0);
+}
+function shuffle(arr){ const a=arr.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+
+// ===== BEST SCORE (safe storage) =====
+function getBest(){ try{ return JSON.parse(localStorage.getItem('ohioBest')||'null'); }catch(e){ return null; } }
+function setBest(v){ try{ localStorage.setItem('ohioBest', JSON.stringify(v)); }catch(e){} }
+function renderBest(){
+  const b=getBest(); const el=$('best-chip');
+  if(b){ el.classList.remove('hidden'); el.innerHTML='🏆 <span class="vi">Điểm cao nhất: </span><span class="en-lbl">Best score: </span><b>'+b.score+'/40</b>'+(b.pass?' — ĐẬU ✓':''); }
+}
+
+// ===== HOME =====
+function goHome(){ if(typeof ttsStop==='function')ttsStop(); S={mode:null,queue:[],idx:0,picked:null,locked:false,results:[],enOnly:false}; document.body.classList.remove('en-only'); renderBest(); show('home'); }
+
+// ===== STUDY MODE =====
+function showTopics(){
+  const wrap=$('topic-list'); wrap.innerHTML='';
+  CATS.forEach(c=>{
+    const n=Q.filter(q=>q.cat===c.id).length;
+    const btn=document.createElement('button');
+    btn.className='topic-card';
+    btn.innerHTML='<span class="topic-icon">'+SIGNS[c.icon]+'</span><span class="topic-txt"><span class="t-vi">'+c.vi+'</span><span class="t-en">'+c.en+'</span><span class="t-n">'+n+' câu · questions</span></span><span class="chev">›</span>';
+    btn.onclick=()=>startStudy(c.id);
+    wrap.appendChild(btn);
+  });
+  show('topics');
+}
+function startStudy(cat){
+  S.mode='study'; S.queue=shuffle(Q.filter(q=>q.cat===cat)); S.idx=0; S.results=[];
+  document.body.classList.remove('en-only');
+  renderQuestion(); show('quiz');
+}
+
+// ===== TEST MODE =====
+function showTestIntro(){ $('chk-en').checked=false; show('testintro'); }
+function startTest(){
+  const signs=shuffle(Q.filter(q=>q.cat==='signs')).slice(0,20);
+  const rules=shuffle(Q.filter(q=>q.cat!=='signs')).slice(0,20);
+  S.mode='test'; S.queue=shuffle(signs.concat(rules)); S.idx=0; S.results=[];
+  S.enOnly=$('chk-en').checked;
+  document.body.classList.toggle('en-only', S.enOnly);
+  renderQuestion(); show('quiz');
+}
+
+// ===== QUESTION RENDER =====
+function renderQuestion(){
+  const q=S.queue[S.idx]; S.picked=null; S.locked=false;
+  $('q-count').innerHTML='<span class="vi">Câu </span><span class="en-lbl">Question </span>'+(S.idx+1)+' / '+S.queue.length;
+  $('q-bar').style.width=((S.idx)/S.queue.length*100)+'%';
+  $('q-mode-tag').textContent = S.mode==='test' ? 'THI THỬ · PRACTICE TEST' : 'HỌC BÀI · STUDY';
+  $('q-sign').innerHTML = q.sign ? SIGNS[q.sign] : '';
+  $('q-sign').classList.toggle('hidden', !q.sign);
+  $('q-vi').textContent=q.qv; $('q-en').textContent=q.qe;
+  const order=shuffle([0,1,2,3]);
+  q._order=order;
+  const cw=$('q-choices'); cw.innerHTML='';
+  order.forEach((ci,i)=>{
+    const b=document.createElement('button');
+    b.className='choice'; b.dataset.ci=ci;
+    b.innerHTML='<span class="letter">'+'ABCD'[i]+'</span><span class="c-txt"><span class="vi">'+q.c[ci][0]+'</span><span class="en">'+q.c[ci][1]+'</span></span>';
+    b.onclick=()=>pick(b,ci);
+    cw.appendChild(b);
+  });
+  $('q-exp').classList.add('hidden');
+  $('btn-next').classList.add('hidden');
+  $('btn-next').innerHTML = (S.idx===S.queue.length-1)
+    ? '<span class="vi">Xem kết quả</span><span class="en-lbl">See results</span> →'
+    : '<span class="vi">Câu tiếp theo</span><span class="en-lbl">Next question</span> →';
+}
+function pick(btn,ci){
+  if(S.locked) return;
+  const q=S.queue[S.idx];
+  if(S.mode==='study'){
+    S.locked=true;
+    const correct = ci===q.a;
+    document.querySelectorAll('.choice').forEach(c=>{
+      c.disabled=true;
+      if(+c.dataset.ci===q.a) c.classList.add('is-right');
+      else if(c===btn) c.classList.add('is-wrong');
+      else c.classList.add('is-dim');
+    });
+    S.results.push({q,ok:correct});
+    const exp=$('q-exp');
+    exp.className='exp '+(correct?'exp-ok':'exp-no');
+    exp.innerHTML=(correct
+      ? '<div class="exp-head">✓ <span class="vi">Đúng rồi!</span> <span class="en-lbl">Correct!</span></div>'
+      : '<div class="exp-head">✗ <span class="vi">Chưa đúng.</span> <span class="en-lbl">Not quite.</span></div>')
+      +'<p class="vi">'+q.ev+'</p><p class="en">'+q.ee+'</p>';
+    exp.classList.remove('hidden');
+    $('btn-next').classList.remove('hidden');
+    $('btn-next').scrollIntoView({block:'nearest'});
+  } else {
+    // test mode: select, allow change, confirm with next
+    S.picked=ci;
+    document.querySelectorAll('.choice').forEach(c=>c.classList.toggle('is-sel', c===btn));
+    $('btn-next').classList.remove('hidden');
+  }
+}
+function next(){
+  if(S.mode==='test'){
+    const q=S.queue[S.idx];
+    S.results.push({q, ok:S.picked===q.a, picked:S.picked});
+  }
+  if(S.idx < S.queue.length-1){ S.idx++; renderQuestion(); }
+  else finish();
+}
+
+// ===== RESULTS =====
+function finish(){
+  document.body.classList.remove('en-only');
+  const total=S.results.length, ok=S.results.filter(r=>r.ok).length;
+  const wrap=$('res-body'); wrap.innerHTML='';
+  if(S.mode==='test'){
+    const sOk=S.results.filter(r=>r.q.cat==='signs'&&r.ok).length;
+    const rOk=S.results.filter(r=>r.q.cat!=='signs'&&r.ok).length;
+    const pass= ok>=30;
+    const b=getBest(); if(!b||ok>b.score) setBest({score:ok,pass});
+    wrap.innerHTML =
+      '<div class="res-sign '+(pass?'res-pass':'res-fail')+'">'
+      +(pass?'<div class="res-big">ĐẬU 🎉</div><div class="res-sub">PASS</div>'
+             :'<div class="res-big">CHƯA ĐẬU</div><div class="res-sub">NOT YET — KEEP PRACTICING</div>')
+      +'<div class="res-score">'+ok+' / '+total+'</div></div>'
+      +'<div class="res-split"><div class="rs"><b>'+sOk+'/20</b><span class="vi">Biển báo</span><span class="en-lbl">Signs</span></div><div class="rs"><b>'+rOk+'/20</b><span class="vi">Luật</span><span class="en-lbl">Rules</span></div></div>'
+      +'<p class="res-note"><span class="vi">Thi thật cần 30/40 (75%). Để chắc ăn, cố đạt ít nhất 15/20 ở MỖI phần và luyện tới khi thường xuyên được 36/40 trở lên.</span><span class="en">The real test requires 30/40 (75%). Aim for at least 15/20 in each section, and practice until you consistently score 36+.</span></p>';
+  } else {
+    wrap.innerHTML='<div class="res-sign '+(ok===total?'res-pass':'res-study')+'"><div class="res-big">'+ok+' / '+total+'</div><div class="res-sub"><span class="vi">CÂU ĐÚNG</span> · CORRECT</div></div>';
+  }
+  const wrong=S.results.filter(r=>!r.ok);
+  if(wrong.length){
+    const h=document.createElement('h3'); h.className='rev-h';
+    h.innerHTML='<span class="vi">Ôn lại các câu sai ('+wrong.length+')</span><br><span class="en-lbl">Review your mistakes</span>';
+    wrap.appendChild(h);
+    wrong.forEach(r=>{
+      const d=document.createElement('div'); d.className='rev-card';
+      d.innerHTML=(r.q.sign?'<div class="rev-sign">'+SIGNS[r.q.sign]+'</div>':'')
+        +'<p class="rev-q"><span class="vi">'+r.q.qv+'</span><span class="en">'+r.q.qe+'</span></p>'
+        +'<p class="rev-a">✓ <span class="vi">'+r.q.c[r.q.a][0]+'</span><span class="en">'+r.q.c[r.q.a][1]+'</span></p>'
+        +'<p class="rev-e"><span class="vi">'+r.q.ev+'</span><span class="en">'+r.q.ee+'</span></p>';
+      wrap.appendChild(d);
+    });
+  } else {
+    const p=document.createElement('p'); p.className='res-perfect';
+    p.innerHTML='🌟 <span class="vi">Không sai câu nào — quá giỏi!</span> <span class="en-lbl">A perfect run!</span>';
+    wrap.appendChild(p);
+  }
+  $('btn-retry').innerHTML = S.mode==='test'
+    ? '<span class="vi">Thi lại</span><span class="en-lbl">Retake test</span>'
+    : '<span class="vi">Học lại phần này</span><span class="en-lbl">Study again</span>';
+  $('btn-retry').onclick = S.mode==='test' ? ()=>{show('testintro')} : ()=>{S.queue=shuffle(S.queue);S.idx=0;S.results=[];renderQuestion();show('quiz')};
+  show('results');
+}
+
+// ===== INIT =====
+document.addEventListener('DOMContentLoaded',()=>{
+  $('btn-study').onclick=showTopics;
+  $('btn-test').onclick=showTestIntro;
+  $('btn-start-test').onclick=startTest;
+  $('btn-next').onclick=next;
+  document.querySelectorAll('.btn-home').forEach(b=>b.onclick=goHome);
+  $('info-toggle').onclick=()=>{ $('info-body').classList.toggle('hidden'); $('info-toggle').classList.toggle('open'); };
+  renderBest();
+});
+
+// ===== TEXT-TO-SPEECH (phone's built-in Vietnamese voice) =====
+let ttsQueue=[], ttsBtn=null, viVoice=null;
+function loadVoices(){ try{ const vs=speechSynthesis.getVoices(); viVoice=vs.find(v=>v.lang&&v.lang.toLowerCase().startsWith('vi'))||null; }catch(e){} }
+if('speechSynthesis' in window){ loadVoices(); speechSynthesis.onvoiceschanged=loadVoices; }
+function ttsStop(){
+  ttsQueue=[];
+  try{ speechSynthesis.cancel(); }catch(e){}
+  if(ttsBtn){ ttsBtn.classList.remove('playing'); ttsBtn.innerHTML='🔊 <span>Nghe</span>'; }
+  ttsBtn=null;
+}
+function ttsPlay(btn,text){
+  if(!('speechSynthesis' in window)){ alert('Điện thoại này không hỗ trợ giọng đọc. / Speech is not supported on this device.'); return; }
+  if(ttsBtn===btn){ ttsStop(); return; }
+  ttsStop();
+  ttsBtn=btn; btn.classList.add('playing'); btn.innerHTML='⏹ <span>Ngừng</span>';
+  ttsQueue=(text.match(/[^.!?…:]+[.!?…:]*/g)||[text]).map(s=>s.trim()).filter(Boolean);
+  ttsNext();
+}
+function ttsNext(){
+  if(!ttsQueue.length){ ttsStop(); return; }
+  const u=new SpeechSynthesisUtterance(ttsQueue.shift());
+  u.lang='vi-VN'; if(viVoice)u.voice=viVoice; u.rate=0.95;
+  u.onend=ttsNext;
+  u.onerror=()=>{ if(ttsQueue.length)ttsNext(); else ttsStop(); };
+  speechSynthesis.speak(u);
+}
+
+// ===== HANDBOOK RENDER =====
+let chIdx=0;
+function showBook(){
+  ttsStop();
+  const wrap=$('book-list'); wrap.innerHTML='';
+  BOOK.forEach((c,i)=>{
+    const b=document.createElement('button');
+    b.className='topic-card book-card';
+    b.innerHTML='<span class="topic-icon">'+SIGNS[c.icon]+'</span><span class="topic-txt"><span class="t-vi">'+(i+1)+'. '+c.vi+'</span><span class="t-en">'+c.en+'</span><span class="t-n">'+c.secs.length+' phần · sections</span></span><span class="chev chev-b">›</span>';
+    b.onclick=()=>openChapter(i);
+    wrap.appendChild(b);
+  });
+  show('book');
+}
+function openChapter(i){
+  ttsStop(); chIdx=i;
+  const c=BOOK[i], wrap=$('ch-body');
+  let h='<div class="ch-hdr"><span class="ch-num">CHƯƠNG '+(i+1)+' · CHAPTER '+(i+1)+'</span><h2 class="ch-vi">'+c.vi+'</h2><p class="ch-en">'+c.en+'</p>'
+       +'<button class="tts-btn tts-all" id="tts-all">🔊 <span>Nghe hết chương · Listen to chapter</span></button></div>';
+  c.secs.forEach((s,si)=>{
+    h+='<div class="sec"><div class="sec-head"><h3><span class="vi">'+s.tv+'</span><span class="en">'+s.te+'</span></h3>'
+      +'<button class="tts-btn" data-si="'+si+'">🔊 <span>Nghe</span></button></div>'
+      +'<p class="sec-vi">'+s.pv+'</p><p class="sec-en">'+s.pe+'</p></div>';
+  });
+  if(c.quiz){
+    h+='<div class="quiz-links">';
+    c.quiz.forEach(qc=>{
+      const cat=CATS.find(x=>x.id===qc);
+      if(cat) h+='<button class="quiz-link" data-cat="'+qc+'">✏️ <span class="vi">Luyện tập: '+cat.vi+'</span><span class="en-lbl">Practice: '+cat.en+'</span> →</button>';
+    });
+    h+='</div>';
+  }
+  h+='<div class="ch-nav">'
+    +(i>0?'<button class="ch-prev">← '+BOOK[i-1].vi+'</button>':'<span></span>')
+    +(i<BOOK.length-1?'<button class="ch-next">'+BOOK[i+1].vi+' →</button>':'')
+    +'</div>';
+  wrap.innerHTML=h;
+  wrap.querySelectorAll('.tts-btn[data-si]').forEach(b=>{
+    b.onclick=()=>ttsPlay(b, c.secs[+b.dataset.si].tv+'. '+c.secs[+b.dataset.si].pv);
+  });
+  $('tts-all').onclick=()=>ttsPlay($('tts-all'), 'Chương '+(i+1)+'. '+c.vi+'. '+c.secs.map(s=>s.tv+'. '+s.pv).join(' '));
+  wrap.querySelectorAll('.quiz-link').forEach(b=>b.onclick=()=>{ ttsStop(); startStudy(b.dataset.cat); });
+  const pv=wrap.querySelector('.ch-prev'); if(pv)pv.onclick=()=>openChapter(i-1);
+  const nx=wrap.querySelector('.ch-next'); if(nx)nx.onclick=()=>openChapter(i+1);
+  show('chapter');
+}
+document.addEventListener('DOMContentLoaded',()=>{
+  $('btn-book').onclick=showBook;
+  $('btn-book-back').onclick=showBook;
+});
+
+</script>
+</body>
+</html>

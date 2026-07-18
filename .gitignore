@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Editor / OS cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Dream Studio: personal notes and machine-local marker
+.planning/personal/
+.dream-studio-project
