@@ -5,7 +5,7 @@
  */
 import { initI18n, t, bilingual, applyTranslations, getLangMode, applyLangMode, SETTINGS_KEYS } from "../i18n/i18n.js";
 import { register, setNotFound, startRouter, currentPath } from "./router.js";
-import { initSettings, migrateLegacyBestScore } from "../storage/settings.js";
+import { initSettings, migrateLegacyBestScore, getSetting, setSetting } from "../storage/settings.js";
 import { studyView } from "../pages/study/study.js";
 import { testView } from "../pages/test/test.js";
 import { flashcardsView } from "../pages/flashcards/flashcards.js";
@@ -85,6 +85,13 @@ function homeView() {
         { value: "light", label: "☀️" },
       ], getTheme())}
     </div>
+    <div class="setting-row">
+      <span>${bilingual("settings.sound")}</span>
+      ${segButtons("sound", [
+        { value: "on", label: "🔊" },
+        { value: "off", label: "🔇" },
+      ], getSetting("soundOn", true) === false ? "off" : "on")}
+    </div>
   </section>`;
 }
 
@@ -143,6 +150,7 @@ async function boot() {
     const value = btn.dataset.value;
     if (seg === "textsize") applyTextSize(value);
     if (seg === "theme") applyTheme(value);
+    if (seg === "sound") setSetting("soundOn", value === "on");
     if (seg === "langmode") {
       applyLangMode(value);
       // re-render chrome so single-language mode applies everywhere

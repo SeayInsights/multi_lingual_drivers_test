@@ -216,6 +216,19 @@ button { font-family: inherit; cursor: pointer; }
 }
 .tabbar a:focus-visible { outline: 3px solid var(--blue); outline-offset: -3px; }
 
+/* ---- speaker button (tap-to-hear) ---- */
+.speak-btn {
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--line);
+  border-radius: 50%;
+  background: var(--card);
+  font-size: 1.15rem;
+  flex: none;
+  vertical-align: middle;
+}
+.speak-btn:active { transform: scale(.95); }
+
 /* ---- large switch (a11y-sized replacement for native checkboxes) ---- */
 input[type="checkbox"].switch {
   appearance: none;

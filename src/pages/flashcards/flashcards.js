@@ -7,6 +7,7 @@ import { t, bilingual } from "../../i18n/i18n.js";
 import { logAnswer, newSessionId } from "../../storage/events.js";
 import { getSetting } from "../../storage/settings.js";
 import { buildDeck, promote, demote } from "../../srs/leitner.js";
+import { speakerButton, wireSpeech } from "../../audio/tts.js";
 
 let bank = null;
 let deck = [];
@@ -35,9 +36,14 @@ function cardHtml() {
       <img src="${q.sign.image}" alt="${esc(q.sign.code)}" style="max-height:200px;max-width:80%">
     </div>
     <p style="text-align:center;color:var(--muted)">${bilingual("flash.tapToFlip")}</p>`;
+  const lang = document.documentElement.lang === "en" ? "en-US" : "vi-VN";
+  const backSpeech = `${q.choices[q.answerIndex].text[lang] ?? q.choices[q.answerIndex].text["en-US"]}. ${q.explanation[lang] ?? q.explanation["en-US"]}`;
   const back = `
     <div style="min-height:220px">
-      <p style="font-weight:800;font-size:1.15rem">${L(q.choices[q.answerIndex].text)}</p>
+      <div style="display:flex;gap:10px;align-items:flex-start">
+        <p style="font-weight:800;font-size:1.15rem;flex:1;margin-top:0">${L(q.choices[q.answerIndex].text)}</p>
+        ${speakerButton(backSpeech, lang)}
+      </div>
       <p>${L(q.explanation)}</p>
     </div>
     <p style="text-align:center;color:var(--muted);font-family:var(--font-sign);font-weight:700">${esc(q.sign.code)}</p>`;
@@ -96,6 +102,7 @@ async function bootFlashcards() {
   }
   if (root.dataset.wired) return;
   root.dataset.wired = "1";
+  wireSpeech(root);
   root.addEventListener("click", onClick);
   // swipe: pointer horizontal delta on the card
   let startX = null;
@@ -127,6 +134,7 @@ async function resolveCard(knewIt) {
 }
 
 async function onClick(e) {
+  if (e.target.closest("[data-speak]")) return; // speaker taps never flip the card
   const root = document.getElementById("flash-root");
   const btn = e.target.closest("[data-act]");
   if (btn) {

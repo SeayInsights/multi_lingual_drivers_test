@@ -10,6 +10,15 @@ import { logAnswer, newSessionId } from "../../storage/events.js";
 import { getSetting, setSetting } from "../../storage/settings.js";
 import { fillDueBadges } from "../../srs/badge.js";
 import { fillReviewBadges } from "../review/review.js";
+import { speakerButton, wireSpeech } from "../../audio/tts.js";
+
+/** Question + lettered choices as one speakable text in the display language. */
+function speechText(q, order) {
+  const lang = document.documentElement.lang === "en" ? "en-US" : "vi-VN";
+  const parts = [q.text[lang] ?? q.text["en-US"]];
+  order.forEach((ci, k) => parts.push(`${"ABCD"[k]}. ${q.choices[ci].text[lang] ?? q.choices[ci].text["en-US"]}`));
+  return { text: parts.join(". "), lang };
+}
 
 let bank = null;          // loaded questions.json
 let stateCode = "oh";
@@ -99,7 +108,10 @@ function questionHtml() {
       <div style="height:100%;width:${(session.pos / total) * 100}%;background:var(--green);border-radius:99px"></div>
     </div>
     ${sign}
-    <h2 style="font-size:1.15rem">${L(q.text)}</h2>
+    <div style="display:flex;gap:10px;align-items:flex-start">
+      <h2 style="font-size:1.15rem;flex:1;margin-top:0">${L(q.text)}</h2>
+      ${(() => { const s = speechText(q, session.order); return speakerButton(s.text, s.lang); })()}
+    </div>
     <div id="choices">
       ${session.order.map((ci, k) => `
         <button class="btn btn-secondary choice" data-act="answer" data-choice="${ci}"
@@ -170,6 +182,7 @@ async function bootStudy() {
     root.dataset.wired = "1";
     root.addEventListener("click", onClick);
   }
+  wireSpeech(root);
 }
 
 async function onClick(e) {
