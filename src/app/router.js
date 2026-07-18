@@ -22,6 +22,8 @@ export function navigate(path) {
   location.hash = `#${path}`;
 }
 
+let activeRender = null;
+
 export function startRouter(viewEl, { onNavigate } = {}) {
   const render = () => {
     const path = currentPath();
@@ -31,6 +33,12 @@ export function startRouter(viewEl, { onNavigate } = {}) {
     window.scrollTo(0, 0);
     onNavigate?.(path);
   };
+  activeRender = render;
   window.addEventListener("hashchange", render);
   render();
+}
+
+/** Re-render the current view in place (e.g. after a language-mode change). */
+export function rerender() {
+  activeRender?.();
 }

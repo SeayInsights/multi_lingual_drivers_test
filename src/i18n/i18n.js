@@ -32,9 +32,14 @@ export async function initI18n({ primary = "vi-VN", fallback = FALLBACK } = {}) 
   applyLangMode(getLangMode());
 }
 
-/** Translate key in the given locale (defaults to primary), with {param} substitution. */
-export function t(key, params = {}, tag = primaryTag) {
-  const data = locales.get(tag) ?? locales.get(FALLBACK);
+/**
+ * Translate key with {param} substitution. The default locale follows the
+ * language mode: EN-only mode resolves en-US so every t()-rendered string
+ * (counters, labels, badges) switches with the rest of the app.
+ */
+export function t(key, params = {}, tag = null) {
+  const effective = tag ?? (getLangMode() === "en" ? FALLBACK : primaryTag);
+  const data = locales.get(effective) ?? locales.get(FALLBACK);
   let s = data?.strings?.[key] ?? locales.get(FALLBACK)?.strings?.[key] ?? key;
   for (const [k, v] of Object.entries(params)) s = s.replaceAll(`{${k}}`, String(v));
   return s;
@@ -49,7 +54,7 @@ export const tEn = (key, params = {}) => t(key, params, FALLBACK);
  * readers switch pronunciation.
  */
 export function bilingual(key, params = {}) {
-  const vi = escapeHtml(t(key, params));
+  const vi = escapeHtml(t(key, params, primaryTag));
   const en = escapeHtml(tEn(key, params));
   return `<span class="vi-main" lang="vi">${vi}</span><span class="en-sub" lang="en">${en}</span>`;
 }

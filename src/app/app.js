@@ -4,7 +4,7 @@
  * implementations arrive in later work orders and replace the registrations.
  */
 import { initI18n, t, bilingual, applyTranslations, getLangMode, applyLangMode, SETTINGS_KEYS } from "../i18n/i18n.js";
-import { register, setNotFound, startRouter, currentPath } from "./router.js";
+import { register, setNotFound, startRouter, currentPath, rerender } from "./router.js";
 import { initSettings, migrateLegacyBestScore, getSetting, setSetting } from "../storage/settings.js";
 import { studyView } from "../pages/study/study.js";
 import { testView } from "../pages/test/test.js";
@@ -153,13 +153,15 @@ async function boot() {
     if (seg === "sound") setSetting("soundOn", value === "on");
     if (seg === "langmode") {
       applyLangMode(value);
-      // re-render chrome so single-language mode applies everywhere
+      // re-render chrome AND the active view so every t()-rendered string switches
       applyTranslations(document);
       nav.querySelectorAll("a").forEach((a) => {
         const tab = TABS.find((x) => x.path === a.dataset.path);
         a.innerHTML = `<span class="ico" aria-hidden="true">${tab.ico}</span>${bilingual(tab.key)}`;
         if (tab.path === currentPath()) a.setAttribute("aria-current", "page");
       });
+      rerender();
+      return; // rerender rebuilt the segs with correct aria-pressed
     }
     for (const b of btn.parentElement.children) b.setAttribute("aria-pressed", String(b === btn));
   });
