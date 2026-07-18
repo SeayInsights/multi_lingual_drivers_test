@@ -62,3 +62,8 @@ def test_index_boots_module_shell():
     text = body.decode("utf-8", errors="replace")
     assert 'type="module"' in text and "src/app/app.js" in text
     assert 'id="tabbar"' in text and 'id="view"' in text
+
+
+def test_study_page_module_live():
+    status, headers, body = _get(f"{BASE}/src/pages/study/study.js")
+    assert status == 200 and b"logAnswer" in body
