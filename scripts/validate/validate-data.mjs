@@ -132,6 +132,15 @@ for (let i = 1; i < files.length; i++) {
 }
 if (files.length > 1 && errors.length === 0) ok(`locale key parity across ${files.length} files`);
 
+// ---- 5: service worker version guard (stale-release protection) ----
+import { spawnSync } from "node:child_process";
+const swCheck = spawnSync(process.execPath, [join(ROOT, "scripts", "validate", "check-sw-version.mjs")], { encoding: "utf-8" });
+if (swCheck.status === 0) {
+  ok(swCheck.stdout.trim());
+} else {
+  fail(`sw-version: ${(swCheck.stderr || swCheck.stdout).trim()}`);
+}
+
 // ---- verdict ----
 if (errors.length) {
   console.error(`\n✗ ${errors.length} validation error(s):`);
