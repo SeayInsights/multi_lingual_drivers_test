@@ -49,9 +49,34 @@ test("logAnswer validates its input", async () => {
 });
 
 test("recentlyMissedQuestionIds returns unique wrong answers, newest first", async () => {
+  // Self-seeded (not order-coupled): two misses on one question, one on another
+  const sessionId = events.newSessionId();
+  await events.logAnswer({ state: "oh", mode: "review", questionId: "oh-seed-miss-1", choiceIndex: 0, correct: false, sessionId, locale: "vi-VN" });
+  await events.logAnswer({ state: "oh", mode: "review", questionId: "oh-seed-miss-1", choiceIndex: 1, correct: false, sessionId, locale: "vi-VN" });
+  await events.logAnswer({ state: "oh", mode: "review", questionId: "oh-seed-miss-2", choiceIndex: 0, correct: false, sessionId, locale: "vi-VN" });
   const missed = await events.recentlyMissedQuestionIds();
-  assert.ok(missed.includes("oh-signs-001"));
-  assert.equal(new Set(missed).size, missed.length);
+  assert.ok(missed.includes("oh-seed-miss-1"));
+  assert.ok(missed.includes("oh-seed-miss-2"));
+  assert.equal(new Set(missed).size, missed.length, "ids must be unique");
+});
+
+test("allEvents returns every stored record", async () => {
+  const sessionId = events.newSessionId();
+  const countBefore = (await events.allEvents()).length;
+  await events.logAnswer({ state: "oh", mode: "study", questionId: "oh-seed-all-1", choiceIndex: 0, correct: true, sessionId, locale: "vi-VN" });
+  const all = await events.allEvents();
+  assert.equal(all.length, countBefore + 1);
+  assert.ok(all.some((e) => e.questionId === "oh-seed-all-1"));
+});
+
+test("app boot wires storage init and legacy migration (source-level)", async () => {
+  // Behavioral boot test needs a DOM (covered by WO-6 browser integration);
+  // this guards the wiring the WO-5 review found missing.
+  const { readFileSync } = await import("node:fs");
+  const src = readFileSync(new URL("../src/app/app.js", import.meta.url), "utf-8");
+  assert.match(src, /import\s*\{[^}]*initSettings[^}]*migrateLegacyBestScore[^}]*\}\s*from\s*"\.\.\/storage\/settings\.js"/);
+  assert.match(src, /await\s+initSettings\(\)/);
+  assert.match(src, /await\s+migrateLegacyBestScore\(\)/);
 });
 
 test("settings persist, broadcast, and mirror boot keys to localStorage", async () => {

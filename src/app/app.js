@@ -5,6 +5,7 @@
  */
 import { initI18n, t, bilingual, applyTranslations, getLangMode, applyLangMode, SETTINGS_KEYS } from "../i18n/i18n.js";
 import { register, setNotFound, startRouter, currentPath } from "./router.js";
+import { initSettings, migrateLegacyBestScore } from "../storage/settings.js";
 
 const TABS = [
   { path: "/home", key: "tab.home", ico: "🏠" },
@@ -81,6 +82,11 @@ async function boot() {
   applyTextSize(getTextSize());
   applyTheme(getTheme());
   await initI18n({ primary: "vi-VN" });
+
+  // Storage layer: load persisted settings, then one-time import of the
+  // legacy Ohio quiz best score (localStorage 'ohioBest') into the new store.
+  await initSettings();
+  await migrateLegacyBestScore();
 
   // header + static chrome
   applyTranslations(document);
