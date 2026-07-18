@@ -25,7 +25,7 @@
     "strings": {
       "type": "object",
       "minProperties": 1,
-      "propertyNames": { "pattern": "^[a-z][a-zA-Z0-9]*(\\.[a-z][a-zA-Z0-9]*)+$" },
+      "propertyNames": { "pattern": "^[a-z][a-zA-Z0-9-]*(\\.[a-z][a-zA-Z0-9-]*)+$" },
       "additionalProperties": { "type": "string", "minLength": 1 }
     }
   }

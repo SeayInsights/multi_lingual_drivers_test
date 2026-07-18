@@ -12,6 +12,7 @@ import { flashcardsView } from "../pages/flashcards/flashcards.js";
 import { fillDueBadges } from "../srs/badge.js";
 import { reviewView, fillReviewBadges } from "../pages/review/review.js";
 import { signsView } from "../pages/signs/signs.js";
+import { progressView } from "../pages/progress/progress.js";
 
 const TABS = [
   { path: "/home", key: "tab.home", ico: "🏠" },
@@ -130,7 +131,7 @@ async function boot() {
   register("/test", testView);
   register("/flashcards", flashcardsView);
   register("/review", reviewView);
-  register("/progress", placeholder("tab.progress"));
+  register("/progress", progressView);
   setNotFound(() => `<section class="card"><h2>404</h2><p><a href="#/home">${t("action.back")}</a></p></section>`);
 
   const viewEl = document.getElementById("view");
