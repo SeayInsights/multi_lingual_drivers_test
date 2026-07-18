@@ -10,6 +10,7 @@ import { studyView } from "../pages/study/study.js";
 import { testView } from "../pages/test/test.js";
 import { flashcardsView } from "../pages/flashcards/flashcards.js";
 import { fillDueBadges } from "../srs/badge.js";
+import { reviewView, fillReviewBadges } from "../pages/review/review.js";
 
 const TABS = [
   { path: "/home", key: "tab.home", ico: "🏠" },
@@ -44,14 +45,19 @@ function segButtons(name, options, current) {
 
 function homeView() {
   queueMicrotask(fillDueBadges);
+  queueMicrotask(fillReviewBadges);
   return `
   <section class="card card-green">
     <h2>${bilingual("home.welcome")}</h2>
     <p>${bilingual("app.tagline")}</p>
   </section>
-  <a class="btn btn-secondary" href="#/flashcards" style="margin-bottom:14px;text-decoration:none;justify-content:space-between">
+  <a class="btn btn-secondary" href="#/flashcards" style="margin-bottom:10px;text-decoration:none;justify-content:space-between">
     <span>🃏 ${bilingual("flash.entry")}</span>
     <span class="flash-due-badge" style="font-weight:600;font-size:.85em;color:var(--muted)"></span>
+  </a>
+  <a class="btn btn-secondary" href="#/review" style="margin-bottom:14px;text-decoration:none;justify-content:space-between">
+    <span>🔁 ${bilingual("review.entry")}</span>
+    <span class="review-missed-badge" style="font-weight:600;font-size:.85em;color:var(--orange)"></span>
   </a>
   <section class="card">
     <h2>${bilingual("settings.title")}</h2>
@@ -115,6 +121,7 @@ async function boot() {
   register("/signs", placeholder("tab.signs"));
   register("/test", testView);
   register("/flashcards", flashcardsView);
+  register("/review", reviewView);
   register("/progress", placeholder("tab.progress"));
   setNotFound(() => `<section class="card"><h2>404</h2><p><a href="#/home">${t("action.back")}</a></p></section>`);
 
