@@ -142,7 +142,64 @@ async function boot() {
   });
 }
 
-boot().catch((err) => {
+/* ---------- PWA: service worker, update toast, install prompt ---------- */
+let deferredInstall = null;
+
+function showToast(html) {
+  let el = document.getElementById("toast");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "toast";
+    el.className = "toast";
+    document.body.appendChild(el);
+  }
+  el.innerHTML = html;
+  el.classList.add("show");
+}
+
+function wirePwa() {
+  if (!("serviceWorker" in navigator)) return;
+  navigator.serviceWorker.register("sw.js").then((reg) => {
+    reg.addEventListener("updatefound", () => {
+      const sw = reg.installing;
+      sw?.addEventListener("statechange", () => {
+        if (sw.state === "installed" && navigator.serviceWorker.controller) {
+          showToast(`${bilingual("pwa.updateAvailable")}
+            <button class="btn btn-primary" id="do-update" style="margin-top:8px">${bilingual("pwa.updateAction")}</button>`);
+          document.getElementById("do-update").onclick = () => sw.postMessage("SKIP_WAITING");
+        }
+      });
+    });
+  }).catch(() => { /* PWA is progressive — app works without it */ });
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!reloaded) { reloaded = true; location.reload(); }
+  });
+
+  // Android/desktop install prompt
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    deferredInstall = e;
+    showToast(`${bilingual("pwa.installPrompt")}
+      <button class="btn btn-primary" id="do-install" style="margin-top:8px">${bilingual("action.install")}</button>`);
+    document.getElementById("do-install").onclick = async () => {
+      document.getElementById("toast").classList.remove("show");
+      await deferredInstall.prompt();
+      deferredInstall = null;
+    };
+  });
+
+  // iOS Safari has no beforeinstallprompt: show the add-to-home-screen hint once
+  const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  if (isIos && !standalone && !localStorage.getItem("mldt.iosHintShown")) {
+    localStorage.setItem("mldt.iosHintShown", "1");
+    showToast(bilingual("pwa.iosInstallHint"));
+    setTimeout(() => document.getElementById("toast")?.classList.remove("show"), 12000);
+  }
+}
+
+boot().then(wirePwa).catch((err) => {
   document.getElementById("view").innerHTML =
     `<section class="card"><h2>⚠️</h2><p>Không tải được ứng dụng · Could not load the app.<br><code>${String(err).replace(/</g, "&lt;")}</code></p></section>`;
 });

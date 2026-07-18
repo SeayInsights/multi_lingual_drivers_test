@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- App icon: highway guide-sign. Content kept inside the maskable safe zone
+       (central 80%) so adaptive-icon crops never clip the artwork. -->
+  <rect width="512" height="512" rx="96" fill="#046A38"/>
+  <rect x="26" y="26" width="460" height="460" rx="78" fill="none" stroke="#FFFFFF" stroke-width="16"/>
+  <!-- car glyph -->
+  <g fill="#FFFFFF">
+    <path d="M118 300c0-14 8-38 20-64 10-22 24-34 46-36 24-3 48-4 72-4s48 1 72 4c22 2 36 14 46 36 12 26 20 50 20 64v66c0 10-8 18-18 18h-22c-10 0-18-8-18-18v-12H150v12c0 10-8 18-18 18h-22c-10 0-18-8-18-18v-66z"/>
+  </g>
+  <g fill="#046A38">
+    <path d="M164 232c8-18 16-26 30-27 20-2 42-3 62-3s42 1 62 3c14 1 22 9 30 27l10 24c-34-4-68-6-102-6s-68 2-102 6l10-24z"/>
+    <circle cx="170" cy="322" r="22"/>
+    <circle cx="342" cy="322" r="22"/>
+  </g>
+  <!-- route shield text -->
+  <text x="256" y="452" font-family="Arial, sans-serif" font-size="64" font-weight="900" fill="#FFC72C" text-anchor="middle">LÁI XE</text>
+</svg>

@@ -216,6 +216,28 @@ button { font-family: inherit; cursor: pointer; }
 }
 .tabbar a:focus-visible { outline: 3px solid var(--blue); outline-offset: -3px; }
 
+/* ---- toast (PWA update / install) ---- */
+.toast {
+  position: fixed;
+  left: 14px;
+  right: 14px;
+  bottom: calc(84px + env(safe-area-inset-bottom));
+  max-width: 612px;
+  margin: 0 auto;
+  background: var(--card);
+  color: var(--ink);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  font-weight: 600;
+  box-shadow: inset 0 0 0 2px var(--card), inset 0 0 0 4px var(--green), 0 6px 20px var(--shadow);
+  transform: translateY(20px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform .2s, opacity .2s;
+  z-index: 20;
+}
+.toast.show { transform: none; opacity: 1; pointer-events: auto; }
+
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
