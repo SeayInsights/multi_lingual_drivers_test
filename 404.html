@@ -22,7 +22,11 @@ body{
 h1{font-size:2.4rem; font-weight:900; margin:0 0 4px; letter-spacing:.04em}
 p{margin:0 0 6px}
 .en{font-size:.9rem; opacity:.9}
-a{color:#fff; font-weight:800}
+a.home-btn{
+  display:inline-block; margin-top:10px; padding:13px 22px; min-height:48px;
+  background:#fff; color:var(--red); font-weight:800; text-decoration:none;
+  border-radius:12px; box-sizing:border-box;
+}
 </style>
 </head>
 <body>
@@ -30,7 +34,7 @@ a{color:#fff; font-weight:800}
   <h1>WRONG WAY</h1>
   <p>Không tìm thấy trang này.</p>
   <p class="en">This page was not found.</p>
-  <p><a href="./">← Về trang chính · Back home</a></p>
+  <p><a class="home-btn" href="./">← Về trang chính · Back home</a></p>
 </main>
 </body>
 </html>

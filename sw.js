@@ -7,7 +7,7 @@
  * Strategy: cache-first for same-origin GETs, falling back to network, with a
  * versioned cache purged on activate. Bump VERSION on every release.
  */
-const VERSION = "v1.0.1";
+const VERSION = "v1.0.2";
 const CACHE = `mldt-${VERSION}`;
 
 const CORE = [

@@ -56,7 +56,7 @@ function introHtml() {
     <p><span class="vi-main" lang="vi">${esc(rules)}</span><span class="en-sub" lang="en">${esc(rulesEn)}</span></p>
     <label class="setting-row" style="border:none">
       <span>${bilingual("test.timedOption")}</span>
-      <input type="checkbox" id="timer-opt" style="width:26px;height:26px;accent-color:var(--green)">
+      <input type="checkbox" id="timer-opt" class="switch">
     </label>
     <button class="btn btn-primary" data-act="begin">${bilingual("test.begin")}</button>
   </section>`;
