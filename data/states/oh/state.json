@@ -1,0 +1,48 @@
+{
+  "code": "oh",
+  "name": { "en-US": "Ohio", "vi-VN": "Ohio" },
+  "agency": {
+    "name": { "en-US": "Ohio Bureau of Motor Vehicles", "vi-VN": "Nha Lộ Vận Ohio (BMV)" },
+    "abbreviation": "BMV",
+    "website": "https://www.bmv.ohio.gov/",
+    "handbookUrl": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+  },
+  "test": {
+    "totalQuestions": 40,
+    "passingRule": "per-section",
+    "timeLimitMinutes": null,
+    "sections": [
+      {
+        "id": "signs",
+        "name": { "en-US": "Road signs", "vi-VN": "Biển báo giao thông" },
+        "questionCount": 20,
+        "minCorrect": 15
+      },
+      {
+        "id": "rules",
+        "name": { "en-US": "Motor vehicle laws", "vi-VN": "Luật giao thông" },
+        "questionCount": 20,
+        "minCorrect": 15
+      }
+    ]
+  },
+  "licensing": {
+    "minPermitAge": 15.5,
+    "notes": {
+      "en-US": "The knowledge test has 40 questions in two sections of 20 (road signs and motor vehicle laws); you must score 75% (15 of 20) in each section. The test is untimed. A temporary instruction permit (TIPIC) is available from age 15 years, 6 months.",
+      "vi-VN": "Bài thi lý thuyết có 40 câu chia làm hai phần, mỗi phần 20 câu (biển báo và luật giao thông); phải đúng 75% (15/20) ở MỖI phần mới đậu. Bài thi không giới hạn thời gian. Có thể lấy giấy phép tập lái (TIPIC) từ 15 tuổi rưỡi."
+    }
+  },
+  "sources": [
+    {
+      "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+      "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Ohio BMV — Get a Temporary Instruction Permit (knowledge test format)",
+      "url": "https://www.bmv.ohio.gov/dl-tipic.aspx",
+      "accessed": "2026-07-18"
+    }
+  ]
+}

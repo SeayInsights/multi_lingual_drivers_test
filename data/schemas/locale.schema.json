@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://seayinsights.github.io/multi_lingual_drivers_test/data/schemas/locale.schema.json",
+  "title": "UI locale file",
+  "description": "All user-interface strings for one language. Adding a language to the app means adding one file that validates against this schema. Design decisions: (1) flat dot-namespaced keys (tab.home, quiz.correct) — trivial to diff, translate, and parity-check across languages; (2) {placeholders} in braces are substituted at runtime and must match across all locales for the same key; (3) the validator enforces exact key parity between every locale file, so a missing translation is a build failure, never a silent English fallback surprise.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["meta", "strings"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "englishName", "nativeName", "direction"],
+      "properties": {
+        "code": { "type": "string", "pattern": "^[a-z]{2,3}-[A-Z]{2}$" },
+        "englishName": { "type": "string", "minLength": 2 },
+        "nativeName": { "type": "string", "minLength": 2 },
+        "direction": { "enum": ["ltr", "rtl"] },
+        "notes": {
+          "description": "Translator guidance, e.g. dialect conventions.",
+          "type": "string"
+        }
+      }
+    },
+    "strings": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "pattern": "^[a-z][a-zA-Z0-9]*(\\.[a-z][a-zA-Z0-9]*)+$" },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    }
+  }
+}

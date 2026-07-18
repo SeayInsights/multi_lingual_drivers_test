@@ -1,0 +1,15 @@
+{
+  "name": "multi_lingual_drivers_test",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Free multilingual US driver's license practice test PWA (static site — this package.json exists only for dev tooling; deployment has no build step)",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate/validate-data.mjs",
+    "test": "pytest tests/ -q"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}
