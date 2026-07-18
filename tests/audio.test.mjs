@@ -82,6 +82,26 @@ test("speakerButton renders only when a voice exists; escapes text", () => {
   assert.equal(tts.speakerButton("x", "vi-VN"), "", "no voice -> no button");
 });
 
+test("speakerButtonAuto: prefers display language, falls back across languages", () => {
+  document.documentElement.lang = "vi";
+  // both voices: vietnamese preferred in vi mode
+  tts._inject({ synth: fakeSynth([{ lang: "vi-VN" }, { lang: "en-US" }]).synth, Utterance: FakeUtterance });
+  assert.match(tts.speakerButtonAuto({ vi: "xin chào", en: "hello" }), /data-lang="vi-VN"/);
+  // english-only voice (typical desktop): falls back to EN with the ENGLISH text
+  tts._inject({ synth: fakeSynth([{ lang: "en-US" }]).synth, Utterance: FakeUtterance });
+  const html = tts.speakerButtonAuto({ vi: "xin chào", en: "hello" });
+  assert.match(html, /data-lang="en-US"/);
+  assert.match(html, /data-speak="hello"/, "fallback speaks the English text, not Vietnamese");
+  // EN display mode prefers english
+  document.documentElement.lang = "en";
+  tts._inject({ synth: fakeSynth([{ lang: "vi-VN" }, { lang: "en-US" }]).synth, Utterance: FakeUtterance });
+  assert.match(tts.speakerButtonAuto({ vi: "xin chào", en: "hello" }), /data-lang="en-US"/);
+  document.documentElement.lang = "vi";
+  // no voices at all: nothing rendered
+  tts._inject({ synth: fakeSynth([]).synth, Utterance: FakeUtterance });
+  assert.equal(tts.speakerButtonAuto({ vi: "a", en: "b" }), "");
+});
+
 test("no synthesizer at all: available false, speak resolves false, no crash", async () => {
   tts._inject({ synth: null, Utterance: null });
   assert.equal(tts.available("vi-VN"), false);

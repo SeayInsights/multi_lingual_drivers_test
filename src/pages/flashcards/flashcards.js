@@ -7,7 +7,7 @@ import { t, bilingual } from "../../i18n/i18n.js";
 import { logAnswer, newSessionId } from "../../storage/events.js";
 import { getSetting } from "../../storage/settings.js";
 import { buildDeck, promote, demote } from "../../srs/leitner.js";
-import { speakerButton, wireSpeech } from "../../audio/tts.js";
+import { speakerButtonAuto, wireSpeech } from "../../audio/tts.js";
 
 let bank = null;
 let deck = [];
@@ -40,13 +40,15 @@ function cardHtml() {
       <img src="${q.sign.image}" alt="${esc(q.sign.code)}" style="max-height:200px;max-width:80%">
     </div>
     <p style="text-align:center;color:var(--muted)">${bilingual("flash.tapToFlip")}</p>`;
-  const lang = document.documentElement.lang === "en" ? "en-US" : "vi-VN";
-  const backSpeech = `${q.choices[q.answerIndex].text[lang] ?? q.choices[q.answerIndex].text["en-US"]}. ${q.explanation[lang] ?? q.explanation["en-US"]}`;
+  const backSpeech = {
+    vi: `${q.choices[q.answerIndex].text["vi-VN"] ?? q.choices[q.answerIndex].text["en-US"]}. ${q.explanation["vi-VN"] ?? q.explanation["en-US"]}`,
+    en: `${q.choices[q.answerIndex].text["en-US"]}. ${q.explanation["en-US"]}`,
+  };
   const back = `
     <div style="min-height:220px">
       <div style="display:flex;gap:10px;align-items:flex-start">
         <p style="font-weight:800;font-size:1.15rem;flex:1;margin-top:0">${L(q.choices[q.answerIndex].text)}</p>
-        ${speakerButton(backSpeech, lang)}
+        ${speakerButtonAuto(backSpeech)}
       </div>
       <p>${L(q.explanation)}</p>
     </div>

@@ -6,13 +6,15 @@
 import { t, bilingual } from "../../i18n/i18n.js";
 import { logAnswer, newSessionId, recentlyMissedQuestionIds } from "../../storage/events.js";
 import { getSetting } from "../../storage/settings.js";
-import { speakerButton, wireSpeech } from "../../audio/tts.js";
+import { speakerButtonAuto, wireSpeech } from "../../audio/tts.js";
 
-function speechText(q, order) {
-  const lang = document.documentElement.lang === "en" ? "en-US" : "vi-VN";
-  const parts = [q.text[lang] ?? q.text["en-US"]];
-  order.forEach((ci, k) => parts.push(`${"ABCD"[k]}. ${q.choices[ci].text[lang] ?? q.choices[ci].text["en-US"]}`));
-  return { text: parts.join(". "), lang };
+function speechTexts(q, order) {
+  const build = (lang) => {
+    const parts = [q.text[lang] ?? q.text["en-US"]];
+    order.forEach((ci, k) => parts.push(`${"ABCD"[k]}. ${q.choices[ci].text[lang] ?? q.choices[ci].text["en-US"]}`));
+    return parts.join(". ");
+  };
+  return { vi: build("vi-VN"), en: build("en-US") };
 }
 
 let bank = null;
@@ -76,7 +78,7 @@ function questionHtml() {
     ${sign}
     <div style="display:flex;gap:10px;align-items:flex-start">
       <h2 style="font-size:1.15rem;flex:1;margin-top:0">${L(q.text)}</h2>
-      ${(() => { const s = speechText(q, order); return speakerButton(s.text, s.lang); })()}
+      ${speakerButtonAuto(speechTexts(q, order))}
     </div>
     <div id="choices">
       ${order.map((ci, k) => `

@@ -10,14 +10,16 @@ import { logAnswer, newSessionId } from "../../storage/events.js";
 import { getSetting, setSetting } from "../../storage/settings.js";
 import { fillDueBadges } from "../../srs/badge.js";
 import { fillReviewBadges } from "../review/review.js";
-import { speakerButton, wireSpeech } from "../../audio/tts.js";
+import { speakerButtonAuto, wireSpeech } from "../../audio/tts.js";
 
-/** Question + lettered choices as one speakable text in the display language. */
-function speechText(q, order) {
-  const lang = document.documentElement.lang === "en" ? "en-US" : "vi-VN";
-  const parts = [q.text[lang] ?? q.text["en-US"]];
-  order.forEach((ci, k) => parts.push(`${"ABCD"[k]}. ${q.choices[ci].text[lang] ?? q.choices[ci].text["en-US"]}`));
-  return { text: parts.join(". "), lang };
+/** Question + lettered choices as speakable text in BOTH languages. */
+function speechTexts(q, order) {
+  const build = (lang) => {
+    const parts = [q.text[lang] ?? q.text["en-US"]];
+    order.forEach((ci, k) => parts.push(`${"ABCD"[k]}. ${q.choices[ci].text[lang] ?? q.choices[ci].text["en-US"]}`));
+    return parts.join(". ");
+  };
+  return { vi: build("vi-VN"), en: build("en-US") };
 }
 
 let bank = null;          // loaded questions.json
@@ -110,7 +112,7 @@ function questionHtml() {
     ${sign}
     <div style="display:flex;gap:10px;align-items:flex-start">
       <h2 style="font-size:1.15rem;flex:1;margin-top:0">${L(q.text)}</h2>
-      ${(() => { const s = speechText(q, session.order); return speakerButton(s.text, s.lang); })()}
+      ${speakerButtonAuto(speechTexts(q, session.order))}
     </div>
     <div id="choices">
       ${session.order.map((ci, k) => `

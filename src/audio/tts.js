@@ -69,6 +69,23 @@ export function speakFromButton(btn) {
   return speak(btn.dataset.speak, btn.dataset.lang);
 }
 
+/**
+ * Dual-language speaker: prefers the current display language's voice; when
+ * that voice is missing (common for Vietnamese on desktop PCs) it falls back
+ * to the other language, speaking THAT language's text. Renders nothing only
+ * when no voice exists at all.
+ */
+export function speakerButtonAuto({ vi, en }, ariaLabel = "Nghe / Listen") {
+  const preferVi = document.documentElement.lang !== "en";
+  const order = preferVi
+    ? [["vi-VN", vi], ["en-US", en]]
+    : [["en-US", en], ["vi-VN", vi]];
+  for (const [lang, text] of order) {
+    if (text && available(lang)) return speakerButton(text, lang, ariaLabel);
+  }
+  return "";
+}
+
 /** Wire once per page root: delegates speaker taps, cancels on hash change. */
 export function wireSpeech(root) {
   if (root.dataset.speechWired) return;
