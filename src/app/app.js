@@ -6,6 +6,7 @@
 import { initI18n, t, bilingual, applyTranslations, getLangMode, applyLangMode, SETTINGS_KEYS } from "../i18n/i18n.js";
 import { register, setNotFound, startRouter, currentPath } from "./router.js";
 import { initSettings, migrateLegacyBestScore } from "../storage/settings.js";
+import { studyView } from "../pages/study/study.js";
 
 const TABS = [
   { path: "/home", key: "tab.home", ico: "🏠" },
@@ -102,7 +103,7 @@ async function boot() {
   ).join("");
 
   register("/home", homeView);
-  register("/study", placeholder("tab.study"));
+  register("/study", studyView);
   register("/signs", placeholder("tab.signs"));
   register("/test", placeholder("tab.test"));
   register("/progress", placeholder("tab.progress"));
