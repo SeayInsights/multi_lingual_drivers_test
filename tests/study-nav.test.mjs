@@ -72,3 +72,16 @@ test("back control returns to topics without losing progress; resume restores po
   await tick();
   assert.match(q("#study-root strong").textContent, /2\//, "resume restored question 2");
 });
+
+test("re-entering study with a saved session ALWAYS shows the topic list (operator decision)", async () => {
+  // a session exists from the previous test (we resumed into question 2)
+  view.innerHTML = studyView();
+  await tick();
+  assert.ok(q("[data-act=topic]"), "topic list shown on entry");
+  assert.ok(q("[data-act=resume]"), "resume card offered instead of auto-jump");
+  assert.equal(q("#study-root .choice"), null, "no question auto-opened");
+  // and resume still restores the exact position
+  click(q("[data-act=resume]"));
+  await tick();
+  assert.match(q("#study-root strong").textContent, /2\//, "resume position preserved");
+});

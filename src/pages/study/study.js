@@ -175,9 +175,11 @@ async function bootStudy() {
     root.innerHTML = `<section class="card"><p>⚠️ ${esc(String(err))}</p></section>`;
     return;
   }
+  // Entering Study ALWAYS shows the topic list (operator decision 2026-07-18):
+  // a saved session appears as the Resume card, never as an auto-jump.
   const saved = getSetting("study.session");
   session = saved && byId(saved.queue?.[saved.pos]) ? saved : null;
-  root.innerHTML = session ? questionHtml() : topicListHtml();
+  root.innerHTML = topicListHtml();
   if (!root.dataset.wired) {
     root.dataset.wired = "1";
     root.addEventListener("click", onClick);
