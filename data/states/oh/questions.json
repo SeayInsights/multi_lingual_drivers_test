@@ -1,6 +1,6 @@
 {
   "stateCode": "oh",
-  "version": 12,
+  "version": 13,
   "questions": [
     {
       "id": "oh-signs-001",
@@ -10190,6 +10190,906 @@
       "source": {
         "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
         "section": "Signs"
+      }
+    },
+    {
+      "id": "oh-rules-181",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "The two-second rule becomes a four-second (or more) rule when:",
+        "vi-VN": "Quy tắc khoảng cách phải tăng lên gấp đôi (4 giây trở lên) khi:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Roads are wet, icy, or visibility is poor",
+            "vi-VN": "Đường ướt, đóng băng hoặc tầm nhìn kém"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Driving downtown",
+            "vi-VN": "Chạy trong trung tâm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "You're late",
+            "vi-VN": "Bạn đang trễ giờ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Following a small car",
+            "vi-VN": "Chạy sau xe nhỏ"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Stopping distance can double or triple on slick roads — open the gap accordingly.",
+        "vi-VN": "Quãng đường thắng có thể tăng gấp đôi, gấp ba trên đường trơn — hãy nới khoảng cách tương ứng."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Following distance"
+      }
+    },
+    {
+      "id": "oh-rules-182",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Total stopping distance is made up of:",
+        "vi-VN": "Tổng quãng đường dừng xe gồm:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Perception + reaction + braking distance",
+            "vi-VN": "Quãng nhận biết + phản xạ + quãng thắng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Braking distance only",
+            "vi-VN": "Chỉ quãng thắng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Reaction distance only",
+            "vi-VN": "Chỉ quãng phản xạ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The length of your car",
+            "vi-VN": "Chiều dài xe của bạn"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "You travel far before the brakes even engage — at 60 mph you cover 88 feet per second.",
+        "vi-VN": "Xe đi được rất xa trước khi thắng bắt đầu ăn — ở 60 mph mỗi giây xe đi 88 feet."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Speed"
+      }
+    },
+    {
+      "id": "oh-rules-183",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "A truck ahead signals right at an intersection but swings LEFT first. It is probably:",
+        "vi-VN": "Xe tải phía trước xi-nhan phải nhưng lại lượn qua TRÁI trước. Có lẽ nó đang:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Making a wide right turn — do NOT pass on its right",
+            "vi-VN": "Quẹo phải vòng rộng — TUYỆT ĐỐI đừng vượt bên phải nó"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Confused — pass quickly on the right",
+            "vi-VN": "Bối rối — tranh thủ vượt bên phải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Changing its mind",
+            "vi-VN": "Đổi ý"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Broken signals",
+            "vi-VN": "Hư đèn xi-nhan"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Trucks swing left to clear the corner. Squeezing into the right gap puts you in the crush zone.",
+        "vi-VN": "Xe tải phải lượn trái để đủ vòng cua. Chen vào khoảng trống bên phải là tự đưa mình vào điểm bị kẹp."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Sharing the road"
+      }
+    },
+    {
+      "id": "oh-rules-184",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "Leaving a child (or pet) alone in a hot vehicle is:",
+        "vi-VN": "Để trẻ em (hoặc thú cưng) một mình trong xe nóng là:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Extremely dangerous and can be criminal — cars heat lethally in minutes",
+            "vi-VN": "Cực kỳ nguy hiểm và có thể bị truy tố — xe nóng chết người chỉ trong vài phút"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Fine with a window cracked",
+            "vi-VN": "Không sao nếu hé cửa sổ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Fine for under 30 minutes",
+            "vi-VN": "Không sao nếu dưới 30 phút"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Legal in shaded parking",
+            "vi-VN": "Hợp pháp nếu đậu chỗ mát"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Interior temperatures rise ~20°F in 10 minutes; children overheat far faster than adults.",
+        "vi-VN": "Nhiệt độ trong xe tăng ~20°F mỗi 10 phút; trẻ em sốc nhiệt nhanh hơn người lớn rất nhiều."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Safety"
+      }
+    },
+    {
+      "id": "oh-rules-185",
+      "section": "rules",
+      "category": "licensing",
+      "text": {
+        "en-US": "Ohio's minimum insurance requirement is often written 25/50/25. The first '25' means:",
+        "vi-VN": "Bảo hiểm tối thiểu ở Ohio thường ghi 25/50/25. Số '25' đầu tiên nghĩa là:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "$25,000 bodily-injury coverage per person",
+            "vi-VN": "$25,000 bồi thường thương tật cho MỖI người"
+          }
+        },
+        {
+          "text": {
+            "en-US": "$25 monthly premium",
+            "vi-VN": "$25 phí bảo hiểm mỗi tháng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "25 years minimum age",
+            "vi-VN": "Tuổi tối thiểu 25"
+          }
+        },
+        {
+          "text": {
+            "en-US": "$2,500 deductible",
+            "vi-VN": "Mức khấu trừ $2,500"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "25/50/25 = $25k injury per person / $50k per crash / $25k property damage — the legal minimum to drive.",
+        "vi-VN": "25/50/25 = $25k thương tật mỗi người / $50k mỗi vụ / $25k thiệt hại tài sản — mức tối thiểu bắt buộc."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Financial responsibility"
+      }
+    },
+    {
+      "id": "oh-rules-186",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "When an animal suddenly runs in front of your car at speed, the safest general choice is to:",
+        "vi-VN": "Khi thú vật bất ngờ băng ra trước đầu xe đang chạy nhanh, lựa chọn an toàn nhất thường là:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Brake firmly in your lane — do NOT swerve into traffic or off the road",
+            "vi-VN": "Thắng mạnh trong làn — KHÔNG đánh lái sang làn khác hay lao xuống lề"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Swerve hard to miss it at any cost",
+            "vi-VN": "Đánh lái gấp né bằng mọi giá"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Speed up to pass before it",
+            "vi-VN": "Tăng tốc vượt trước nó"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Close your eyes and brace",
+            "vi-VN": "Nhắm mắt chịu trận"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Swerving kills more drivers than deer do — head-ons and rollovers are worse than the animal strike.",
+        "vi-VN": "Đánh lái né gây chết người nhiều hơn cả va vào nai — đối đầu và lật xe nguy hiểm hơn cú va."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Emergencies"
+      }
+    },
+    {
+      "id": "oh-rules-187",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": {
+        "en-US": "Continuous rumble strips under your right tires usually mean:",
+        "vi-VN": "Tiếng rào rào liên tục dưới bánh phải thường có nghĩa là:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "You are drifting onto the shoulder — correct gently back into the lane",
+            "vi-VN": "Xe đang trôi ra lề — chỉnh nhẹ về lại làn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A flat tire",
+            "vi-VN": "Xẹp vỏ xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Engine trouble",
+            "vi-VN": "Hư máy"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Normal highway texture",
+            "vi-VN": "Mặt đường bình thường"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Edge rumble strips wake drowsy or distracted drivers before they leave the road.",
+        "vi-VN": "Gờ rung mép đường đánh thức tài xế buồn ngủ hay lơ đãng trước khi xe văng khỏi đường."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Pavement markings"
+      }
+    },
+    {
+      "id": "oh-rules-188",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "Slowing abruptly to look at a crash scene ('rubbernecking'):",
+        "vi-VN": "Chạy chậm đột ngột để ngó hiện trường tai nạn:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Causes secondary crashes — keep moving at a steady, safe speed",
+            "vi-VN": "Gây tai nạn dây chuyền — hãy giữ tốc độ đều và an toàn đi tiếp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Is required by law",
+            "vi-VN": "Là bắt buộc theo luật"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Helps investigators",
+            "vi-VN": "Giúp điều tra viên"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Is fine in the left lane",
+            "vi-VN": "Không sao nếu ở làn trái"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Attention belongs on the road ahead; gawking causes chain-reaction collisions.",
+        "vi-VN": "Mắt phải để trên đường phía trước; ngoái nhìn gây va chạm dây chuyền."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Safe driving"
+      }
+    },
+    {
+      "id": "oh-rules-189",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "Prescription or over-the-counter medicines that cause drowsiness:",
+        "vi-VN": "Thuốc kê toa hay thuốc thường gây buồn ngủ:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Can lead to an OVI charge just like alcohol",
+            "vi-VN": "Vẫn có thể bị buộc tội OVI như rượu bia"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Are always legal to drive on",
+            "vi-VN": "Luôn được phép lái xe khi uống"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only matter for truck drivers",
+            "vi-VN": "Chỉ áp dụng cho tài xế xe tải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Are fine if bought without prescription",
+            "vi-VN": "Mua không cần toa thì không sao"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "OVI covers impairment by ANY drug — read labels, ask your pharmacist before driving.",
+        "vi-VN": "OVI tính cả việc lái xe kém tỉnh táo do BẤT KỲ loại thuốc nào — đọc nhãn, hỏi dược sĩ trước khi lái."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "OVI"
+      }
+    },
+    {
+      "id": "oh-rules-190",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "When passing another vehicle on a two-lane road, return to your lane when:",
+        "vi-VN": "Khi vượt xe trên đường hai làn, bạn trở về làn cũ khi:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "You can see BOTH of its headlights in your rearview mirror",
+            "vi-VN": "Thấy được CẢ HAI đèn trước của xe đó trong kiếng chiếu hậu"
+          }
+        },
+        {
+          "text": {
+            "en-US": "You clear its front bumper by a foot",
+            "vi-VN": "Qua khỏi cản trước của nó một foot"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The driver waves you in",
+            "vi-VN": "Tài xế kia vẫy tay cho vào"
+          }
+        },
+        {
+          "text": {
+            "en-US": "You feel like it",
+            "vi-VN": "Khi bạn thấy thích"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Both headlights in your mirror = enough clearance to merge back without cutting them off.",
+        "vi-VN": "Thấy đủ hai đèn trong kiếng = đủ khoảng cách để về làn mà không tạt đầu họ."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Passing"
+      }
+    },
+    {
+      "id": "oh-rules-191",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "Blocking an intersection or crosswalk while stopped in traffic:",
+        "vi-VN": "Đứng chắn ngã tư hay vạch người đi bộ khi kẹt xe:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Is illegal even if your light was green when you entered",
+            "vi-VN": "Là phạm luật dù lúc bạn vào đèn vẫn xanh"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Is fine for under one light cycle",
+            "vi-VN": "Không sao nếu dưới một nhịp đèn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Is the cross traffic's problem",
+            "vi-VN": "Là chuyện của hướng xe kia"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Is allowed for large vehicles",
+            "vi-VN": "Xe lớn được phép"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Enter only when you can fully clear — blocked crosswalks force pedestrians into live lanes.",
+        "vi-VN": "Chỉ vào khi chắc chắn thoát được — chắn vạch đi bộ ép người ta phải bước ra làn xe chạy."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Intersections"
+      }
+    },
+    {
+      "id": "oh-rules-192",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Driving with snow/ice left on your roof and windows:",
+        "vi-VN": "Chạy xe khi tuyết/băng còn phủ trên nóc và kính xe:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Is dangerous — clear ALL glass and the roof before driving",
+            "vi-VN": "Nguy hiểm — phải dọn sạch TOÀN BỘ kính và nóc xe trước khi chạy"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Is fine if the windshield has a small clear patch",
+            "vi-VN": "Được, miễn kính trước có một ô nhỏ nhìn được"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Helps insulation",
+            "vi-VN": "Giúp giữ ấm xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only matters for trucks",
+            "vi-VN": "Chỉ xe tải mới cần dọn"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Roof ice flies off at speed and blinds drivers behind; peephole driving is a crash sentence.",
+        "vi-VN": "Băng trên nóc bay xuống xe sau ở tốc độ cao; lái kiểu 'nhìn qua lỗ nhỏ' là án tai nạn chờ sẵn."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Winter driving"
+      }
+    },
+    {
+      "id": "oh-rules-193",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "At a freeway exit, you realize the off-ramp has a posted advisory of 25 mph. This number is:",
+        "vi-VN": "Ở lối ra xa lộ có bảng vàng khuyến cáo 25 mph. Con số này là:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "The safe speed for the ramp's curve in good conditions",
+            "vi-VN": "Tốc độ an toàn cho khúc cua của đường dẫn khi trời tốt"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A suggestion you can ignore",
+            "vi-VN": "Gợi ý có thể bỏ qua"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The minimum speed",
+            "vi-VN": "Tốc độ tối thiểu"
+          }
+        },
+        {
+          "text": {
+            "en-US": "For trucks only",
+            "vi-VN": "Chỉ cho xe tải"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Yellow advisory speeds mark what the geometry can handle — exceeding them on a curve sheds traction fast.",
+        "vi-VN": "Tốc độ khuyến cáo vàng là mức khúc cua chịu được — chạy quá trên cua sẽ mất bám rất nhanh."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Speed"
+      }
+    },
+    {
+      "id": "oh-rules-194",
+      "section": "rules",
+      "category": "licensing",
+      "text": {
+        "en-US": "Refusing a chemical BAC test in Ohio (implied consent) results in:",
+        "vi-VN": "Từ chối xét nghiệm nồng độ cồn ở Ohio (luật đồng ý mặc nhiên) dẫn tới:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "An automatic Administrative License Suspension",
+            "vi-VN": "Bị treo bằng hành chính TỰ ĐỘNG"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Nothing if you weren't drinking",
+            "vi-VN": "Không sao nếu bạn không uống"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A small fixed fine",
+            "vi-VN": "Chỉ phạt tiền nhỏ cố định"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A retest next week",
+            "vi-VN": "Hẹn xét nghiệm lại tuần sau"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Refusal triggers an immediate suspension separate from any OVI outcome — often longer than a failed test.",
+        "vi-VN": "Từ chối bị treo bằng ngay, tách biệt với kết quả vụ OVI — thường còn lâu hơn cả khi thổi rớt."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "OVI — implied consent"
+      }
+    },
+    {
+      "id": "oh-rules-195",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Motorcycles are entitled to:",
+        "vi-VN": "Xe mô-tô có quyền sử dụng:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "A FULL traffic lane, same as a car",
+            "vi-VN": "TRỌN một làn đường, như xe hơi"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Half a lane",
+            "vi-VN": "Nửa làn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The shoulder only",
+            "vi-VN": "Chỉ lề đường"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whatever space cars leave",
+            "vi-VN": "Chỗ nào xe hơi chừa lại"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Never share a motorcycle's lane side-by-side — they need the width to maneuver around hazards.",
+        "vi-VN": "Không bao giờ chạy song song chung làn với mô-tô — họ cần bề rộng làn để né chướng ngại."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Sharing the road"
+      }
+    },
+    {
+      "id": "oh-rules-196",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": {
+        "en-US": "White triangles painted on the pavement pointing at your lane (yield lines) mean:",
+        "vi-VN": "Các tam giác trắng vẽ trên mặt đường hướng vào làn bạn (vạch nhường) nghĩa là:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Yield here — often before a roundabout or crosswalk",
+            "vi-VN": "Nhường tại đây — thường trước vòng xoay hay vạch đi bộ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Speed bumps ahead",
+            "vi-VN": "Gờ giảm tốc phía trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Bike lane crossing",
+            "vi-VN": "Làn xe đạp cắt qua"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Road ends",
+            "vi-VN": "Hết đường"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "'Shark teeth' show exactly where to yield/stop for entering traffic or pedestrians.",
+        "vi-VN": "Vạch 'răng cá mập' cho biết chính xác điểm phải nhường/dừng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Pavement markings"
+      }
+    },
+    {
+      "id": "oh-rules-197",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "If ODOT snowplows are working ahead of you, the safest position is:",
+        "vi-VN": "Nếu xe ủi tuyết đang làm việc phía trước, vị trí an toàn nhất là:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Well behind them — never pass between or beside plows in formation",
+            "vi-VN": "Cách xa phía sau — không bao giờ vượt xen giữa hay kè bên đội xe ủi"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Right beside the plow",
+            "vi-VN": "Sát bên hông xe ủi"
+          }
+        },
+        {
+          "text": {
+            "en-US": "In front of them on clean road",
+            "vi-VN": "Vượt lên trước chạy đường sạch"
+          }
+        },
+        {
+          "text": {
+            "en-US": "In their blind spot",
+            "vi-VN": "Trong điểm mù của họ"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Plows create whiteouts and throw ice; the road BEHIND the plow is the safest surface anywhere.",
+        "vi-VN": "Xe ủi tạo màn tuyết mù và văng đá; mặt đường NGAY SAU xe ủi là chỗ an toàn nhất."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Winter driving"
+      }
+    },
+    {
+      "id": "oh-rules-198",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "You witness aggressive/road-rage driving. You should:",
+        "vi-VN": "Bạn gặp tài xế hung hăng kiểu 'giận dữ trên đường'. Bạn nên:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Avoid eye contact, give them space, and report if dangerous (passenger calls 911)",
+            "vi-VN": "Tránh nhìn thẳng, nhường đường, và nhờ người ngồi cạnh gọi 911 nếu nguy hiểm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Match their behavior to teach a lesson",
+            "vi-VN": "Ăn miếng trả miếng cho họ biết"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Brake-check them",
+            "vi-VN": "Đạp thắng dằn mặt"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Follow them home to talk",
+            "vi-VN": "Bám theo tới nhà để nói chuyện"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Never engage — escalation is how road rage turns deadly. Distance is the win.",
+        "vi-VN": "Đừng bao giờ đôi co — leo thang là cách chuyện nhỏ thành án mạng. Giữ khoảng cách là thắng."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Safe driving"
+      }
+    },
+    {
+      "id": "oh-rules-199",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "In a construction zone with lanes shifted by orange barrels, you should:",
+        "vi-VN": "Trong khu thi công có làn bị nắn bởi thùng phuy cam, bạn nên:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Slow to the work-zone limit and follow the barrel line, not the old lane paint",
+            "vi-VN": "Giảm theo tốc độ công trường và chạy theo hàng thùng phuy, đừng theo vạch sơn cũ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Follow the original painted lanes",
+            "vi-VN": "Chạy theo vạch sơn ban đầu"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Straddle both",
+            "vi-VN": "Chạy giữa cả hai"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Pass the barrels on the closed side",
+            "vi-VN": "Vượt bên phía làn đóng"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Temporary devices override old markings — the barrels ARE the lane.",
+        "vi-VN": "Thiết bị tạm thời thay thế vạch cũ — hàng thùng phuy CHÍNH LÀ làn đường."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Work zones"
+      }
+    },
+    {
+      "id": "oh-rules-200",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Small children should ride:",
+        "vi-VN": "Trẻ nhỏ nên ngồi:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "In the BACK seat, properly restrained for their age and size",
+            "vi-VN": "Ở ghế SAU, với ghế an toàn đúng độ tuổi và kích thước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "In the front for supervision",
+            "vi-VN": "Ghế trước cho dễ trông"
+          }
+        },
+        {
+          "text": {
+            "en-US": "On an adult's lap",
+            "vi-VN": "Trong lòng người lớn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Wherever they prefer",
+            "vi-VN": "Chỗ nào bé thích"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The back seat keeps children away from air-bag deployment forces — the front bag can kill a small child.",
+        "vi-VN": "Ghế sau giữ trẻ tránh xa lực bung của túi khí — túi khí ghế trước có thể gây chết trẻ nhỏ."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "section": "Child restraints"
       }
     }
   ]
