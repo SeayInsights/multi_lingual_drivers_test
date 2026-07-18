@@ -55,6 +55,15 @@ test("bilingual() always renders both languages regardless of mode", () => {
   applyLangMode("both");
 });
 
+test("toasts carry a dismiss control; install dismissal is remembered (source guard)", async () => {
+  const { readFileSync } = await import("node:fs");
+  const src = readFileSync(new URL("../src/app/app.js", import.meta.url), "utf-8");
+  assert.match(src, /id="toast-close"/, "dismiss button rendered in every toast");
+  assert.match(src, /aria-label="Đóng \/ Close"/, "dismiss is labeled");
+  assert.match(src, /dismissKey.*mldt\.installDismissed|mldt\.installDismissed/s, "install dismissal memory");
+  assert.match(src, /localStorage\.getItem\("mldt\.installDismissed"\)/, "install prompt respects prior dismissal");
+});
+
 test("rerender() rebuilds the active view so t() strings switch in place", () => {
   const viewEl = document.getElementById("view");
   register("/home", () => `<p id="probe">${t("quiz.correct")}</p>`);

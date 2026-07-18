@@ -172,7 +172,9 @@ async function boot() {
 /* ---------- PWA: service worker, update toast, install prompt ---------- */
 let deferredInstall = null;
 
-function showToast(html) {
+function showToast(html, { dismissKey } = {}) {
+  // dismissKey: remember dismissal in localStorage and never re-show
+  if (dismissKey && localStorage.getItem(dismissKey)) return;
   let el = document.getElementById("toast");
   if (!el) {
     el = document.createElement("div");
@@ -180,8 +182,17 @@ function showToast(html) {
     el.className = "toast";
     document.body.appendChild(el);
   }
-  el.innerHTML = html;
+  el.innerHTML = `
+    <div style="display:flex;gap:10px;align-items:flex-start">
+      <div style="flex:1">${html}</div>
+      <button id="toast-close" aria-label="Đóng / Close"
+        style="flex:none;width:44px;height:44px;border:2px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font-size:1.1rem;font-weight:800">✕</button>
+    </div>`;
   el.classList.add("show");
+  el.querySelector("#toast-close").onclick = () => {
+    el.classList.remove("show");
+    if (dismissKey) localStorage.setItem(dismissKey, "1");
+  };
 }
 
 function wirePwa() {
@@ -221,17 +232,19 @@ function registerSw() {
     if (!reloaded) { reloaded = true; location.reload(); }
   });
 
-  // Android/desktop install prompt
+  // Android/desktop install prompt (dismissable, dismissal remembered)
   window.addEventListener("beforeinstallprompt", (e) => {
     e.preventDefault();
+    if (localStorage.getItem("mldt.installDismissed")) return;
     deferredInstall = e;
     showToast(`${bilingual("pwa.installPrompt")}
-      <button class="btn btn-primary" id="do-install" style="margin-top:8px">${bilingual("action.install")}</button>`);
-    document.getElementById("do-install").onclick = async () => {
+      <button class="btn btn-primary" id="do-install" style="margin-top:8px">${bilingual("action.install")}</button>`,
+      { dismissKey: "mldt.installDismissed" });
+    document.getElementById("do-install")?.addEventListener("click", async () => {
       document.getElementById("toast").classList.remove("show");
       await deferredInstall.prompt();
       deferredInstall = null;
-    };
+    });
   });
 
   // iOS Safari has no beforeinstallprompt: show the add-to-home-screen hint once
