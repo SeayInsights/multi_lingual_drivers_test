@@ -1,0 +1,2643 @@
+{
+  "stateCode": "oh",
+  "version": 1,
+  "questions": [
+    {
+      "id": "oh-signs-001",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Come to a complete stop, then go when safe",
+            "vi-VN": "Dừng lại hẳn, nhìn kỹ, rồi mới đi khi an toàn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Slow down; no need to stop if clear",
+            "vi-VN": "Chạy chậm lại, không cần dừng nếu vắng xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Yield to other traffic",
+            "vi-VN": "Nhường đường cho xe khác"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Do not enter this road",
+            "vi-VN": "Cấm vào đường này"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The red octagon requires a FULL stop at the line, even if no traffic is visible.",
+        "vi-VN": "Bảng STOP hình bát giác (8 cạnh) màu đỏ: phải dừng xe HẲN trước vạch trắng, dù không thấy xe nào hết."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "R1-1",
+        "image": "traffic_signs/regulatory/MUTCD_R1-1.svg"
+      }
+    },
+    {
+      "id": "oh-signs-002",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Slow down and yield; stop if necessary",
+            "vi-VN": "Chạy chậm lại, nhường đường; dừng hẳn nếu cần"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Always come to a complete stop",
+            "vi-VN": "Dừng lại hẳn trong mọi trường hợp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Dangerous curve ahead",
+            "vi-VN": "Phía trước có khúc cua nguy hiểm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Truck-only road",
+            "vi-VN": "Đường dành riêng cho xe tải"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "YIELD means slow down and let traffic and pedestrians on the main road go first.",
+        "vi-VN": "Biển YIELD (tam giác ngược đỏ-trắng) = nhường đường. Chạy chậm, để xe và người đi bộ trên đường chính đi trước."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "R1-2",
+        "image": "traffic_signs/regulatory/MUTCD_R1-2.svg"
+      }
+    },
+    {
+      "id": "oh-signs-003",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Do not enter this road",
+            "vi-VN": "Cấm vào — không được chạy vô đường này"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No parking",
+            "vi-VN": "Cấm đậu xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Dead end ahead",
+            "vi-VN": "Đường cụt phía trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No right turn",
+            "vi-VN": "Cấm quẹo phải"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "DO NOT ENTER marks a road you must not enter — usually the wrong end of a one-way street.",
+        "vi-VN": "DO NOT ENTER: đường này cấm vào (thường là đầu đường một chiều ngược hướng bạn). Chạy vô là ngược chiều, rất nguy hiểm."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "R5-1",
+        "image": "traffic_signs/regulatory/MUTCD_R5-1.svg"
+      }
+    },
+    {
+      "id": "oh-signs-004",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "You see this sign facing you. What should you do?",
+        "vi-VN": "Bạn thấy biển này ngay trước mặt. Bạn phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "You are going the wrong way — pull over and turn around safely",
+            "vi-VN": "Bạn đang chạy ngược chiều — tấp vô lề, quay đầu lại ngay khi an toàn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Continue but drive slowly",
+            "vi-VN": "Đi tiếp nhưng chạy chậm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Road under construction",
+            "vi-VN": "Đường đang sửa chữa"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only trucks are prohibited",
+            "vi-VN": "Chỉ xe tải mới bị cấm"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "WRONG WAY means you are driving against traffic. Turn around immediately when safe.",
+        "vi-VN": "WRONG WAY = bạn đang chạy NGƯỢC chiều xe khác. Phải quay lại ngay lập tức khi an toàn."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "R5-1a",
+        "image": "traffic_signs/regulatory/MUTCD_R5-1a.svg"
+      }
+    },
+    {
+      "id": "oh-signs-005",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "One-way street — travel only in the arrow direction",
+            "vi-VN": "Đường một chiều — chỉ được chạy theo hướng mũi tên"
+          }
+        },
+        {
+          "text": {
+            "en-US": "You must turn in the arrow direction",
+            "vi-VN": "Chỉ được quẹo theo hướng mũi tên"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Passing lane",
+            "vi-VN": "Làn đường dành cho xe vượt"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Highway exit",
+            "vi-VN": "Lối ra xa lộ"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The entire street flows one direction. Never drive or turn against the arrow.",
+        "vi-VN": "ONE WAY: cả con đường chỉ chạy một chiều theo mũi tên. Không được chạy hay quẹo ngược hướng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "R6-1R",
+        "image": "traffic_signs/regulatory/MUTCD_R6-1R.svg"
+      }
+    },
+    {
+      "id": "oh-signs-006",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No U-turn allowed",
+            "vi-VN": "Cấm quay đầu xe (quay chữ U)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No left turn",
+            "vi-VN": "Cấm quẹo trái"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Roundabout ahead",
+            "vi-VN": "Phía trước có vòng xoay"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Curve ahead",
+            "vi-VN": "Đường cong phía trước"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The red circle and slash means prohibited; the U arrow is a U-turn. No U-turns here.",
+        "vi-VN": "Vòng tròn đỏ có gạch chéo = CẤM. Mũi tên chữ U = quay đầu xe. Vậy: cấm quay đầu tại đây."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "R3-4",
+        "image": "traffic_signs/regulatory/MUTCD_R3-4.svg"
+      }
+    },
+    {
+      "id": "oh-signs-007",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No left turn",
+            "vi-VN": "Cấm quẹo trái"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No U-turn",
+            "vi-VN": "Cấm quay đầu xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Left turn only",
+            "vi-VN": "Chỉ được quẹo trái"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Road curves left",
+            "vi-VN": "Đường cong về bên trái"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "A left-turn arrow inside a red circle and slash means left turns are prohibited.",
+        "vi-VN": "Mũi tên quẹo trái bị vòng đỏ gạch chéo = cấm quẹo trái tại giao lộ này."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "R3-2",
+        "image": "traffic_signs/regulatory/MUTCD_R3-2.svg"
+      }
+    },
+    {
+      "id": "oh-signs-008",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Maximum legal speed is 50 mph in good conditions",
+            "vi-VN": "Tốc độ TỐI ĐA cho phép là 50 mph trong điều kiện tốt"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Minimum speed is 50 mph",
+            "vi-VN": "Tốc độ TỐI THIỂU phải chạy là 50 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "50 miles to the next city",
+            "vi-VN": "Còn 50 dặm nữa tới thành phố"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Highway route 50",
+            "vi-VN": "Xa lộ số 50"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "A speed limit is the maximum in good conditions. In rain, fog, or traffic you must drive slower.",
+        "vi-VN": "SPEED LIMIT = tốc độ tối đa khi trời tốt, đường khô. Trời mưa, sương mù, đông xe thì phải chạy CHẬM HƠN."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "R2-1",
+        "image": "traffic_signs/regulatory/MUTCD_R2-1.svg"
+      }
+    },
+    {
+      "id": "oh-signs-009",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this five-sided sign mean?",
+        "vi-VN": "Biển báo hình năm cạnh này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "School zone / school crossing — slow down, watch for children",
+            "vi-VN": "Khu vực trường học / lối học sinh qua đường — chạy chậm, coi chừng trẻ em"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Pedestrian crosswalk",
+            "vi-VN": "Lối người đi bộ qua đường"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Park ahead",
+            "vi-VN": "Công viên phía trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Bus stop",
+            "vi-VN": "Bến xe buýt"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The pentagon shape is used only for school zones and crossings. Slow down and be ready to stop for children.",
+        "vi-VN": "Hình năm cạnh (pentagon) màu vàng-xanh lá chỉ dành cho khu trường học. Trẻ em có thể băng ra bất ngờ — luôn chạy chậm và sẵn sàng dừng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "S1-1",
+        "image": "traffic_signs/school/MUTCD_S1-1.svg"
+      }
+    },
+    {
+      "id": "oh-signs-010",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this round yellow sign mean?",
+        "vi-VN": "Biển báo tròn màu vàng này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Railroad crossing ahead — slow down, look both ways, be ready to stop",
+            "vi-VN": "Sắp tới đường ray xe lửa — chậm lại, nhìn hai bên, sẵn sàng dừng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No passing zone",
+            "vi-VN": "Cấm vượt xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Dangerous intersection",
+            "vi-VN": "Ngã tư nguy hiểm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No stopping zone",
+            "vi-VN": "Khu vực cấm dừng xe"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The round RXR sign warns of a railroad crossing ahead. The round shape is used only for railroads.",
+        "vi-VN": "Biển tròn vàng có chữ RXR báo trước đường ray xe lửa. Hình TRÒN chỉ dùng cho báo hiệu xe lửa."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "W10-1",
+        "image": "traffic_signs/warning/MUTCD_W10-1.svg"
+      }
+    },
+    {
+      "id": "oh-signs-011",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Traffic signal ahead — be ready to slow down",
+            "vi-VN": "Phía trước có đèn giao thông — chuẩn bị giảm tốc độ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Traffic signal is broken",
+            "vi-VN": "Đèn giao thông bị hư"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Go only on green",
+            "vi-VN": "Chỉ được đi khi đèn xanh"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Police checkpoint",
+            "vi-VN": "Khu vực kiểm tra của cảnh sát"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "This warns of a traffic signal ahead, often where it is hard to see. Slow down and be ready to stop.",
+        "vi-VN": "Biển vàng hình thoi có hình đèn = sắp tới đèn giao thông (thường ở chỗ khó thấy trước). Giảm ga, sẵn sàng dừng nếu đèn đỏ."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "W3-3",
+        "image": "traffic_signs/warning/MUTCD_W3-3.svg"
+      }
+    },
+    {
+      "id": "oh-signs-012",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Traffic will merge into your lane — adjust speed and make room if you can",
+            "vi-VN": "Xe từ đường bên sẽ nhập vào làn của bạn — điều chỉnh tốc độ, nhường chỗ nếu được"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Road divides ahead",
+            "vi-VN": "Đường chia làm hai"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Lane closed",
+            "vi-VN": "Làn đường bị đóng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Single lane only",
+            "vi-VN": "Chỉ được chạy một làn"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Merging traffic is entering. Keep a steady speed and make space for merging vehicles when safe.",
+        "vi-VN": "Biển MERGE: có xe sắp nhập làn. Người đang trên đường chính nên giữ tốc độ ổn định và tạo khoảng trống khi an toàn."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "W4-1R",
+        "image": "traffic_signs/warning/MUTCD_W4-1R.svg"
+      }
+    },
+    {
+      "id": "oh-signs-013",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Two-way traffic — oncoming cars use the other lane",
+            "vi-VN": "Đường hai chiều — xe chạy ngược lại ở làn bên kia"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Passing allowed",
+            "vi-VN": "Được phép vượt xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "One-way street",
+            "vi-VN": "Đường một chiều"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Two lanes, same direction",
+            "vi-VN": "Hai làn cùng chiều"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "You are entering a two-way road. Keep right and watch for oncoming traffic, especially when passing.",
+        "vi-VN": "Bạn đang rời đường một chiều và vào đường HAI chiều. Giữ bên phải, cẩn thận xe ngược chiều, nhất là khi vượt."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "W6-3",
+        "image": "traffic_signs/warning/MUTCD_W6-3.svg"
+      }
+    },
+    {
+      "id": "oh-signs-014",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Road is slippery when wet — slow down in rain",
+            "vi-VN": "Đường trơn trượt khi ướt — chạy chậm khi trời mưa"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Winding road",
+            "vi-VN": "Đường cong liên tục"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No hard braking",
+            "vi-VN": "Cấm thắng gấp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Strong wind area",
+            "vi-VN": "Khu vực hay có gió mạnh"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The skidding car warns the road is slippery when wet. Slow down and avoid hard braking or sharp turns.",
+        "vi-VN": "Xe với vệt bánh ngoằn ngoèo = đường trơn khi ướt. Giảm tốc độ, tránh thắng gấp và quẹo gắt khi trời mưa."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "W8-5",
+        "image": "traffic_signs/warning/MUTCD_W8-5.svg"
+      }
+    },
+    {
+      "id": "oh-signs-015",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Pedestrian crossing — slow down and yield",
+            "vi-VN": "Lối người đi bộ băng qua đường — chậm lại và nhường"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No pedestrians allowed",
+            "vi-VN": "Khu vực cấm đi bộ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "School ahead",
+            "vi-VN": "Trường học phía trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Walking park",
+            "vi-VN": "Công viên dành cho người đi bộ"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Warns of a place where people cross. Always yield to pedestrians in the crosswalk.",
+        "vi-VN": "Biển vàng hình thoi có người đi bộ: sắp tới chỗ người ta hay băng qua đường. Luôn nhường người đi bộ trong vạch."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "W11-2",
+        "image": "traffic_signs/warning/MUTCD_W11-2.svg"
+      }
+    },
+    {
+      "id": "oh-signs-016",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this sign mean?",
+        "vi-VN": "Biển báo này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "STOP sign ahead — get ready to stop",
+            "vi-VN": "Phía trước có bảng STOP — chuẩn bị dừng lại"
+          }
+        },
+        {
+          "text": {
+            "en-US": "You passed a stop sign",
+            "vi-VN": "Đã qua khỏi bảng STOP"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop here immediately",
+            "vi-VN": "Dừng lại ngay tại đây"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No stopping ahead",
+            "vi-VN": "Cấm dừng xe phía trước"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Placed where the STOP sign is hidden by a curve or hill. Begin slowing down now.",
+        "vi-VN": "Biển này đặt ở nơi bảng STOP bị khuất (sau khúc cua, dốc). Bắt đầu giảm tốc độ ngay từ bây giờ."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "W3-1",
+        "image": "traffic_signs/warning/MUTCD_W3-1.svg"
+      }
+    },
+    {
+      "id": "oh-signs-017",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this blue sign mean?",
+        "vi-VN": "Biển màu xanh dương này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Hospital nearby",
+            "vi-VN": "Bệnh viện ở gần đây"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Hotel nearby",
+            "vi-VN": "Khách sạn ở gần đây"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Parking area",
+            "vi-VN": "Bãi đậu xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Highway H",
+            "vi-VN": "Xa lộ H"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Blue signs show driver services. H stands for Hospital.",
+        "vi-VN": "Biển XANH DƯƠNG = dịch vụ cho người lái xe (bệnh viện, xăng, đồ ăn, chỗ nghỉ). Chữ H là bệnh viện (Hospital)."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "D9-2",
+        "image": "traffic_signs/guide/MUTCD_D9-2.svg"
+      }
+    },
+    {
+      "id": "oh-signs-018",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What does this orange sign mean?",
+        "vi-VN": "Biển màu cam này có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Road work zone ahead — slow down, watch for workers",
+            "vi-VN": "Khu vực công trường phía trước — chậm lại, cẩn thận công nhân"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Truck route",
+            "vi-VN": "Đường dành cho xe tải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Hunting area",
+            "vi-VN": "Khu vực săn bắn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Animal crossing",
+            "vi-VN": "Cảnh báo thú rừng băng qua đường"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Orange means a work zone. In Ohio, speeding fines can double in work zones when workers are present.",
+        "vi-VN": "Màu CAM = khu vực thi công. Ở Ohio, tiền phạt chạy quá tốc độ có thể TĂNG GẤP ĐÔI trong khu công trường khi có công nhân."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      },
+      "sign": {
+        "code": "CW20-1",
+        "image": "traffic_signs/warning/MUTCD_CW20-1.svg"
+      }
+    },
+    {
+      "id": "oh-signs-019",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What do yellow, diamond-shaped signs generally mean?",
+        "vi-VN": "Biển báo hình thoi màu VÀNG thường có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Warning of a hazard or change ahead",
+            "vi-VN": "Cảnh báo nguy hiểm hoặc thay đổi phía trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A law you must obey",
+            "vi-VN": "Luật bắt buộc phải theo"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Directions and distances",
+            "vi-VN": "Chỉ đường và khoảng cách"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Construction zone",
+            "vi-VN": "Khu vực công trường"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Yellow diamonds are warning signs. Slow down and pay attention when you see one.",
+        "vi-VN": "Vàng hình thoi = CẢNH BÁO (khúc cua, đường hẹp, người qua đường...). Thấy biển vàng: giảm tốc độ và chú ý."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-signs-020",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What do white rectangular signs with black letters mean?",
+        "vi-VN": "Biển báo màu TRẮNG chữ đen (hình chữ nhật) có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Regulations you must obey (speed limits, turn rules...)",
+            "vi-VN": "Luật lệ bắt buộc phải tuân theo (tốc độ, cấm quẹo...)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Suggestions only, not required",
+            "vi-VN": "Chỉ là lời khuyên, không bắt buộc"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Hazard warning",
+            "vi-VN": "Cảnh báo nguy hiểm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Tourist information",
+            "vi-VN": "Thông tin du lịch"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "White regulatory signs are laws, not suggestions. Violating them is a traffic offense.",
+        "vi-VN": "Biển trắng chữ đen là biển LUẬT (regulatory). Không tuân theo là phạm luật và có thể bị phạt."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-signs-021",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "The octagon (8-sided) shape is used only for which sign?",
+        "vi-VN": "Hình BÁT GIÁC (8 cạnh) chỉ được dùng cho biển báo nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "The STOP sign",
+            "vi-VN": "Bảng STOP (dừng lại)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The YIELD sign",
+            "vi-VN": "Bảng YIELD (nhường đường)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Speed limit signs",
+            "vi-VN": "Bảng tốc độ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Railroad signs",
+            "vi-VN": "Bảng đường ray xe lửa"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Each shape has one meaning: octagon = STOP, triangle = YIELD, circle = railroad, pentagon = school.",
+        "vi-VN": "Mỗi hình dạng có ý nghĩa riêng để nhận ra từ xa: bát giác = STOP, tam giác ngược = YIELD, tròn = xe lửa, năm cạnh = trường học."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-signs-022",
+      "section": "signs",
+      "category": "signs",
+      "text": {
+        "en-US": "What are green highway signs used for?",
+        "vi-VN": "Biển màu XANH LÁ CÂY trên xa lộ dùng để làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Guidance: directions, street names, and exits",
+            "vi-VN": "Chỉ đường, hướng đi, tên đường và lối ra"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Hazard warnings",
+            "vi-VN": "Cảnh báo nguy hiểm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Regulations",
+            "vi-VN": "Luật bắt buộc"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Rest areas",
+            "vi-VN": "Khu vực nghỉ ngơi"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Green signs guide you: exits, distances, and destinations.",
+        "vi-VN": "Xanh lá = biển CHỈ ĐƯỜNG (guide sign): lối ra, khoảng cách, tên đường. Không phải cảnh báo hay luật."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-001",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "At a four-way stop, two cars arrive at the same time. Who goes first?",
+        "vi-VN": "Tại ngã tư có bảng STOP ở CẢ BỐN hướng, hai xe tới cùng một lúc. Xe nào đi trước?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "The car on the RIGHT goes first",
+            "vi-VN": "Xe bên PHẢI đi trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The car on the left goes first",
+            "vi-VN": "Xe bên trái đi trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The bigger car goes first",
+            "vi-VN": "Xe lớn hơn đi trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whoever honks first",
+            "vi-VN": "Xe nào bấm còi trước thì đi trước"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "First to arrive goes first. If you arrive together, yield to the driver on your right.",
+        "vi-VN": "Luật chung: tới trước đi trước. Nếu tới CÙNG LÚC, nhường cho xe bên tay phải của mình."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-002",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "You want to turn LEFT at a green light. Oncoming traffic is going straight. What do you do?",
+        "vi-VN": "Bạn muốn quẹo TRÁI tại ngã tư có đèn xanh. Xe ngược chiều đang chạy thẳng tới. Bạn phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Yield to oncoming traffic, then turn when clear",
+            "vi-VN": "Nhường cho xe chạy thẳng ngược chiều đi qua trước, rồi mới quẹo"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Turn first because you have a green light",
+            "vi-VN": "Quẹo trước vì bạn có đèn xanh"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Honk so they let you go",
+            "vi-VN": "Bấm còi để xe kia nhường"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop in the intersection and wait for red",
+            "vi-VN": "Dừng giữa ngã tư chờ đèn đỏ"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "A green light does not give left-turning drivers priority. Always yield to oncoming traffic before turning left.",
+        "vi-VN": "Đèn xanh KHÔNG có nghĩa là được quẹo trái tự do. Xe quẹo trái luôn phải nhường xe chạy thẳng ngược chiều."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-003",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "When entering a roundabout, who must you yield to?",
+        "vi-VN": "Khi vào vòng xoay (bùng binh), bạn phải nhường cho ai?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Traffic already IN the roundabout (coming from your left)",
+            "vi-VN": "Xe ĐANG CHẠY trong vòng xoay (từ bên trái tới)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Cars waiting to enter from other directions",
+            "vi-VN": "Xe đang chuẩn bị vào từ hướng khác"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No one — enter freely",
+            "vi-VN": "Không cần nhường ai"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only trucks",
+            "vi-VN": "Chỉ nhường xe tải"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Traffic in the circle has the right-of-way. Slow down, look left, and enter when there is a gap.",
+        "vi-VN": "Xe trong vòng xoay có quyền ưu tiên. Chậm lại, nhìn bên TRÁI, chờ khoảng trống rồi mới nhập vào."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-004",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "A pedestrian is crossing in a crosswalk. What must you do?",
+        "vi-VN": "Người đi bộ đang băng qua đường trong vạch qua đường (crosswalk). Bạn phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Stop and yield until they have crossed",
+            "vi-VN": "Dừng lại và nhường cho họ qua hết"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Honk so they hurry",
+            "vi-VN": "Bấm còi để họ đi nhanh hơn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Drive around behind them",
+            "vi-VN": "Lách qua phía sau lưng họ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Yield only at a red light",
+            "vi-VN": "Chỉ nhường nếu có đèn đỏ"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Pedestrians in a crosswalk always have the right-of-way. Never pass a car stopped for a pedestrian.",
+        "vi-VN": "Người đi bộ trong vạch qua đường LUÔN được ưu tiên. Không được vượt xe khác đang dừng nhường người đi bộ."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-005",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "An ambulance with lights and siren approaches from behind. What must you do?",
+        "vi-VN": "Xe cứu thương hụ còi, đèn chớp đang chạy tới phía sau bạn. Bạn phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Pull to the RIGHT edge and stop until it passes",
+            "vi-VN": "Tấp vô sát lề PHẢI và dừng lại cho tới khi xe đi qua"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Speed up to stay ahead",
+            "vi-VN": "Tăng tốc chạy trước nó"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop where you are, even mid-lane",
+            "vi-VN": "Dừng ngay giữa đường"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Pull to the left",
+            "vi-VN": "Tấp qua bên trái"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Pull to the right edge and stop. If you are in an intersection, clear it first, then pull over.",
+        "vi-VN": "Luật Ohio: nghe còi/thấy đèn xe ưu tiên → tấp sát lề phải, dừng hẳn, chờ xe qua. Không dừng giữa ngã tư — chạy qua khỏi rồi mới tấp vô."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-006",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "You are entering a main road from a driveway or small side road. Who has the right-of-way?",
+        "vi-VN": "Bạn chạy từ đường nhỏ (hoặc từ sân nhà) ra đường lớn. Ai được ưu tiên?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "All traffic and pedestrians on the main road — you yield to everyone",
+            "vi-VN": "Tất cả xe và người đi bộ trên đường lớn — bạn phải nhường hết"
+          }
+        },
+        {
+          "text": {
+            "en-US": "You, because you arrived first",
+            "vi-VN": "Bạn, vì bạn tới trước"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whoever is bigger",
+            "vi-VN": "Xe nào lớn hơn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No one",
+            "vi-VN": "Không ai cả"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "When entering from a driveway, alley, or parking lot, yield to sidewalk pedestrians and all road traffic.",
+        "vi-VN": "Ra từ driveway, hẻm, bãi đậu xe: nhường TẤT CẢ — người đi bộ trên lề, xe đạp, và xe trên đường."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-007",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "A school bus stops with flashing RED lights on a two-lane road. You are coming from the opposite direction. What must you do?",
+        "vi-VN": "Xe buýt trường học dừng lại, đèn ĐỎ chớp, trên đường hai làn. Bạn chạy ngược chiều. Bạn phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Stop at least 10 feet from the bus until the lights stop",
+            "vi-VN": "Dừng lại, cách xe buýt ít nhất 10 feet, chờ đèn tắt"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Pass slowly",
+            "vi-VN": "Chạy qua chậm chậm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only traffic behind the bus stops",
+            "vi-VN": "Chỉ chiều sau xe buýt mới phải dừng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Honk and pass",
+            "vi-VN": "Bấm còi rồi chạy qua"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "On roads with fewer than four lanes, BOTH directions must stop at least 10 feet away. Only on divided highways of 4+ lanes may oncoming traffic continue.",
+        "vi-VN": "Đường dưới 4 làn: CẢ HAI chiều đều phải dừng, cách ít nhất 10 feet. Chỉ khi đường có 4 làn trở lên và có dải phân cách thì chiều ngược lại mới không phải dừng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-008",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "A police car is stopped on the highway shoulder with flashing lights (the \"Move Over\" law). What should you do?",
+        "vi-VN": "Bạn thấy xe cảnh sát đậu bên lề xa lộ, đèn chớp sáng (luật \"Move Over\"). Bạn nên làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Move over a lane if safe; if not, slow down significantly",
+            "vi-VN": "Chuyển qua làn xa hơn nếu an toàn; nếu không được thì giảm tốc độ rõ rệt"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Keep your lane and speed",
+            "vi-VN": "Giữ nguyên làn và tốc độ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop behind the police car",
+            "vi-VN": "Dừng lại phía sau xe cảnh sát"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Honk to signal them",
+            "vi-VN": "Bấm còi báo hiệu"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Ohio’s Move Over law applies to any stopped vehicle with flashing lights. Change lanes away, or slow down if you cannot.",
+        "vi-VN": "Luật \"Move Over\" của Ohio áp dụng cho MỌI xe đậu bên lề có đèn chớp: cảnh sát, cứu hộ, và cả xe thường. Đổi làn hoặc chạy chậm lại."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-009",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "You want to turn RIGHT at a red light. What does Ohio law say?",
+        "vi-VN": "Đèn đỏ, bạn muốn quẹo PHẢI. Luật Ohio nói sao?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Allowed AFTER a complete stop and yielding — unless a sign prohibits it",
+            "vi-VN": "Được quẹo SAU KHI dừng hẳn và nhường đường — trừ khi có bảng cấm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Never allowed on red",
+            "vi-VN": "Cấm hoàn toàn quẹo phải khi đèn đỏ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Allowed without stopping",
+            "vi-VN": "Được quẹo không cần dừng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only allowed in daytime",
+            "vi-VN": "Chỉ được quẹo ban ngày"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Stop completely, yield to pedestrians and traffic, then turn — unless a NO TURN ON RED sign is posted.",
+        "vi-VN": "Quẹo phải đèn đỏ: dừng hẳn trước vạch, nhường người đi bộ và xe, rồi quẹo — trừ khi có bảng \"NO TURN ON RED\"."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-010",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "The light turns steady YELLOW as you approach. What does it mean?",
+        "vi-VN": "Đèn VÀNG (không chớp) bật lên khi bạn gần tới ngã tư. Nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "The light is about to turn red — stop if you can do so safely",
+            "vi-VN": "Đèn sắp đỏ — dừng lại nếu có thể dừng an toàn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Speed up to beat the red",
+            "vi-VN": "Tăng ga chạy qua cho kịp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Same as a green light",
+            "vi-VN": "Giống như đèn xanh"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop then proceed like a stop sign",
+            "vi-VN": "Dừng lại rồi đi tiếp như bảng STOP"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Steady yellow warns the light is changing. Stop if you can safely; never accelerate to beat it.",
+        "vi-VN": "Đèn vàng là CẢNH BÁO sắp đỏ. Nếu dừng an toàn được thì dừng; đừng bao giờ tăng ga để \"vớt\" đèn."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-011",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "What does a FLASHING RED light mean?",
+        "vi-VN": "Đèn ĐỎ CHỚP (nhấp nháy) tại ngã tư có nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Treat it like a STOP sign: stop fully, then go when safe",
+            "vi-VN": "Giống bảng STOP: dừng hẳn, rồi đi khi an toàn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Like yellow: slow down and continue",
+            "vi-VN": "Giống đèn vàng: chạy chậm qua"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Broken light, drive normally",
+            "vi-VN": "Đèn bị hư, chạy bình thường"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Do not enter the intersection",
+            "vi-VN": "Cấm vào ngã tư"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Flashing red = stop sign. Flashing yellow = slow down and proceed with caution.",
+        "vi-VN": "Đỏ chớp = bảng STOP. Vàng chớp = chạy chậm, cẩn thận rồi đi tiếp (không cần dừng)."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-012",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "How close may you park to a fire hydrant?",
+        "vi-VN": "Bạn được đậu xe cách trụ nước chữa cháy (fire hydrant) tối thiểu bao xa?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No parking within 10 feet",
+            "vi-VN": "Không được đậu trong vòng 10 feet"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No parking within 3 feet",
+            "vi-VN": "Không được đậu trong vòng 3 feet"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Right next to it if you stay in the car",
+            "vi-VN": "Đậu sát cũng được nếu còn ngồi trong xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No parking within 50 feet",
+            "vi-VN": "Không được đậu trong vòng 50 feet"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Ohio prohibits parking within 10 feet of a hydrant so firefighters can reach it instantly.",
+        "vi-VN": "Luật Ohio: cấm đậu trong vòng 10 feet (khoảng 3 mét) quanh trụ nước chữa cháy để xe cứu hỏa dùng được ngay."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-013",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "When parallel parking, how far may your wheels be from the curb?",
+        "vi-VN": "Khi đậu xe song song sát lề đường, bánh xe phải cách lề tối đa bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No more than 12 inches",
+            "vi-VN": "Không quá 12 inches (khoảng 1 gang tay lớn)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No more than 3 feet",
+            "vi-VN": "Không quá 3 feet"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Any distance",
+            "vi-VN": "Bao xa cũng được"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Must touch the curb",
+            "vi-VN": "Phải chạm sát vô lề"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Park with your wheels within 12 inches of the curb so you do not block the travel lane.",
+        "vi-VN": "Đậu song song: bánh xe cách lề không quá 12 inches (30 cm) để không cản trở làn xe chạy."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-014",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "Railroad signals are flashing. How far from the tracks must you stop?",
+        "vi-VN": "Đèn và chuông báo hiệu xe lửa đang hoạt động. Bạn phải dừng cách đường ray bao xa?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Between 15 and 50 feet from the tracks",
+            "vi-VN": "Từ 15 đến 50 feet trước đường ray"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Right at the tracks",
+            "vi-VN": "Ngay sát đường ray"
+          }
+        },
+        {
+          "text": {
+            "en-US": "At least 100 feet",
+            "vi-VN": "100 feet trở lên"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No stop needed if you see no train",
+            "vi-VN": "Không cần dừng nếu không thấy xe lửa"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Stop 15–50 feet from the rails. Never drive around lowered gates — a train cannot stop in time.",
+        "vi-VN": "Dừng cách đường ray 15–50 feet. TUYỆT ĐỐI không chạy vòng qua thanh chắn đang hạ — xe lửa không thể thắng kịp."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-015",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "Under Ohio law, when MUST your headlights be on?",
+        "vi-VN": "Theo luật Ohio, khi nào bạn BẮT BUỘC phải bật đèn xe?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "From sunset to sunrise, AND whenever your windshield wipers are in use",
+            "vi-VN": "Từ mặt trời lặn tới mặt trời mọc, VÀ bất cứ khi nào gạt nước mưa đang chạy"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only when it is completely dark",
+            "vi-VN": "Chỉ khi trời tối hẳn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only on highways",
+            "vi-VN": "Chỉ trên xa lộ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whenever you feel like it",
+            "vi-VN": "Khi nào muốn thì bật"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Ohio’s \"wipers on, lights on\" law: headlights are required whenever wipers are in use, and from sunset to sunrise.",
+        "vi-VN": "Luật Ohio: mưa tới mức phải bật gạt nước = phải bật đèn xe. Cũng bắt buộc từ lúc mặt trời lặn tới mặt trời mọc và khi tầm nhìn kém."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-016",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "How far before turning must you signal continuously?",
+        "vi-VN": "Trước khi quẹo, bạn phải bật đèn xi-nhan liên tục ít nhất bao xa?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "At least 100 feet before the turn",
+            "vi-VN": "Ít nhất 100 feet trước chỗ quẹo"
+          }
+        },
+        {
+          "text": {
+            "en-US": "At least 10 feet",
+            "vi-VN": "Ít nhất 10 feet"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Right as you start turning",
+            "vi-VN": "Ngay lúc bắt đầu quẹo"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Not required if no traffic",
+            "vi-VN": "Không bắt buộc nếu vắng xe"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Ohio requires a continuous signal for at least 100 feet before turning or changing lanes.",
+        "vi-VN": "Ohio yêu cầu xi-nhan liên tục ít nhất 100 feet trước khi quẹo hoặc chuyển làn, để xe khác kịp phản ứng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-017",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "What is the speed limit in an Ohio SCHOOL ZONE during school hours?",
+        "vi-VN": "Trong khu vực TRƯỜNG HỌC ở Ohio, giờ học sinh đi học, tốc độ tối đa là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "20 mph",
+            "vi-VN": "20 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "25 mph",
+            "vi-VN": "25 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "35 mph",
+            "vi-VN": "35 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "15 mph",
+            "vi-VN": "15 mph"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Ohio school zones are 20 mph during restricted hours, usually marked by flashing beacons or posted times.",
+        "vi-VN": "Khu trường học giờ quy định (thường có đèn chớp hoặc ghi giờ): tối đa 20 mph. Phạt rất nặng nếu vi phạm."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-018",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "On a residential city street with no posted sign, what is the usual speed limit?",
+        "vi-VN": "Trong khu dân cư của thành phố (không có bảng tốc độ), tốc độ tối đa thường là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "25 mph",
+            "vi-VN": "25 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "40 mph",
+            "vi-VN": "40 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "15 mph",
+            "vi-VN": "15 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "55 mph",
+            "vi-VN": "55 mph"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Ohio residential streets default to 25 mph unless otherwise posted.",
+        "vi-VN": "Ohio: đường khu dân cư trong thành phố mặc định 25 mph nếu không có bảng khác."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-019",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "What is the maximum speed on rural Ohio interstates?",
+        "vi-VN": "Tốc độ tối đa trên xa lộ liên bang (interstate) ở vùng quê Ohio là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "70 mph",
+            "vi-VN": "70 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "80 mph",
+            "vi-VN": "80 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "55 mph",
+            "vi-VN": "55 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "65 mph",
+            "vi-VN": "65 mph"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Rural interstates are posted up to 70 mph; other freeways may be 65 or 55. Always check the signs.",
+        "vi-VN": "Xa lộ liên bang vùng quê: tối đa 70 mph. Nhiều đoạn khác là 65 hoặc 55 — luôn coi bảng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-020",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "It is raining hard and the limit is 55 mph. How should you drive?",
+        "vi-VN": "Trời mưa lớn, bảng tốc độ ghi 55 mph. Bạn nên chạy thế nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Slower than 55 — the limit applies only in GOOD conditions",
+            "vi-VN": "Chậm hơn 55 — bảng tốc độ chỉ áp dụng khi điều kiện TỐT"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Exactly 55, because that is the law",
+            "vi-VN": "Đúng 55 vì đó là luật"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Faster, to get out of the rain",
+            "vi-VN": "Nhanh hơn để về sớm tránh mưa"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Turn on hazards and drive 55",
+            "vi-VN": "Bật đèn khẩn cấp và chạy 55"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Ohio’s basic speed law: driving too fast for conditions is illegal even below the posted limit.",
+        "vi-VN": "Luật \"tốc độ hợp lý\": chạy quá nhanh SO VỚI điều kiện (mưa, sương mù, đông xe) vẫn là phạm luật dù dưới mức ghi trên bảng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-021",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "Who must wear a seat belt?",
+        "vi-VN": "Ai trong xe bắt buộc phải thắt dây an toàn?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Driver and front-seat passengers; children need proper car seats for their age and size",
+            "vi-VN": "Tài xế và hành khách ghế trước; trẻ em phải có ghế an toàn đúng tuổi/cân nặng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only the driver",
+            "vi-VN": "Chỉ tài xế"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only on highways",
+            "vi-VN": "Chỉ khi chạy trên xa lộ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No one is required",
+            "vi-VN": "Không ai bắt buộc"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Ohio requires belts for the driver and front passengers; children must use car seats or boosters per age and weight rules.",
+        "vi-VN": "Ohio bắt buộc dây an toàn cho tài xế và ghế trước; trẻ em dưới quy định tuổi/cân nặng phải ngồi ghế an toàn hoặc booster."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-022",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "What does a YELLOW center line tell you?",
+        "vi-VN": "Vạch kẻ đường màu VÀNG ở giữa đường cho bạn biết điều gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "It separates traffic moving in OPPOSITE directions",
+            "vi-VN": "Ngăn cách hai chiều xe NGƯỢC nhau"
+          }
+        },
+        {
+          "text": {
+            "en-US": "It separates lanes going the same direction",
+            "vi-VN": "Ngăn cách các làn cùng chiều"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A bicycle lane",
+            "vi-VN": "Làn dành cho xe đạp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A no-parking zone",
+            "vi-VN": "Khu vực cấm đậu xe"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Yellow lines separate opposing traffic (broken = passing allowed when safe; double solid = no passing). White lines separate same-direction lanes.",
+        "vi-VN": "Vàng = hai chiều ngược nhau (vàng đứt: được vượt khi an toàn; vàng liền đôi: cấm vượt). Trắng = các làn cùng chiều."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-023",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "What is the legal blood alcohol limit (BAC) for drivers 21 and older in Ohio?",
+        "vi-VN": "Nồng độ cồn trong máu (BAC) tối đa cho người lái xe từ 21 tuổi trở lên ở Ohio là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "0.08%",
+            "vi-VN": "0.08%"
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.10%",
+            "vi-VN": "0.10%"
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.05%",
+            "vi-VN": "0.05%"
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.02%",
+            "vi-VN": "0.02%"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "0.08% or higher is OVI (impaired driving). You can still be arrested below 0.08% if visibly impaired.",
+        "vi-VN": "Từ 0.08% trở lên là phạm tội OVI (lái xe khi say). Nhưng dưới 0.08% vẫn có thể bị bắt nếu cảnh sát thấy bạn lái không an toàn."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-024",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "What is the BAC limit for drivers UNDER 21 in Ohio?",
+        "vi-VN": "Người lái xe DƯỚI 21 tuổi ở Ohio bị giới hạn nồng độ cồn là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "0.02% — essentially zero tolerance",
+            "vi-VN": "0.02% — gần như không được uống giọt nào"
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.08%, same as adults",
+            "vi-VN": "0.08% giống người lớn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.05%",
+            "vi-VN": "0.05%"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No limit",
+            "vi-VN": "Không có giới hạn"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Ohio’s under-21 limit is 0.02% — even one drink can exceed it. If you drink, do not drive.",
+        "vi-VN": "Ohio áp dụng mức 0.02% cho người dưới 21 — chỉ một ly cũng có thể vượt mức. Tốt nhất: đã uống thì không lái."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-025",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "What is the ONLY thing that makes you sober enough to drive?",
+        "vi-VN": "Cách DUY NHẤT để hết say rượu trước khi lái xe là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Time — waiting for your body to process the alcohol",
+            "vi-VN": "Thời gian — chờ cơ thể tự thải cồn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Drinking strong coffee",
+            "vi-VN": "Uống cà phê đậm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Taking a cold shower",
+            "vi-VN": "Tắm nước lạnh"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Eating a big meal",
+            "vi-VN": "Ăn thật no"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Coffee, cold showers, and food may make you feel alert but do not lower BAC. Only time works.",
+        "vi-VN": "Cà phê, tắm lạnh, ăn no chỉ làm bạn TỈNH hơn chứ không giảm cồn trong máu. Chỉ có thời gian mới thải được cồn."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-026",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "What is Ohio’s phone law while driving?",
+        "vi-VN": "Luật điện thoại của Ohio quy định thế nào khi đang lái xe?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No holding a phone — hands-free only; police can stop you for this alone",
+            "vi-VN": "Cấm cầm điện thoại trên tay — chỉ được dùng chế độ rảnh tay; cảnh sát được dừng xe chỉ vì lỗi này"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Holding is fine for calls only",
+            "vi-VN": "Được cầm nếu chỉ nghe gọi"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only texting is banned",
+            "vi-VN": "Chỉ cấm nhắn tin"
+          }
+        },
+        {
+          "text": {
+            "en-US": "There is no phone law",
+            "vi-VN": "Không có luật về điện thoại"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Since 2023, holding or supporting a phone while driving is a primary offense in Ohio. Use speaker, Bluetooth, or a mount.",
+        "vi-VN": "Luật Ohio (từ 2023): cầm hay đỡ điện thoại khi lái là lỗi CHÍNH — cảnh sát dừng xe được ngay. Dùng loa, tai nghe, hoặc gắn giá đỡ."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-027",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "What can happen after a FIRST OVI (impaired driving) conviction in Ohio?",
+        "vi-VN": "Nếu bị kết tội OVI (lái xe khi say) lần đầu ở Ohio, hậu quả có thể là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "License suspension, heavy fines, and possible jail time",
+            "vi-VN": "Treo bằng lái, phạt tiền nặng, và có thể bị giam"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Just a warning",
+            "vi-VN": "Chỉ bị nhắc nhở"
+          }
+        },
+        {
+          "text": {
+            "en-US": "A small fine like a parking ticket",
+            "vi-VN": "Chỉ đóng phạt nhỏ như lỗi đậu xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Nothing, if there was no crash",
+            "vi-VN": "Không có hậu quả nếu không gây tai nạn"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "A first OVI can mean jail, large fines, a 1–3 year suspension, and a permanent record. It is a serious crime, not a ticket.",
+        "vi-VN": "OVI lần đầu: có thể bị giam, phạt tiền lớn, treo bằng 1–3 năm, và hồ sơ theo suốt đời. Đây không phải lỗi nhỏ."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-028",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Before changing lanes, besides checking mirrors, what must you also do?",
+        "vi-VN": "Trước khi chuyển làn, ngoài nhìn kiếng chiếu hậu, bạn còn phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Turn your head and look over your shoulder to check the BLIND SPOT",
+            "vi-VN": "Quay đầu nhìn qua vai để kiểm tra ĐIỂM MÙ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Honk your horn",
+            "vi-VN": "Bấm còi báo hiệu"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Just signal — that is enough",
+            "vi-VN": "Chỉ cần bật xi-nhan là đủ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Slow way down",
+            "vi-VN": "Chạy chậm hẳn lại"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Mirrors have blind spots where cars disappear. Signal, check mirrors, then glance over your shoulder before moving.",
+        "vi-VN": "Kiếng chiếu hậu có ĐIỂM MÙ — chỗ xe khác \"biến mất\". Xi-nhan + nhìn kiếng + quay đầu liếc qua vai, rồi mới chuyển làn."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-029",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Your car begins to skid on a slippery road. What should you do?",
+        "vi-VN": "Xe bạn bị trượt bánh (mất lái) trên đường trơn. Bạn nên làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Ease off the gas and steer gently in the direction you WANT to go",
+            "vi-VN": "Nhả chân ga, quẹo tay lái nhẹ theo hướng mình MUỐN xe đi"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Slam on the brakes",
+            "vi-VN": "Đạp thắng thật mạnh"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Jerk the wheel hard the opposite way",
+            "vi-VN": "Quẹo ngược hướng trượt thật gắt"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Accelerate out of it",
+            "vi-VN": "Tăng ga để thoát"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Stay calm, ease off the gas, avoid hard braking, and steer smoothly where you want the car to go until the tires grip again.",
+        "vi-VN": "Trượt bánh: bình tĩnh, nhả ga, KHÔNG đạp thắng gấp, lái nhẹ nhàng theo hướng muốn đi cho tới khi bánh bám đường lại."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-030",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "In heavy rain your car hydroplanes — the steering suddenly feels light. What should you do?",
+        "vi-VN": "Trời mưa lớn, xe bạn bỗng \"nổi\" trên mặt nước, tay lái nhẹ hẫng (hydroplaning). Bạn nên làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Ease off the gas, hold the wheel straight, and do NOT brake hard",
+            "vi-VN": "Nhả ga từ từ, giữ tay lái thẳng, KHÔNG đạp thắng mạnh"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Brake immediately",
+            "vi-VN": "Đạp thắng ngay lập tức"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Swerve to the shoulder",
+            "vi-VN": "Quẹo gấp vô lề"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Accelerate for traction",
+            "vi-VN": "Tăng ga để bánh bám đường"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Hydroplaning means your tires ride on water. Ease off the gas and let the car slow; hard braking can spin you.",
+        "vi-VN": "Hydroplaning = bánh xe chạy trên lớp nước, không chạm mặt đường. Nhả ga cho xe tự chậm lại; thắng gấp sẽ làm xe xoay vòng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-031",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Driving in thick FOG, which lights should you use?",
+        "vi-VN": "Chạy xe trong SƯƠNG MÙ dày, bạn nên dùng đèn nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Low-beam headlights",
+            "vi-VN": "Đèn cốt (chiếu gần / low beam)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "High-beam headlights",
+            "vi-VN": "Đèn pha (chiếu xa / high beam)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Hazard lights only",
+            "vi-VN": "Chỉ đèn khẩn cấp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No lights at all",
+            "vi-VN": "Không bật đèn gì hết"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "High beams reflect off fog and blind you. Use low beams, slow down, and leave extra distance.",
+        "vi-VN": "Đèn pha chiếu vô sương mù sẽ dội ngược lại làm CHÓI mắt bạn. Dùng đèn cốt, chạy chậm, giữ khoảng cách xa hơn."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-032",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "In good conditions, what is the minimum safe following distance?",
+        "vi-VN": "Bạn nên giữ khoảng cách với xe phía trước ít nhất bao lâu (trời tốt)?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "At least 3–4 seconds; more in bad weather",
+            "vi-VN": "Ít nhất 3–4 giây; tăng thêm khi trời xấu"
+          }
+        },
+        {
+          "text": {
+            "en-US": "1 second is enough",
+            "vi-VN": "1 giây là đủ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Half a car length",
+            "vi-VN": "Nửa chiều dài xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "As close as possible",
+            "vi-VN": "Càng sát càng dễ thấy"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Pick a fixed object; after the car ahead passes it, you should reach it no sooner than 3–4 seconds later.",
+        "vi-VN": "Chọn một điểm cố định (cột đèn, bảng hiệu): xe trước qua điểm đó, đếm \"một ngàn lẻ một...\" — bạn phải qua điểm đó SAU ít nhất 3–4 giây."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-033",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "On a long drive you feel very sleepy. What is the RIGHT response?",
+        "vi-VN": "Đang lái xe đường dài, bạn thấy buồn ngủ ríu mắt. Cách xử lý ĐÚNG là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Pull off at a safe place or rest area and rest or nap",
+            "vi-VN": "Tấp vô chỗ an toàn (rest area) nghỉ hoặc ngủ một giấc ngắn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Open the window and turn up the music",
+            "vi-VN": "Mở cửa sổ và vặn nhạc to"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Drink coffee and keep driving right away",
+            "vi-VN": "Uống cà phê rồi chạy tiếp ngay"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Drive faster to arrive sooner",
+            "vi-VN": "Chạy nhanh hơn cho mau tới nơi"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Drowsy driving is as dangerous as drunk driving. Wind, music, and coffee help only briefly — stopping to rest is the only safe fix.",
+        "vi-VN": "Buồn ngủ nguy hiểm như say rượu. Gió, nhạc, cà phê chỉ đỡ vài phút — cách duy nhất an toàn là DỪNG và nghỉ."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-034",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Your car stalls on the tracks and a train is coming. What must you do?",
+        "vi-VN": "Xe bạn chết máy và kẹt trên đường ray, xe lửa đang chạy tới. Bạn phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Get out immediately and run away from the tracks, at an angle TOWARD the coming train",
+            "vi-VN": "Bỏ xe ngay, chạy ra xa đường ray theo hướng CHÉO VỀ PHÍA xe lửa đang tới"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stay inside and keep trying to start it",
+            "vi-VN": "Ở lại trong xe cố đề máy"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Run in the same direction the train is moving",
+            "vi-VN": "Chạy theo hướng xe lửa đang chạy tới trước mặt"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stand by the car and wave",
+            "vi-VN": "Đứng cạnh xe vẫy tay báo hiệu"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Run at an angle toward the oncoming train but away from the tracks — debris from the impact flies forward, in the train’s direction of travel.",
+        "vi-VN": "Chạy chéo VỀ PHÍA tàu đang tới (nhưng ra xa đường ray) — vì khi tàu tông xe, mảnh vỡ sẽ văng về phía TRƯỚC theo hướng tàu chạy."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    },
+    {
+      "id": "oh-rules-035",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Your right wheels drop off the pavement onto a soft shoulder. What should you do?",
+        "vi-VN": "Bánh xe bên phải của bạn lỡ rớt xuống lề đất mềm. Bạn nên làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Ease off the gas, grip the wheel, slow down, then gently steer back when safe",
+            "vi-VN": "Nhả ga, giữ chắc tay lái, chậm lại rồi từ từ quay lên mặt đường khi an toàn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Jerk the wheel back onto the road immediately",
+            "vi-VN": "Giật mạnh tay lái quay lên đường ngay"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Brake as hard as you can",
+            "vi-VN": "Đạp thắng thật mạnh"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Accelerate back up",
+            "vi-VN": "Tăng ga vượt lên"
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Jerking the wheel at speed causes rollovers. Slow down first, then steer gently back onto the pavement.",
+        "vi-VN": "Giật tay lái đột ngột ở tốc độ cao là nguyên nhân lật xe. Bình tĩnh chậm lại trước, rồi mới đánh lái nhẹ lên mặt đường."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Digest of Ohio Motor Vehicle Laws (HSY 7607), Ohio BMV",
+        "url": "https://www.bmv.ohio.gov/links/hsy7607.pdf"
+      }
+    }
+  ]
+}
