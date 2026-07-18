@@ -75,6 +75,10 @@ function questionHtml() {
     : "";
   return `
   <section class="card">
+    <button class="btn btn-secondary" data-act="back-to-topics"
+            style="width:auto;min-height:40px;padding:6px 14px;margin-bottom:10px">
+      ← ${esc(t("action.back"))}
+    </button>
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
       <strong>${t("quiz.questionOf", { current: session.pos + 1, total })}</strong>
       <span style="color:var(--muted);font-size:.85em">${session.correct}✓</span>
