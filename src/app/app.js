@@ -11,6 +11,7 @@ import { testView } from "../pages/test/test.js";
 import { flashcardsView } from "../pages/flashcards/flashcards.js";
 import { fillDueBadges } from "../srs/badge.js";
 import { reviewView, fillReviewBadges } from "../pages/review/review.js";
+import { signsView } from "../pages/signs/signs.js";
 
 const TABS = [
   { path: "/home", key: "tab.home", ico: "🏠" },
@@ -125,7 +126,7 @@ async function boot() {
 
   register("/home", homeView);
   register("/study", studyView);
-  register("/signs", placeholder("tab.signs"));
+  register("/signs", signsView);
   register("/test", testView);
   register("/flashcards", flashcardsView);
   register("/review", reviewView);
