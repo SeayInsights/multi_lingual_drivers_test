@@ -10,8 +10,28 @@
 <link rel="icon" href="assets/icons/icon-192.png" type="image/png">
 <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/Overpass-900-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Overpass-900-vietnamese.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/BeVietnamPro-400-vietnamese.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/BeVietnamPro-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<!-- flatten the module waterfall: fetch the whole graph in parallel -->
+<link rel="modulepreload" href="src/app/app.js">
+<link rel="modulepreload" href="src/app/router.js">
+<link rel="modulepreload" href="src/i18n/i18n.js">
+<link rel="modulepreload" href="src/storage/db.js">
+<link rel="modulepreload" href="src/storage/events.js">
+<link rel="modulepreload" href="src/storage/settings.js">
+<link rel="modulepreload" href="src/srs/leitner.js">
+<link rel="modulepreload" href="src/srs/badge.js">
+<link rel="modulepreload" href="src/audio/tts.js">
+<link rel="modulepreload" href="src/pages/study/study.js">
+<link rel="modulepreload" href="src/pages/test/test.js">
+<link rel="modulepreload" href="src/pages/flashcards/flashcards.js">
+<link rel="modulepreload" href="src/pages/review/review.js">
+<link rel="modulepreload" href="src/pages/signs/signs.js">
+<link rel="modulepreload" href="src/pages/progress/progress.js">
+<link rel="modulepreload" href="src/pages/progress/aggregate.js">
+<link rel="preload" href="locales/vi-VN.json" as="fetch" crossorigin>
+<link rel="preload" href="locales/en-US.json" as="fetch" crossorigin>
 <link rel="stylesheet" href="assets/fonts/fonts.css">
 <link rel="stylesheet" href="src/app/theme.css">
 </head>

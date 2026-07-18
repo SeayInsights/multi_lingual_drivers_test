@@ -210,8 +210,14 @@ function registerSw() {
       });
     });
   }).catch(() => { /* PWA is progressive — app works without it */ });
+  // Reload on controllerchange ONLY when an update replaced an existing
+  // controller. On first install, clients.claim() also fires this event —
+  // reloading there gave every first-time visitor a phantom page reload
+  // (found via the M2 CWV audit: Lighthouse modeled it as a 1.5s redirect).
+  const hadController = Boolean(navigator.serviceWorker.controller);
   let reloaded = false;
   navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!hadController) return;
     if (!reloaded) { reloaded = true; location.reload(); }
   });
 
