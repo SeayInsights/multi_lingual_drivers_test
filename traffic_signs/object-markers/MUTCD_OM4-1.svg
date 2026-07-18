@@ -1,0 +1,27 @@
+<svg id="OM4-1" xmlns="http://www.w3.org/2000/svg" width="24.2132in" height="24.2132in" viewBox="0 0 1743.3506 1743.3506">
+  <defs>
+    <style>
+      .a, .b {
+        fill: #af1e2d;
+      }
+
+      .b {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 4.5px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" width="1296" height="1296" rx="108" transform="translate(-44.7351 871.6755) rotate(-45)"/>
+    <circle class="b" cx="871.6753" cy="871.6753" r="108"/>
+    <circle class="b" cx="1145.3256" cy="598.025" r="108"/>
+    <circle class="b" cx="1418.976" cy="871.6752" r="108"/>
+    <circle class="b" cx="598.025" cy="598.025" r="108"/>
+    <circle class="b" cx="324.3747" cy="871.6754" r="108"/>
+    <circle class="b" cx="1145.3257" cy="1145.3256" r="108"/>
+    <circle class="b" cx="598.025" cy="1145.3257" r="108"/>
+    <circle class="b" cx="871.6754" cy="1418.976" r="108"/>
+    <circle class="b" cx="871.6752" cy="324.3747" r="108"/>
+  </g>
+</svg>

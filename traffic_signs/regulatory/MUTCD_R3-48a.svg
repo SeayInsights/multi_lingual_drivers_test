@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="244.01205" height="217.86909" viewBox="0 0 688.65625 614.87498">
+  <defs>
+    <path id="k" fill="#231f20" d="M20.967 0H0v20.966h20.967V0z"/>
+    <path id="l" fill="#fff" d="M0 0c0-.405-.328-.732-.733-.732-.405 0-.733.327-.733.732 0 .407.328.734.733.734C-.328.734 0 .407 0 0"/>
+    <path id="m" fill="#fff" d="M0 0c0-.405-.329-.732-.733-.732-.405 0-.734.327-.734.732 0 .407.329.734.734.734C-.329.734 0 .407 0 0"/>
+    <path id="n" fill="#fff" d="M0 0c0-.405-.329-.732-.735-.732-.404 0-.733.327-.733.732 0 .407.329.734.733.734C-.329.734 0 .407 0 0"/>
+    <path id="o" fill="#fff" d="M0 0c0-.405-.329-.732-.735-.732-.406 0-.733.327-.733.732 0 .407.327.734.733.734C-.329.734 0 .407 0 0"/>
+    <path id="p" fill="#fff" d="M0 0c0-.405-.329-.732-.735-.732-.405 0-.733.327-.733.732 0 .407.328.734.733.734C-.329.734 0 .407 0 0"/>
+    <path id="q" fill="#fff" d="M0 0c0-.405-.328-.732-.733-.732-.406 0-.733.327-.733.732 0 .407.327.734.733.734C-.328.734 0 .407 0 0"/>
+    <path id="r" fill="#fff" d="M0 0c0-.405-.33-.732-.732-.732-.407 0-.736.327-.736.732 0 .407.329.734.736.734C-.33.734 0 .407 0 0"/>
+    <path id="s" fill="#fff" d="M0 0c0-.405-.33-.732-.735-.732-.406 0-.734.327-.734.732 0 .407.328.734.734.734C-.33.734 0 .407 0 0"/>
+    <path id="t" fill="#fff" d="M0 0c0-.406-.328-.734-.733-.734-.405 0-.733.328-.733.734 0 .405.328.734.733.734C-.328.734 0 .405 0 0"/>
+    <path id="u" fill="#fff" d="M0 0c0-.406-.329-.734-.733-.734-.405 0-.734.328-.734.734 0 .405.329.734.734.734C-.329.734 0 .405 0 0"/>
+    <path id="v" fill="#fff" d="M0 0c0-.406-.329-.734-.735-.734-.404 0-.733.328-.733.734 0 .405.329.734.733.734C-.329.734 0 .405 0 0"/>
+    <path id="w" fill="#fff" d="M0 0c0-.406-.329-.734-.735-.734-.406 0-.733.328-.733.734 0 .405.327.734.733.734C-.329.734 0 .405 0 0"/>
+    <path id="x" fill="#fff" d="M0 0c0-.406-.329-.734-.735-.734-.405 0-.733.328-.733.734 0 .405.328.734.733.734C-.329.734 0 .405 0 0"/>
+    <path id="y" fill="#fff" d="M0 0c0-.406-.328-.734-.733-.734-.406 0-.733.328-.733.734 0 .405.327.734.733.734C-.328.734 0 .405 0 0"/>
+    <path id="z" fill="#fff" d="M0 0c0-.406-.33-.734-.732-.734-.407 0-.736.328-.736.734 0 .405.329.734.736.734C-.33.734 0 .405 0 0"/>
+    <path id="A" fill="#fff" d="M0 0c0-.406-.33-.734-.735-.734-.406 0-.734.328-.734.734 0 .405.328.734.734.734C-.33.734 0 .405 0 0"/>
+    <path id="B" fill="#fff" d="M0 0c0-.405-.328-.733-.733-.733-.405 0-.733.328-.733.733 0 .407.328.734.733.734C-.328.734 0 .407 0 0"/>
+    <path id="C" fill="#fff" d="M0 0c0-.405-.329-.733-.733-.733-.405 0-.734.328-.734.733 0 .407.329.734.734.734C-.329.734 0 .407 0 0"/>
+    <path id="D" fill="#fff" d="M0 0c0-.405-.329-.733-.735-.733-.404 0-.733.328-.733.733 0 .407.329.734.733.734C-.329.734 0 .407 0 0"/>
+    <path id="E" fill="#fff" d="M0 0c0-.405-.329-.733-.735-.733-.406 0-.733.328-.733.733 0 .407.327.734.733.734C-.329.734 0 .407 0 0"/>
+    <path id="F" fill="#fff" d="M0 0c0-.405-.329-.733-.735-.733-.405 0-.733.328-.733.733 0 .407.328.734.733.734C-.329.734 0 .407 0 0"/>
+    <path id="G" fill="#fff" d="M0 0c0-.405-.328-.733-.733-.733-.406 0-.733.328-.733.733 0 .407.327.734.733.734C-.328.734 0 .407 0 0"/>
+    <path id="H" fill="#fff" d="M0 0c0-.405-.33-.733-.732-.733-.407 0-.736.328-.736.733 0 .407.329.734.736.734C-.33.734 0 .407 0 0"/>
+    <path id="I" fill="#fff" d="M0 0c0-.405-.33-.733-.735-.733-.406 0-.734.328-.734.733 0 .407.328.734.734.734C-.33.734 0 .407 0 0"/>
+    <path id="J" fill="#fff" d="M0 0c0-.405-.328-.733-.733-.733-.405 0-.733.328-.733.733 0 .406.328.734.733.734C-.328.734 0 .406 0 0"/>
+    <path id="K" fill="#fff" d="M0 0c0-.405-.329-.733-.733-.733-.405 0-.734.328-.734.733 0 .406.329.734.734.734C-.329.734 0 .406 0 0"/>
+    <path id="L" fill="#fff" d="M0 0c0-.405-.329-.733-.735-.733-.404 0-.733.328-.733.733 0 .406.329.734.733.734C-.329.734 0 .406 0 0"/>
+    <path id="M" fill="#fff" d="M0 0c0-.405-.329-.733-.735-.733-.406 0-.733.328-.733.733 0 .406.327.734.733.734C-.329.734 0 .406 0 0"/>
+    <path id="N" fill="#fff" d="M0 0c0-.405-.329-.733-.735-.733-.405 0-.733.328-.733.733 0 .406.328.734.733.734C-.329.734 0 .406 0 0"/>
+    <path id="O" fill="#fff" d="M0 0c0-.405-.328-.733-.733-.733-.406 0-.733.328-.733.733 0 .406.327.734.733.734C-.328.734 0 .406 0 0"/>
+    <path id="P" fill="#fff" d="M0 0c0-.405-.33-.733-.732-.733-.407 0-.736.328-.736.733 0 .406.329.734.736.734C-.33.734 0 .406 0 0"/>
+    <path id="Q" fill="#fff" d="M0 0c0-.405-.33-.733-.735-.733-.406 0-.734.328-.734.733 0 .406.328.734.734.734C-.33.734 0 .406 0 0"/>
+    <path id="R" fill="#fff" d="M0 0c0-.406-.328-.733-.733-.733-.405 0-.733.327-.733.733 0 .406.328.734.733.734C-.328.734 0 .406 0 0"/>
+    <path id="S" fill="#fff" d="M0 0c0-.406-.329-.733-.733-.733-.405 0-.734.327-.734.733 0 .406.329.734.734.734C-.329.734 0 .406 0 0"/>
+    <path id="T" fill="#fff" d="M0 0c0-.406-.329-.733-.735-.733-.404 0-.733.327-.733.733 0 .406.329.734.733.734C-.329.734 0 .406 0 0"/>
+    <path id="U" fill="#fff" d="M0 0c0-.406-.329-.733-.735-.733-.406 0-.733.327-.733.733 0 .406.327.734.733.734C-.329.734 0 .406 0 0"/>
+    <path id="V" fill="#fff" d="M0 0c0-.406-.329-.733-.735-.733-.405 0-.733.327-.733.733 0 .406.328.734.733.734C-.329.734 0 .406 0 0"/>
+    <path id="W" fill="#fff" d="M0 0c0-.406-.328-.733-.733-.733-.406 0-.733.327-.733.733 0 .406.327.734.733.734C-.328.734 0 .406 0 0"/>
+    <path id="X" fill="#fff" d="M0 0c0-.406-.33-.733-.732-.733-.407 0-.736.327-.736.733 0 .406.329.734.736.734C-.33.734 0 .406 0 0"/>
+    <path id="Y" fill="#fff" d="M0 0c0-.406-.33-.733-.735-.733-.406 0-.734.327-.734.733 0 .406.328.734.734.734C-.33.734 0 .406 0 0"/>
+  </defs>
+  <defs>
+    <pattern xlink:href="#a" id="ai" patternTransform="matrix(3.52778 0 0 -3.52778 1662.7758 -1028.3257)"/>
+    <pattern xlink:href="#b" id="ah" patternTransform="matrix(3.52778 0 0 -3.52778 1542.5421 -1032.0122)"/>
+    <pattern xlink:href="#c" id="ag" patternTransform="matrix(3.52778 0 0 -3.52778 1713.6252 -1056.6679)"/>
+    <pattern xlink:href="#d" id="af" patternTransform="matrix(3.52778 0 0 -3.52778 1773.3999 -1056.6679)"/>
+    <pattern xlink:href="#e" id="ae" patternTransform="matrix(3.52778 0 0 -3.52778 1605.6576 -1028.9113)"/>
+    <pattern xlink:href="#f" id="ad" patternTransform="matrix(3.52778 0 0 -3.52778 1667.4219 -1145.0775)"/>
+    <pattern xlink:href="#g" id="ac" patternTransform="matrix(3.52778 0 0 -3.52778 1543.5334 -1148.7817)"/>
+    <pattern xlink:href="#h" id="ab" patternTransform="matrix(3.52778 0 0 -3.52778 1643.2284 -1173.4126)"/>
+    <pattern xlink:href="#i" id="aa" patternTransform="matrix(3.52778 0 0 -3.52778 1772.398 -1173.4126)"/>
+    <pattern xlink:href="#j" id="Z" patternTransform="matrix(3.52778 0 0 -3.52778 1701.1474 -1144.6859)"/>
+    <pattern id="g" width="20.9673" height="20.9663" x="0" y="0" patternTransform="translate(334.683 417.406)" patternUnits="userSpaceOnUse">
+      <use xlink:href="#k"/>
+      <use xlink:href="#l" transform="translate(1.7817 19.9175)"/>
+      <use xlink:href="#m" transform="translate(3.8789 19.9175)"/>
+      <use xlink:href="#n" transform="translate(5.9761 19.9175)"/>
+      <use xlink:href="#o" transform="translate(8.0737 19.9175)"/>
+      <use xlink:href="#l" transform="translate(10.1685 19.9175)"/>
+      <use xlink:href="#p" transform="translate(12.2661 19.9175)"/>
+      <use xlink:href="#o" transform="translate(14.3633 19.9175)"/>
+      <use xlink:href="#q" transform="translate(16.4585 19.9175)"/>
+      <use xlink:href="#r" transform="translate(18.5562 19.9175)"/>
+      <use xlink:href="#s" transform="translate(20.6538 19.9175)"/>
+      <use xlink:href="#t" transform="translate(1.7817 17.8218)"/>
+      <use xlink:href="#u" transform="translate(3.8789 17.8218)"/>
+      <use xlink:href="#v" transform="translate(5.9761 17.8218)"/>
+      <use xlink:href="#w" transform="translate(8.0737 17.8218)"/>
+      <use xlink:href="#t" transform="translate(10.1685 17.8218)"/>
+      <use xlink:href="#x" transform="translate(12.2661 17.8218)"/>
+      <use xlink:href="#w" transform="translate(14.3633 17.8218)"/>
+      <use xlink:href="#y" transform="translate(16.4585 17.8218)"/>
+      <use xlink:href="#z" transform="translate(18.5562 17.8218)"/>
+      <use xlink:href="#A" transform="translate(20.6538 17.8218)"/>
+      <use xlink:href="#B" transform="translate(1.7817 15.7241)"/>
+      <use xlink:href="#C" transform="translate(3.8789 15.7241)"/>
+      <use xlink:href="#D" transform="translate(5.9761 15.7241)"/>
+      <use xlink:href="#E" transform="translate(8.0737 15.7241)"/>
+      <use xlink:href="#B" transform="translate(10.1685 15.7241)"/>
+      <use xlink:href="#F" transform="translate(12.2661 15.7241)"/>
+      <use xlink:href="#E" transform="translate(14.3633 15.7241)"/>
+      <use xlink:href="#G" transform="translate(16.4585 15.7241)"/>
+      <use xlink:href="#H" transform="translate(18.5562 15.7241)"/>
+      <use xlink:href="#I" transform="translate(20.6538 15.7241)"/>
+      <use xlink:href="#B" transform="translate(1.7817 13.6279)"/>
+      <use xlink:href="#C" transform="translate(3.8789 13.6279)"/>
+      <use xlink:href="#D" transform="translate(5.9761 13.6279)"/>
+      <use xlink:href="#E" transform="translate(8.0737 13.6279)"/>
+      <use xlink:href="#B" transform="translate(10.1685 13.6279)"/>
+      <use xlink:href="#F" transform="translate(12.2661 13.6279)"/>
+      <use xlink:href="#E" transform="translate(14.3633 13.6279)"/>
+      <use xlink:href="#G" transform="translate(16.4585 13.6279)"/>
+      <use xlink:href="#H" transform="translate(18.5562 13.6279)"/>
+      <use xlink:href="#I" transform="translate(20.6538 13.6279)"/>
+      <use xlink:href="#J" transform="translate(1.7817 11.5308)"/>
+      <use xlink:href="#K" transform="translate(3.8789 11.5308)"/>
+      <use xlink:href="#L" transform="translate(5.9761 11.5308)"/>
+      <use xlink:href="#M" transform="translate(8.0737 11.5308)"/>
+      <use xlink:href="#J" transform="translate(10.1685 11.5308)"/>
+      <use xlink:href="#N" transform="translate(12.2661 11.5308)"/>
+      <use xlink:href="#M" transform="translate(14.3633 11.5308)"/>
+      <use xlink:href="#O" transform="translate(16.4585 11.5308)"/>
+      <use xlink:href="#P" transform="translate(18.5562 11.5308)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 11.5308)"/>
+      <use xlink:href="#J" transform="translate(1.7817 9.4346)"/>
+      <use xlink:href="#K" transform="translate(3.8789 9.4346)"/>
+      <use xlink:href="#L" transform="translate(5.9761 9.4346)"/>
+      <use xlink:href="#M" transform="translate(8.0737 9.4346)"/>
+      <use xlink:href="#J" transform="translate(10.1685 9.4346)"/>
+      <use xlink:href="#N" transform="translate(12.2661 9.4346)"/>
+      <use xlink:href="#M" transform="translate(14.3633 9.4346)"/>
+      <use xlink:href="#O" transform="translate(16.4585 9.4346)"/>
+      <use xlink:href="#P" transform="translate(18.5562 9.4346)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 9.4346)"/>
+      <use xlink:href="#R" transform="translate(1.7817 7.3374)"/>
+      <use xlink:href="#S" transform="translate(3.8789 7.3374)"/>
+      <use xlink:href="#T" transform="translate(5.9761 7.3374)"/>
+      <use xlink:href="#U" transform="translate(8.0737 7.3374)"/>
+      <use xlink:href="#R" transform="translate(10.1685 7.3374)"/>
+      <use xlink:href="#V" transform="translate(12.2661 7.3374)"/>
+      <use xlink:href="#U" transform="translate(14.3633 7.3374)"/>
+      <use xlink:href="#W" transform="translate(16.4585 7.3374)"/>
+      <use xlink:href="#X" transform="translate(18.5562 7.3374)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 7.3374)"/>
+      <use xlink:href="#R" transform="translate(1.7817 5.2412)"/>
+      <use xlink:href="#S" transform="translate(3.8789 5.2412)"/>
+      <use xlink:href="#T" transform="translate(5.9761 5.2412)"/>
+      <use xlink:href="#U" transform="translate(8.0737 5.2412)"/>
+      <use xlink:href="#R" transform="translate(10.1685 5.2412)"/>
+      <use xlink:href="#V" transform="translate(12.2661 5.2412)"/>
+      <use xlink:href="#U" transform="translate(14.3633 5.2412)"/>
+      <use xlink:href="#W" transform="translate(16.4585 5.2412)"/>
+      <use xlink:href="#X" transform="translate(18.5562 5.2412)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 5.2412)"/>
+      <use xlink:href="#B" transform="translate(1.7817 3.1436)"/>
+      <use xlink:href="#C" transform="translate(3.8789 3.1436)"/>
+      <use xlink:href="#D" transform="translate(5.9761 3.1436)"/>
+      <use xlink:href="#E" transform="translate(8.0737 3.1436)"/>
+      <use xlink:href="#B" transform="translate(10.1685 3.1436)"/>
+      <use xlink:href="#F" transform="translate(12.2661 3.1436)"/>
+      <use xlink:href="#E" transform="translate(14.3633 3.1436)"/>
+      <use xlink:href="#G" transform="translate(16.4585 3.1436)"/>
+      <use xlink:href="#H" transform="translate(18.5562 3.1436)"/>
+      <use xlink:href="#I" transform="translate(20.6538 3.1436)"/>
+      <use xlink:href="#B" transform="translate(1.7817 1.0474)"/>
+      <use xlink:href="#C" transform="translate(3.8789 1.0474)"/>
+      <use xlink:href="#D" transform="translate(5.9761 1.0474)"/>
+      <use xlink:href="#E" transform="translate(8.0737 1.0474)"/>
+      <use xlink:href="#B" transform="translate(10.1685 1.0474)"/>
+      <use xlink:href="#F" transform="translate(12.2661 1.0474)"/>
+      <use xlink:href="#E" transform="translate(14.3633 1.0474)"/>
+      <use xlink:href="#G" transform="translate(16.4585 1.0474)"/>
+      <use xlink:href="#H" transform="translate(18.5562 1.0474)"/>
+      <use xlink:href="#I" transform="translate(20.6538 1.0474)"/>
+    </pattern>
+    <pattern id="f" width="20.9673" height="20.9663" x="0" y="0" patternTransform="translate(334.683 417.406)" patternUnits="userSpaceOnUse">
+      <use xlink:href="#k"/>
+      <use xlink:href="#l" transform="translate(1.7817 19.9175)"/>
+      <use xlink:href="#m" transform="translate(3.8789 19.9175)"/>
+      <use xlink:href="#n" transform="translate(5.9761 19.9175)"/>
+      <use xlink:href="#o" transform="translate(8.0737 19.9175)"/>
+      <use xlink:href="#l" transform="translate(10.1685 19.9175)"/>
+      <use xlink:href="#p" transform="translate(12.2661 19.9175)"/>
+      <use xlink:href="#o" transform="translate(14.3633 19.9175)"/>
+      <use xlink:href="#q" transform="translate(16.4585 19.9175)"/>
+      <use xlink:href="#r" transform="translate(18.5562 19.9175)"/>
+      <use xlink:href="#s" transform="translate(20.6538 19.9175)"/>
+      <use xlink:href="#t" transform="translate(1.7817 17.8218)"/>
+      <use xlink:href="#u" transform="translate(3.8789 17.8218)"/>
+      <use xlink:href="#v" transform="translate(5.9761 17.8218)"/>
+      <use xlink:href="#w" transform="translate(8.0737 17.8218)"/>
+      <use xlink:href="#t" transform="translate(10.1685 17.8218)"/>
+      <use xlink:href="#x" transform="translate(12.2661 17.8218)"/>
+      <use xlink:href="#w" transform="translate(14.3633 17.8218)"/>
+      <use xlink:href="#y" transform="translate(16.4585 17.8218)"/>
+      <use xlink:href="#z" transform="translate(18.5562 17.8218)"/>
+      <use xlink:href="#A" transform="translate(20.6538 17.8218)"/>
+      <use xlink:href="#B" transform="translate(1.7817 15.7241)"/>
+      <use xlink:href="#C" transform="translate(3.8789 15.7241)"/>
+      <use xlink:href="#D" transform="translate(5.9761 15.7241)"/>
+      <use xlink:href="#E" transform="translate(8.0737 15.7241)"/>
+      <use xlink:href="#B" transform="translate(10.1685 15.7241)"/>
+      <use xlink:href="#F" transform="translate(12.2661 15.7241)"/>
+      <use xlink:href="#E" transform="translate(14.3633 15.7241)"/>
+      <use xlink:href="#G" transform="translate(16.4585 15.7241)"/>
+      <use xlink:href="#H" transform="translate(18.5562 15.7241)"/>
+      <use xlink:href="#I" transform="translate(20.6538 15.7241)"/>
+      <use xlink:href="#B" transform="translate(1.7817 13.6279)"/>
+      <use xlink:href="#C" transform="translate(3.8789 13.6279)"/>
+      <use xlink:href="#D" transform="translate(5.9761 13.6279)"/>
+      <use xlink:href="#E" transform="translate(8.0737 13.6279)"/>
+      <use xlink:href="#B" transform="translate(10.1685 13.6279)"/>
+      <use xlink:href="#F" transform="translate(12.2661 13.6279)"/>
+      <use xlink:href="#E" transform="translate(14.3633 13.6279)"/>
+      <use xlink:href="#G" transform="translate(16.4585 13.6279)"/>
+      <use xlink:href="#H" transform="translate(18.5562 13.6279)"/>
+      <use xlink:href="#I" transform="translate(20.6538 13.6279)"/>
+      <use xlink:href="#J" transform="translate(1.7817 11.5308)"/>
+      <use xlink:href="#K" transform="translate(3.8789 11.5308)"/>
+      <use xlink:href="#L" transform="translate(5.9761 11.5308)"/>
+      <use xlink:href="#M" transform="translate(8.0737 11.5308)"/>
+      <use xlink:href="#J" transform="translate(10.1685 11.5308)"/>
+      <use xlink:href="#N" transform="translate(12.2661 11.5308)"/>
+      <use xlink:href="#M" transform="translate(14.3633 11.5308)"/>
+      <use xlink:href="#O" transform="translate(16.4585 11.5308)"/>
+      <use xlink:href="#P" transform="translate(18.5562 11.5308)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 11.5308)"/>
+      <use xlink:href="#J" transform="translate(1.7817 9.4346)"/>
+      <use xlink:href="#K" transform="translate(3.8789 9.4346)"/>
+      <use xlink:href="#L" transform="translate(5.9761 9.4346)"/>
+      <use xlink:href="#M" transform="translate(8.0737 9.4346)"/>
+      <use xlink:href="#J" transform="translate(10.1685 9.4346)"/>
+      <use xlink:href="#N" transform="translate(12.2661 9.4346)"/>
+      <use xlink:href="#M" transform="translate(14.3633 9.4346)"/>
+      <use xlink:href="#O" transform="translate(16.4585 9.4346)"/>
+      <use xlink:href="#P" transform="translate(18.5562 9.4346)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 9.4346)"/>
+      <use xlink:href="#R" transform="translate(1.7817 7.3374)"/>
+      <use xlink:href="#S" transform="translate(3.8789 7.3374)"/>
+      <use xlink:href="#T" transform="translate(5.9761 7.3374)"/>
+      <use xlink:href="#U" transform="translate(8.0737 7.3374)"/>
+      <use xlink:href="#R" transform="translate(10.1685 7.3374)"/>
+      <use xlink:href="#V" transform="translate(12.2661 7.3374)"/>
+      <use xlink:href="#U" transform="translate(14.3633 7.3374)"/>
+      <use xlink:href="#W" transform="translate(16.4585 7.3374)"/>
+      <use xlink:href="#X" transform="translate(18.5562 7.3374)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 7.3374)"/>
+      <use xlink:href="#R" transform="translate(1.7817 5.2412)"/>
+      <use xlink:href="#S" transform="translate(3.8789 5.2412)"/>
+      <use xlink:href="#T" transform="translate(5.9761 5.2412)"/>
+      <use xlink:href="#U" transform="translate(8.0737 5.2412)"/>
+      <use xlink:href="#R" transform="translate(10.1685 5.2412)"/>
+      <use xlink:href="#V" transform="translate(12.2661 5.2412)"/>
+      <use xlink:href="#U" transform="translate(14.3633 5.2412)"/>
+      <use xlink:href="#W" transform="translate(16.4585 5.2412)"/>
+      <use xlink:href="#X" transform="translate(18.5562 5.2412)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 5.2412)"/>
+      <use xlink:href="#B" transform="translate(1.7817 3.1436)"/>
+      <use xlink:href="#C" transform="translate(3.8789 3.1436)"/>
+      <use xlink:href="#D" transform="translate(5.9761 3.1436)"/>
+      <use xlink:href="#E" transform="translate(8.0737 3.1436)"/>
+      <use xlink:href="#B" transform="translate(10.1685 3.1436)"/>
+      <use xlink:href="#F" transform="translate(12.2661 3.1436)"/>
+      <use xlink:href="#E" transform="translate(14.3633 3.1436)"/>
+      <use xlink:href="#G" transform="translate(16.4585 3.1436)"/>
+      <use xlink:href="#H" transform="translate(18.5562 3.1436)"/>
+      <use xlink:href="#I" transform="translate(20.6538 3.1436)"/>
+      <use xlink:href="#B" transform="translate(1.7817 1.0474)"/>
+      <use xlink:href="#C" transform="translate(3.8789 1.0474)"/>
+      <use xlink:href="#D" transform="translate(5.9761 1.0474)"/>
+      <use xlink:href="#E" transform="translate(8.0737 1.0474)"/>
+      <use xlink:href="#B" transform="translate(10.1685 1.0474)"/>
+      <use xlink:href="#F" transform="translate(12.2661 1.0474)"/>
+      <use xlink:href="#E" transform="translate(14.3633 1.0474)"/>
+      <use xlink:href="#G" transform="translate(16.4585 1.0474)"/>
+      <use xlink:href="#H" transform="translate(18.5562 1.0474)"/>
+      <use xlink:href="#I" transform="translate(20.6538 1.0474)"/>
+    </pattern>
+    <pattern id="h" width="20.9673" height="20.9663" x="0" y="0" patternTransform="translate(334.683 417.406)" patternUnits="userSpaceOnUse">
+      <use xlink:href="#k"/>
+      <use xlink:href="#l" transform="translate(1.7817 19.9175)"/>
+      <use xlink:href="#m" transform="translate(3.8789 19.9175)"/>
+      <use xlink:href="#n" transform="translate(5.9761 19.9175)"/>
+      <use xlink:href="#o" transform="translate(8.0737 19.9175)"/>
+      <use xlink:href="#l" transform="translate(10.1685 19.9175)"/>
+      <use xlink:href="#p" transform="translate(12.2661 19.9175)"/>
+      <use xlink:href="#o" transform="translate(14.3633 19.9175)"/>
+      <use xlink:href="#q" transform="translate(16.4585 19.9175)"/>
+      <use xlink:href="#r" transform="translate(18.5562 19.9175)"/>
+      <use xlink:href="#s" transform="translate(20.6538 19.9175)"/>
+      <use xlink:href="#t" transform="translate(1.7817 17.8218)"/>
+      <use xlink:href="#u" transform="translate(3.8789 17.8218)"/>
+      <use xlink:href="#v" transform="translate(5.9761 17.8218)"/>
+      <use xlink:href="#w" transform="translate(8.0737 17.8218)"/>
+      <use xlink:href="#t" transform="translate(10.1685 17.8218)"/>
+      <use xlink:href="#x" transform="translate(12.2661 17.8218)"/>
+      <use xlink:href="#w" transform="translate(14.3633 17.8218)"/>
+      <use xlink:href="#y" transform="translate(16.4585 17.8218)"/>
+      <use xlink:href="#z" transform="translate(18.5562 17.8218)"/>
+      <use xlink:href="#A" transform="translate(20.6538 17.8218)"/>
+      <use xlink:href="#B" transform="translate(1.7817 15.7241)"/>
+      <use xlink:href="#C" transform="translate(3.8789 15.7241)"/>
+      <use xlink:href="#D" transform="translate(5.9761 15.7241)"/>
+      <use xlink:href="#E" transform="translate(8.0737 15.7241)"/>
+      <use xlink:href="#B" transform="translate(10.1685 15.7241)"/>
+      <use xlink:href="#F" transform="translate(12.2661 15.7241)"/>
+      <use xlink:href="#E" transform="translate(14.3633 15.7241)"/>
+      <use xlink:href="#G" transform="translate(16.4585 15.7241)"/>
+      <use xlink:href="#H" transform="translate(18.5562 15.7241)"/>
+      <use xlink:href="#I" transform="translate(20.6538 15.7241)"/>
+      <use xlink:href="#B" transform="translate(1.7817 13.6279)"/>
+      <use xlink:href="#C" transform="translate(3.8789 13.6279)"/>
+      <use xlink:href="#D" transform="translate(5.9761 13.6279)"/>
+      <use xlink:href="#E" transform="translate(8.0737 13.6279)"/>
+      <use xlink:href="#B" transform="translate(10.1685 13.6279)"/>
+      <use xlink:href="#F" transform="translate(12.2661 13.6279)"/>
+      <use xlink:href="#E" transform="translate(14.3633 13.6279)"/>
+      <use xlink:href="#G" transform="translate(16.4585 13.6279)"/>
+      <use xlink:href="#H" transform="translate(18.5562 13.6279)"/>
+      <use xlink:href="#I" transform="translate(20.6538 13.6279)"/>
+      <use xlink:href="#J" transform="translate(1.7817 11.5308)"/>
+      <use xlink:href="#K" transform="translate(3.8789 11.5308)"/>
+      <use xlink:href="#L" transform="translate(5.9761 11.5308)"/>
+      <use xlink:href="#M" transform="translate(8.0737 11.5308)"/>
+      <use xlink:href="#J" transform="translate(10.1685 11.5308)"/>
+      <use xlink:href="#N" transform="translate(12.2661 11.5308)"/>
+      <use xlink:href="#M" transform="translate(14.3633 11.5308)"/>
+      <use xlink:href="#O" transform="translate(16.4585 11.5308)"/>
+      <use xlink:href="#P" transform="translate(18.5562 11.5308)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 11.5308)"/>
+      <use xlink:href="#J" transform="translate(1.7817 9.4346)"/>
+      <use xlink:href="#K" transform="translate(3.8789 9.4346)"/>
+      <use xlink:href="#L" transform="translate(5.9761 9.4346)"/>
+      <use xlink:href="#M" transform="translate(8.0737 9.4346)"/>
+      <use xlink:href="#J" transform="translate(10.1685 9.4346)"/>
+      <use xlink:href="#N" transform="translate(12.2661 9.4346)"/>
+      <use xlink:href="#M" transform="translate(14.3633 9.4346)"/>
+      <use xlink:href="#O" transform="translate(16.4585 9.4346)"/>
+      <use xlink:href="#P" transform="translate(18.5562 9.4346)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 9.4346)"/>
+      <use xlink:href="#R" transform="translate(1.7817 7.3374)"/>
+      <use xlink:href="#S" transform="translate(3.8789 7.3374)"/>
+      <use xlink:href="#T" transform="translate(5.9761 7.3374)"/>
+      <use xlink:href="#U" transform="translate(8.0737 7.3374)"/>
+      <use xlink:href="#R" transform="translate(10.1685 7.3374)"/>
+      <use xlink:href="#V" transform="translate(12.2661 7.3374)"/>
+      <use xlink:href="#U" transform="translate(14.3633 7.3374)"/>
+      <use xlink:href="#W" transform="translate(16.4585 7.3374)"/>
+      <use xlink:href="#X" transform="translate(18.5562 7.3374)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 7.3374)"/>
+      <use xlink:href="#R" transform="translate(1.7817 5.2412)"/>
+      <use xlink:href="#S" transform="translate(3.8789 5.2412)"/>
+      <use xlink:href="#T" transform="translate(5.9761 5.2412)"/>
+      <use xlink:href="#U" transform="translate(8.0737 5.2412)"/>
+      <use xlink:href="#R" transform="translate(10.1685 5.2412)"/>
+      <use xlink:href="#V" transform="translate(12.2661 5.2412)"/>
+      <use xlink:href="#U" transform="translate(14.3633 5.2412)"/>
+      <use xlink:href="#W" transform="translate(16.4585 5.2412)"/>
+      <use xlink:href="#X" transform="translate(18.5562 5.2412)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 5.2412)"/>
+      <use xlink:href="#B" transform="translate(1.7817 3.1436)"/>
+      <use xlink:href="#C" transform="translate(3.8789 3.1436)"/>
+      <use xlink:href="#D" transform="translate(5.9761 3.1436)"/>
+      <use xlink:href="#E" transform="translate(8.0737 3.1436)"/>
+      <use xlink:href="#B" transform="translate(10.1685 3.1436)"/>
+      <use xlink:href="#F" transform="translate(12.2661 3.1436)"/>
+      <use xlink:href="#E" transform="translate(14.3633 3.1436)"/>
+      <use xlink:href="#G" transform="translate(16.4585 3.1436)"/>
+      <use xlink:href="#H" transform="translate(18.5562 3.1436)"/>
+      <use xlink:href="#I" transform="translate(20.6538 3.1436)"/>
+      <use xlink:href="#B" transform="translate(1.7817 1.0474)"/>
+      <use xlink:href="#C" transform="translate(3.8789 1.0474)"/>
+      <use xlink:href="#D" transform="translate(5.9761 1.0474)"/>
+      <use xlink:href="#E" transform="translate(8.0737 1.0474)"/>
+      <use xlink:href="#B" transform="translate(10.1685 1.0474)"/>
+      <use xlink:href="#F" transform="translate(12.2661 1.0474)"/>
+      <use xlink:href="#E" transform="translate(14.3633 1.0474)"/>
+      <use xlink:href="#G" transform="translate(16.4585 1.0474)"/>
+      <use xlink:href="#H" transform="translate(18.5562 1.0474)"/>
+      <use xlink:href="#I" transform="translate(20.6538 1.0474)"/>
+    </pattern>
+    <pattern id="j" width="20.9673" height="20.9663" x="0" y="0" patternTransform="translate(334.683 417.406)" patternUnits="userSpaceOnUse">
+      <use xlink:href="#k"/>
+      <use xlink:href="#l" transform="translate(1.7817 19.9175)"/>
+      <use xlink:href="#m" transform="translate(3.8789 19.9175)"/>
+      <use xlink:href="#n" transform="translate(5.9761 19.9175)"/>
+      <use xlink:href="#o" transform="translate(8.0737 19.9175)"/>
+      <use xlink:href="#l" transform="translate(10.1685 19.9175)"/>
+      <use xlink:href="#p" transform="translate(12.2661 19.9175)"/>
+      <use xlink:href="#o" transform="translate(14.3633 19.9175)"/>
+      <use xlink:href="#q" transform="translate(16.4585 19.9175)"/>
+      <use xlink:href="#r" transform="translate(18.5562 19.9175)"/>
+      <use xlink:href="#s" transform="translate(20.6538 19.9175)"/>
+      <use xlink:href="#t" transform="translate(1.7817 17.8218)"/>
+      <use xlink:href="#u" transform="translate(3.8789 17.8218)"/>
+      <use xlink:href="#v" transform="translate(5.9761 17.8218)"/>
+      <use xlink:href="#w" transform="translate(8.0737 17.8218)"/>
+      <use xlink:href="#t" transform="translate(10.1685 17.8218)"/>
+      <use xlink:href="#x" transform="translate(12.2661 17.8218)"/>
+      <use xlink:href="#w" transform="translate(14.3633 17.8218)"/>
+      <use xlink:href="#y" transform="translate(16.4585 17.8218)"/>
+      <use xlink:href="#z" transform="translate(18.5562 17.8218)"/>
+      <use xlink:href="#A" transform="translate(20.6538 17.8218)"/>
+      <use xlink:href="#B" transform="translate(1.7817 15.7241)"/>
+      <use xlink:href="#C" transform="translate(3.8789 15.7241)"/>
+      <use xlink:href="#D" transform="translate(5.9761 15.7241)"/>
+      <use xlink:href="#E" transform="translate(8.0737 15.7241)"/>
+      <use xlink:href="#B" transform="translate(10.1685 15.7241)"/>
+      <use xlink:href="#F" transform="translate(12.2661 15.7241)"/>
+      <use xlink:href="#E" transform="translate(14.3633 15.7241)"/>
+      <use xlink:href="#G" transform="translate(16.4585 15.7241)"/>
+      <use xlink:href="#H" transform="translate(18.5562 15.7241)"/>
+      <use xlink:href="#I" transform="translate(20.6538 15.7241)"/>
+      <use xlink:href="#B" transform="translate(1.7817 13.6279)"/>
+      <use xlink:href="#C" transform="translate(3.8789 13.6279)"/>
+      <use xlink:href="#D" transform="translate(5.9761 13.6279)"/>
+      <use xlink:href="#E" transform="translate(8.0737 13.6279)"/>
+      <use xlink:href="#B" transform="translate(10.1685 13.6279)"/>
+      <use xlink:href="#F" transform="translate(12.2661 13.6279)"/>
+      <use xlink:href="#E" transform="translate(14.3633 13.6279)"/>
+      <use xlink:href="#G" transform="translate(16.4585 13.6279)"/>
+      <use xlink:href="#H" transform="translate(18.5562 13.6279)"/>
+      <use xlink:href="#I" transform="translate(20.6538 13.6279)"/>
+      <use xlink:href="#J" transform="translate(1.7817 11.5308)"/>
+      <use xlink:href="#K" transform="translate(3.8789 11.5308)"/>
+      <use xlink:href="#L" transform="translate(5.9761 11.5308)"/>
+      <use xlink:href="#M" transform="translate(8.0737 11.5308)"/>
+      <use xlink:href="#J" transform="translate(10.1685 11.5308)"/>
+      <use xlink:href="#N" transform="translate(12.2661 11.5308)"/>
+      <use xlink:href="#M" transform="translate(14.3633 11.5308)"/>
+      <use xlink:href="#O" transform="translate(16.4585 11.5308)"/>
+      <use xlink:href="#P" transform="translate(18.5562 11.5308)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 11.5308)"/>
+      <use xlink:href="#J" transform="translate(1.7817 9.4346)"/>
+      <use xlink:href="#K" transform="translate(3.8789 9.4346)"/>
+      <use xlink:href="#L" transform="translate(5.9761 9.4346)"/>
+      <use xlink:href="#M" transform="translate(8.0737 9.4346)"/>
+      <use xlink:href="#J" transform="translate(10.1685 9.4346)"/>
+      <use xlink:href="#N" transform="translate(12.2661 9.4346)"/>
+      <use xlink:href="#M" transform="translate(14.3633 9.4346)"/>
+      <use xlink:href="#O" transform="translate(16.4585 9.4346)"/>
+      <use xlink:href="#P" transform="translate(18.5562 9.4346)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 9.4346)"/>
+      <use xlink:href="#R" transform="translate(1.7817 7.3374)"/>
+      <use xlink:href="#S" transform="translate(3.8789 7.3374)"/>
+      <use xlink:href="#T" transform="translate(5.9761 7.3374)"/>
+      <use xlink:href="#U" transform="translate(8.0737 7.3374)"/>
+      <use xlink:href="#R" transform="translate(10.1685 7.3374)"/>
+      <use xlink:href="#V" transform="translate(12.2661 7.3374)"/>
+      <use xlink:href="#U" transform="translate(14.3633 7.3374)"/>
+      <use xlink:href="#W" transform="translate(16.4585 7.3374)"/>
+      <use xlink:href="#X" transform="translate(18.5562 7.3374)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 7.3374)"/>
+      <use xlink:href="#R" transform="translate(1.7817 5.2412)"/>
+      <use xlink:href="#S" transform="translate(3.8789 5.2412)"/>
+      <use xlink:href="#T" transform="translate(5.9761 5.2412)"/>
+      <use xlink:href="#U" transform="translate(8.0737 5.2412)"/>
+      <use xlink:href="#R" transform="translate(10.1685 5.2412)"/>
+      <use xlink:href="#V" transform="translate(12.2661 5.2412)"/>
+      <use xlink:href="#U" transform="translate(14.3633 5.2412)"/>
+      <use xlink:href="#W" transform="translate(16.4585 5.2412)"/>
+      <use xlink:href="#X" transform="translate(18.5562 5.2412)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 5.2412)"/>
+      <use xlink:href="#B" transform="translate(1.7817 3.1436)"/>
+      <use xlink:href="#C" transform="translate(3.8789 3.1436)"/>
+      <use xlink:href="#D" transform="translate(5.9761 3.1436)"/>
+      <use xlink:href="#E" transform="translate(8.0737 3.1436)"/>
+      <use xlink:href="#B" transform="translate(10.1685 3.1436)"/>
+      <use xlink:href="#F" transform="translate(12.2661 3.1436)"/>
+      <use xlink:href="#E" transform="translate(14.3633 3.1436)"/>
+      <use xlink:href="#G" transform="translate(16.4585 3.1436)"/>
+      <use xlink:href="#H" transform="translate(18.5562 3.1436)"/>
+      <use xlink:href="#I" transform="translate(20.6538 3.1436)"/>
+      <use xlink:href="#B" transform="translate(1.7817 1.0474)"/>
+      <use xlink:href="#C" transform="translate(3.8789 1.0474)"/>
+      <use xlink:href="#D" transform="translate(5.9761 1.0474)"/>
+      <use xlink:href="#E" transform="translate(8.0737 1.0474)"/>
+      <use xlink:href="#B" transform="translate(10.1685 1.0474)"/>
+      <use xlink:href="#F" transform="translate(12.2661 1.0474)"/>
+      <use xlink:href="#E" transform="translate(14.3633 1.0474)"/>
+      <use xlink:href="#G" transform="translate(16.4585 1.0474)"/>
+      <use xlink:href="#H" transform="translate(18.5562 1.0474)"/>
+      <use xlink:href="#I" transform="translate(20.6538 1.0474)"/>
+    </pattern>
+    <pattern id="i" width="20.9673" height="20.9663" x="0" y="0" patternTransform="translate(334.683 417.406)" patternUnits="userSpaceOnUse">
+      <use xlink:href="#k"/>
+      <use xlink:href="#l" transform="translate(1.7817 19.9175)"/>
+      <use xlink:href="#m" transform="translate(3.8789 19.9175)"/>
+      <use xlink:href="#n" transform="translate(5.9761 19.9175)"/>
+      <use xlink:href="#o" transform="translate(8.0737 19.9175)"/>
+      <use xlink:href="#l" transform="translate(10.1685 19.9175)"/>
+      <use xlink:href="#p" transform="translate(12.2661 19.9175)"/>
+      <use xlink:href="#o" transform="translate(14.3633 19.9175)"/>
+      <use xlink:href="#q" transform="translate(16.4585 19.9175)"/>
+      <use xlink:href="#r" transform="translate(18.5562 19.9175)"/>
+      <use xlink:href="#s" transform="translate(20.6538 19.9175)"/>
+      <use xlink:href="#t" transform="translate(1.7817 17.8218)"/>
+      <use xlink:href="#u" transform="translate(3.8789 17.8218)"/>
+      <use xlink:href="#v" transform="translate(5.9761 17.8218)"/>
+      <use xlink:href="#w" transform="translate(8.0737 17.8218)"/>
+      <use xlink:href="#t" transform="translate(10.1685 17.8218)"/>
+      <use xlink:href="#x" transform="translate(12.2661 17.8218)"/>
+      <use xlink:href="#w" transform="translate(14.3633 17.8218)"/>
+      <use xlink:href="#y" transform="translate(16.4585 17.8218)"/>
+      <use xlink:href="#z" transform="translate(18.5562 17.8218)"/>
+      <use xlink:href="#A" transform="translate(20.6538 17.8218)"/>
+      <use xlink:href="#B" transform="translate(1.7817 15.7241)"/>
+      <use xlink:href="#C" transform="translate(3.8789 15.7241)"/>
+      <use xlink:href="#D" transform="translate(5.9761 15.7241)"/>
+      <use xlink:href="#E" transform="translate(8.0737 15.7241)"/>
+      <use xlink:href="#B" transform="translate(10.1685 15.7241)"/>
+      <use xlink:href="#F" transform="translate(12.2661 15.7241)"/>
+      <use xlink:href="#E" transform="translate(14.3633 15.7241)"/>
+      <use xlink:href="#G" transform="translate(16.4585 15.7241)"/>
+      <use xlink:href="#H" transform="translate(18.5562 15.7241)"/>
+      <use xlink:href="#I" transform="translate(20.6538 15.7241)"/>
+      <use xlink:href="#B" transform="translate(1.7817 13.6279)"/>
+      <use xlink:href="#C" transform="translate(3.8789 13.6279)"/>
+      <use xlink:href="#D" transform="translate(5.9761 13.6279)"/>
+      <use xlink:href="#E" transform="translate(8.0737 13.6279)"/>
+      <use xlink:href="#B" transform="translate(10.1685 13.6279)"/>
+      <use xlink:href="#F" transform="translate(12.2661 13.6279)"/>
+      <use xlink:href="#E" transform="translate(14.3633 13.6279)"/>
+      <use xlink:href="#G" transform="translate(16.4585 13.6279)"/>
+      <use xlink:href="#H" transform="translate(18.5562 13.6279)"/>
+      <use xlink:href="#I" transform="translate(20.6538 13.6279)"/>
+      <use xlink:href="#J" transform="translate(1.7817 11.5308)"/>
+      <use xlink:href="#K" transform="translate(3.8789 11.5308)"/>
+      <use xlink:href="#L" transform="translate(5.9761 11.5308)"/>
+      <use xlink:href="#M" transform="translate(8.0737 11.5308)"/>
+      <use xlink:href="#J" transform="translate(10.1685 11.5308)"/>
+      <use xlink:href="#N" transform="translate(12.2661 11.5308)"/>
+      <use xlink:href="#M" transform="translate(14.3633 11.5308)"/>
+      <use xlink:href="#O" transform="translate(16.4585 11.5308)"/>
+      <use xlink:href="#P" transform="translate(18.5562 11.5308)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 11.5308)"/>
+      <use xlink:href="#J" transform="translate(1.7817 9.4346)"/>
+      <use xlink:href="#K" transform="translate(3.8789 9.4346)"/>
+      <use xlink:href="#L" transform="translate(5.9761 9.4346)"/>
+      <use xlink:href="#M" transform="translate(8.0737 9.4346)"/>
+      <use xlink:href="#J" transform="translate(10.1685 9.4346)"/>
+      <use xlink:href="#N" transform="translate(12.2661 9.4346)"/>
+      <use xlink:href="#M" transform="translate(14.3633 9.4346)"/>
+      <use xlink:href="#O" transform="translate(16.4585 9.4346)"/>
+      <use xlink:href="#P" transform="translate(18.5562 9.4346)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 9.4346)"/>
+      <use xlink:href="#R" transform="translate(1.7817 7.3374)"/>
+      <use xlink:href="#S" transform="translate(3.8789 7.3374)"/>
+      <use xlink:href="#T" transform="translate(5.9761 7.3374)"/>
+      <use xlink:href="#U" transform="translate(8.0737 7.3374)"/>
+      <use xlink:href="#R" transform="translate(10.1685 7.3374)"/>
+      <use xlink:href="#V" transform="translate(12.2661 7.3374)"/>
+      <use xlink:href="#U" transform="translate(14.3633 7.3374)"/>
+      <use xlink:href="#W" transform="translate(16.4585 7.3374)"/>
+      <use xlink:href="#X" transform="translate(18.5562 7.3374)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 7.3374)"/>
+      <use xlink:href="#R" transform="translate(1.7817 5.2412)"/>
+      <use xlink:href="#S" transform="translate(3.8789 5.2412)"/>
+      <use xlink:href="#T" transform="translate(5.9761 5.2412)"/>
+      <use xlink:href="#U" transform="translate(8.0737 5.2412)"/>
+      <use xlink:href="#R" transform="translate(10.1685 5.2412)"/>
+      <use xlink:href="#V" transform="translate(12.2661 5.2412)"/>
+      <use xlink:href="#U" transform="translate(14.3633 5.2412)"/>
+      <use xlink:href="#W" transform="translate(16.4585 5.2412)"/>
+      <use xlink:href="#X" transform="translate(18.5562 5.2412)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 5.2412)"/>
+      <use xlink:href="#B" transform="translate(1.7817 3.1436)"/>
+      <use xlink:href="#C" transform="translate(3.8789 3.1436)"/>
+      <use xlink:href="#D" transform="translate(5.9761 3.1436)"/>
+      <use xlink:href="#E" transform="translate(8.0737 3.1436)"/>
+      <use xlink:href="#B" transform="translate(10.1685 3.1436)"/>
+      <use xlink:href="#F" transform="translate(12.2661 3.1436)"/>
+      <use xlink:href="#E" transform="translate(14.3633 3.1436)"/>
+      <use xlink:href="#G" transform="translate(16.4585 3.1436)"/>
+      <use xlink:href="#H" transform="translate(18.5562 3.1436)"/>
+      <use xlink:href="#I" transform="translate(20.6538 3.1436)"/>
+      <use xlink:href="#B" transform="translate(1.7817 1.0474)"/>
+      <use xlink:href="#C" transform="translate(3.8789 1.0474)"/>
+      <use xlink:href="#D" transform="translate(5.9761 1.0474)"/>
+      <use xlink:href="#E" transform="translate(8.0737 1.0474)"/>
+      <use xlink:href="#B" transform="translate(10.1685 1.0474)"/>
+      <use xlink:href="#F" transform="translate(12.2661 1.0474)"/>
+      <use xlink:href="#E" transform="translate(14.3633 1.0474)"/>
+      <use xlink:href="#G" transform="translate(16.4585 1.0474)"/>
+      <use xlink:href="#H" transform="translate(18.5562 1.0474)"/>
+      <use xlink:href="#I" transform="translate(20.6538 1.0474)"/>
+    </pattern>
+    <pattern id="d" width="20.9673" height="20.9663" x="0" y="0" patternTransform="translate(334.683 417.406)" patternUnits="userSpaceOnUse">
+      <use xlink:href="#k"/>
+      <use xlink:href="#l" transform="translate(1.7817 19.9175)"/>
+      <use xlink:href="#m" transform="translate(3.8789 19.9175)"/>
+      <use xlink:href="#n" transform="translate(5.9761 19.9175)"/>
+      <use xlink:href="#o" transform="translate(8.0737 19.9175)"/>
+      <use xlink:href="#l" transform="translate(10.1685 19.9175)"/>
+      <use xlink:href="#p" transform="translate(12.2661 19.9175)"/>
+      <use xlink:href="#o" transform="translate(14.3633 19.9175)"/>
+      <use xlink:href="#q" transform="translate(16.4585 19.9175)"/>
+      <use xlink:href="#r" transform="translate(18.5562 19.9175)"/>
+      <use xlink:href="#s" transform="translate(20.6538 19.9175)"/>
+      <use xlink:href="#t" transform="translate(1.7817 17.8218)"/>
+      <use xlink:href="#u" transform="translate(3.8789 17.8218)"/>
+      <use xlink:href="#v" transform="translate(5.9761 17.8218)"/>
+      <use xlink:href="#w" transform="translate(8.0737 17.8218)"/>
+      <use xlink:href="#t" transform="translate(10.1685 17.8218)"/>
+      <use xlink:href="#x" transform="translate(12.2661 17.8218)"/>
+      <use xlink:href="#w" transform="translate(14.3633 17.8218)"/>
+      <use xlink:href="#y" transform="translate(16.4585 17.8218)"/>
+      <use xlink:href="#z" transform="translate(18.5562 17.8218)"/>
+      <use xlink:href="#A" transform="translate(20.6538 17.8218)"/>
+      <use xlink:href="#B" transform="translate(1.7817 15.7241)"/>
+      <use xlink:href="#C" transform="translate(3.8789 15.7241)"/>
+      <use xlink:href="#D" transform="translate(5.9761 15.7241)"/>
+      <use xlink:href="#E" transform="translate(8.0737 15.7241)"/>
+      <use xlink:href="#B" transform="translate(10.1685 15.7241)"/>
+      <use xlink:href="#F" transform="translate(12.2661 15.7241)"/>
+      <use xlink:href="#E" transform="translate(14.3633 15.7241)"/>
+      <use xlink:href="#G" transform="translate(16.4585 15.7241)"/>
+      <use xlink:href="#H" transform="translate(18.5562 15.7241)"/>
+      <use xlink:href="#I" transform="translate(20.6538 15.7241)"/>
+      <use xlink:href="#B" transform="translate(1.7817 13.6279)"/>
+      <use xlink:href="#C" transform="translate(3.8789 13.6279)"/>
+      <use xlink:href="#D" transform="translate(5.9761 13.6279)"/>
+      <use xlink:href="#E" transform="translate(8.0737 13.6279)"/>
+      <use xlink:href="#B" transform="translate(10.1685 13.6279)"/>
+      <use xlink:href="#F" transform="translate(12.2661 13.6279)"/>
+      <use xlink:href="#E" transform="translate(14.3633 13.6279)"/>
+      <use xlink:href="#G" transform="translate(16.4585 13.6279)"/>
+      <use xlink:href="#H" transform="translate(18.5562 13.6279)"/>
+      <use xlink:href="#I" transform="translate(20.6538 13.6279)"/>
+      <use xlink:href="#J" transform="translate(1.7817 11.5308)"/>
+      <use xlink:href="#K" transform="translate(3.8789 11.5308)"/>
+      <use xlink:href="#L" transform="translate(5.9761 11.5308)"/>
+      <use xlink:href="#M" transform="translate(8.0737 11.5308)"/>
+      <use xlink:href="#J" transform="translate(10.1685 11.5308)"/>
+      <use xlink:href="#N" transform="translate(12.2661 11.5308)"/>
+      <use xlink:href="#M" transform="translate(14.3633 11.5308)"/>
+      <use xlink:href="#O" transform="translate(16.4585 11.5308)"/>
+      <use xlink:href="#P" transform="translate(18.5562 11.5308)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 11.5308)"/>
+      <use xlink:href="#J" transform="translate(1.7817 9.4346)"/>
+      <use xlink:href="#K" transform="translate(3.8789 9.4346)"/>
+      <use xlink:href="#L" transform="translate(5.9761 9.4346)"/>
+      <use xlink:href="#M" transform="translate(8.0737 9.4346)"/>
+      <use xlink:href="#J" transform="translate(10.1685 9.4346)"/>
+      <use xlink:href="#N" transform="translate(12.2661 9.4346)"/>
+      <use xlink:href="#M" transform="translate(14.3633 9.4346)"/>
+      <use xlink:href="#O" transform="translate(16.4585 9.4346)"/>
+      <use xlink:href="#P" transform="translate(18.5562 9.4346)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 9.4346)"/>
+      <use xlink:href="#R" transform="translate(1.7817 7.3374)"/>
+      <use xlink:href="#S" transform="translate(3.8789 7.3374)"/>
+      <use xlink:href="#T" transform="translate(5.9761 7.3374)"/>
+      <use xlink:href="#U" transform="translate(8.0737 7.3374)"/>
+      <use xlink:href="#R" transform="translate(10.1685 7.3374)"/>
+      <use xlink:href="#V" transform="translate(12.2661 7.3374)"/>
+      <use xlink:href="#U" transform="translate(14.3633 7.3374)"/>
+      <use xlink:href="#W" transform="translate(16.4585 7.3374)"/>
+      <use xlink:href="#X" transform="translate(18.5562 7.3374)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 7.3374)"/>
+      <use xlink:href="#R" transform="translate(1.7817 5.2412)"/>
+      <use xlink:href="#S" transform="translate(3.8789 5.2412)"/>
+      <use xlink:href="#T" transform="translate(5.9761 5.2412)"/>
+      <use xlink:href="#U" transform="translate(8.0737 5.2412)"/>
+      <use xlink:href="#R" transform="translate(10.1685 5.2412)"/>
+      <use xlink:href="#V" transform="translate(12.2661 5.2412)"/>
+      <use xlink:href="#U" transform="translate(14.3633 5.2412)"/>
+      <use xlink:href="#W" transform="translate(16.4585 5.2412)"/>
+      <use xlink:href="#X" transform="translate(18.5562 5.2412)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 5.2412)"/>
+      <use xlink:href="#B" transform="translate(1.7817 3.1436)"/>
+      <use xlink:href="#C" transform="translate(3.8789 3.1436)"/>
+      <use xlink:href="#D" transform="translate(5.9761 3.1436)"/>
+      <use xlink:href="#E" transform="translate(8.0737 3.1436)"/>
+      <use xlink:href="#B" transform="translate(10.1685 3.1436)"/>
+      <use xlink:href="#F" transform="translate(12.2661 3.1436)"/>
+      <use xlink:href="#E" transform="translate(14.3633 3.1436)"/>
+      <use xlink:href="#G" transform="translate(16.4585 3.1436)"/>
+      <use xlink:href="#H" transform="translate(18.5562 3.1436)"/>
+      <use xlink:href="#I" transform="translate(20.6538 3.1436)"/>
+      <use xlink:href="#B" transform="translate(1.7817 1.0474)"/>
+      <use xlink:href="#C" transform="translate(3.8789 1.0474)"/>
+      <use xlink:href="#D" transform="translate(5.9761 1.0474)"/>
+      <use xlink:href="#E" transform="translate(8.0737 1.0474)"/>
+      <use xlink:href="#B" transform="translate(10.1685 1.0474)"/>
+      <use xlink:href="#F" transform="translate(12.2661 1.0474)"/>
+      <use xlink:href="#E" transform="translate(14.3633 1.0474)"/>
+      <use xlink:href="#G" transform="translate(16.4585 1.0474)"/>
+      <use xlink:href="#H" transform="translate(18.5562 1.0474)"/>
+      <use xlink:href="#I" transform="translate(20.6538 1.0474)"/>
+    </pattern>
+    <pattern id="c" width="20.9673" height="20.9663" x="0" y="0" patternTransform="translate(334.683 417.406)" patternUnits="userSpaceOnUse">
+      <use xlink:href="#k"/>
+      <use xlink:href="#l" transform="translate(1.7817 19.9175)"/>
+      <use xlink:href="#m" transform="translate(3.8789 19.9175)"/>
+      <use xlink:href="#n" transform="translate(5.9761 19.9175)"/>
+      <use xlink:href="#o" transform="translate(8.0737 19.9175)"/>
+      <use xlink:href="#l" transform="translate(10.1685 19.9175)"/>
+      <use xlink:href="#p" transform="translate(12.2661 19.9175)"/>
+      <use xlink:href="#o" transform="translate(14.3633 19.9175)"/>
+      <use xlink:href="#q" transform="translate(16.4585 19.9175)"/>
+      <use xlink:href="#r" transform="translate(18.5562 19.9175)"/>
+      <use xlink:href="#s" transform="translate(20.6538 19.9175)"/>
+      <use xlink:href="#t" transform="translate(1.7817 17.8218)"/>
+      <use xlink:href="#u" transform="translate(3.8789 17.8218)"/>
+      <use xlink:href="#v" transform="translate(5.9761 17.8218)"/>
+      <use xlink:href="#w" transform="translate(8.0737 17.8218)"/>
+      <use xlink:href="#t" transform="translate(10.1685 17.8218)"/>
+      <use xlink:href="#x" transform="translate(12.2661 17.8218)"/>
+      <use xlink:href="#w" transform="translate(14.3633 17.8218)"/>
+      <use xlink:href="#y" transform="translate(16.4585 17.8218)"/>
+      <use xlink:href="#z" transform="translate(18.5562 17.8218)"/>
+      <use xlink:href="#A" transform="translate(20.6538 17.8218)"/>
+      <use xlink:href="#B" transform="translate(1.7817 15.7241)"/>
+      <use xlink:href="#C" transform="translate(3.8789 15.7241)"/>
+      <use xlink:href="#D" transform="translate(5.9761 15.7241)"/>
+      <use xlink:href="#E" transform="translate(8.0737 15.7241)"/>
+      <use xlink:href="#B" transform="translate(10.1685 15.7241)"/>
+      <use xlink:href="#F" transform="translate(12.2661 15.7241)"/>
+      <use xlink:href="#E" transform="translate(14.3633 15.7241)"/>
+      <use xlink:href="#G" transform="translate(16.4585 15.7241)"/>
+      <use xlink:href="#H" transform="translate(18.5562 15.7241)"/>
+      <use xlink:href="#I" transform="translate(20.6538 15.7241)"/>
+      <use xlink:href="#B" transform="translate(1.7817 13.6279)"/>
+      <use xlink:href="#C" transform="translate(3.8789 13.6279)"/>
+      <use xlink:href="#D" transform="translate(5.9761 13.6279)"/>
+      <use xlink:href="#E" transform="translate(8.0737 13.6279)"/>
+      <use xlink:href="#B" transform="translate(10.1685 13.6279)"/>
+      <use xlink:href="#F" transform="translate(12.2661 13.6279)"/>
+      <use xlink:href="#E" transform="translate(14.3633 13.6279)"/>
+      <use xlink:href="#G" transform="translate(16.4585 13.6279)"/>
+      <use xlink:href="#H" transform="translate(18.5562 13.6279)"/>
+      <use xlink:href="#I" transform="translate(20.6538 13.6279)"/>
+      <use xlink:href="#J" transform="translate(1.7817 11.5308)"/>
+      <use xlink:href="#K" transform="translate(3.8789 11.5308)"/>
+      <use xlink:href="#L" transform="translate(5.9761 11.5308)"/>
+      <use xlink:href="#M" transform="translate(8.0737 11.5308)"/>
+      <use xlink:href="#J" transform="translate(10.1685 11.5308)"/>
+      <use xlink:href="#N" transform="translate(12.2661 11.5308)"/>
+      <use xlink:href="#M" transform="translate(14.3633 11.5308)"/>
+      <use xlink:href="#O" transform="translate(16.4585 11.5308)"/>
+      <use xlink:href="#P" transform="translate(18.5562 11.5308)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 11.5308)"/>
+      <use xlink:href="#J" transform="translate(1.7817 9.4346)"/>
+      <use xlink:href="#K" transform="translate(3.8789 9.4346)"/>
+      <use xlink:href="#L" transform="translate(5.9761 9.4346)"/>
+      <use xlink:href="#M" transform="translate(8.0737 9.4346)"/>
+      <use xlink:href="#J" transform="translate(10.1685 9.4346)"/>
+      <use xlink:href="#N" transform="translate(12.2661 9.4346)"/>
+      <use xlink:href="#M" transform="translate(14.3633 9.4346)"/>
+      <use xlink:href="#O" transform="translate(16.4585 9.4346)"/>
+      <use xlink:href="#P" transform="translate(18.5562 9.4346)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 9.4346)"/>
+      <use xlink:href="#R" transform="translate(1.7817 7.3374)"/>
+      <use xlink:href="#S" transform="translate(3.8789 7.3374)"/>
+      <use xlink:href="#T" transform="translate(5.9761 7.3374)"/>
+      <use xlink:href="#U" transform="translate(8.0737 7.3374)"/>
+      <use xlink:href="#R" transform="translate(10.1685 7.3374)"/>
+      <use xlink:href="#V" transform="translate(12.2661 7.3374)"/>
+      <use xlink:href="#U" transform="translate(14.3633 7.3374)"/>
+      <use xlink:href="#W" transform="translate(16.4585 7.3374)"/>
+      <use xlink:href="#X" transform="translate(18.5562 7.3374)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 7.3374)"/>
+      <use xlink:href="#R" transform="translate(1.7817 5.2412)"/>
+      <use xlink:href="#S" transform="translate(3.8789 5.2412)"/>
+      <use xlink:href="#T" transform="translate(5.9761 5.2412)"/>
+      <use xlink:href="#U" transform="translate(8.0737 5.2412)"/>
+      <use xlink:href="#R" transform="translate(10.1685 5.2412)"/>
+      <use xlink:href="#V" transform="translate(12.2661 5.2412)"/>
+      <use xlink:href="#U" transform="translate(14.3633 5.2412)"/>
+      <use xlink:href="#W" transform="translate(16.4585 5.2412)"/>
+      <use xlink:href="#X" transform="translate(18.5562 5.2412)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 5.2412)"/>
+      <use xlink:href="#B" transform="translate(1.7817 3.1436)"/>
+      <use xlink:href="#C" transform="translate(3.8789 3.1436)"/>
+      <use xlink:href="#D" transform="translate(5.9761 3.1436)"/>
+      <use xlink:href="#E" transform="translate(8.0737 3.1436)"/>
+      <use xlink:href="#B" transform="translate(10.1685 3.1436)"/>
+      <use xlink:href="#F" transform="translate(12.2661 3.1436)"/>
+      <use xlink:href="#E" transform="translate(14.3633 3.1436)"/>
+      <use xlink:href="#G" transform="translate(16.4585 3.1436)"/>
+      <use xlink:href="#H" transform="translate(18.5562 3.1436)"/>
+      <use xlink:href="#I" transform="translate(20.6538 3.1436)"/>
+      <use xlink:href="#B" transform="translate(1.7817 1.0474)"/>
+      <use xlink:href="#C" transform="translate(3.8789 1.0474)"/>
+      <use xlink:href="#D" transform="translate(5.9761 1.0474)"/>
+      <use xlink:href="#E" transform="translate(8.0737 1.0474)"/>
+      <use xlink:href="#B" transform="translate(10.1685 1.0474)"/>
+      <use xlink:href="#F" transform="translate(12.2661 1.0474)"/>
+      <use xlink:href="#E" transform="translate(14.3633 1.0474)"/>
+      <use xlink:href="#G" transform="translate(16.4585 1.0474)"/>
+      <use xlink:href="#H" transform="translate(18.5562 1.0474)"/>
+      <use xlink:href="#I" transform="translate(20.6538 1.0474)"/>
+    </pattern>
+    <pattern id="a" width="20.9673" height="20.9663" x="0" y="0" patternTransform="translate(334.683 417.406)" patternUnits="userSpaceOnUse">
+      <use xlink:href="#k"/>
+      <use xlink:href="#l" transform="translate(1.7817 19.9175)"/>
+      <use xlink:href="#m" transform="translate(3.8789 19.9175)"/>
+      <use xlink:href="#n" transform="translate(5.9761 19.9175)"/>
+      <use xlink:href="#o" transform="translate(8.0737 19.9175)"/>
+      <use xlink:href="#l" transform="translate(10.1685 19.9175)"/>
+      <use xlink:href="#p" transform="translate(12.2661 19.9175)"/>
+      <use xlink:href="#o" transform="translate(14.3633 19.9175)"/>
+      <use xlink:href="#q" transform="translate(16.4585 19.9175)"/>
+      <use xlink:href="#r" transform="translate(18.5562 19.9175)"/>
+      <use xlink:href="#s" transform="translate(20.6538 19.9175)"/>
+      <use xlink:href="#t" transform="translate(1.7817 17.8218)"/>
+      <use xlink:href="#u" transform="translate(3.8789 17.8218)"/>
+      <use xlink:href="#v" transform="translate(5.9761 17.8218)"/>
+      <use xlink:href="#w" transform="translate(8.0737 17.8218)"/>
+      <use xlink:href="#t" transform="translate(10.1685 17.8218)"/>
+      <use xlink:href="#x" transform="translate(12.2661 17.8218)"/>
+      <use xlink:href="#w" transform="translate(14.3633 17.8218)"/>
+      <use xlink:href="#y" transform="translate(16.4585 17.8218)"/>
+      <use xlink:href="#z" transform="translate(18.5562 17.8218)"/>
+      <use xlink:href="#A" transform="translate(20.6538 17.8218)"/>
+      <use xlink:href="#B" transform="translate(1.7817 15.7241)"/>
+      <use xlink:href="#C" transform="translate(3.8789 15.7241)"/>
+      <use xlink:href="#D" transform="translate(5.9761 15.7241)"/>
+      <use xlink:href="#E" transform="translate(8.0737 15.7241)"/>
+      <use xlink:href="#B" transform="translate(10.1685 15.7241)"/>
+      <use xlink:href="#F" transform="translate(12.2661 15.7241)"/>
+      <use xlink:href="#E" transform="translate(14.3633 15.7241)"/>
+      <use xlink:href="#G" transform="translate(16.4585 15.7241)"/>
+      <use xlink:href="#H" transform="translate(18.5562 15.7241)"/>
+      <use xlink:href="#I" transform="translate(20.6538 15.7241)"/>
+      <use xlink:href="#B" transform="translate(1.7817 13.6279)"/>
+      <use xlink:href="#C" transform="translate(3.8789 13.6279)"/>
+      <use xlink:href="#D" transform="translate(5.9761 13.6279)"/>
+      <use xlink:href="#E" transform="translate(8.0737 13.6279)"/>
+      <use xlink:href="#B" transform="translate(10.1685 13.6279)"/>
+      <use xlink:href="#F" transform="translate(12.2661 13.6279)"/>
+      <use xlink:href="#E" transform="translate(14.3633 13.6279)"/>
+      <use xlink:href="#G" transform="translate(16.4585 13.6279)"/>
+      <use xlink:href="#H" transform="translate(18.5562 13.6279)"/>
+      <use xlink:href="#I" transform="translate(20.6538 13.6279)"/>
+      <use xlink:href="#J" transform="translate(1.7817 11.5308)"/>
+      <use xlink:href="#K" transform="translate(3.8789 11.5308)"/>
+      <use xlink:href="#L" transform="translate(5.9761 11.5308)"/>
+      <use xlink:href="#M" transform="translate(8.0737 11.5308)"/>
+      <use xlink:href="#J" transform="translate(10.1685 11.5308)"/>
+      <use xlink:href="#N" transform="translate(12.2661 11.5308)"/>
+      <use xlink:href="#M" transform="translate(14.3633 11.5308)"/>
+      <use xlink:href="#O" transform="translate(16.4585 11.5308)"/>
+      <use xlink:href="#P" transform="translate(18.5562 11.5308)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 11.5308)"/>
+      <use xlink:href="#J" transform="translate(1.7817 9.4346)"/>
+      <use xlink:href="#K" transform="translate(3.8789 9.4346)"/>
+      <use xlink:href="#L" transform="translate(5.9761 9.4346)"/>
+      <use xlink:href="#M" transform="translate(8.0737 9.4346)"/>
+      <use xlink:href="#J" transform="translate(10.1685 9.4346)"/>
+      <use xlink:href="#N" transform="translate(12.2661 9.4346)"/>
+      <use xlink:href="#M" transform="translate(14.3633 9.4346)"/>
+      <use xlink:href="#O" transform="translate(16.4585 9.4346)"/>
+      <use xlink:href="#P" transform="translate(18.5562 9.4346)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 9.4346)"/>
+      <use xlink:href="#R" transform="translate(1.7817 7.3374)"/>
+      <use xlink:href="#S" transform="translate(3.8789 7.3374)"/>
+      <use xlink:href="#T" transform="translate(5.9761 7.3374)"/>
+      <use xlink:href="#U" transform="translate(8.0737 7.3374)"/>
+      <use xlink:href="#R" transform="translate(10.1685 7.3374)"/>
+      <use xlink:href="#V" transform="translate(12.2661 7.3374)"/>
+      <use xlink:href="#U" transform="translate(14.3633 7.3374)"/>
+      <use xlink:href="#W" transform="translate(16.4585 7.3374)"/>
+      <use xlink:href="#X" transform="translate(18.5562 7.3374)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 7.3374)"/>
+      <use xlink:href="#R" transform="translate(1.7817 5.2412)"/>
+      <use xlink:href="#S" transform="translate(3.8789 5.2412)"/>
+      <use xlink:href="#T" transform="translate(5.9761 5.2412)"/>
+      <use xlink:href="#U" transform="translate(8.0737 5.2412)"/>
+      <use xlink:href="#R" transform="translate(10.1685 5.2412)"/>
+      <use xlink:href="#V" transform="translate(12.2661 5.2412)"/>
+      <use xlink:href="#U" transform="translate(14.3633 5.2412)"/>
+      <use xlink:href="#W" transform="translate(16.4585 5.2412)"/>
+      <use xlink:href="#X" transform="translate(18.5562 5.2412)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 5.2412)"/>
+      <use xlink:href="#B" transform="translate(1.7817 3.1436)"/>
+      <use xlink:href="#C" transform="translate(3.8789 3.1436)"/>
+      <use xlink:href="#D" transform="translate(5.9761 3.1436)"/>
+      <use xlink:href="#E" transform="translate(8.0737 3.1436)"/>
+      <use xlink:href="#B" transform="translate(10.1685 3.1436)"/>
+      <use xlink:href="#F" transform="translate(12.2661 3.1436)"/>
+      <use xlink:href="#E" transform="translate(14.3633 3.1436)"/>
+      <use xlink:href="#G" transform="translate(16.4585 3.1436)"/>
+      <use xlink:href="#H" transform="translate(18.5562 3.1436)"/>
+      <use xlink:href="#I" transform="translate(20.6538 3.1436)"/>
+      <use xlink:href="#B" transform="translate(1.7817 1.0474)"/>
+      <use xlink:href="#C" transform="translate(3.8789 1.0474)"/>
+      <use xlink:href="#D" transform="translate(5.9761 1.0474)"/>
+      <use xlink:href="#E" transform="translate(8.0737 1.0474)"/>
+      <use xlink:href="#B" transform="translate(10.1685 1.0474)"/>
+      <use xlink:href="#F" transform="translate(12.2661 1.0474)"/>
+      <use xlink:href="#E" transform="translate(14.3633 1.0474)"/>
+      <use xlink:href="#G" transform="translate(16.4585 1.0474)"/>
+      <use xlink:href="#H" transform="translate(18.5562 1.0474)"/>
+      <use xlink:href="#I" transform="translate(20.6538 1.0474)"/>
+    </pattern>
+    <pattern id="e" width="20.9673" height="20.9663" x="0" y="0" patternTransform="translate(334.683 417.406)" patternUnits="userSpaceOnUse">
+      <use xlink:href="#k"/>
+      <use xlink:href="#l" transform="translate(1.7817 19.9175)"/>
+      <use xlink:href="#m" transform="translate(3.8789 19.9175)"/>
+      <use xlink:href="#n" transform="translate(5.9761 19.9175)"/>
+      <use xlink:href="#o" transform="translate(8.0737 19.9175)"/>
+      <use xlink:href="#l" transform="translate(10.1685 19.9175)"/>
+      <use xlink:href="#p" transform="translate(12.2661 19.9175)"/>
+      <use xlink:href="#o" transform="translate(14.3633 19.9175)"/>
+      <use xlink:href="#q" transform="translate(16.4585 19.9175)"/>
+      <use xlink:href="#r" transform="translate(18.5562 19.9175)"/>
+      <use xlink:href="#s" transform="translate(20.6538 19.9175)"/>
+      <use xlink:href="#t" transform="translate(1.7817 17.8218)"/>
+      <use xlink:href="#u" transform="translate(3.8789 17.8218)"/>
+      <use xlink:href="#v" transform="translate(5.9761 17.8218)"/>
+      <use xlink:href="#w" transform="translate(8.0737 17.8218)"/>
+      <use xlink:href="#t" transform="translate(10.1685 17.8218)"/>
+      <use xlink:href="#x" transform="translate(12.2661 17.8218)"/>
+      <use xlink:href="#w" transform="translate(14.3633 17.8218)"/>
+      <use xlink:href="#y" transform="translate(16.4585 17.8218)"/>
+      <use xlink:href="#z" transform="translate(18.5562 17.8218)"/>
+      <use xlink:href="#A" transform="translate(20.6538 17.8218)"/>
+      <use xlink:href="#B" transform="translate(1.7817 15.7241)"/>
+      <use xlink:href="#C" transform="translate(3.8789 15.7241)"/>
+      <use xlink:href="#D" transform="translate(5.9761 15.7241)"/>
+      <use xlink:href="#E" transform="translate(8.0737 15.7241)"/>
+      <use xlink:href="#B" transform="translate(10.1685 15.7241)"/>
+      <use xlink:href="#F" transform="translate(12.2661 15.7241)"/>
+      <use xlink:href="#E" transform="translate(14.3633 15.7241)"/>
+      <use xlink:href="#G" transform="translate(16.4585 15.7241)"/>
+      <use xlink:href="#H" transform="translate(18.5562 15.7241)"/>
+      <use xlink:href="#I" transform="translate(20.6538 15.7241)"/>
+      <use xlink:href="#B" transform="translate(1.7817 13.6279)"/>
+      <use xlink:href="#C" transform="translate(3.8789 13.6279)"/>
+      <use xlink:href="#D" transform="translate(5.9761 13.6279)"/>
+      <use xlink:href="#E" transform="translate(8.0737 13.6279)"/>
+      <use xlink:href="#B" transform="translate(10.1685 13.6279)"/>
+      <use xlink:href="#F" transform="translate(12.2661 13.6279)"/>
+      <use xlink:href="#E" transform="translate(14.3633 13.6279)"/>
+      <use xlink:href="#G" transform="translate(16.4585 13.6279)"/>
+      <use xlink:href="#H" transform="translate(18.5562 13.6279)"/>
+      <use xlink:href="#I" transform="translate(20.6538 13.6279)"/>
+      <use xlink:href="#J" transform="translate(1.7817 11.5308)"/>
+      <use xlink:href="#K" transform="translate(3.8789 11.5308)"/>
+      <use xlink:href="#L" transform="translate(5.9761 11.5308)"/>
+      <use xlink:href="#M" transform="translate(8.0737 11.5308)"/>
+      <use xlink:href="#J" transform="translate(10.1685 11.5308)"/>
+      <use xlink:href="#N" transform="translate(12.2661 11.5308)"/>
+      <use xlink:href="#M" transform="translate(14.3633 11.5308)"/>
+      <use xlink:href="#O" transform="translate(16.4585 11.5308)"/>
+      <use xlink:href="#P" transform="translate(18.5562 11.5308)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 11.5308)"/>
+      <use xlink:href="#J" transform="translate(1.7817 9.4346)"/>
+      <use xlink:href="#K" transform="translate(3.8789 9.4346)"/>
+      <use xlink:href="#L" transform="translate(5.9761 9.4346)"/>
+      <use xlink:href="#M" transform="translate(8.0737 9.4346)"/>
+      <use xlink:href="#J" transform="translate(10.1685 9.4346)"/>
+      <use xlink:href="#N" transform="translate(12.2661 9.4346)"/>
+      <use xlink:href="#M" transform="translate(14.3633 9.4346)"/>
+      <use xlink:href="#O" transform="translate(16.4585 9.4346)"/>
+      <use xlink:href="#P" transform="translate(18.5562 9.4346)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 9.4346)"/>
+      <use xlink:href="#R" transform="translate(1.7817 7.3374)"/>
+      <use xlink:href="#S" transform="translate(3.8789 7.3374)"/>
+      <use xlink:href="#T" transform="translate(5.9761 7.3374)"/>
+      <use xlink:href="#U" transform="translate(8.0737 7.3374)"/>
+      <use xlink:href="#R" transform="translate(10.1685 7.3374)"/>
+      <use xlink:href="#V" transform="translate(12.2661 7.3374)"/>
+      <use xlink:href="#U" transform="translate(14.3633 7.3374)"/>
+      <use xlink:href="#W" transform="translate(16.4585 7.3374)"/>
+      <use xlink:href="#X" transform="translate(18.5562 7.3374)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 7.3374)"/>
+      <use xlink:href="#R" transform="translate(1.7817 5.2412)"/>
+      <use xlink:href="#S" transform="translate(3.8789 5.2412)"/>
+      <use xlink:href="#T" transform="translate(5.9761 5.2412)"/>
+      <use xlink:href="#U" transform="translate(8.0737 5.2412)"/>
+      <use xlink:href="#R" transform="translate(10.1685 5.2412)"/>
+      <use xlink:href="#V" transform="translate(12.2661 5.2412)"/>
+      <use xlink:href="#U" transform="translate(14.3633 5.2412)"/>
+      <use xlink:href="#W" transform="translate(16.4585 5.2412)"/>
+      <use xlink:href="#X" transform="translate(18.5562 5.2412)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 5.2412)"/>
+      <use xlink:href="#B" transform="translate(1.7817 3.1436)"/>
+      <use xlink:href="#C" transform="translate(3.8789 3.1436)"/>
+      <use xlink:href="#D" transform="translate(5.9761 3.1436)"/>
+      <use xlink:href="#E" transform="translate(8.0737 3.1436)"/>
+      <use xlink:href="#B" transform="translate(10.1685 3.1436)"/>
+      <use xlink:href="#F" transform="translate(12.2661 3.1436)"/>
+      <use xlink:href="#E" transform="translate(14.3633 3.1436)"/>
+      <use xlink:href="#G" transform="translate(16.4585 3.1436)"/>
+      <use xlink:href="#H" transform="translate(18.5562 3.1436)"/>
+      <use xlink:href="#I" transform="translate(20.6538 3.1436)"/>
+      <use xlink:href="#B" transform="translate(1.7817 1.0474)"/>
+      <use xlink:href="#C" transform="translate(3.8789 1.0474)"/>
+      <use xlink:href="#D" transform="translate(5.9761 1.0474)"/>
+      <use xlink:href="#E" transform="translate(8.0737 1.0474)"/>
+      <use xlink:href="#B" transform="translate(10.1685 1.0474)"/>
+      <use xlink:href="#F" transform="translate(12.2661 1.0474)"/>
+      <use xlink:href="#E" transform="translate(14.3633 1.0474)"/>
+      <use xlink:href="#G" transform="translate(16.4585 1.0474)"/>
+      <use xlink:href="#H" transform="translate(18.5562 1.0474)"/>
+      <use xlink:href="#I" transform="translate(20.6538 1.0474)"/>
+    </pattern>
+    <pattern id="b" width="20.9673" height="20.9663" x="0" y="0" patternTransform="translate(334.683 417.406)" patternUnits="userSpaceOnUse">
+      <use xlink:href="#k"/>
+      <use xlink:href="#l" transform="translate(1.7817 19.9175)"/>
+      <use xlink:href="#m" transform="translate(3.8789 19.9175)"/>
+      <use xlink:href="#n" transform="translate(5.9761 19.9175)"/>
+      <use xlink:href="#o" transform="translate(8.0737 19.9175)"/>
+      <use xlink:href="#l" transform="translate(10.1685 19.9175)"/>
+      <use xlink:href="#p" transform="translate(12.2661 19.9175)"/>
+      <use xlink:href="#o" transform="translate(14.3633 19.9175)"/>
+      <use xlink:href="#q" transform="translate(16.4585 19.9175)"/>
+      <use xlink:href="#r" transform="translate(18.5562 19.9175)"/>
+      <use xlink:href="#s" transform="translate(20.6538 19.9175)"/>
+      <use xlink:href="#t" transform="translate(1.7817 17.8218)"/>
+      <use xlink:href="#u" transform="translate(3.8789 17.8218)"/>
+      <use xlink:href="#v" transform="translate(5.9761 17.8218)"/>
+      <use xlink:href="#w" transform="translate(8.0737 17.8218)"/>
+      <use xlink:href="#t" transform="translate(10.1685 17.8218)"/>
+      <use xlink:href="#x" transform="translate(12.2661 17.8218)"/>
+      <use xlink:href="#w" transform="translate(14.3633 17.8218)"/>
+      <use xlink:href="#y" transform="translate(16.4585 17.8218)"/>
+      <use xlink:href="#z" transform="translate(18.5562 17.8218)"/>
+      <use xlink:href="#A" transform="translate(20.6538 17.8218)"/>
+      <use xlink:href="#B" transform="translate(1.7817 15.7241)"/>
+      <use xlink:href="#C" transform="translate(3.8789 15.7241)"/>
+      <use xlink:href="#D" transform="translate(5.9761 15.7241)"/>
+      <use xlink:href="#E" transform="translate(8.0737 15.7241)"/>
+      <use xlink:href="#B" transform="translate(10.1685 15.7241)"/>
+      <use xlink:href="#F" transform="translate(12.2661 15.7241)"/>
+      <use xlink:href="#E" transform="translate(14.3633 15.7241)"/>
+      <use xlink:href="#G" transform="translate(16.4585 15.7241)"/>
+      <use xlink:href="#H" transform="translate(18.5562 15.7241)"/>
+      <use xlink:href="#I" transform="translate(20.6538 15.7241)"/>
+      <use xlink:href="#B" transform="translate(1.7817 13.6279)"/>
+      <use xlink:href="#C" transform="translate(3.8789 13.6279)"/>
+      <use xlink:href="#D" transform="translate(5.9761 13.6279)"/>
+      <use xlink:href="#E" transform="translate(8.0737 13.6279)"/>
+      <use xlink:href="#B" transform="translate(10.1685 13.6279)"/>
+      <use xlink:href="#F" transform="translate(12.2661 13.6279)"/>
+      <use xlink:href="#E" transform="translate(14.3633 13.6279)"/>
+      <use xlink:href="#G" transform="translate(16.4585 13.6279)"/>
+      <use xlink:href="#H" transform="translate(18.5562 13.6279)"/>
+      <use xlink:href="#I" transform="translate(20.6538 13.6279)"/>
+      <use xlink:href="#J" transform="translate(1.7817 11.5308)"/>
+      <use xlink:href="#K" transform="translate(3.8789 11.5308)"/>
+      <use xlink:href="#L" transform="translate(5.9761 11.5308)"/>
+      <use xlink:href="#M" transform="translate(8.0737 11.5308)"/>
+      <use xlink:href="#J" transform="translate(10.1685 11.5308)"/>
+      <use xlink:href="#N" transform="translate(12.2661 11.5308)"/>
+      <use xlink:href="#M" transform="translate(14.3633 11.5308)"/>
+      <use xlink:href="#O" transform="translate(16.4585 11.5308)"/>
+      <use xlink:href="#P" transform="translate(18.5562 11.5308)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 11.5308)"/>
+      <use xlink:href="#J" transform="translate(1.7817 9.4346)"/>
+      <use xlink:href="#K" transform="translate(3.8789 9.4346)"/>
+      <use xlink:href="#L" transform="translate(5.9761 9.4346)"/>
+      <use xlink:href="#M" transform="translate(8.0737 9.4346)"/>
+      <use xlink:href="#J" transform="translate(10.1685 9.4346)"/>
+      <use xlink:href="#N" transform="translate(12.2661 9.4346)"/>
+      <use xlink:href="#M" transform="translate(14.3633 9.4346)"/>
+      <use xlink:href="#O" transform="translate(16.4585 9.4346)"/>
+      <use xlink:href="#P" transform="translate(18.5562 9.4346)"/>
+      <use xlink:href="#Q" transform="translate(20.6538 9.4346)"/>
+      <use xlink:href="#R" transform="translate(1.7817 7.3374)"/>
+      <use xlink:href="#S" transform="translate(3.8789 7.3374)"/>
+      <use xlink:href="#T" transform="translate(5.9761 7.3374)"/>
+      <use xlink:href="#U" transform="translate(8.0737 7.3374)"/>
+      <use xlink:href="#R" transform="translate(10.1685 7.3374)"/>
+      <use xlink:href="#V" transform="translate(12.2661 7.3374)"/>
+      <use xlink:href="#U" transform="translate(14.3633 7.3374)"/>
+      <use xlink:href="#W" transform="translate(16.4585 7.3374)"/>
+      <use xlink:href="#X" transform="translate(18.5562 7.3374)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 7.3374)"/>
+      <use xlink:href="#R" transform="translate(1.7817 5.2412)"/>
+      <use xlink:href="#S" transform="translate(3.8789 5.2412)"/>
+      <use xlink:href="#T" transform="translate(5.9761 5.2412)"/>
+      <use xlink:href="#U" transform="translate(8.0737 5.2412)"/>
+      <use xlink:href="#R" transform="translate(10.1685 5.2412)"/>
+      <use xlink:href="#V" transform="translate(12.2661 5.2412)"/>
+      <use xlink:href="#U" transform="translate(14.3633 5.2412)"/>
+      <use xlink:href="#W" transform="translate(16.4585 5.2412)"/>
+      <use xlink:href="#X" transform="translate(18.5562 5.2412)"/>
+      <use xlink:href="#Y" transform="translate(20.6538 5.2412)"/>
+      <use xlink:href="#B" transform="translate(1.7817 3.1436)"/>
+      <use xlink:href="#C" transform="translate(3.8789 3.1436)"/>
+      <use xlink:href="#D" transform="translate(5.9761 3.1436)"/>
+      <use xlink:href="#E" transform="translate(8.0737 3.1436)"/>
+      <use xlink:href="#B" transform="translate(10.1685 3.1436)"/>
+      <use xlink:href="#F" transform="translate(12.2661 3.1436)"/>
+      <use xlink:href="#E" transform="translate(14.3633 3.1436)"/>
+      <use xlink:href="#G" transform="translate(16.4585 3.1436)"/>
+      <use xlink:href="#H" transform="translate(18.5562 3.1436)"/>
+      <use xlink:href="#I" transform="translate(20.6538 3.1436)"/>
+      <use xlink:href="#B" transform="translate(1.7817 1.0474)"/>
+      <use xlink:href="#C" transform="translate(3.8789 1.0474)"/>
+      <use xlink:href="#D" transform="translate(5.9761 1.0474)"/>
+      <use xlink:href="#E" transform="translate(8.0737 1.0474)"/>
+      <use xlink:href="#B" transform="translate(10.1685 1.0474)"/>
+      <use xlink:href="#F" transform="translate(12.2661 1.0474)"/>
+      <use xlink:href="#E" transform="translate(14.3633 1.0474)"/>
+      <use xlink:href="#G" transform="translate(16.4585 1.0474)"/>
+      <use xlink:href="#H" transform="translate(18.5562 1.0474)"/>
+      <use xlink:href="#I" transform="translate(20.6538 1.0474)"/>
+    </pattern>
+  </defs>
+  <path fill="none" stroke="#fff" stroke-width="40" d="m-3796.1251 18888.125 80 170-80 170-80-170z"/>
+  <path fill="#fff" stroke="#000" stroke-width="2.82222223" d="M648.5926 1.3990881H40.0545c-21.3113 0-38.6468 17.3354999-38.6468 38.6432999V574.81819c0 21.3043 17.3355 38.6398 38.6468 38.6398h608.5381c21.3078 0 38.6398-17.3355 38.6398-38.6398V40.042388c0-21.3078-17.332-38.6432999-38.6398-38.6432999"/>
+  <path d="M679.1432 574.81649c0 4.0992-.815 8.0821-2.413 11.8427-1.5417 3.6336-3.7465 6.9039-6.5723 9.7261-2.8187 2.8187-6.0925 5.0271-9.7225 6.5722-3.7571 1.5946-7.7435 2.406-11.8428 2.406H40.0545c-4.0993 0-8.0857-.8114-11.8428-2.406-3.6371-1.5451-6.9109-3.7535-9.7296-6.5722-2.8116-2.8222-5.0306-6.0925-6.5652-9.7261-1.6051-3.7606-2.413-7.7435-2.413-11.8427v-461.0136H5.0201v461.0136c0 4.706.9313 9.2745 2.7622 13.596 1.771 4.1699 4.3075 7.9164 7.5319 11.1407 3.2243 3.2315 6.9638 5.7609 11.1336 7.5354 4.3215 1.8344 8.9006 2.7622 13.6067 2.7622h608.5381c4.7061 0 9.271-.9278 13.5925-2.7622 4.1699-1.7745 7.9234-4.3039 11.1408-7.5354 3.2314-3.2243 5.7608-6.9708 7.5388-11.1407 1.8309-4.3215 2.7552-8.89 2.7552-13.596v-461.0136h-4.4767v461.0136z"/>
+  <path d="M223.5342 329.90749c0 3.3797-2.7658 6.1454-6.1454 6.1454h-79.9112c-3.3796 0-6.1454-2.7657-6.1454-6.1454v-61.4715c0-3.3796 2.7658-6.1454 6.1454-6.1454h79.9112c3.3796 0 6.1454 2.7658 6.1454 6.1454v61.4715zm-141.2628 75.6815c-4.6426 0-7.4683 3.877-7.4683 10.3469 0 6.5829 2.8257 10.4634 7.4683 10.4634 5.8384 0 7.2354-5.715 7.2354-10.4634 0-6.4699-2.5893-10.3469-7.2354-10.3469m0 26.3101c-9.0805 0-13.0846-8.1915-13.0846-15.9632 0-9.8107 4.9742-15.8503 13.0846-15.8503 7.5671 0 12.7494 6.3677 12.7494 15.7445 0 9.6026-4.9777 16.069-12.7494 16.069m-27.0722-25.8833v25.3436h-5.3869v-25.3436h-8.8336v-5.3869h23.047v5.3869h-8.8265zm27.0722-117.221c-4.6426 0-7.4683 3.8876-7.4683 10.3541 0 6.5793 2.8257 10.4633 7.4683 10.4633 5.8384 0 7.2354-5.7114 7.2354-10.4633 0-6.4665-2.5893-10.3541-7.2354-10.3541m0 26.3172c-9.0805 0-13.0846-8.1985-13.0846-15.9631 0-9.8108 4.9742-15.8504 13.0846-15.8504 7.5671 0 12.7494 6.3606 12.7494 15.748 0 9.5921-4.9777 16.0655-12.7494 16.0655m-27.0722-25.8836v25.3435h-5.3869v-25.3435h-8.8336v-5.394h23.047v5.394h-8.8265z"/>
+  <path fill-rule="evenodd" d="M647.6683 342.79169H279.7811v-86.0601h367.8872v86.0601zm0 116.773H279.7811v-86.0602h367.8872v86.0602z"/>
+  <path d="M7.3696 505.54219h673.9079v-4.4909H7.3696v4.4909zm366.1375 69.1367-17.6742-25.3612v25.3612h-6.4911v-36.8794h6.4911l17.0251 24.3311v-24.3311h6.3676v36.8794h-5.7185zm31.5912-30.928c-5.5739 0-8.95 4.6601-8.95 12.4283 0 7.8917 3.3761 12.5518 8.95 12.5518 7.0062 0 8.696-6.8615 8.696-12.5518 0-7.7682-3.115-12.4283-8.696-12.4283m0 31.5771c-10.8867 0-15.6951-9.8319-15.6951-19.1488 0-11.7792 5.9726-19.0253 15.6951-19.0253 9.0805 0 15.3106 7.6341 15.3106 18.8913 0 11.5182-5.9726 19.2828-15.3106 19.2828m126.5873-.6491v-36.8794h6.6287v31.1891h21.0291v5.6903h-27.6578zm35.186 0v-36.8794h6.6217v31.1891h21.0432v5.6903h-27.6649zm-60.6742-30.928c-5.5669 0-8.9429 4.6601-8.9429 12.4283 0 7.8917 3.376 12.5518 8.9429 12.5518 7.0167 0 8.696-6.8615 8.696-12.5518 0-7.7682-3.1151-12.4283-8.696-12.4283m0 31.5771c-10.8938 0-15.688-9.8319-15.688-19.1488 0-11.7792 5.9654-19.0253 15.688-19.0253 9.0805 0 15.3105 7.6341 15.3105 18.8913 0 11.5182-5.9654 19.2828-15.3105 19.2828m-32.4803-31.055v30.4059h-6.4699v-30.4059h-10.5975v-6.4735h27.6578v6.4735h-10.5904zm-356.3408 30.4059v-16.0444h-16.63v16.0444h-6.6357v-36.8794h6.6357v14.231h16.63v-14.231h6.6216v36.8794h-6.6216zm32.5014-30.928c-5.5809 0-8.95 4.6601-8.95 12.4283 0 7.8917 3.3691 12.5518 8.95 12.5518 7.0026 0 8.696-6.8615 8.696-12.5518 0-7.7682-3.1221-12.4283-8.696-12.4283m0 31.5771c-10.9008 0-15.688-9.8319-15.688-19.1488 0-11.7792 5.9549-19.0253 15.688-19.0253 9.084 0 15.3035 7.6341 15.3035 18.8913 0 11.5182-5.9655 19.2828-15.3035 19.2828m41.9206-.6491h-7.0273l-13.388-36.8794h7.0133l9.9518 26.9134 9.9625-26.9134h7.0132l-13.5255 36.8794zm50.4084 0c0-4.3992.9102-7.6341 2.9845-11.2572 3.2526-5.4327 7.9305-8.7982 14.6897-10.6115 4.1628-1.1642 5.588-2.4553 5.588-4.6567 0-2.7199-2.5965-4.2721-7.2778-4.2721-4.8154 0-8.3221 1.1677-11.4371 4.0146l-4.5473-5.0483c4.2933-3.7535 9.6203-5.6938 15.5928-5.6938 8.7171 0 14.2981 4.2757 14.2981 10.9996 0 3.108-1.3018 5.9514-3.7642 8.0257-1.1712.9031-2.8645 1.8098-5.461 2.5859-4.9353 1.4252-6.3676 2.0708-8.5725 4.0111-1.6968 1.4217-2.7411 2.8469-4.0393 5.3057h21.837v6.597h-29.8909zm65.1686-15.5258v8.4103h-6.6075v-8.4103h-8.696v-6.6004h8.696v-8.2797h6.6075v8.2797h8.6819v6.6004h-8.6819zm161.6816-354.5208v-35.0908h6.3042v29.6721h20.0166v5.4187h-26.3208zm32.2863 0v-35.0908h6.297v29.6721h20.0167v5.4187h-26.3137zm-54.9205-29.4263c-5.3058 0-8.509 4.4309-8.509 11.8216 0 7.5071 3.2032 11.9415 8.509 11.9415 6.671 0 8.2691-6.5264 8.2691-11.9415 0-7.3907-2.9563-11.8216-8.2691-11.8216m0 30.0426c-10.3646 0-14.9331-9.3592-14.9331-18.221 0-11.2077 5.6797-18.101 14.9331-18.101 8.6395 0 14.5662 7.2637 14.5662 17.974 0 10.9608-5.6797 18.348-14.5662 18.348m-29.9261-29.5501v28.9348h-6.1525v-28.9348h-10.0788v-6.156h26.3137v6.156h-10.0824z"/>
+  <path fill="#00674c" d="M679.1432 40.042688c0-4.0992-.815-8.0856-2.413-11.8462-1.5417-3.6336-3.7465-6.9074-6.5723-9.7226-2.8187-2.8222-6.0925-5.0306-9.7225-6.5793-3.7571-1.5945-7.7435-2.4023999-11.8428-2.4023999H40.0545c-4.0993 0-8.0857.8078999-11.8428 2.4023999-3.6371 1.5487-6.9109 3.7571-9.7296 6.5793-2.8116 2.8152-5.0306 6.089-6.5652 9.7226-1.6051 3.7606-2.413 7.747-2.413 11.8462v73.758802h669.6393V40.042688z"/>
+  <path fill="url(#Z)" d="M520.4602 327.82969c-7.5988 0-14.4216-1.9403-21.4418-6.2124l5.2634-8.3467c4.8719 2.9139 10.5304 4.4661 16.1784 4.4661 8.3855 0 13.4585-3.69 13.4585-9.8989 0-2.9104-1.3653-5.8244-3.5067-7.5742-1.9508-1.5487-4.8789-2.3283-8.9781-2.3283-3.7007 0-6.6217.5856-10.7174 2.1378l-9.9413-2.5223 1.7568-26.0103h37.0276l-.1835 9.7049h-27.4919l-.5857 7.9587c4.4909-.9737 7.2179-1.3618 10.721-1.3618 12.6682 0 21.8334 8.5408 21.8334 19.9955 0 11.6452-9.7508 19.9919-23.3927 19.9919"/>
+  <path fill="url(#aa)" d="M591.7107 299.10299c0-11.6487-4.8542-18.6373-13.2221-18.6373-9.9201 0-13.4197 10.2906-13.4197 18.4433 0 12.2272 5.0553 19.0217 13.4197 19.0217 8.1739 0 13.2221-7.5706 13.2221-19.0217v.1939zm-13.2221 28.7267c-16.5347 0-23.3504-14.1711-23.3504-28.7267 0-14.5591 7.0097-28.5362 23.3504-28.5362 16.5382 0 23.1458 14.3651 23.1458 28.3422 0 14.1711-6.4135 28.9207-23.1458 28.9207"/>
+  <path fill="url(#ab)" d="M462.5411 299.10299c0-11.6487-4.8648-18.6373-13.2291-18.6373-9.9201 0-13.4268 10.2906-13.4268 18.4433 0 12.2272 5.0624 19.0217 13.4268 19.0217 8.1668 0 13.2291-7.5706 13.2291-19.0217v.1939zm-13.2291 28.7267c-16.5347 0-23.3433-14.1711-23.3433-28.7267 0-14.5591 6.9991-28.5362 23.3433-28.5362 16.5382 0 23.1528 14.3651 23.1528 28.3422 0 14.1711-6.4241 28.9207-23.1528 28.9207"/>
+  <path fill="url(#ac)" d="M362.8461 323.73389c-2.928 1.7463-6.4276 2.9105-10.1353 3.302v9.7014h-9.9413v-9.8989c-6.6357-1.1642-12.0932-4.4627-16.965-10.0895l8.001-6.2159c4.0922 4.8542 8.5795 6.9885 14.8131 6.9885 7.0238 0 12.0791-3.1044 12.0791-7.179 0-2.1414-1.1642-3.8841-3.5066-5.0518-1.9509-.7761-4.0922-1.5522-6.6216-2.1308l-2.5365-.7761-2.533-.5856-2.7305-.7726c-5.655-1.3617-8.5725-2.7199-10.922-5.4398-2.3353-2.5224-3.5136-5.8173-3.5136-9.3133 0-7.7682 5.6585-13.395 14.4356-14.9472v-8.5408h9.9413v8.5408c5.8456.9701 10.915 3.6865 15.4023 8.1527l-7.4154 6.5969c-3.5066-3.6865-7.9869-5.4328-13.2433-5.4328-5.662 0-8.9782 2.1308-8.9782 5.6304 0 3.1009 1.9509 4.4626 8.7736 6.0184 7.4119 1.5487 12.2837 3.1009 15.3988 4.6566 4.8718 2.5224 7.9974 7.7647 7.9974 13.7795 0 5.6268-2.5329 9.9025-7.7999 13.0069"/>
+  <path fill="url(#ad)" d="M486.7346 327.43809c-2.5788 0-4.9741-2.3213-4.9741-5.0412 0-2.9139 2.3953-5.2458 4.9741-5.2458 2.7693 0 4.9813 2.3319 4.9813 5.2458 0 2.7199-2.212 5.0412-4.9813 5.0412"/>
+  <path fill="url(#ae)" d="M424.9703 443.60429c0-6.5969 1.3652-11.4547 4.4838-16.8839 4.8789-8.1598 11.8851-13.2045 22.0274-15.9209 6.2442-1.7498 8.3856-3.6865 8.3856-6.9885 0-4.0711-3.8982-6.4065-10.9114-6.4065-7.2143 0-12.4848 1.7498-17.1662 6.0184l-6.8192-7.5671c6.4347-5.6338 14.4286-8.5407 23.3997-8.5407 13.0564 0 21.4419 6.4064 21.4419 16.4959 0 4.6602-1.9579 8.9323-5.6586 12.0367-1.7568 1.3618-4.2862 2.7129-8.1844 3.8806-7.4084 2.1414-9.5568 3.1044-12.8658 6.0219-2.54 2.1308-4.0922 4.2686-6.0466 7.9552h32.7554v9.8989h-44.8416z"/>
+  <path fill="url(#af)" d="M592.7126 415.84769c0-11.6487-4.8648-18.6337-13.2292-18.6337-9.9236 0-13.4232 10.2906-13.4232 18.4362 0 12.2308 5.0589 19.0288 13.4232 19.0288 8.1704 0 13.2292-7.5741 13.2292-19.0288v.1975zm-13.2292 28.7303c-16.5382 0-23.3468-14.1746-23.3468-28.7303 0-14.5556 7.0026-28.5326 23.3468-28.5326 16.5347 0 23.1564 14.3616 23.1564 28.3351 0 14.1746-6.4276 28.9278-23.1564 28.9278"/>
+  <path fill="url(#ag)" d="M532.9379 415.84769c0-11.6487-4.8648-18.6337-13.2362-18.6337-9.9201 0-13.4197 10.2906-13.4197 18.4362 0 12.2308 5.0624 19.0288 13.4197 19.0288 8.1809 0 13.2362-7.5741 13.2362-19.0288v.1975zm-13.2362 28.7303c-16.5347 0-23.3433-14.1746-23.3433-28.7303 0-14.5556 7.0097-28.5326 23.3433-28.5326 16.5453 0 23.1599 14.3616 23.1599 28.3351 0 14.1746-6.4206 28.9278-23.1599 28.9278"/>
+  <path fill="url(#ah)" d="M361.8548 440.50339c-2.928 1.7533-6.4346 2.9139-10.1423 3.3055v9.7049h-9.9413v-9.906c-6.6287-1.1606-12.0932-4.4626-16.958-10.0894l7.9868-6.2124c4.0993 4.8507 8.5831 6.9885 14.8202 6.9885 7.0133 0 12.0862-3.1044 12.0862-7.1861 0-2.1308-1.1642-3.877-3.5066-5.0412-1.9509-.7796-4.0922-1.5557-6.6216-2.1343l-2.5436-.7832-2.5294-.575-2.734-.7796c-5.6515-1.3617-8.5725-2.7199-10.915-5.4363-2.3424-2.5224-3.5136-5.8209-3.5136-9.3169 0-7.7611 5.6585-13.395 14.4286-14.9472v-8.5372h9.9413v8.5372c5.849.9737 10.922 3.6936 15.3987 8.1562l-7.4048 6.597c-3.5066-3.6901-7.9939-5.4363-13.2574-5.4363-5.6515 0-8.9641 2.1378-8.9641 5.6303 0 3.1045 1.9509 4.4662 8.7701 6.0184 7.4154 1.5558 12.2872 3.108 15.4023 4.6567 4.8683 2.5259 7.9974 7.7646 7.9974 13.7865 0 5.6268-2.5435 9.8919-7.7999 12.9999"/>
+  <path fill="url(#ai)" d="M482.0885 444.18989c-2.5752 0-4.9812-2.3318-4.9812-5.0482 0-2.914 2.406-5.2423 4.9812-5.2423 2.7694 0 4.9813 2.3283 4.9813 5.2423 0 2.7164-2.2119 5.0482-4.9813 5.0482"/>
+  <path fill="#652168" d="M354.4183 231.20459H160.9832v-96.7176h193.4351v96.7176z"/>
+  <path fill="#fff" d="M342.3321 219.11489H173.0764v-72.5417h169.2557v72.5417zm-120.1879 80.0587c0-19.4381-15.6986-35.2073-35.0943-35.3484h-18.9824c-19.5298 0-35.3413 15.8256-35.3413 35.3484 0 19.5156 15.8115 35.3412 35.3413 35.3412h18.9824c19.3957-.1374 35.0943-15.9067 35.0943-35.3412M127.5257 80.033588v-36.8794h27.0122v6.597h-20.26v6.858h11.0384v6.731h-11.0384v10.0965h20.9056v6.5969h-27.6578zm150.9642 0v-36.8794h27.0122v6.597h-20.26v6.858h11.0454v6.731h-11.0454v10.0965h20.9126v6.5969h-27.6648zm-58.2895-30.2824h-11.1336v9.1899h11.1336c3.2315 0 5.4293-1.8098 5.4293-4.5297 0-2.8469-2.1978-4.6602-5.4293-4.6602m6.3324 14.3651c-2.0673 1.1642-3.75 1.4252-6.5934 1.4252h-10.8726v14.4921h-6.7346v-36.8794h17.6072c2.8434 0 4.5261.3846 6.5934 1.5487 3.4925 1.9438 5.6974 5.5669 5.6974 9.7085 0 3.8841-2.2049 7.7611-5.6974 9.7049m30.4341-14.3651h-10.6186v9.1899h10.6186c3.2315 0 5.3058-1.8098 5.3058-4.5297 0-2.8469-2.0743-4.6602-5.3058-4.6602m5.3058 30.2824-5.9549-14.4885h-9.9695v14.4885h-6.5934v-36.8794h17.0886c2.7128 0 4.3885.3846 6.3394 1.5523 3.4925 1.9402 5.6903 5.5633 5.6903 9.7049 0 4.1451-2.1978 7.7611-5.9549 9.8354l6.7275 15.7868h-7.3731zm63.8246-16.547c-1.6405-.4551-5.768-1.4429-7.1614-2.2648-2.7764-1.6228-4.8931-4.2863-4.8931-8.2339 0-6.0818 5.1894-10.2235 12.7353-10.2235 5.4575 0 10.0119 1.8133 13.7795 5.6939l-4.9459 4.3991c-2.3284-2.4588-5.327-3.6195-8.8336-3.6195-3.7747 0-5.9796 1.4217-5.9796 3.75 0 2.0673 1.2947 2.974 5.8491 4.0147 4.9318 1.0336 8.1844 2.0672 10.2658 3.1009 3.2456 1.6862 5.334 5.1787 5.334 9.1898 0 3.7536-1.6898 6.6005-5.2034 8.6713-2.5965 1.5522-5.9796 2.4589-9.3557 2.4589-6.3676 0-11.1831-2.3284-15.3317-7.1191l5.3199-4.1381c2.734 3.2315 5.7185 4.6567 9.8813 4.6567 4.6778 0 8.0539-2.0673 8.0539-4.7907 0-3.4572-3.7642-3.9652-9.5144-5.5457m36.0891 0c-1.6404-.4551-5.7679-1.4429-7.1578-2.2648-2.7764-1.6228-4.9001-4.2863-4.9001-8.2339 0-6.0818 5.2035-10.2235 12.7317-10.2235 5.4575 0 10.0119 1.8133 13.7831 5.6939l-4.9425 4.3991c-2.3353-2.4588-5.3269-3.6195-8.8406-3.6195-3.7676 0-5.9725 1.4217-5.9725 3.75 0 2.0673 1.2947 2.974 5.842 4.0147 4.9424 1.0336 8.195 2.0672 10.2729 3.1009 3.2526 1.6862 5.3269 5.1787 5.3269 9.1898 0 3.7536-1.6862 6.6005-5.1999 8.6713-2.6 1.5522-5.9761 2.4589-9.3592 2.4589-6.3606 0-11.1689-2.3284-15.3317-7.1191l5.3269-4.1381c2.7305 3.2315 5.7115 4.6567 9.8743 4.6567 4.6778 0 8.0609-2.0673 8.0609-4.7907 0-3.4572-3.7606-3.9652-9.5144-5.5457m-176.5053 16.547-8.3114-13.0704-8.1986 13.0704h-7.7858l12.0862-19.4098-11.0525-17.4696h7.9304l7.0203 11.2572 7.0167-11.2572h7.9305l-10.915 17.4696 12.0791 19.4098h-7.7999zm347.7825 0v-36.8794h27.0086v6.597h-20.2565v6.858h11.0385v6.731h-11.0385v10.0965h20.9056v6.5969h-27.6577zm-117.7749 0v-36.8794h6.6216v31.1856h21.0432v5.6938h-27.6648zm100.5487 0-17.6812-25.3647v25.3647h-6.4911v-36.8794h6.4911l17.0251 24.3276v-24.3276h6.3747v36.8794h-5.7186zm-50.4578-27.6884-5.1752 12.4213h10.3505l-5.1753-12.4213zm11.6382 27.6895-3.616-8.6677H457.761l-3.6266 8.6677h-7.239l15.5152-36.8794h6.731l15.3952 36.8794h-7.119z"/>
+  <path d="M145.2493 316.55489v-28.1834h-3.1433v-4.3921h.3669c1.4464 0 3.0163-.8572 3.9899-2.1978h4.3392v34.7733h-5.5527zm31.3831-16.2772c-4.6849 2.9069-8.9923 4.2016-11.5958 10.6716h17.0885v5.6056h-23.6678c.1164-4.0181.956-7.3307 2.921-10.608 6.0995-10.1988 15.2541-9.077 15.2541-14.5274 0-2.5576-2.9281-4.632-6.3465-4.632-3.5384 0-5.7362 1.7075-6.35 4.8825l-5.4786-1.2242c1.2135-5.7361 5.7255-9.2745 11.8286-9.2745 6.5899 0 11.8392 4.639 11.8392 10.3752 0 4.1557-2.3918 6.8015-5.4927 8.7312m24.2817-13.4902c-2.6811 0-4.886 1.8309-4.886 4.1487 0 2.0708 2.2049 3.7782 4.886 3.7782 2.6952 0 4.8789-1.7074 4.8789-3.7782 0-2.3178-2.1837-4.1487-4.8789-4.1487m0 13.5467c-3.4114 0-6.223 2.3142-6.223 5.2387 0 3.2985 2.8116 5.9831 6.223 5.9831 3.5348 0 6.3464-2.6846 6.3464-5.9831 0-2.9245-2.928-5.2387-6.3464-5.2387m0 16.8345c-6.3394 0-11.8287-5.3728-11.8287-11.7122 0-3.302 1.4605-5.9796 4.0217-8.0539-1.7074-1.8309-2.5612-3.9052-2.5612-6.3429 0-5.3728 4.7519-9.8884 10.3682-9.8884 5.6091 0 10.5022 4.5156 10.5022 9.8884 0 2.4377-.9808 4.512-2.6882 6.3429 2.6882 2.0743 4.0252 4.8789 4.0252 8.0539 0 6.3394-5.4928 11.7122-11.8392 11.7122M184.27 166.50019l-1.785 7.7117h13.9805l-7.6799 33.2846h8.9711l7.68-33.2846h23.1528l1.778-7.7117H184.27z"/>
+  <path d="M213.3953 189.84769c-.5221 0-1.2065-.074-1.4957-.4374-.3422-.4375-.3775-1.4429-.088-2.6953.896-3.9264 3.2526-3.9264 4.0322-3.9264.5151 0 1.1959.078 1.4852.4375.3457.4374.374 1.4428.092 2.6917-.9101 3.9299-3.2526 3.9299-4.0252 3.9299m11.2607-11.2042c-1.6757-2.1061-4.4944-3.2703-7.9304-3.2703-5.1012 0-11.6946 2.7658-13.4797 10.5446-.9489 4.1028.2011 6.6569 1.3371 8.0786 1.6757 2.1025 4.4943 3.2632 7.9233 3.2632 5.1083 0 11.7087-2.7658 13.4797-10.5446.9419-4.0922-.2011-6.6498-1.33-8.0715m7.9017-20.4495-10.0047 43.6316h8.6042l10.0118-43.6316h-8.6113zm9.8531 0-10.0048 43.6316h8.6043l10.0189-43.6316h-8.6184zm78.9799 32.0428c-1.5275 0-1.9015-.2963-1.7956-.381l.021-.095c.4515.099.8995.1834 1.3299.2645.2823.056.6174.1235.9561.1905-.1588.014-.3246.021-.5116.021m-19.7097 0c-1.531 0-1.9014-.2963-1.7921-.3669l.028-.1093c.4481.099.889.1834 1.3088.2646.2893.056.6245.1234.9631.1905-.1587.014-.3316.021-.508.021m-10.735 2.6106c.018-.1905.06-.4622.1446-.822l.1376-.5962c.074.6421.2258 1.1995.448 1.6757l-.7302-.2575zm-11.109-2.3284c.1305-.5715.3669-.9348 2.48-1.2629.2435-.032.4763-.071.6985-.1023-.6843.7902-2.0073 1.3053-3.1785 1.3652m-10.3822-15.3282c-.2435 1.0196-.5327 2.286-3.0798 2.286h-2.6882l.7656-3.3619h2.8116c1.8239 0 2.2437.3281 2.2507.3281.01.021.063.2187-.06.7478m63.3412 7.9869c.3316-2.1519-.088-3.9299-1.2488-5.2775-1.4605-1.7004-3.9688-2.5259-7.6482-2.5259-6.6675 0-9.906 3.7218-10.6998 7.2002-.3633 1.5628-.1658 2.9386.5786 4.0851.2575.3952.5574.7268.896 1.0266h-2.4659c-.1023-.6561-.3245-1.2664-.6879-1.8274-.2893-.448-.6491-.8396-1.0548-1.1677h2.3848l.2257-1.5134c.3317-2.1519-.088-3.9299-1.2453-5.2775-1.464-1.7004-3.9687-2.5259-7.6552-2.5259-6.6781 0-9.9307 3.8841-10.6963 7.2002-.3633 1.5628-.1622 2.9386.5786 4.0851.2575.3952.5609.7268.896 1.0266h-2.8645l1.1642-5.0941c.5221-2.2578-.187-3.7535-.8679-4.6214-1.7991-2.2613-5.2916-2.5964-7.2143-2.5964-1.5169 0-4.5543.021-7.2496 1.6792.092-.2857.2011-.5856.254-.8431.822-3.5419-.1764-5.7433-1.15-6.9744-.9913-1.2489-2.9634-2.7376-6.7381-2.7376h-13.0492l-6.9991 30.3071h8.9711l2.7058-11.7228h4.6919c2.9281 0 5.2035-.8784 6.9533-2.1272l-.6879 2.0637h1.6933c-1.6192 1.2065-2.734 2.9104-3.2173 4.9954-.5786 2.48.1728 4.0922.896 5.0094 1.1501 1.4429 3.0657 2.2331 5.4081 2.2331 2.1026 0 3.7359-.4833 5.0165-1.0971l.081.6455h8.3256l.7761-3.2702c.1728.314.3669.5927.5538.822 1.9685 2.4024 5.6127 2.8998 8.3291 2.8998 3.8806 0 8.2409-1.3617 10.3505-4.9036.2399.8608.6456 1.5275 1.0407 2.0108 1.9685 2.3954 5.6127 2.8928 8.322 2.8928 4.6779 0 10.1283-1.9368 11.3771-7.3625.3493-1.5346.1553-2.8928-.5856-4.0358-.2928-.448-.6491-.8396-1.0548-1.1677h2.3813l.2293-1.5134z"/>
+  <path fill="#fff" d="M197.0441 206.60779h-7.1438l7.6906-33.2916h-13.9806l1.3723-5.9232h44.2666l-1.3759 5.9232h-23.1457l-7.6835 33.2916z"/>
+  <path fill="#fff" d="M215.8436 181.89959c-3.1714 0-4.4168 2.5118-4.9001 4.6179-.3598 1.5522-.261 2.7799.2682 3.4431.4056.5186 1.143.7796 2.1836.7796 3.1645 0 4.4027-2.5153 4.886-4.6249.3599-1.5557.2681-2.7763-.261-3.4431-.4057-.515-1.1395-.7726-2.1767-.7726m-3.3373 14.471c-3.1538 0-5.7255-1.0407-7.2354-2.9316-1.4394-1.8203-1.8451-4.3498-1.1642-7.3237 1.6828-7.2743 7.8493-9.8531 12.6189-9.8531 3.1609 0 5.7326 1.0407 7.2319 2.9352 1.4499 1.8203 1.8486 4.3497 1.1571 7.3236-1.658 7.2708-7.8246 9.8496-12.6083 9.8496m17.9494 4.5635h-6.7875l9.5921-41.8465h6.7874l-9.592 41.8465zm9.8531 0h-6.7875l9.5991-41.8465h6.7945l-9.6061 41.8465zm22.2638-22.569h3.8029c3.2526 0 3.7077-1.9367 3.9476-2.9704.1658-.7055.1305-1.1959-.095-1.4781-.2504-.3175-.9666-.695-2.9633-.695h-3.5137l-1.1782 5.1435zm-4.0746 17.5507h-7.1367l6.5864-28.5221h12.3401c2.7023 0 4.7978.8255 6.0431 2.3919 1.2277 1.5451 1.5628 3.6936.9843 6.223-.6456 2.8328-3.7113 8.1844-10.7069 8.1844h-5.401l-2.7093 11.7228z"/>
+  <path fill="#fff" d="M284.4342 187.96989c-.5927.1517-1.3229.2787-2.2331.4057-1.9508.2963-2.928.6667-3.2244 1.9403-.074.321-.056.5609.063.7055.1447.187.501.3105.8996.3105 1.7851 0 3.9582-1.0584 4.3568-2.7588l.1376-.6032zm-.702-6.2724c-1.9227 0-2.4483.9596-2.7764 1.8556l-.099.2611 3.4996-.4692c.7796-.095 1.2135-.3246 1.2982-.7021.032-.1516.081-.4409-.028-.5785-.2011-.2399-.8361-.3669-1.8944-.3669m-6.0784 14.672c-2.0672 0-3.7394-.6773-4.7131-1.9014-.6068-.762-1.2276-2.1167-.7302-4.2581.7302-3.1573 3.1009-5.334 6.5581-6.0819h-4.6637l.3951-1.1677c1.9756-5.9407 6.7381-6.6957 10.6715-6.6957 1.7639 0 4.953.2928 6.5264 2.2613.8114 1.0301 1.0513 2.3319.695 3.8629l-2.1625 9.4333c-.3175 1.3582-.1517 1.6616-.1482 1.6687l.7585.2645-.4657 2.159h-6.8368l-.1023-.7761c-.014-.1481-.035-.2822-.042-.3986-1.3158.8255-3.1503 1.6298-5.7397 1.6298m26.0029-14.866c-2.3425 0-2.5153.7408-2.5824 1.0195.2258.2399 1.8803.5644 2.9704.7796.4869.088.9913.1941 1.4993.3034l.035-.7337c.028-.5363-.028-.8079-.1728-.9702-.1447-.1482-.5574-.3986-1.7498-.3986m-4.4027 7.1966-.2258.9667c-.1375.582.021.7831.067.8501.1447.1764.688.6139 2.5859.6139 2.0108 0 2.6317-.8079 2.7058-1.1183-.2117-.3246-1.8873-.6456-2.988-.8573-.7056-.1411-1.4358-.2787-2.1449-.4551m1.4817 7.6694c-2.5224 0-5.8985-.4445-7.6412-2.5752-.9701-1.1889-1.2806-2.7023-.9243-4.5085l.1447-.7091h6.4417c-1.6299-.4445-3.1186-1.1219-3.9476-2.3989-.6103-.9384-.7691-2.0814-.4657-3.4008.7232-3.1503 3.683-6.5123 9.8319-6.5123 3.4149 0 5.6974.7267 6.978 2.2225.9842 1.1324 1.33 2.667 1.0477 4.5579l-.1164.7514h-5.7185c1.7851.4657 3.5137 1.1713 4.4097 2.5471.6068.9348.7585 2.0602.4622 3.3478-1.4217 6.1948-8.3997 6.6781-10.5022 6.6781m22.6486-14.866c-2.3566 0-2.5224.7373-2.5823 1.0124.2187.247 1.8662.5715 2.9598.7867.4833.088.9877.1941 1.4957.3034l.035-.7302c.021-.5468-.028-.8185-.1869-.9772-.1376-.1517-.5433-.3951-1.7216-.3951m-4.4379 7.1896-.2187.9666c-.1306.5891.032.7902.088.8572.1446.1835.6879.6139 2.5752.6139 2.0144 0 2.6353-.8044 2.6953-1.1113-.2047-.3316-1.8733-.6526-2.9845-.8643-.695-.1411-1.4323-.2787-2.1555-.4621m1.5028 7.6764c-2.5153 0-5.8914-.4445-7.6341-2.5752-.9737-1.1889-1.2876-2.7023-.9313-4.5015l.1446-.7161h6.4488c-1.6334-.4445-3.1186-1.1219-3.9476-2.3989-.6138-.9384-.7726-2.0814-.4621-3.4008.7161-3.1503 3.6794-6.5123 9.8319-6.5123 3.4043 0 5.6938.7267 6.9744 2.2225.9843 1.1324 1.33 2.667 1.0478 4.5579l-.1165.7514h-5.7255c1.7885.4657 3.5207 1.1713 4.4167 2.5471.6033.9348.755 2.0602.4586 3.3478-1.4181 6.1948-8.3961 6.6781-10.5057 6.6781"/>
+  <path fill="#60c332" d="M196.3421 205.71919h-5.327l7.6835-33.2881h-13.9735l.9596-4.1522h42.4497l-.9631 4.1522h-23.1528l-7.6764 33.2881z"/>
+  <path fill="#60c332" d="M215.8436 181.01099c-3.8311 0-5.2528 3.0762-5.7679 5.3057-.5115 2.2296-.5115 5.3094 3.3196 5.3094 3.8171 0 5.2388-3.0798 5.7539-5.3094.5185-2.2295.5115-5.3057-3.3056-5.3057m-3.3373 14.4709c-5.0694 0-8.9781-2.8716-7.5353-9.1652 1.4535-6.2829 6.6887-9.1686 11.7546-9.1686 5.0694 0 8.9817 2.8857 7.5282 9.1686-1.4393 6.2936-6.6745 9.1652-11.7475 9.1652m17.2332 4.5703h-4.96l9.1898-40.0826h4.9672l-9.197 40.0826zm9.8602 0h-4.9601l9.1899-40.0826h4.9742l-9.204 40.0826zm26.7758-20.8016c3.9758 0 4.5685-2.6247 4.8154-3.6689.5292-2.293-.635-3.2455-3.9264-3.2455h-4.2298l-1.5804 6.9144h4.9212zm-8.5795 15.7798h-5.327l6.1807-26.7512h11.6381c4.9213 0 7.2214 2.9175 6.1595 7.5283-.4798 2.1343-2.9951 7.5001-9.839 7.5001h-6.103l-2.7093 11.7228zm27.8729-8.4833c-.575.3634-1.464.6562-3.5912.949-1.9015.2928-3.5278.7197-3.9688 2.6176-.3669 1.6087.8678 2.1026 1.8309 2.1026 2.1943 0 4.7272-1.323 5.2176-3.4467l.5115-2.2225zm3.6901 5.08c-.4727 2.0602-.081 2.5153.4833 2.7129l-.1658.6879h-5.3587c-.099-.8149-.1129-1.083.021-2.0637-1.3935 1.083-3.3161 2.5153-6.6852 2.5153-2.8328 0-5.4081-1.4711-4.5755-5.0624.7867-3.4078 3.5278-5.147 6.7874-5.5739l4.6108-.6174c.7973-.095 1.8098-.3986 2.0462-1.3793.4409-1.9368-1.517-2.0355-2.7905-2.0355-2.4942 0-3.2244 1.4075-3.6125 2.4306h-4.7801c1.7851-5.3446 5.9725-6.0925 9.8319-6.0925 2.66 0 7.3519.7479 6.3536 5.0447l-2.1661 9.4333zm17.1097-8.7143c.056-1.1183-.1094-2.293-2.8116-2.293-2.6882 0-3.2668.9489-3.4431 1.7003-.6209 2.7517 11.6416.755 10.16 7.1755-1.1642 5.0695-6.7028 5.9867-9.6379 5.9867-4.2933 0-8.6184-1.3759-7.6976-6.0184h5.1223c-.3457 1.4711.4057 2.5506 3.5207 2.5506 2.54 0 3.4149-1.1466 3.5666-1.8062.6773-2.9105-11.5394-.7127-10.0365-7.232.5856-2.5541 3.0868-5.8279 8.9641-5.8279 3.6935 0 7.8951.8432 7.1437 5.7644h-4.8507zm19.7062 0c.049-1.1183-.1023-2.293-2.7905-2.293-2.7093 0-3.2808.9489-3.4537 1.7003-.6244 2.7517 11.6452.755 10.1635 7.1755-1.1641 5.0695-6.6957 5.9867-9.6449 5.9867-4.2863 0-8.6113-1.3759-7.6906-6.0184h5.1047c-.3281 1.4711.4163 2.5506 3.5278 2.5506 2.5506 0 3.4255-1.1466 3.5631-1.8062.6844-2.9105-11.5253-.7127-10.026-7.232.5856-2.5541 3.0762-5.8279 8.9712-5.8279 3.6794 0 7.8916.8432 7.1402 5.7644h-4.8648z"/>
+  <path fill="#652168" d="M327.9952 201.82629h-90.2476l.2399-1.0231h90.2405l-.2328 1.0231zm-103.4591 2.8388h-7.6659l.2399-1.0301h7.6694l-.2434 1.0301zm25.7034 0h-7.6553l.2187-1.0301h7.6764l-.2398 1.0301zm25.721 0h-7.6835l.2328-1.0301h7.6765l-.2258 1.0301zm25.6928 0h-7.6765l.2258-1.0301h7.6835l-.2328 1.0301zm25.6999 0h-7.6835l.2434-1.0301h7.6658l-.2257 1.0301zm-.6492 2.8318H207.9238l.2293-1.0301h118.7873l-.2364 1.0301z"/>
+  <path fill="#155196" fill-rule="evenodd" d="M150.2658 438.07629c-7.6165-7.4966-13.3245-16.9863-15.113-27.6472-.3634-2.152-.5892-4.2827-.7515-6.4523l-.053-2.3777.2258-4.625h87.5524c.049.8996.2222 3.0904.2469 3.9829v.6421c-.2575 10.8479-3.4995 21.5053-10.2305 30.1413-6.7345 8.636-15.7515 15.0213-26.3067 18.0798-1.0265.3034-2.0637.5504-3.0973.7973l-2.286.4375-2.0955.2963-2.0991-.2963-2.2754-.4375c-9.017-2.1731-16.8275-6.3323-23.7172-12.5412"/>
+  <path fill="#bf2f37" fill-rule="evenodd" d="m221.5868 392.85019.3846 2.293h-87.2455l.2505-1.6192c.1587-.8961.3563-1.8027.5468-2.7058.3951-1.778.8713-3.5349 1.4323-5.267l.4374-1.2665c.2787-.762.5715-1.5169.8855-2.2542 2.039.5009 4.0922.9419 6.163 1.3264 1.3088.2328 2.6106.4516 3.9264.635 7.3766.9737 14.6862.7267 22.0098-.5221l1.33-.2364c2.2366-.4268 4.4521-.9101 6.6499-1.4816 3.0762.7867 6.1806 1.4358 9.3203 1.9438 1.3371.2011 2.6741.3845 4.0252.5327 5.7891.6068 11.5429.4798 17.3073-.3316.6562-.092 1.3088-.2011 1.9615-.307 2.5082-.4339 4.9953-.9489 7.4683-1.5592.3986.9454.769 1.9085 1.1077 2.8822.2928.8607.5644 1.718.8184 2.5858.4869 1.7604.8926 3.5454 1.2206 5.3517"/>
+  <path fill="#fff" d="m190.2708 388.57449-.5504 2.2366h1.1219l-.5715-2.2366zm1.3899 5.4539-.5468-2.1237h-1.6651l-.5221 2.1237h-1.1183l1.9367-7.7752h1.0972l1.9402 7.7752h-1.1218zm-23.9148 0v-7.7752h3.6654v1.0936h-2.5471v1.9615h1.6122v1.0654h-1.6122v2.5611h2.8469v1.0936h-3.9652zm-13.2962-7.7745h1.083v7.7752h-1.083v-7.7752zm6.3006 7.7745-2.3883-5.2105v5.2105h-1.1218v-7.7752h1.1218l2.1167 4.6673v-4.6673h1.1218v7.7752h-.8502zm14.538-6.6816h-1.1395v1.9615h1.1395c.6562 0 1.0125-.3493 1.0125-.9843 0-.5926-.4128-.9772-1.0125-.9772m.956 6.6816-1.0371-3.6547h-1.0584v3.6547h-1.1183v-7.7752h2.3107c1.2277 0 2.0461.8185 2.0461 2.0708 0 .9314-.3845 1.6122-1.1183 1.8874l1.1183 3.817h-1.143zm4.2898-3.5877c-.3422-.2223-.6668-.4375-.8784-.5856-.6244-.441-.956-1.0372-.956-1.718 0-1.1184.8784-2.0179 2.0037-2.0179 1.0936 0 1.9403.8431 1.9685 2.0179h-1.0689c-.021-.5469-.4092-.8996-.8996-.8996-.5256 0-.9384.381-.9384.8996 0 .381.1658.5997.7444.9278 1.5099.8713 2.1625 1.7145 2.1625 2.8398 0 1.2524-.956 2.2578-2.1625 2.2578-1.3688 0-2.1907-1.1395-2.1907-2.4236h1.0971c0 .6491.3245 1.337 1.0936 1.337.5997 0 1.0936-.5468 1.0936-1.1712 0-.4939-.2011-.9031-1.0689-1.464m-15.3-3.1468v6.7345h-1.1253v-6.7345h-1.4217v-1.0407h3.9652v1.0407h-1.4182zm33.0729 6.7345v-7.7752h3.6619v1.0936h-2.5471v1.9615h1.6157v1.0654h-1.6157v2.5611h2.8469v1.0936h-3.9617zm-2.5153-6.7345v6.7345h-1.1183v-6.7345h-1.4217v-1.0407h3.9617v1.0407h-1.4217zm-9.8742 0v6.7345h-1.1218v-6.7345h-1.4288v-1.0407h3.9688v1.0407h-1.4182zm-28.2046 19.1417-8.7312 11.483h8.7312v-11.483zm4.8401 15.8715v7.613h-4.8401v-7.613h-15.1871v-2.8892l15.1871-20.059h4.8401v18.5597h2.9104v4.3885h-2.9104zm37.024 8.1527c-2.6846 0-5.3587-.6456-7.5035-1.7145l2.353-4.2933c1.2912.6491 3.5419 1.0689 5.7926 1.0689 4.3991 0 7.8317-2.8892 7.8317-6.8545 0-3.0056-2.4695-5.3657-5.4716-5.3657-2.1449 0-3.108.6491-4.9319 3.2138l-4.826-1.3899.7515-15.7586h17.5824v4.826h-12.8658l-.321 5.0376c2.2507-.6491 3.2208-.8607 4.7166-.8607 5.581 0 10.1918 4.7166 10.1918 10.2975 0 6.7557-5.5739 11.7934-13.2998 11.7934m-21.3642-26.7017c-3.0056 0-5.468 1.9367-5.468 4.3991 0 2.4659 2.4624 4.3921 5.468 4.3921 3.108 0 5.581-1.9262 5.581-4.3921 0-2.3636-2.5788-4.3991-5.581-4.3991m-1.3935 26.7017-2.36-4.0746c3.6477-2.8998 5.5809-5.3622 7.4048-9.331-1.7181.3211-2.4695.4304-3.6513.4304-5.6832 0-10.4034-4.1839-10.4034-9.3274 0-5.2564 4.6108-9.3345 10.4034-9.3345 5.8985 0 10.3999 4.1875 10.3999 9.7578 0 8.3679-4.7166 17.0498-11.7934 21.8793"/>
+</svg>

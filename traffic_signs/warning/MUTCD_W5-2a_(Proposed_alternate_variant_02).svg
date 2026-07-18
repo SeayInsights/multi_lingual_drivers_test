@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="75.75946mm"
+   height="76.320923mm"
+   viewBox="0 0 75.75946 76.320923"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="MUTCDstyledraw.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.64"
+     inkscape:cx="6479.6875"
+     inkscape:cy="6149.2187"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" /><defs
+     id="defs1"><style
+       id="style1">
+	.a {
+		fill: #fff;
+	}
+
+	.b {
+		fill: #af1e2d;
+	}
+  </style><style
+       id="style1-8">
+	.a {
+		fill: #fff;
+	}
+
+	.b {
+		fill: #af1e2d;
+	}
+  </style></defs><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2020.4036,-1970.5477)"><g
+       id="g538"><path
+         d="m 2094.9609,2005.7173 -33.6961,-33.9403 c -1.6212,-1.6417 -4.332,-1.6365 -5.9543,0 l -33.6909,33.9403 c -1.6171,1.6315 -1.6253,4.3588 0,5.9902 l 33.6909,33.9413 c 1.6192,1.6212 4.3393,1.6315 5.9543,0 l 33.6961,-33.9433 c 1.7443,-1.7556 1.455,-4.1967 0,-5.9902"
+         style="fill:#ffd033;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.02607"
+         id="path501" /><path
+         id="path506"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.02607"
+         d="m 2057.1587,1978.0167 v 7.4084 h 2.2494 v -7.4084 z m -13.9987,11.0671 -2.4039,2.4045 7.1148,7.1132 v 10.1074 10.1059 l -7.1148,7.1148 2.4039,2.4024 8.1117,-8.1091 v -11.514 -11.5156 z m 30.2463,0 -8.1096,8.1095 v 11.5156 11.514 l 8.1096,8.1091 2.4039,-2.4024 -7.1127,-7.1148 v -10.1059 -10.1074 l 7.1127,-7.1132 z m -16.2476,2.4267 v 7.4083 h 2.2494 v -7.4083 z m -24.4022,8.4067 -1.7642,1.7772 h 14.8508 v -1.7772 z m 37.9698,0 v 1.7772 h 14.8611 l -1.7647,-1.7772 z m -13.5676,5.087 v 7.4084 h 2.2494 v -7.4084 z m -32.3433,2.911 -0.5322,0.5358 c -0.086,0.089 -0.1278,0.1975 -0.137,0.307 v 0.077 c 0.01,0.1096 0.051,0.2177 0.137,0.307 l 0.5457,0.5498 h 3.901 v -1.7771 z m 8.1706,0 v 1.7771 h 4.5837 v -1.7771 z m 8.8403,0 v 1.7771 h 4.0168 v -0.9834 -0.7937 z m 28.9,0 v 0.7937 0.9834 h 4.0272 v -1.7771 z m 8.2838,0 v 1.7771 h 4.5836 v -1.7771 z m 8.8397,0 v 1.7771 h 3.9068 l 0.5384,-0.5421 c 0.088,-0.094 0.1314,-0.2073 0.1385,-0.3219 v -0.058 c -0.01,-0.1144 -0.05,-0.2275 -0.1385,-0.3209 l -0.5302,-0.5338 z m -56.8456,7.9979 1.7647,1.7777 h 13.0742 v -1.7777 z m 39.7221,0 v 1.7777 h 13.0886 l 1.7653,-1.7777 z m -13.5676,2.5849 v 7.4083 h 2.2494 v -7.4083 z m 0,13.4937 v 7.4084 h 2.2494 v -7.4084 z" /><path
+         id="path502"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.02607"
+         d="m 2058.2885,1971.714 c -0.8102,7e-4 -1.6203,0.3036 -2.2236,0.9075 l -33.691,33.9457 c -1.2149,1.2231 -1.2067,3.2526 0,4.4736 l 33.691,33.9421 c 1.2149,1.2139 3.2329,1.217 4.4468,0 l 33.6971,-33.941 v 0 c 1.2087,-1.2149 1.2036,-3.2567 0,-4.4737 l -33.6971,-33.9467 c -0.6029,-0.6064 -1.413,-0.9081 -2.2232,-0.9075 z m 0,1.7725 c 0.3534,0 0.7073,0.1358 0.9715,0.3974 l 33.6993,33.9359 a 1.4231566,1.4231566 0 0 1 0,1.9606 v 0 l -33.6992,33.9416 c -0.5335,0.5285 -1.409,0.5305 -1.9394,0 l -33.6931,-33.9416 a 1.4108438,1.4108438 0 0 1 0,-1.9606 l 33.6941,-33.9359 c 0.2617,-0.2678 0.6146,-0.3989 0.9679,-0.3974 z" /></g></g></svg>

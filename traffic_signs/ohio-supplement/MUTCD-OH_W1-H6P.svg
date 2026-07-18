@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="96in"
+   height="30in"
+   viewBox="0 0 2438.4 762"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="MUTCD-OH_W1-H6P.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="in"
+     inkscape:zoom="0.088388348"
+     inkscape:cx="4604.6794"
+     inkscape:cy="2183.5457"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Sign Back"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#fcd116;stroke:none;stroke-width:22.225;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:0.299999"
+       id="rect1"
+       width="2438.3999"
+       height="762"
+       x="0"
+       y="0"
+       rx="76.199997"
+       ry="76.199997" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:31.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0.299999;stroke-opacity:1"
+       id="rect2"
+       width="2368.55"
+       height="692.15002"
+       x="34.924976"
+       y="34.924988"
+       rx="41.275002"
+       ry="41.275002" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Legends">
+    <path
+       d="m 677.98644,457.40321 q 0,56.896 -46.3296,95.504 -46.3296,38.2016 -114.6048,38.2016 -82.0928,0 -135.7376,-49.1744 -14.6304,-12.5984 -31.2928,-33.7312 l 58.5216,-43.8912 q 41.0464,52.832 112.9792,53.2384 37.3888,0 60.5536,-15.8496 23.5712,-15.8496 23.5712,-41.4528 0,-15.4432 -9.3472,-30.48 -8.9408,-15.4432 -22.7584,-22.352 -16.6624,-8.5344 -39.8272,-8.5344 h -19.9136 v -72.7456 h 17.4752 q 23.5712,0 38.608,-10.9728 15.4432,-11.3792 15.4432,-28.8544 0,-18.288 -20.32,-30.48 -19.9136,-12.192 -51.2064,-12.192 -52.0192,0 -89.8144,39.8272 l -53.6448,-49.9872 q 60.5536,-62.5856 148.336,-62.5856 61.3664,0 100.7872,32.512 39.8272,32.1056 39.8272,81.28 0,35.3568 -32.9184,77.6224 30.0736,26.416 40.64,46.736 10.9728,19.9136 10.9728,48.3616 z m 384.85986,-13.0048 q 0,64.2112 -48.3616,105.664 -48.36159,41.0464 -122.7328,41.0464 -82.0928,0 -156.8704,-45.1104 l 38.2016,-61.3664 q 53.6448,32.9184 118.6688,32.9184 45.92321,0 72.33921,-19.5072 26.416,-19.5072 26.416,-53.6448 0,-35.3568 -26.0096,-55.6768 -20.7264,-16.6624 -65.83681,-16.6624 -36.9824,0 -78.0288,15.0368 l -73.152,-17.8816 13.4112,-191.4144 h 270.6624 l -1.6256,71.5264 h -201.168 l -4.064,58.5216 q 49.5808,-10.5664 78.8416,-10.5664 69.08801,0 114.1984,41.8592 45.1104,41.8592 45.1104,105.2576 z"
+       id="text2"
+       style="font-size:711.2px;line-height:1.25;font-family:'Roadgeek 2014 Series E';-inkscape-font-specification:'Roadgeek 2014 Series E';text-align:end;text-anchor:end;stroke-width:50.7999"
+       aria-label="35" />
+    <path
+       d="m 1558.0441,482.60001 h -35.7632 V 358.648 l -59.944,123.95201 -59.1312,-123.95201 v 123.95201 h -35.56 V 279.4 h 35.56 l 59.1312,120.2944 59.944,-120.2944 h 35.7632 z M 1831.6438,341.376 q 0,16.0528 -8.5344,30.8864 -8.5344,14.6304 -22.7584,22.5552 -14.6304,7.9248 -36.576,8.128 h -57.7088 v 79.65441 h -36.9824 V 279.4 h 94.6912 q 20.5232,0 36.576,8.5344 14.6304,8.3312 22.9616,22.352 8.3312,14.0208 8.3312,31.0896 z m -36.576,0 q 0,-11.5824 -8.128,-18.4912 -8.128,-6.9088 -21.7424,-6.9088 h -59.1312 v 50.3936 h 59.1312 q 13.208,0 21.5392,-6.9088 8.3312,-6.9088 8.3312,-18.0848 z m 293.3105,141.22401 h -36.576 V 393.5984 l -91.2368,0.6096 v 88.39201 h -36.1696 V 279.4 h 36.1696 v 78.6384 h 91.2368 V 279.4 h 36.576 z"
+       id="text3"
+       style="font-size:355.6px;line-height:1.25;font-family:'Roadgeek 2014 Series E';-inkscape-font-specification:'Roadgeek 2014 Series E';letter-spacing:58.2083px;stroke-width:25.3999"
+       aria-label="MPH" />
+  </g>
+</svg>

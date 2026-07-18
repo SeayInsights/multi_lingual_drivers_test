@@ -1,0 +1,13 @@
+<svg width="96.8" height="96.643" viewBox="0 0 25.612 25.57" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath clipPathUnits="userSpaceOnUse" id="a">
+            <path d="M71.35 38.683h504.514v445.105H71.35Z" transform="translate(-539.49 -385.208)"/>
+        </clipPath>
+    </defs>
+    <path d="M0 0a3.41 3.41 0 0 0-2.427 1.004l-32.742 32.689a3.4 3.4 0 0 0-1.006 2.424 3.4 3.4 0 0 0 1.006 2.423l32.742 32.689A3.415 3.415 0 0 0 0 72.233c.917 0 1.778-.357 2.427-1.004L35.169 38.54a3.403 3.403 0 0 0 1.006-2.423c0-.916-.357-1.776-1.006-2.424L2.427 1.004A3.41 3.41 0 0 0 0 0" style="fill:#fcd116;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(-.35278 0 0 -.35278 12.806 25.526)" clip-path="url(#a)"/>
+    <path d="M0 0c-.95 0-1.843-.369-2.515-1.04l-32.743-32.689a3.526 3.526 0 0 1-1.042-2.512c0-.949.37-1.841 1.042-2.512l32.743-32.689A3.535 3.535 0 0 1 0-72.482c.95 0 1.843.369 2.515 1.04l32.743 32.689a3.526 3.526 0 0 1 1.042 2.512c0 .949-.37 1.841-1.042 2.512L2.515-1.04A3.535 3.535 0 0 1 0 0m0-.25a3.3 3.3 0 0 0 2.339-.967l32.742-32.689a3.298 3.298 0 0 0 0-4.67L2.339-71.265A3.3 3.3 0 0 0 0-72.232a3.3 3.3 0 0 0-2.339.967l-32.742 32.689a3.298 3.298 0 0 0 0 4.67L-2.339-1.217A3.3 3.3 0 0 0 0-.25" style="fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(-.35278 0 0 -.35278 12.806 0)"/>
+    <path d="M0 0a2.431 2.431 0 0 0-3.43 0l-32.743 32.689a2.423 2.423 0 0 0 0 3.425L-3.43 68.803a2.431 2.431 0 0 0 3.43 0l32.743-32.689a2.423 2.423 0 0 0 0-3.425z" style="fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="rotate(179.796 6.1 12.46) scale(.35278)"/>
+    <path d="M0 0a1.105 1.105 0 0 0-1.559 0l-32.743 32.689a1.1 1.1 0 0 0 0 1.557l32.743 32.689c.43.429 1.129.429 1.559 0l32.743-32.689a1.103 1.103 0 0 0 0-1.557z" style="fill:#fcd116;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(-.35278 0 0 -.35278 12.53 24.592)"/>
+    <path d="M541.696 399.31h-8.82v44.028h8.82z" style="fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="rotate(179.796 101.563 80.71) scale(.35278)"/>
+    <path d="m0 0-17.377 17.434 6.236 6.226L6.237 6.227Z" style="fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(-.35278 0 0 -.35278 8.333 19.09)"/>
+</svg>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30in"
+   height="30in"
+   viewBox="0 0 762.00001 762.00002"
+   version="1.1"
+   id="svg4493"
+   enable-background="new"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="Ohio_MUTCD_R12-H17_(text).svg">
+  <defs
+     id="defs4487" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="1577.1429"
+     inkscape:cy="1274.2857"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g1551"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4490">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Sign Back"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,465.00002)"
+     sodipodi:insensitive="true">
+    <g
+       id="g3578"
+       transform="matrix(9.7313737,0,0,9.7313737,-2393.1978,2547.7564)">
+      <g
+         id="g3889">
+        <g
+           id="g3895">
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.18531813;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect3868"
+             width="78.303436"
+             height="78.303436"
+             x="245.92599"
+             y="-309.5921"
+             rx="3.9151719"
+             ry="3.9151719" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.63132155;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect3868-3"
+             width="74.714531"
+             height="74.714531"
+             x="247.72046"
+             y="-307.79764"
+             rx="2.120718"
+             ry="2.120718" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Legends"
+     transform="matrix(9.7313737,0,0,9.7313737,-2393.1978,3012.7564)"
+     style="">
+    <text
+       transform="scale(1.0000012,0.99999881)"
+       id="text3866-7-0-6-0-8-5-2-2"
+       y="-275.81113"
+       x="308.35324"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.46128654px;line-height:125%;font-family:'Roadgeek 2014 Series C';-inkscape-font-specification:'Roadgeek 2014 Series C';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08052751px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.46128654px;font-family:'Roadgeek 2014 Series C';-inkscape-font-specification:'Roadgeek 2014 Series C';text-align:center;text-anchor:middle;stroke-width:0.08052751px;"
+         y="-275.81113"
+         x="284.98428"
+         id="tspan3864-3-0-63-5-0-9-1-4">REDUCED</tspan></text>
+    <text
+       transform="scale(1.0000012,0.99999881)"
+       id="text3866-7-0-6-0-8-5-2-2-2"
+       y="-237.9015"
+       x="298.49976"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.98270607px;line-height:125%;font-family:'Roadgeek 2014 Series E';-inkscape-font-specification:'Roadgeek 2014 Series E';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04678491px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.98270607px;font-family:'Roadgeek 2014 Series E';-inkscape-font-specification:'Roadgeek 2014 Series E';text-align:center;text-anchor:middle;stroke-width:0.04678491px;"
+         y="-237.9015"
+         x="284.92282"
+         id="tspan3864-3-0-63-5-0-9-1-4-4">FEB 1 - MAY 15</tspan></text>
+    <text
+       transform="scale(1.0083245,0.99174423)"
+       id="text3866-7-0-6-0-8-5-2-2-2-8"
+       y="-249.09163"
+       x="296.03577"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.90855789px;line-height:125%;font-family:'Roadgeek 2014 Series E';-inkscape-font-specification:'Roadgeek 2014 Series E';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04639872px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.90855789px;font-family:'Roadgeek 2014 Series E';-inkscape-font-specification:'Roadgeek 2014 Series E';text-align:center;text-anchor:middle;stroke-width:0.04639872px"
+         y="-249.09163"
+         x="282.57089"
+         id="tspan3864-3-0-63-5-0-9-1-4-4-3">EFFECTIVE</tspan></text>
+    <text
+       transform="scale(1.0000012,0.99999881)"
+       id="text3866-7-0-6-0-8-5-2-2-1"
+       y="-258.8757"
+       x="308.00894"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.04390621px;line-height:125%;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07835366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.04390621px;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;stroke-width:0.07835366px"
+         y="-258.8757"
+         x="285.27084"
+         id="tspan3864-3-0-63-5-0-9-1-4-5">20<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series E';-inkscape-font-specification:'Roadgeek 2005 Series E'"
+   id="tspan941">%</tspan></tspan></text>
+    <g
+       transform="matrix(0.11988714,0,0,0.11988714,245.45699,-281.25077)"
+       id="g6106">
+      <g
+         id="g1551"
+         transform="translate(-60.390212)">
+        <g
+           id="g1557"
+           transform="matrix(0.96991174,0,0,0.96991174,-14.61547,-3.7854912)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:128.96534729px;line-height:125%;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.67169434px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="737.03564"
+             y="-85.252914"
+             id="text3866-7-0-6-0-8-5-2"
+             transform="scale(1.0000012,0.99999881)"><tspan
+               id="tspan3864-3-0-63-5-0-9-1"
+               x="401.06851"
+               y="-85.252914"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:128.96534729px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:end;text-anchor:end;stroke-width:0.67169434px">WEIGHT</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.35015869px;line-height:125%;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.69453192px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="440.61325"
+             y="-84.000107"
+             id="text3866-7-0-6-0-8-5-2-7"
+             transform="scale(1.0000012,0.99999881)"><tspan
+               id="tspan3864-3-0-63-5-0-9-1-1"
+               x="440.61325"
+               y="-84.000107"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.35015869px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:start;text-anchor:start;stroke-width:0.69453192px">LIMITS</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg832"
+   version="1.1"
+   viewBox="0 0 762.00001 1219.2"
+   height="48in"
+   width="30in">
+  <defs
+     id="defs826">
+    <clipPath
+       id="clipPath18"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path16"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath58"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path56"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath70"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path68"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath82"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path80"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath94"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path92"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath106"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path104"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath118"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path116"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath130"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path128"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath142"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path140"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath154"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path152"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath166"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path164"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath178"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path176"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath190"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path188"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath202"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path200"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath214"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path212"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath226"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path224"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath238"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path236"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath250"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path248"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath262"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path260"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath274"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path272"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath286"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path284"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath298"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path296"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath310"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path308"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath322"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path320"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath334"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path332"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath346"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path344"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath358"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path356"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath370"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path368"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath382"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path380"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath394"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path392"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath406"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path404"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath418"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path416"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath430"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path428"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath442"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path440"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath454"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path452"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath466"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path464"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath478"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path476"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath490"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path488"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath502"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path500"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath514"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path512"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath526"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path524"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath538"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path536"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath550"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path548"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath562"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path560"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath574"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path572"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath586"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path584"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath598"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path596"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath610"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path608"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath622"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path620"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath634"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path632"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath646"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path644"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath658"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path656"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath670"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path668"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath682"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path680"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath694"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path692"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath706"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path704"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath718"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path716"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath730"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path728"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath742"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path740"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath754"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path752"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath766"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path764"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath778"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path776"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath790"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path788"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath802"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path800"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+    <clipPath
+       id="clipPath814"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="clip-rule:evenodd"
+         id="path812"
+         d="M 0,0 H 612.12 V 792.12 H 0 V 0" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata829">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,922.20002)"
+     id="layer1">
+    <g
+       transform="matrix(9.7313738,0,0,9.7313738,-2427.9717,2456.7398)"
+       id="g3578">
+      <g
+         id="g3889">
+        <g
+           id="g3895">
+          <rect
+             ry="4.8939648"
+             rx="4.8939648"
+             y="-347.22125"
+             x="249.49937"
+             height="125.2855"
+             width="78.303436"
+             id="rect3868"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.18531813;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             ry="2.6101146"
+             rx="2.6101146"
+             y="-344.93741"
+             x="252.1095"
+             height="120.7178"
+             width="73.083206"
+             id="rect3868-3"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.95758593;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <g
+             transform="matrix(0.35306517,0,0,-0.35277777,252.89253,-241.51162)"
+             id="g832">
+            <path
+               id="path834"
+               style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+               d="M 0,0 H 203.3 V 3.7 H 0 V 0" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     style="display:inline"
+     transform="translate(0,922.20002)"
+     id="layer2">
+    <g
+       id="g4116">
+      <g
+         transform="matrix(0,0.10854705,0.11541614,0,36.373444,42.131531)"
+         id="g1157">
+        <path
+           id="path328"
+           style="fill:#100f0d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="m 1002,627 v 477 h 376 c 25,10 43,32 49,57 v 396 l 81,78 -1,3 c 14,-4 26,-14 34,-26 8,-12 12,-27 9,-42 l 2,-1 v -111 c 10,4 20,7 32,9 12,2 24,2 37,1 26,-2 51,-10 74,-26 23,-16 41,-36 52,-60 6,-11 10,-23 12,-34 3,-12 4,-23 4,-34 0,-11 -1,-22 -4,-33 -2,-12 -6,-24 -12,-35 -11,-23 -29,-44 -52,-60 -23,-15 -48,-24 -74,-26 -13,-1 -25,-1 -37,1 -12,2 -22,5 -32,9 v -71 c 10,4 20,7 32,8 12,2 24,3 37,2 26,-2 51,-11 74,-27 23,-15 41,-36 52,-59 6,-12 10,-24 12,-35 3,-12 4,-23 4,-34 0,-10 -1,-21 -4,-33 -2,-11 -6,-23 -12,-35 -11,-23 -29,-44 -52,-59 -23,-16 -48,-25 -74,-27 -13,-1 -25,0 -37,2 -12,1 -22,4 -32,8 v -317 1 c 10,4 20,6.996 32,8.996 12,2.004 24,3.004 37,2.004 26,-3.004 51,-11 74,-27.004 23,-15 41,-35.996 52,-60 6,-11 10,-23 12,-34 3,-11.996 4,-23 4,-34 0,-10 -1,-22 -4,-33 -2,-12 -6,-23 -12,-35 -11,-23 -29,-44 -52,-60 -23,-15 -48,-24 -74,-26 -13,-1 -25,-1 -37,1 -12,2 -22,5 -32,9 v 1 -82 h -76 v 69 h -247 c -13,0 -26,5 -35,14 -9,9 -14,21 -14,34 V 474 l -178,153" />
+        <path
+           id="path332-7"
+           style="fill:#100f0d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="M 1309,1253 H 876 c -12,0 -25,5 -35,15 -10,10 -14,22 -14,34 v 1790 c 0,11 4,24 14,34 10,10 23,14 35,14 h 699 v -96 c 9,2 20,3 31,3 11,0 22,-1 34,-3 23,-5 46,-15 65,-31 20,-16 35,-35 44,-57 5,-11 9,-22 11,-32 2,-11 3,-22 3,-32 0,-10 -1,-20 -3,-31 -3,-11 -6,-22 -11,-32 -10,-22 -25,-42 -44,-58 -20,-15 -42,-25 -66,-30 -11,-3 -22,-4 -33,-3 -11,0 -22,1 -32,3 v -39 c 10,2 21,3 32,3 11,1 22,0 33,-3 24,-4 46,-15 66,-30 20,-16 34,-36 44,-58 5,-10 9,-21 11,-32 2,-11 3,-21 3,-31 0,-10 -1,-21 -3,-32 -2,-10 -6,-21 -11,-32 -9,-22 -24,-41 -44,-57 -20,-16 -42,-26 -65,-31 -12,-2 -23,-3 -34,-3 -11,0 -22,1 -31,4 v -577 l -218,-192 v -329 c 0,-6 -1,-12 -3,-18 -2,-6 -6,-11 -11,-16 -5,-5 -10,-9 -16,-11 -7,-2 -13,-4 -18,-4" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:171.9535675px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.89559126px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="714.0343"
+         y="231.82956"
+         id="text3866"><tspan
+           id="tspan3864"
+           x="714.0343"
+           y="231.82956"
+           style="font-size:171.9535675px;text-align:end;text-anchor:end;stroke-width:0.89559126px">40T</tspan></text>
+    </g>
+    <g
+       id="g4076">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:174.82792664px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.91056186px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="714.07318"
+         y="68.399979"
+         id="text3866-8"><tspan
+           id="tspan3864-8"
+           x="714.07318"
+           y="68.399979"
+           style="font-size:174.82792664px;text-align:end;text-anchor:end;stroke-width:0.91056186px">24T</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:171.95378113px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.89559239px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="47.753902"
+         y="66.729652"
+         id="text3866-7-0"
+         transform="scale(1.0000012,0.99999881)"><tspan
+           id="tspan3864-3-0"
+           x="47.753902"
+           y="66.729652"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:171.95378113px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:start;text-anchor:start;stroke-width:0.89559239px">6+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92604256px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="169.6718"
+         y="68.400063"
+         id="text3866-7-0-7"
+         transform="scale(1.0000012,0.9999988)"><tspan
+           id="tspan3864-3-0-6"
+           x="169.6718"
+           y="68.400063"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:start;text-anchor:start;stroke-width:0.92604256px">AXLE</tspan></text>
+    </g>
+    <g
+       id="g4076-6"
+       style="display:inline"
+       transform="translate(-1.8037836e-6,-139.7)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:174.82792664px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.91056186px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="714.07318"
+         y="68.399979"
+         id="text3866-8-5"><tspan
+           id="tspan3864-8-0"
+           x="714.07318"
+           y="68.399979"
+           style="font-size:174.82792664px;text-align:end;text-anchor:end;stroke-width:0.91056186px">22T</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:174.82814026px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.91056299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="40.809761"
+         y="66.701729"
+         id="text3866-7-0-6"
+         transform="scale(1.0000012,0.99999881)"><tspan
+           id="tspan3864-3-0-63"
+           x="40.809761"
+           y="66.701729"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:174.82814026px;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;text-anchor:start;stroke-width:0.91056299px">5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92604256px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="169.6718"
+         y="68.400063"
+         id="text3866-7-0-7-0"
+         transform="scale(1.0000012,0.9999988)"><tspan
+           id="tspan3864-3-0-6-1"
+           x="169.6718"
+           y="68.400063"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:start;text-anchor:start;stroke-width:0.92604256px">AXLE</tspan></text>
+    </g>
+    <g
+       id="g4076-6-1"
+       style="display:inline"
+       transform="translate(-1.4506513e-6,-279.4)">
+      <text
+         transform="scale(1.0000027,0.99999728)"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:171.95405579px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.89559376px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="714.0238"
+         y="66.729759"
+         id="text3866-8-5-1"><tspan
+           id="tspan3864-8-0-9"
+           x="714.0238"
+           y="66.729759"
+           style="font-size:171.95405579px;text-align:end;text-anchor:end;stroke-width:0.89559376px">18T</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92604256px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="48.767937"
+         y="68.400063"
+         id="text3866-7-0-6-0"
+         transform="scale(1.0000012,0.99999881)"><tspan
+           id="tspan3864-3-0-63-5"
+           x="48.767937"
+           y="68.400063"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;text-anchor:start;stroke-width:0.92604256px">4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92604256px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="169.6718"
+         y="68.400063"
+         id="text3866-7-0-7-0-7"
+         transform="scale(1.0000012,0.9999988)"><tspan
+           id="tspan3864-3-0-6-1-7"
+           x="169.6718"
+           y="68.400063"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:start;text-anchor:start;stroke-width:0.92604256px">AXLE</tspan></text>
+    </g>
+    <g
+       id="g4076-6-1-3"
+       style="display:inline"
+       transform="translate(-1.4275349e-7,-419.1)">
+      <text
+         transform="scale(1.0000027,0.9999973)"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80047607px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92604387px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="714.13123"
+         y="68.400162"
+         id="text3866-8-5-1-2"><tspan
+           id="tspan3864-8-0-9-9"
+           x="714.13123"
+           y="68.400162"
+           style="font-size:177.80047607px;text-align:end;text-anchor:end;stroke-width:0.92604387px">14T</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:171.95378113px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.89559239px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="33.113266"
+         y="66.729652"
+         id="text3866-7-0-6-0-8"
+         transform="scale(1.0000012,0.99999881)"><tspan
+           id="tspan3864-3-0-63-5-0"
+           x="33.113266"
+           y="66.729652"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:171.95378113px;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;text-anchor:start;stroke-width:0.89559239px">3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92604256px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="169.6718"
+         y="68.400063"
+         id="text3866-7-0-7-0-7-7"
+         transform="scale(1.0000012,0.9999988)"><tspan
+           id="tspan3864-3-0-6-1-7-6"
+           x="169.6718"
+           y="68.400063"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:start;text-anchor:start;stroke-width:0.92604256px">AXLE</tspan></text>
+    </g>
+    <g
+       id="g4076-6-1-3-2"
+       style="display:inline"
+       transform="translate(-1.581441e-6,-558.8)">
+      <text
+         transform="scale(1.0000027,0.9999973)"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:171.95404053px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8955937px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="714.01819"
+         y="66.729752"
+         id="text3866-8-5-1-2-9"><tspan
+           id="tspan3864-8-0-9-9-8"
+           x="714.01819"
+           y="66.729752"
+           style="font-size:171.95404053px;text-align:end;text-anchor:end;stroke-width:0.8955937px">10T</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:174.82814026px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.91056299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="40.809761"
+         y="68.400063"
+         id="text3866-7-0-6-0-8-5"
+         transform="scale(1.0000012,0.99999881)"><tspan
+           id="tspan3864-3-0-63-5-0-9"
+           x="40.809761"
+           y="68.400063"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:174.82814026px;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;text-anchor:start;stroke-width:0.91056299px">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92604256px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="169.6718"
+         y="68.400063"
+         id="text3866-7-0-7-0-7-7-2"
+         transform="scale(1.0000012,0.9999988)"><tspan
+           id="tspan3864-3-0-6-1-7-6-0"
+           x="169.6718"
+           y="68.400063"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:start;text-anchor:start;stroke-width:0.92604256px">AXLE</tspan></text>
+    </g>
+    <g
+       transform="translate(7.7909869,131.82599)"
+       id="g4283">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:172.45413208px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.89819831px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="402.97305"
+         y="-763.61426"
+         id="text3866-7"
+         transform="scale(1.0000012,0.99999881)"><tspan
+           id="tspan3864-3"
+           x="402.97305"
+           y="-763.61426"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:172.45413208px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:end;text-anchor:end;stroke-width:0.89819831px">SINGLE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:174.82814026px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.91056293px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="446.21027"
+         y="-763.62524"
+         id="text3866-7-4"
+         transform="scale(1.0000012,0.99999881)"><tspan
+           id="tspan3864-3-2"
+           x="446.21027"
+           y="-763.62524"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:174.82814026px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:start;text-anchor:start;stroke-width:0.91056293px">UNIT</tspan></text>
+    </g>
+    <g
+       transform="translate(7.7909869,-7.8740131)"
+       id="g4283-7"
+       style="display:inline">
+      <g
+         transform="translate(-2.2771514)"
+         id="g4316">
+        <text
+           transform="scale(1.0000012,0.99999881)"
+           id="text3866-7-9"
+           y="-763.61426"
+           x="384.91678"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:172.45413208px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.89819831px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:172.45413208px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:end;text-anchor:end;stroke-width:0.89819831px"
+             y="-763.61426"
+             x="384.91678"
+             id="tspan3864-3-7">WEIGHT</tspan></text>
+        <text
+           transform="scale(1.0000012,0.99999881)"
+           id="text3866-7-4-7"
+           y="-761.92694"
+           x="446.89386"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9260425px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80021667px;font-family:'Roadgeek 2014 Series B';-inkscape-font-specification:'Roadgeek 2014 Series B';text-align:start;text-anchor:start;stroke-width:0.9260425px"
+             y="-761.92694"
+             x="446.89386"
+             id="tspan3864-3-2-5">LIMIT</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

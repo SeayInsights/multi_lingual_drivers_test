@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30in"
+   height="30in"
+   viewBox="0 0 762.00001 762.00003"
+   version="1.1"
+   id="svg1008"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="MUTCD-OH_R3-H16.svg">
+  <defs
+     id="defs1002" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.18576389"
+     inkscape:cx="1149.3084"
+     inkscape:cy="1728"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     inkscape:snap-intersection-paths="false"
+     inkscape:object-nodes="true"
+     inkscape:snap-midpoints="true" />
+  <metadata
+     id="metadata1005">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Sign Back"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,465.00003)"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.89827847;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2300"
+       width="760.10175"
+       height="760.10175"
+       x="0.94913924"
+       y="-464.05087"
+       rx="47.625149"
+       ry="47.625" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:19.05000114;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect842"
+       width="717.55005"
+       height="717.55005"
+       x="22.225"
+       y="-442.77505"
+       rx="25.400002"
+       ry="25.400002" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Legends"
+     transform="translate(0,-152.4)">
+    <g
+       id="g2378" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80000305px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.77812505px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="67.970406"
+       y="812.79999"
+       id="text846"><tspan
+         sodipodi:role="line"
+         id="tspan844"
+         x="67.970406"
+         y="812.79999"
+         style="stroke-width:2.77812505px">MIN</tspan></text>
+    <text
+       id="text850"
+       y="812.79999"
+       x="684.76379"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:177.80000305px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.77812505px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="text-align:end;text-anchor:end;stroke-width:2.77812505px"
+         y="812.79999"
+         x="684.76379"
+         id="tspan848"
+         sodipodi:role="line">FT</tspan></text>
+    <text
+       id="text854"
+       y="837.42163"
+       x="412.08197"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:257.9303894px;line-height:125%;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.03016233px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:4.03016233px"
+         y="837.42163"
+         x="412.08197"
+         id="tspan852"
+         sodipodi:role="line">3</tspan></text>
+    <text
+       id="text858"
+       y="330.22092"
+       x="378.0036"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:174.14300537px;line-height:125%;font-family:'Roadgeek 2014 Series E';-inkscape-font-specification:'Roadgeek 2014 Series E';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.72098446px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2014 Series E';-inkscape-font-specification:'Roadgeek 2014 Series E';text-align:center;letter-spacing:10.58333361px;text-anchor:middle;stroke-width:2.72098446px"
+         y="330.22092"
+         x="381.97235"
+         id="tspan856"
+         sodipodi:role="line">PASS</tspan></text>
+    <path
+       d="m 448.73946,555.36404 57.36965,-9.36566 -36.15751,-46.96973 c -18.73937,16.34344 -21.07067,35.96363 -21.21214,56.33539 m -15.78184,3.43434 c -0.0977,-2.03639 -0.42026,-5.30911 -0.42026,-7.59998 0,-23.24047 7.51923,-45.82626 27.92324,-64.598 l -21.25245,-25.44644 -32.89298,100.34736 z m -126.25448,-99.87078 1.82223,-5.58375 117.15955,-0.15392 -31.16359,94.48079 -1.34554,-9.85456 h 3.58388 l -0.44835,-6.27472 h -15.68081 l 0.44835,5.82624 h 4.03235 l 0.89304,10.75151 c 0,0 -78.85252,-88.74348 -79.30099,-89.19196 m -51.88694,90.75961 c 15.73334,-12.49691 27.9798,-24.40802 36.80804,-48.24235 13.93945,12.64644 21.8909,30.9333 21.8909,49.75355 0,37.37367 -30.48079,67.8585 -67.85447,67.8585 -37.3738,0 -67.85863,-30.48483 -67.85863,-67.8585 0,-37.3738 30.48483,-67.8546 67.85863,-67.8546 11.92724,0 24.12117,3.44241 33.95155,9.24849 -6.65454,21.03024 -13.12729,31.87472 -33.60411,48.35963 -4.96961,0.21013 -8.75152,4.19789 -8.75152,8.96153 0,4.93333 4.02429,8.95762 8.96165,8.95762 4.93333,0 8.59796,-4.02429 8.59796,-9.18387 m 196.32725,20.09297 c 7.67683,28.59797 34.97787,49.27673 65.19601,49.27673 37.37368,0 67.85448,-30.48483 67.85448,-67.8585 0,-37.3738 -30.4808,-67.85863 -67.85448,-67.85863 -11.93127,0 -25.7334,2.81618 -35.802,8.71108 l 36.83223,48.90107 c 4.50514,0.0733 8.42436,4.09698 8.42436,8.96153 0,4.93333 -4.02428,8.95762 -8.96165,8.95762 -1.36166,0 -2.80005,-0.34696 -4.00816,-0.91747 z m -166.68684,-92.893 24.04042,-66.31505 -7.62026,-12.994 L 316.11326,381 h 32.70716 l 0.44835,9.41013 h -28.67481 l -5.82624,6.27068 6.71916,12.09693 -8.44843,29.95561 h 117.37774 l 1.79401,-5.47881 c -9.43443,-1.22826 -25.70506,-7.03838 -29.59203,-10.41616 -3.88685,-3.37778 -0.485,-6.48081 3.94353,-6.62631 23.16767,-0.98222 57.58381,-2.92516 64.12118,-2.9535 6.54142,-0.0244 7.20808,3.26062 2.83231,8.04845 -4.37576,4.78795 -8.20201,9.09506 -24.78381,11.66471 l -4.48082,12.09693 27.77774,34.40808 c 13.09088,-7.94339 28.92525,-12.0808 44.31116,-12.0808 46.15354,0 83.80199,37.64452 83.80199,83.8021 0,46.15757 -37.64845,83.80197 -83.80199,83.80197 -37.97169,0 -71.36164,-26.18994 -81.17576,-62.37983 l -25.52328,4.58589 c -1.09096,3.01006 -3.64045,5.31315 -6.68276,7.11913 l 4.55351,21.59196 h 5.82625 l 0.44835,5.82222 -18.37177,0.8967 v -6.27069 h 4.48082 l -5.54746,-21.57974 c -8.25858,-1.34957 -12.58584,-8.42021 -10.12529,-15.4344 l -83.37365,-94.29498 -3.73341,10.11722 c 20.23432,15.93944 32.3475,40.49296 32.3475,66.0243 0,46.15758 -37.6444,83.80198 -83.80198,83.80198 -46.15757,6.1e-4 -83.80197,-37.64379 -83.80197,-83.80137 0,-46.15757 37.6444,-83.80209 83.80197,-83.80209 13.4222,0 27.17168,3.27272 38.79595,9.49087"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.23232341"
+       id="path3877"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

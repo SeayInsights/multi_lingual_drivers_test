@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12in"
+   height="4in"
+   viewBox="0 0 304.8 101.6"
+   version="1.1"
+   id="svg905"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="MUTCD-OH_D10-H8a.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs899" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="708.57144"
+     inkscape:cy="571.42858"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata902">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Sign Back"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,84.00003)"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.89474;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2300"
+       width="302.89499"
+       height="99.695"
+       x="0.94736904"
+       y="-83.042397"
+       rx="36.195"
+       ry="36.195" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Legends"
+     transform="translate(7.6199782,-482.59997)">
+    <path
+       d="M 108.97664,539.05146 H 92.657142 v 15.875 h -9.9695 v -15.875 h -16.3195 v -10.2235 h 16.3195 v -15.748 h 9.9695 v 15.748 h 16.319498 z m 66.50558,-5.5245 q 0,7.747 -1.8415,14.6685 -1.778,6.9215 -5.0165,10.9855 -5.207,7.0485 -15.4305,7.0485 -6.604,0 -11.049,-2.7305 -4.445,-2.7305 -7.239,-8.5725 -4.445,-8.6995 -4.445,-21.3995 0,-16.002 6.9215,-25.781 5.5245,-7.1755 16.1925,-7.1755 11.7475,0 17.653,11.3665 4.2545,8.763 4.2545,21.59 z m -10.033,0 q 0,-11.43 -3.81,-17.8435 -2.6035,-4.572 -8.255,-4.8895 -7.0485,-0.3175 -10.2235,7.8105 -2.413,5.969 -2.413,14.9225 0,11.6205 3.7465,17.5895 2.8575,4.8895 8.6995,4.8895 6.604,0 9.779,-8.0645 2.4765,-6.35 2.4765,-14.4145 z m 52.02766,31.623 h -10.2235 v -51.435 h -5.842 v -8.0645 h 0.635 q 4.572,0 7.366,-4.0005 h 8.0645 z"
+       id="text4"
+       style="font-size:111.125px;line-height:1.25;font-family:'Roadgeek 2014 Series D';-inkscape-font-specification:'Roadgeek 2014 Series D';text-align:center;letter-spacing:13.2292px;text-anchor:middle;stroke-width:7.93748"
+       aria-label="+01" />
+  </g>
+</svg>

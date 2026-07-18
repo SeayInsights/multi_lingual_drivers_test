@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="324.24576"
+   height="640.04291"
+   viewBox="0 0 915.09377 1806.3433"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="MUTCD OM2-1V.svg">
+  <metadata
+     id="metadata62">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs60" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="1004"
+     id="namedview58"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.72743056"
+     inkscape:cx="105.81037"
+     inkscape:cy="296.29608"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <!-- draw the bicycle -->
+  <!-- RIGHT -->
+  <!-- LANE -->
+  <!-- ONLY -->
+  <path
+     inkscape:connector-curvature="0"
+     d="m 190.19566,11.993745 534.72389,0 c 98.15499,0 178.19241,80.086748 178.19241,178.291135 l 0,1425.78132 c 0,98.1551 -80.03742,178.2911 -178.19241,178.2911 l -534.72389,0 c -98.155026,0 -178.19097,-80.136 -178.19097,-178.2911 l 0,-1425.78132 c 0,-98.204387 80.035944,-178.291135 178.19097,-178.291135 z"
+     style="fill:#fecf33;stroke:#000000;stroke-width:23.98889351000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992000000000;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+     id="path4373" />
+</svg>

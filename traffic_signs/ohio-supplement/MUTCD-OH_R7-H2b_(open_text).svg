@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12in"
+   height="18in"
+   viewBox="0 0 304.8 457.20002"
+   version="1.1"
+   id="svg4493"
+   enable-background="new"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="MUTCD-OH_R7-H2b_(open_text).svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4487">
+    <rect
+       x="680"
+       y="1377.1429"
+       width="3514.2859"
+       height="360"
+       id="rect91616" />
+    <rect
+       x="565.71429"
+       y="1142.8571"
+       width="3457.1428"
+       height="1291.4286"
+       id="rect64090" />
+    <rect
+       x="577.14288"
+       y="1222.8571"
+       width="3211.4287"
+       height="422.85715"
+       id="rect48968" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="317.1879"
+     inkscape:cy="1109.1475"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0"
+     showguides="true"
+     width="18in" />
+  <metadata
+     id="metadata4490">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Sign Back"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,465.00002)"
+     sodipodi:insensitive="true">
+    <g
+       id="g3578"
+       transform="matrix(9.7313737,0,0,9.7313737,-2393.1978,2547.7564)">
+      <g
+         id="g3889">
+        <g
+           id="g3895">
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.185318;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect3868"
+             width="31.321375"
+             height="46.982063"
+             x="245.92599"
+             y="-309.5921"
+             rx="3.9151719"
+             ry="3.9151719" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#bf2033;stroke-width:0.978793;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect3868-3"
+             width="28.384996"
+             height="44.045685"
+             x="247.3942"
+             y="-308.1239"
+             rx="2.4469824"
+             ry="2.4469824" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Legends"
+     transform="matrix(9.7313737,0,0,9.7313737,-2393.1978,3012.7564)">
+    <text
+       xml:space="preserve"
+       style="font-size:11.6871px;line-height:1.25;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0405802"
+       x="261.57846"
+       y="-296.86777"
+       id="text197953"><tspan
+         sodipodi:role="line"
+         id="tspan197951"
+         style="text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0405802"
+         x="261.57846"
+         y="-296.86777">NO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.73923px;line-height:1.25;font-family:'Roadgeek 2005 Series B';-inkscape-font-specification:'Roadgeek 2005 Series B';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0338167"
+       x="261.586"
+       y="-288.05865"
+       id="text205591"><tspan
+         sodipodi:role="line"
+         id="tspan205589"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series B';-inkscape-font-specification:'Roadgeek 2005 Series B';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0338167"
+         x="261.586"
+         y="-288.05865">PARKING</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.79139px;line-height:1.25;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:start;text-anchor:start;fill:#bf2033;stroke-width:0.0270533"
+       x="261.58615"
+       y="-279.80853"
+       id="text208751"><tspan
+         sodipodi:role="line"
+         id="tspan208749"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series B';-inkscape-font-specification:'Roadgeek 2005 Series B';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0270533"
+         x="261.58615"
+         y="-279.80853">3PM - 6PM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.89569px;line-height:1.25;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0135267"
+       x="261.58395"
+       y="-275.2876"
+       id="text210167"><tspan
+         sodipodi:role="line"
+         id="tspan210165"
+         style="text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0135267"
+         x="261.58395"
+         y="-275.2876">WEEKDAYS</tspan></text>
+    <g
+       id="g5078"
+       transform="matrix(-0.03082813,0,0,0.03082813,268.59919,-263.33838)"
+       style="fill:#bf2033">
+      <path
+         id="circle4946"
+         style="opacity:1;fill:#bf2033;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.38467;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 349.81445,1390.8008 c -2.01842,1.2135 -3.70842,2.9035 -4.92187,4.9219 L 341.6543,1393.334 204,1488 l 137.6543,94.666 3.23828,-2.3887 c 1.21345,2.0184 2.90345,3.7084 4.92187,4.9219 7.95243,2e-4 14.39951,-6.446 14.40039,-14.3984 -0.78856,-1.0376 -1.71433,-1.9634 -2.75195,-2.752 l 2.0957,-1.5449 L 350.26953,1524 c 148.20376,-0.065 307.85102,0.058 451.5,0.047 l -13.28906,42.5039 0.0215,0.016 c -0.44064,1.3847 -0.66913,2.8282 -0.67773,4.2813 -1.6e-4,7.9532 6.44722,14.4005 14.40039,14.4003 2.90096,-0.02 5.72819,-0.916 8.11133,-2.5703 l 0.0469,0.035 137.65625,-94.666 -137.65625,-94.6641 -0.0176,0.014 c -2.39384,-1.6523 -5.23194,-2.5409 -8.14062,-2.5488 -7.95317,-2e-4 -14.40055,6.4471 -14.40039,14.4003 0.009,1.4531 0.23709,2.8966 0.67773,4.2813 l -0.0215,0.016 13.28906,42.502 c -150.50521,0 -301.01041,0 -451.51562,0 l 13.30468,-42.5508 -2.0957,-1.5449 c 1.03762,-0.7886 1.96339,-1.7144 2.75195,-2.752 -8.8e-4,-7.9524 -6.44796,-14.3986 -14.40039,-14.3984 z"
+         transform="matrix(-0.88194431,0,0,0.88194431,735.47085,-1501.2211)"
+         sodipodi:nodetypes="ccccccccccccccccccccccccccccccc" />
+    </g>
+    <g
+       id="g210646"
+       transform="matrix(0.03082813,0,0,0.03082813,254.57522,-263.31096)"
+       style="fill:#bf2033" />
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="84.667" height="60.667" viewBox="0 0 22.401 16.051" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath clipPathUnits="userSpaceOnUse" id="a">
+            <path d="M66.889 73.092h505.222V462H66.889Z" transform="translate(-426.067 -268.25)"/>
+        </clipPath>
+    </defs>
+    <path d="M0 0a4.63 4.63 0 0 0-4.625 4.625v36A4.63 4.63 0 0 0 0 45.25h54.001a4.63 4.63 0 0 0 4.625-4.625v-36A4.63 4.63 0 0 0 54.001 0Z" style="fill:#fcd116;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.35278 0 0 -.35278 1.675 16.007)" clip-path="url(#a)"/>
+    <path d="M0 0h-54a4.755 4.755 0 0 1-4.75-4.75v-36c0-2.619 2.13-4.75 4.75-4.75H0a4.756 4.756 0 0 1 4.75 4.75v36A4.756 4.756 0 0 1 0 0m0-.25c2.475 0 4.5-2.025 4.5-4.5v-36c0-2.475-2.025-4.5-4.5-4.5h-54a4.513 4.513 0 0 0-4.5 4.5v36c0 2.475 2.025 4.5 4.5 4.5z" style="fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.35278 0 0 -.35278 20.726 0)"/>
+    <path d="M0 0a3.379 3.379 0 0 0-3.375 3.375v36A3.379 3.379 0 0 0 0 42.75h54a3.379 3.379 0 0 0 3.375-3.375v-36A3.379 3.379 0 0 0 54 0Z" style="fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.35278 0 0 -.35278 1.676 15.566)"/>
+    <path d="M0 0c-.827 0-1.5.673-1.5 1.5v36c0 .827.673 1.5 1.5 1.5h54c.828 0 1.5-.673 1.5-1.5v-36C55.5.673 54.828 0 54 0Z" style="fill:#fcd116;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.35278 0 0 -.35278 1.676 14.905)"/>
+    <path d="m0 0-7.308 3.447-3.446 7.307c-.545 1.154-2.247.94-2.488-.313l-3.084-16.013L-.313-2.488C.94-2.247 1.154-.544 0 0" style="fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.35278 0 0 -.35278 8.414 10.959)"/>
+    <path d="m0 0 7.308 3.447 3.446 7.307c.545 1.154 2.247.94 2.488-.313l3.084-16.013L.313-2.488C-.94-2.247-1.154-.544 0 0" style="fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.35278 0 0 -.35278 13.987 10.959)"/>
+    <path d="m0 0 12.673-12.673 5.039 5.038L0 10.076-17.711-7.635l5.038-5.038z" style="fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.35278 0 0 -.35278 11.2 6.157)"/>
+</svg>

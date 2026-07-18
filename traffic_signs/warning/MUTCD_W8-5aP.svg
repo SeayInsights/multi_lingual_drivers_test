@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2160" height="1080" id="svg2" version="1.1">
+    <defs id="defs4">
+        <clipPath id="Clip0">
+            <path d="M0 0v864.5h1728.5V0H0z" transform="translate(0 .5)" id="path7"/>
+        </clipPath>
+        <clipPath id="Clip0-1">
+            <path d="M0 0v1728.5h1296.5V0H0z" transform="translate(0 .5)" id="path7-7"/>
+        </clipPath>
+        <style type="text/css" id="style561">
+            .str2{stroke:#000}.fil9{fill:#838281}.fil6{fill:#dededd}.fil8{fill:#000}.fil7{fill:#1f1a17;fill-rule:nonzero}.str0{stroke:#000;stroke-width:.2646}.str1{stroke:#d4ae05;stroke-width:.3969}.fil4{fill:none}.fil0{fill:#005121}.fil2{fill:#00722e}.fil1{fill:#00923f}.fil5{fill:#0a73b9}.fil3{fill:#fff}
+        </style>
+    </defs>
+    <g id="layer1" transform="translate(1576.307 418.472)">
+        <path style="fill:#fcd116;fill-rule:nonzero;stroke:none" d="M583.693 526.528c0 74.558-60.438 135-135 135h-1890c-74.56 0-135-60.443-135-135v-810c0-74.56 60.44-135 135-135h1890c74.562 0 135 60.44 135 135v810z" id="path11"/>
+        <path style="fill:#000;fill-rule:nonzero;stroke:none" d="M-1441.307 627.778c-55.83 0-101.25-45.421-101.25-101.25v-810c0-55.83 45.42-101.25 101.25-101.25h1890c55.825 0 101.25 45.42 101.25 101.25v810c0 55.829-45.425 101.25-101.25 101.25h-1890z" id="path13"/>
+        <path style="fill:#fcd116;fill-rule:nonzero;stroke:none" d="M-1441.307 571.528c-24.813 0-45-20.186-45-45v-810c0-24.813 20.187-45 45-45h1890c24.812 0 45 20.187 45 45v810c0 24.814-20.188 45-45 45h-1890z" id="path15"/>
+        <path style="fill:#000;fill-rule:nonzero;stroke:none" d="M-639.79 401.003c-142.1 0-229.255-111.79-229.255-280.42 0-170.528 87.155-278.529 229.255-278.529 87.155 0 166.733 43.58 208.417 119.37l-85.263 45.473c-15.157-22.738-22.735-30.315-37.894-39.789-20.841-17.053-56.841-28.421-85.26-28.421-98.522 0-130.732 96.631-130.732 180 0 117.475 49.261 185.685 130.732 185.685 49.262 0 75.788-17.053 123.154-68.21l85.263 45.473c-39.788 75.79-121.262 119.368-208.417 119.368z" id="path17"/>
+        <path style="fill:#000;fill-rule:nonzero;stroke:none" d="M-307.17 391.53v-540.002H88.318v96.632h-296.613V48.583h161.613v98.525h-161.613v147.789H97.83v96.633h-405z" id="path19"/>
+        <path style="fill:#000;fill-rule:nonzero;stroke:none" d="M-1090.444 391.53v-540.002h97.2v540.003h-97.2z" id="path21"/>
+    </g>
+</svg>

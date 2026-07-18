@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24in"
+   height="30in"
+   viewBox="0 0 609.6 762.00003"
+   version="1.1"
+   id="svg4493"
+   enable-background="new"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="MUTCD-OH_R8-H1a.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4487">
+    <rect
+       x="680"
+       y="1377.1429"
+       width="3514.2859"
+       height="360"
+       id="rect91616" />
+    <rect
+       x="565.71429"
+       y="1142.8571"
+       width="3457.1428"
+       height="1291.4286"
+       id="rect64090" />
+    <rect
+       x="577.14288"
+       y="1222.8571"
+       width="3211.4287"
+       height="422.85715"
+       id="rect48968" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="996.01041"
+     inkscape:cy="1577.8583"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0"
+     showguides="true"
+     width="18in" />
+  <metadata
+     id="metadata4490">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Sign Back"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,465.00002)"
+     sodipodi:insensitive="true">
+    <g
+       id="g3578"
+       transform="matrix(9.7313737,0,0,9.7313737,-2393.1978,2547.7564)">
+      <g
+         id="g3889">
+        <g
+           id="g3895">
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.185318;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect3868"
+             width="62.64275"
+             height="78.303436"
+             x="245.92599"
+             y="-309.5921"
+             rx="3.9151719"
+             ry="3.9151719" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#bf2033;stroke-width:1.63132;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect3868-3"
+             width="59.053844"
+             height="74.714531"
+             x="247.72046"
+             y="-307.79764"
+             rx="2.4469824"
+             ry="2.4469824" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Legends"
+     transform="matrix(9.7313737,0,0,9.7313737,-2393.1978,3012.7564)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.5828px;line-height:1.25;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0541069"
+       x="277.24335"
+       y="-291.13428"
+       id="text275069"><tspan
+         sodipodi:role="line"
+         id="tspan275067"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0541069"
+         x="277.24335"
+         y="-291.13428">NO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6349px;line-height:1.25;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0473435"
+       x="277.24387"
+       y="-277.94449"
+       id="text279005"><tspan
+         sodipodi:role="line"
+         id="tspan279003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0473435"
+         x="277.24387"
+         y="-277.94449">PARKING</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.73923px;line-height:1.25;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0338169"
+       x="277.24487"
+       y="-267.504"
+       id="text281265"><tspan
+         sodipodi:role="line"
+         id="tspan281263"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0338169"
+         x="277.24487"
+         y="-267.504">WITHIN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.73923px;line-height:1.25;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0338169"
+       x="277.02155"
+       y="-257.71606"
+       id="text282855"><tspan
+         sodipodi:role="line"
+         id="tspan282853"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0338169"
+         x="277.02155"
+         y="-257.71606">12 FEET OF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.73923px;line-height:1.25;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0338169"
+       x="277.24487"
+       y="-247.92815"
+       id="text288963"><tspan
+         sodipodi:role="line"
+         id="tspan288961"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0338169"
+         x="277.24487"
+         y="-247.92815">PAVEMENT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.73923px;line-height:1.25;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0338169"
+       x="277.24487"
+       y="-238.14021"
+       id="text291565"><tspan
+         sodipodi:role="line"
+         id="tspan291563"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D';text-align:center;text-anchor:middle;fill:#bf2033;stroke-width:0.0338169"
+         x="277.24487"
+         y="-238.14021">EDGE</tspan></text>
+  </g>
+</svg>

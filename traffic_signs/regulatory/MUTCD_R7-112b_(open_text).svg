@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12in"
+   height="21in"
+   viewBox="0 0 304.8 533.40001"
+   version="1.1"
+   id="svg925"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="MUTCD R7-112b_(open_text).svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview927"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="in"
+     showgrid="false"
+     units="in"
+     inkscape:zoom="0.36401473"
+     inkscape:cx="548.05474"
+     inkscape:cy="1204.6216"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g18146"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-midpoints="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true" />
+  <defs
+     id="defs922" />
+  <g
+     inkscape:label="Sign Back"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.5748;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none"
+       id="rect1008"
+       width="303.21249"
+       height="531.8252"
+       x="0.7937547"
+       y="0.79374337"
+       rx="37.312599"
+       ry="37.306252" />
+    <rect
+       style="fill:none;stroke:#006747;stroke-width:9.525;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1178"
+       width="276.22501"
+       height="504.82501"
+       x="14.287498"
+       y="14.287502"
+       rx="23.799801"
+       ry="23.8125" />
+    <rect
+       style="fill:#006747;stroke:none;stroke-width:19.05"
+       id="rect1426"
+       width="285.75"
+       height="6.3499999"
+       x="9.5250015"
+       y="165.10001" />
+    <path
+       id="rect1582"
+       style="fill:#006747;stroke:none;stroke-width:72"
+       d="M 144,36 C 84.167999,36 36,84.167999 36,144 V 648.00001 H 372 V 36 Z"
+       transform="scale(0.26458334)"
+       sodipodi:nodetypes="cccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Legends">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:151.642px;line-height:1.25;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#ffffff;stroke-width:3.79106"
+       x="53.908657"
+       y="142.87514"
+       id="text3191"><tspan
+         sodipodi:role="line"
+         id="tspan3189"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';fill:#ffffff;stroke-width:3.79106"
+         x="53.908657"
+         y="142.87514">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:75.8209px;line-height:1.25;font-family:'Roadgeek 2005 Series B';-inkscape-font-specification:'Roadgeek 2005 Series B';text-align:center;letter-spacing:-3.175px;text-anchor:middle;fill:#006747;stroke-width:1.89553"
+       x="192.08218"
+       y="152.40001"
+       id="text6246"><tspan
+         sodipodi:role="line"
+         id="tspan6244"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series B';-inkscape-font-specification:'Roadgeek 2005 Series B';fill:#006747;stroke-width:1.89553"
+         x="190.49467"
+         y="152.40001">PARKING</tspan></text>
+    <g
+       id="g18146"
+       style="fill:#006747"
+       transform="translate(0,76.200004)">
+      <path
+         id="rect8051"
+         style="fill:#006747;stroke-width:0.145639;stroke-linecap:square;stroke-miterlimit:10"
+         d="m 212.65596,368.3 a 3.8171621,3.8171621 0 0 0 -3.81716,3.81716 3.8171621,3.8171621 0 0 0 0.18471,1.1684 l -10e-4,9e-4 6.56901,20.41354 -6.56901,20.41354 10e-4,9.2e-4 a 3.8171621,3.8171621 0 0 0 -0.18471,1.1684 3.8171621,3.8171621 0 0 0 3.81716,3.81716 3.8171621,3.8171621 0 0 0 2.16049,-0.67084 l 3.7e-4,2.8e-4 36.01075,-24.72945 -36.01075,-24.72945 -2.8e-4,1.9e-4 A 3.8171621,3.8171621 0 0 0 212.65592,368.3 Z" />
+      <rect
+         style="fill:#006747;stroke-width:0.3777;stroke-linecap:square;stroke-miterlimit:10"
+         id="rect18055"
+         width="161.62021"
+         height="19.050001"
+         x="-215.5952"
+         y="384.17502"
+         transform="scale(-1,1)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:75.8209px;line-height:1.25;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:center;letter-spacing:-3.96875px;text-anchor:middle;fill:#006747;stroke-width:1.89553"
+       x="192.03419"
+       y="82.550003"
+       id="text20558"><tspan
+         sodipodi:role="line"
+         id="tspan20556"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';fill:#006747;stroke-width:1.89553"
+         x="190.04982"
+         y="82.550003">HR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.8657px;line-height:1.25;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:center;text-anchor:middle;fill:#006747;stroke-width:1.42164"
+       x="152.36002"
+       y="231.14001"
+       id="text23915"><tspan
+         sodipodi:role="line"
+         id="tspan23913"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';fill:#006747;stroke-width:1.42164"
+         x="152.36002"
+         y="231.14001">ELECTRIC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.8657px;line-height:1.25;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:center;text-anchor:middle;fill:#006747;stroke-width:1.42164"
+       x="152.36002"
+       y="279.40002"
+       id="text44240"><tspan
+         sodipodi:role="line"
+         id="tspan44238"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';fill:#006747;stroke-width:1.42164"
+         x="152.36002"
+         y="279.40002">VEHICLES</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.8657px;line-height:1.25;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:center;text-anchor:middle;fill:#006747;stroke-width:1.42164"
+       x="152.36002"
+       y="330.20001"
+       id="text44244"><tspan
+         sodipodi:role="line"
+         id="tspan44242"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';fill:#006747;stroke-width:1.42164"
+         x="152.36002"
+         y="330.20001">ONLY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.8657px;line-height:1.25;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:center;text-anchor:middle;fill:#006747;stroke-width:1.42164"
+       x="152.36002"
+       y="381.00003"
+       id="text44248"><tspan
+         sodipodi:role="line"
+         id="tspan44246"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series B';-inkscape-font-specification:'Roadgeek 2005 Series B';fill:#006747;stroke-width:1.42164"
+         x="152.36002"
+         y="381.00003"
+         dy="0 0 0 0 0 0 0 -10 10">7AM - 8:30PM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.8657px;line-height:1.25;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:center;text-anchor:middle;fill:#006747;stroke-width:1.42164"
+       x="152.36002"
+       y="431.80002"
+       id="text44252"><tspan
+         sodipodi:role="line"
+         id="tspan44250"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';fill:#006747;stroke-width:1.42164"
+         x="152.36002"
+         y="431.80002">MON - SAT</tspan></text>
+  </g>
+</svg>
