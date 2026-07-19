@@ -108,6 +108,16 @@ function homeView() {
         { value: "off", label: "🔇" },
       ], getSetting("soundOn", true) === false ? "off" : "on")}
     </div>
+    ${installOfferAvailable() ? `
+    <div class="setting-row" id="install-setting">
+      <span>${bilingual("pwa.installPrompt")}</span>
+      <button class="btn btn-secondary" data-action="install-app"
+        style="width:auto;min-height:44px;padding:8px 14px;display:inline-flex;gap:8px">
+        <span aria-hidden="true">⬇️</span> ${bilingual("action.install")}
+      </button>
+    </div>
+    <p id="install-ios-help" hidden style="color:var(--muted);font-size:.85em;margin:2px 0 0">${bilingual("pwa.iosInstallHint")}</p>
+    ` : ""}
   </section>`;
 }
 
@@ -164,8 +174,17 @@ async function boot() {
     },
   });
 
+  // The install offer becomes available (or is dismissed into the Settings
+  // button) via window events fired by the PWA layer — re-render home so the
+  // row appears without a manual refresh.
+  window.addEventListener("mldt:install-offer-changed", () => {
+    if (currentPath() === "/home") rerender();
+  });
+
   // settings interactions (event delegation on the view)
   viewEl.addEventListener("click", (e) => {
+    const install = e.target.closest('[data-action="install-app"]');
+    if (install) { triggerInstall(); return; }
     const btn = e.target.closest(".seg button");
     if (!btn) return;
     const seg = btn.closest(".seg").dataset.seg;
@@ -192,6 +211,40 @@ async function boot() {
 /* ---------- PWA: service worker, update toast, install prompt ---------- */
 let deferredInstall = null;
 
+// localStorage keys set once the user has closed an install popup (the Android/
+// desktop toast, or the iOS add-to-home hint). Either one means "they've seen
+// and dismissed the offer" — which is exactly when the in-settings button appears.
+const INSTALL_DISMISS_KEYS = ["mldt.installDismissed", "mldt.iosHintShown"];
+
+function isStandalone() {
+  return window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+}
+
+/**
+ * Whether to show the persistent "Install app" row in home settings. It appears
+ * only after the user has closed the install popup at least once (so it's never
+ * a surprise), and never when the app is already installed.
+ */
+function installOfferAvailable() {
+  return INSTALL_DISMISS_KEYS.some((k) => localStorage.getItem(k)) && !isStandalone();
+}
+
+/**
+ * Trigger installation from the settings button. Uses the retained native prompt
+ * when available (Android/desktop); otherwise — iOS Safari, or a prompt already
+ * consumed — reveals the add-to-home-screen instructions inline (no popup).
+ */
+async function triggerInstall() {
+  if (deferredInstall) {
+    await deferredInstall.prompt();
+    try { await deferredInstall.userChoice; } catch { /* user choice is best-effort */ }
+    deferredInstall = null;
+    return;
+  }
+  const help = document.getElementById("install-ios-help");
+  if (help) help.hidden = false;
+}
+
 function showToast(html, { dismissKey } = {}) {
   // dismissKey: remember dismissal in localStorage and never re-show
   if (dismissKey && localStorage.getItem(dismissKey)) return;
@@ -211,7 +264,12 @@ function showToast(html, { dismissKey } = {}) {
   el.classList.add("show");
   el.querySelector("#toast-close").onclick = () => {
     el.classList.remove("show");
-    if (dismissKey) localStorage.setItem(dismissKey, "1");
+    if (dismissKey) {
+      localStorage.setItem(dismissKey, "1");
+      // Closing the install popup unlocks the persistent Settings button — surface
+      // it right away if the user is on the home view.
+      window.dispatchEvent(new Event("mldt:install-offer-changed"));
+    }
   };
 }
 
@@ -252,11 +310,16 @@ function registerSw() {
     if (!reloaded) { reloaded = true; location.reload(); }
   });
 
-  // Android/desktop install prompt (dismissable, dismissal remembered)
+  // Android/desktop install prompt (dismissable, dismissal remembered).
   window.addEventListener("beforeinstallprompt", (e) => {
     e.preventDefault();
-    if (localStorage.getItem("mldt.installDismissed")) return;
+    // Always retain the event so the persistent Settings button can install
+    // later, even after the user closes the popup below.
     deferredInstall = e;
+    // A returning user who dismissed before already has the Settings button;
+    // reveal it now that install is confirmed available.
+    window.dispatchEvent(new Event("mldt:install-offer-changed"));
+    if (localStorage.getItem("mldt.installDismissed")) return; // popup suppressed; button still works
     showToast(`${bilingual("pwa.installPrompt")}
       <button class="btn btn-primary" id="do-install" style="margin-top:8px">${bilingual("action.install")}</button>`,
       { dismissKey: "mldt.installDismissed" });
@@ -265,6 +328,13 @@ function registerSw() {
       await deferredInstall.prompt();
       deferredInstall = null;
     });
+  });
+
+  // Once installed, drop the prompt and remove the now-pointless Settings offer.
+  window.addEventListener("appinstalled", () => {
+    deferredInstall = null;
+    document.getElementById("install-setting")?.remove();
+    document.getElementById("install-ios-help")?.remove();
   });
 
   // iOS Safari has no beforeinstallprompt: show the add-to-home-screen hint once
