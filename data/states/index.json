@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 6,
   "states": [
     {
       "code": "oh",
@@ -8,6 +8,46 @@
         "vi-VN": "Ohio"
       },
       "status": "available"
+    },
+    {
+      "code": "ca",
+      "name": {
+        "en-US": "California",
+        "vi-VN": "California"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "tx",
+      "name": {
+        "en-US": "Texas",
+        "vi-VN": "Texas"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "wa",
+      "name": {
+        "en-US": "Washington",
+        "vi-VN": "Washington"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "fl",
+      "name": {
+        "en-US": "Florida",
+        "vi-VN": "Florida"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ga",
+      "name": {
+        "en-US": "Georgia",
+        "vi-VN": "Georgia"
+      },
+      "status": "draft"
     }
   ]
 }

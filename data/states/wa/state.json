@@ -1,0 +1,55 @@
+{
+  "code": "wa",
+  "name": { "en-US": "Washington", "vi-VN": "Washington" },
+  "agency": {
+    "name": { "en-US": "Washington State Department of Licensing", "vi-VN": "Nha Lộ Vận Washington (DOL)" },
+    "abbreviation": "DOL",
+    "website": "https://dol.wa.gov/",
+    "handbookUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+  },
+  "test": {
+    "totalQuestions": 40,
+    "passingRule": "overall",
+    "overallMinCorrect": 32,
+    "timeLimitMinutes": null,
+    "sections": [
+      {
+        "id": "signs",
+        "name": { "en-US": "Road signs", "vi-VN": "Biển báo giao thông" },
+        "questionCount": 20,
+        "minCorrect": 0
+      },
+      {
+        "id": "rules",
+        "name": { "en-US": "Road rules", "vi-VN": "Luật giao thông" },
+        "questionCount": 20,
+        "minCorrect": 0
+      }
+    ]
+  },
+  "licensing": {
+    "minPermitAge": 15,
+    "notes": {
+      "en-US": "The knowledge test has 40 multiple-choice questions; you must get 32 of 40 correct to pass (one overall score, no per-section requirement). No time limit is stated. You can get an instruction permit at 15 if enrolled in an approved driver training course, or at 15½ without one. DOL offers the knowledge test in Vietnamese.",
+      "vi-VN": "Bài thi lý thuyết có 40 câu trắc nghiệm; phải đúng 32/40 câu mới đậu (tính điểm chung, không chia phần). Không thấy quy định giới hạn thời gian. Có thể lấy giấy phép tập lái từ 15 tuổi nếu học lớp dạy lái được công nhận, hoặc từ 15 tuổi rưỡi nếu không học. DOL có bài thi bằng tiếng Việt."
+    }
+  },
+  "content": { "nationalSigns": true },
+  "sources": [
+    {
+      "title": "WA DOL — Do I need to take a test? (40 questions, 32 to pass, 12 languages incl. Vietnamese)",
+      "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "WA DOL — Get your learner permit (15 with driver training, 15½ without)",
+      "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Washington Driver Guide — official driver guides page (17 languages)",
+      "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides",
+      "accessed": "2026-07-18"
+    }
+  ]
+}

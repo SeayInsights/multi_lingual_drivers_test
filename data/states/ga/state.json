@@ -1,0 +1,64 @@
+{
+  "code": "ga",
+  "name": { "en-US": "Georgia", "vi-VN": "Georgia" },
+  "agency": {
+    "name": { "en-US": "Georgia Department of Driver Services", "vi-VN": "Nha Lộ Vận Georgia (DDS)" },
+    "abbreviation": "DDS",
+    "website": "https://dds.georgia.gov/",
+    "handbookUrl": "https://dds.georgia.gov/document/document/ga-drivers-manual-2023-2024/download"
+  },
+  "test": {
+    "totalQuestions": 40,
+    "passingRule": "per-section",
+    "timeLimitMinutes": null,
+    "sections": [
+      {
+        "id": "signs",
+        "name": { "en-US": "Road signs", "vi-VN": "Biển báo giao thông" },
+        "questionCount": 20,
+        "minCorrect": 15
+      },
+      {
+        "id": "rules",
+        "name": { "en-US": "Road rules", "vi-VN": "Luật giao thông" },
+        "questionCount": 20,
+        "minCorrect": 15
+      }
+    ]
+  },
+  "licensing": {
+    "minPermitAge": 15,
+    "notes": {
+      "en-US": "The knowledge exam has two tests of 20 questions each (road signs and road rules); you must score 15 of 20 (75%) on EACH test. The exam is untimed. A learner's permit (Class CP) is available from age 15. DDS offers the knowledge exam in Vietnamese.",
+      "vi-VN": "Bài thi lý thuyết gồm hai phần, mỗi phần 20 câu (biển báo và luật giao thông); phải đúng 15/20 câu (75%) ở MỖI phần mới đậu. Bài thi không giới hạn thời gian. Có thể lấy giấy phép tập lái (Class CP) từ 15 tuổi. DDS có bài thi bằng tiếng Việt."
+    }
+  },
+  "content": { "nationalSigns": true },
+  "sources": [
+    {
+      "title": "Georgia DDS — Test and Exams Information (two tests, 15 of 20 each)",
+      "url": "https://dds.georgia.gov/testing-and-training/test-and-exams-information",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "DDS Driver's Manual 2023-2024, Section 3: Testing Information",
+      "url": "https://dds.georgia.gov/section-3-testing-information",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Georgia DDS — Get a Learners Permit (Class CP): minimum age 15",
+      "url": "https://dds.georgia.gov/teen-drivers/how-do-i-learners-permit",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Georgia DDS — List of Languages (knowledge exam in 26 languages incl. Vietnamese)",
+      "url": "https://dds.georgia.gov/list-languages",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Georgia DDS — Drivers Manual (landing page)",
+      "url": "https://dds.georgia.gov/drivers-manual",
+      "accessed": "2026-07-18"
+    }
+  ]
+}

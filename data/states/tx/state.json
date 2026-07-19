@@ -1,0 +1,55 @@
+{
+  "code": "tx",
+  "name": { "en-US": "Texas", "vi-VN": "Texas" },
+  "agency": {
+    "name": { "en-US": "Texas Department of Public Safety", "vi-VN": "Nha Công An Texas (DPS)" },
+    "abbreviation": "DPS",
+    "website": "https://www.dps.texas.gov/",
+    "handbookUrl": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+  },
+  "test": {
+    "totalQuestions": 30,
+    "passingRule": "overall",
+    "overallMinCorrect": 21,
+    "timeLimitMinutes": null,
+    "sections": [
+      {
+        "id": "signs",
+        "name": { "en-US": "Road signs", "vi-VN": "Biển báo giao thông" },
+        "questionCount": 10,
+        "minCorrect": 0
+      },
+      {
+        "id": "rules",
+        "name": { "en-US": "Road rules", "vi-VN": "Luật giao thông" },
+        "questionCount": 20,
+        "minCorrect": 0
+      }
+    ]
+  },
+  "licensing": {
+    "minPermitAge": 15,
+    "notes": {
+      "en-US": "The official passing grade is 70% overall. DPS does not publish the number of questions, so this simulation uses 30 questions (21 correct = 70%). A learner license is available from age 15 with driver education. Note: the real Texas test is offered in English or Spanish only — practice in English-only mode to prepare.",
+      "vi-VN": "Chuẩn đậu chính thức là 70% tính chung. DPS không công bố số câu hỏi, nên bản mô phỏng này dùng 30 câu (đúng 21 câu = 70%). Có thể lấy giấy phép tập lái từ 15 tuổi kèm khóa học lái xe. Lưu ý: bài thi thật ở Texas CHỈ có tiếng Anh hoặc tiếng Tây Ban Nha — nên luyện ở chế độ chỉ tiếng Anh để chuẩn bị."
+    }
+  },
+  "content": { "nationalSigns": true },
+  "sources": [
+    {
+      "title": "Texas Driver Handbook (DL-7, rev. January 2026) — 'a grade of 70 percent or better to pass'",
+      "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Texas DPS — Testing in Other Languages (knowledge test in English or Spanish only)",
+      "url": "https://www.dps.texas.gov/section/driver-license/testing-other-languages",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Texas DPS — Texas Learners License as a Teen (minimum age 15 with driver education)",
+      "url": "https://www.dps.texas.gov/section/driver-license/texas-learners-license-teen",
+      "accessed": "2026-07-18"
+    }
+  ]
+}

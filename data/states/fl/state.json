@@ -1,0 +1,60 @@
+{
+  "code": "fl",
+  "name": { "en-US": "Florida", "vi-VN": "Florida" },
+  "agency": {
+    "name": { "en-US": "Florida Department of Highway Safety and Motor Vehicles", "vi-VN": "Nha Lộ Vận Florida (FLHSMV)" },
+    "abbreviation": "FLHSMV",
+    "website": "https://www.flhsmv.gov/",
+    "handbookUrl": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+  },
+  "test": {
+    "totalQuestions": 50,
+    "passingRule": "overall",
+    "overallMinCorrect": 40,
+    "timeLimitMinutes": null,
+    "sections": [
+      {
+        "id": "signs",
+        "name": { "en-US": "Road signs", "vi-VN": "Biển báo giao thông" },
+        "questionCount": 20,
+        "minCorrect": 0
+      },
+      {
+        "id": "rules",
+        "name": { "en-US": "Road rules", "vi-VN": "Luật giao thông" },
+        "questionCount": 30,
+        "minCorrect": 0
+      }
+    ]
+  },
+  "licensing": {
+    "minPermitAge": 15,
+    "notes": {
+      "en-US": "The Class E Knowledge Exam has 50 multiple-choice questions on Florida traffic laws, safe driving practices, and traffic controls; you must answer 40 of 50 correctly (80%, one overall score). A learner's license is available from age 15. Note: since February 2026 the real Florida exam is given in ENGLISH ONLY, with no interpreters — practice in English-only mode to prepare.",
+      "vi-VN": "Bài thi lý thuyết Class E có 50 câu trắc nghiệm về luật giao thông Florida, lái xe an toàn và biển báo; phải đúng 40/50 câu (80%, điểm chung) mới đậu. Có thể lấy giấy phép tập lái từ 15 tuổi. Lưu ý: từ tháng 2 năm 2026, bài thi thật ở Florida CHỈ có tiếng Anh, không cho thông dịch — nên luyện ở chế độ chỉ tiếng Anh để chuẩn bị."
+    }
+  },
+  "content": { "nationalSigns": true },
+  "sources": [
+    {
+      "title": "FLHSMV — Class E Knowledge Exam & Driving Skills Test (50 questions, 40 to pass, English only)",
+      "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "Official Florida Driver License Handbook (©2023, rev. 08/2023) — direct PDF",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "FLHSMV — Licensing Requirements for Teens (learner's license at 15)",
+      "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "FLHSMV announcement (2026-01-30): driver license exams administered in English only from Feb 6, 2026",
+      "url": "https://www.flhsmv.gov/2026/01/30/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only/",
+      "accessed": "2026-07-18"
+    }
+  ]
+}

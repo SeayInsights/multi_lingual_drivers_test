@@ -1,0 +1,65 @@
+{
+  "code": "ca",
+  "name": { "en-US": "California", "vi-VN": "California" },
+  "agency": {
+    "name": { "en-US": "California Department of Motor Vehicles", "vi-VN": "Nha Lộ Vận California (DMV)" },
+    "abbreviation": "DMV",
+    "website": "https://www.dmv.ca.gov/",
+    "handbookUrl": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/"
+  },
+  "test": {
+    "totalQuestions": 36,
+    "passingRule": "overall",
+    "overallMinCorrect": 29,
+    "timeLimitMinutes": null,
+    "sections": [
+      {
+        "id": "signs",
+        "name": { "en-US": "Road signs", "vi-VN": "Biển báo giao thông" },
+        "questionCount": 16,
+        "minCorrect": 0
+      },
+      {
+        "id": "rules",
+        "name": { "en-US": "Road rules", "vi-VN": "Luật giao thông" },
+        "questionCount": 20,
+        "minCorrect": 0
+      }
+    ]
+  },
+  "licensing": {
+    "minPermitAge": 15.5,
+    "notes": {
+      "en-US": "The knowledge test for adult first-time applicants has 36 multiple-choice questions; DMV states the passing score is 80% (29 of 36 in this simulation, one overall score). You are allowed three attempts. An instruction permit is available from age 15½ (under-18 applicants take a longer 46-question test). DMV publishes the handbook and official sample tests in Vietnamese.",
+      "vi-VN": "Bài thi lý thuyết cho người lớn thi lần đầu có 36 câu trắc nghiệm; DMV quy định đậu ở mức 80% (bản mô phỏng này tính 29/36, điểm chung). Được thi tối đa ba lần. Có thể lấy giấy phép tập lái từ 15 tuổi rưỡi (dưới 18 tuổi thi bài dài hơn, 46 câu). DMV có sổ tay và bài thi mẫu chính thức bằng tiếng Việt."
+    }
+  },
+  "content": { "nationalSigns": true },
+  "sources": [
+    {
+      "title": "California DMV — Instruction Permits (multiple-choice test, passing score is 80%)",
+      "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/instruction-permits/",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "California Driver's Handbook (DL 600, rev. 6/2025) — direct PDF",
+      "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "CA DMV — Evaluation of the Class C Written Knowledge Tests (36 questions adult / 46 under-18; dated 2006)",
+      "url": "https://www.dmv.ca.gov/portal/file/evaluation-of-the-class-c-driver-license-written-knowledge-tests/",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "CA DMV — Handbook: Getting an Instruction Permit (be at least 15½ years old)",
+      "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/",
+      "accessed": "2026-07-18"
+    },
+    {
+      "title": "CA DMV — Vietnamese sample knowledge tests (Bài Thi Viết Bằng Lái Xe Hạng C)",
+      "url": "https://www.dmv.ca.gov/portal/driver-education-and-safety/educational-materials/sample-driver-license-dl-knowledge-tests/",
+      "accessed": "2026-07-18"
+    }
+  ]
+}
