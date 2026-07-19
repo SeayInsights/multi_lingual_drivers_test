@@ -93,6 +93,7 @@ test("picker renders available states A-Z, current marked, draft hidden", async 
   assert.deepEqual(buttons.map((b) => b.dataset.statePick), ["ca", "oh"], "sorted A-Z");
   assert.equal(root.querySelector('[data-state-pick="zz"]'), null, "draft state must not render");
   assert.ok(root.querySelector("#state-search"), "search box present");
+  assert.ok(root.querySelector('a[href="#/home"]'), "Done/back button links home");
   const oh = root.querySelector('[data-state-pick="oh"]');
   const ca = root.querySelector('[data-state-pick="ca"]');
   assert.equal(oh.getAttribute("aria-checked"), "true", "oh is the default current state");

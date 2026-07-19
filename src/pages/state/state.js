@@ -68,6 +68,9 @@ function rowsHtml() {
 function listHtml() {
   return `
   <section class="card">
+    <a class="btn btn-secondary" href="#/home"
+      style="width:auto;min-height:44px;padding:8px 16px;text-decoration:none;margin-bottom:12px;display:inline-flex">
+      ← ${esc(t("picker.done"))}</a>
     <h2>${bilingual("state.title")}</h2>
     <p>${bilingual("state.subtitle")}</p>
     <input id="state-search" type="search" value="${esc(query)}"

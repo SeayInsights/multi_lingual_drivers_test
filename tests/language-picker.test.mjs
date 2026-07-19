@@ -85,6 +85,7 @@ test("picker renders languages A-Z incl. English, current primary marked, draft 
   assert.ok(root.querySelector('[data-lang-pick="en-US"]'), "English IS a picker option (English-only mode)");
   assert.equal(root.querySelector('[data-lang-pick="zz-ZZ"]'), null, "draft language hidden");
   assert.ok(root.querySelector("#language-search"), "search box present");
+  assert.ok(root.querySelector('a[href="#/home"]'), "Done/back button links home");
   assert.equal(root.querySelector('[data-lang-pick="vi-VN"]').getAttribute("aria-checked"), "true", "vi-VN current in both-mode default");
 });
 
