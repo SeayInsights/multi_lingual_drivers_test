@@ -117,6 +117,8 @@
     "settings.haptics": "Vibration feedback",
     "settings.state": "State",
     "settings.darkMode": "Dark mode",
+    "picker.search": "Search…",
+    "picker.noResults": "No matches. Try a different search.",
     "state.title": "Choose your state",
     "state.subtitle": "Every state has its own test rules and questions. Pick the state where you will take the test.",
     "state.comingSoon": "More states are coming soon.",

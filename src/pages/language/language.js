@@ -10,8 +10,10 @@ import { t, bilingual, getPrimaryLang, SETTINGS_KEYS } from "../../i18n/i18n.js"
 import { setSetting } from "../../storage/settings.js";
 
 let registry = null;
+let query = ""; // search filter
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const normalize = (s) => String(s).toLowerCase().replaceAll("đ", "d").normalize("NFD").replace(/[̀-ͯ]/g, "");
 
 async function loadRegistry() {
   if (registry) return registry;
@@ -21,15 +23,26 @@ async function loadRegistry() {
   return registry;
 }
 
-/** Primary-language options: available languages other than the English fallback. */
+/** Primary-language options (available, non-fallback), sorted A–Z by English name. */
 export function primaryLanguages(reg) {
   const fallback = reg.fallback ?? "en-US";
-  return reg.languages.filter((l) => l.status === "available" && l.tag !== fallback);
+  return reg.languages
+    .filter((l) => l.status === "available" && l.tag !== fallback)
+    .sort((a, b) => a.englishName.localeCompare(b.englishName));
 }
 
-function listHtml() {
+function filteredLanguages() {
+  const q = normalize(query.trim());
+  const all = primaryLanguages(registry);
+  if (!q) return all;
+  return all.filter((l) => normalize(`${l.endonym} ${l.englishName} ${l.tag}`).includes(q));
+}
+
+function rowsHtml() {
   const current = getPrimaryLang();
-  const rows = primaryLanguages(registry)
+  const list = filteredLanguages();
+  if (list.length === 0) return `<p style="color:var(--muted)">${bilingual("picker.noResults")}</p>`;
+  return list
     .map((l) => {
       const isCurrent = l.tag === current;
       return `
@@ -41,11 +54,17 @@ function listHtml() {
       </button>`;
     })
     .join("");
+}
+
+function listHtml() {
   return `
   <section class="card">
     <h2>${bilingual("language.title")}</h2>
     <p>${bilingual("language.subtitle")}</p>
-    <div role="radiogroup" aria-label="${esc(t("language.title"))}">${rows}</div>
+    <input id="language-search" type="search" value="${esc(query)}"
+      placeholder="${esc(t("picker.search"))}" aria-label="${esc(t("picker.search"))}"
+      style="width:100%;min-height:48px;padding:10px 14px;border:2.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font-family:inherit;font-size:1rem;margin-bottom:12px">
+    <div id="language-rows" role="radiogroup" aria-label="${esc(t("language.title"))}">${rowsHtml()}</div>
     <p style="color:var(--muted)">${bilingual("language.comingSoon")}</p>
   </section>`;
 }
@@ -59,9 +78,16 @@ async function bootLanguage() {
     root.innerHTML = `<section class="card"><h2>⚠️</h2><p>${esc(String(err))}</p></section>`;
     return;
   }
+  query = "";
   root.innerHTML = listHtml();
   if (root.dataset.wired) return;
   root.dataset.wired = "1";
+  root.addEventListener("input", (e) => {
+    if (e.target.id !== "language-search") return;
+    query = e.target.value;
+    const rows = document.getElementById("language-rows");
+    if (rows) rows.innerHTML = rowsHtml();
+  });
   root.addEventListener("click", async (e) => {
     const btn = e.target.closest("[data-lang-pick]");
     if (!btn) return;

@@ -11,8 +11,12 @@ import { t, bilingual, getLangMode } from "../../i18n/i18n.js";
 import { getSetting, setSetting } from "../../storage/settings.js";
 
 let registry = null; // {version, states:[{code, name, status}]}
+let query = ""; // search filter
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+/** Diacritic-insensitive normalize (đ -> d, strip combining marks, lowercase). */
+const normalize = (s) => String(s).toLowerCase().replaceAll("đ", "d").normalize("NFD").replace(/[̀-ͯ]/g, "");
 
 async function loadRegistry() {
   if (registry) return registry;
@@ -28,14 +32,26 @@ function displayName(entry) {
   return entry.name[tag] ?? entry.name["en-US"];
 }
 
-/** Available states only — draft states are invisible to users. */
+/** Available states, sorted A–Z by localized display name. */
 export function availableStates(reg) {
-  return reg.states.filter((s) => s.status === "available");
+  return reg.states
+    .filter((s) => s.status === "available")
+    .sort((a, b) => displayName(a).localeCompare(displayName(b)));
 }
 
-function listHtml() {
+/** Available states matching the current search query (name or code). */
+function filteredStates() {
+  const q = normalize(query.trim());
+  const all = availableStates(registry);
+  if (!q) return all;
+  return all.filter((s) => normalize(`${displayName(s)} ${s.code}`).includes(q));
+}
+
+function rowsHtml() {
   const current = getSetting("state", "oh");
-  const rows = availableStates(registry)
+  const list = filteredStates();
+  if (list.length === 0) return `<p style="color:var(--muted)">${bilingual("picker.noResults")}</p>`;
+  return list
     .map((s) => {
       const isCurrent = s.code === current;
       return `
@@ -47,11 +63,17 @@ function listHtml() {
       </button>`;
     })
     .join("");
+}
+
+function listHtml() {
   return `
   <section class="card">
     <h2>${bilingual("state.title")}</h2>
     <p>${bilingual("state.subtitle")}</p>
-    <div role="radiogroup" aria-label="${esc(t("state.title"))}">${rows}</div>
+    <input id="state-search" type="search" value="${esc(query)}"
+      placeholder="${esc(t("picker.search"))}" aria-label="${esc(t("picker.search"))}"
+      style="width:100%;min-height:48px;padding:10px 14px;border:2.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font-family:inherit;font-size:1rem;margin-bottom:12px">
+    <div id="state-rows" role="radiogroup" aria-label="${esc(t("state.title"))}">${rowsHtml()}</div>
     <p style="color:var(--muted)">${bilingual("state.comingSoon")}</p>
   </section>`;
 }
@@ -65,10 +87,18 @@ async function bootState() {
     root.innerHTML = `<section class="card"><h2>⚠️</h2><p>${esc(String(err))}</p></section>`;
     return;
   }
+  query = "";
   root.innerHTML = listHtml();
 
   if (root.dataset.wired) return;
   root.dataset.wired = "1";
+  // search input lives outside #state-rows, so re-rendering rows keeps its focus
+  root.addEventListener("input", (e) => {
+    if (e.target.id !== "state-search") return;
+    query = e.target.value;
+    const rows = document.getElementById("state-rows");
+    if (rows) rows.innerHTML = rowsHtml();
+  });
   root.addEventListener("click", async (e) => {
     const btn = e.target.closest("[data-state-pick]");
     if (!btn) return;

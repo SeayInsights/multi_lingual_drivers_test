@@ -80,20 +80,36 @@ const until = async (cond, ms = 2000) => {
   }
 };
 
-test("availableStates filters out drafts", () => {
+test("availableStates filters drafts and sorts A-Z by name", () => {
   const codes = availableStates(FIXTURE_REGISTRY).map((s) => s.code);
-  assert.deepEqual(codes, ["oh", "ca"]);
+  assert.deepEqual(codes, ["ca", "oh"], "California before Ohio");
 });
 
-test("picker renders available states only, current marked", async () => {
+test("picker renders available states A-Z, current marked, draft hidden", async () => {
   document.getElementById("view").innerHTML = stateView();
   await flush();
   const root = document.getElementById("state-root");
   const buttons = [...root.querySelectorAll("[data-state-pick]")];
-  assert.deepEqual(buttons.map((b) => b.dataset.statePick), ["oh", "ca"]);
+  assert.deepEqual(buttons.map((b) => b.dataset.statePick), ["ca", "oh"], "sorted A-Z");
   assert.equal(root.querySelector('[data-state-pick="zz"]'), null, "draft state must not render");
-  assert.equal(buttons[0].getAttribute("aria-checked"), "true", "oh is the default current state");
-  assert.equal(buttons[1].getAttribute("aria-checked"), "false");
+  assert.ok(root.querySelector("#state-search"), "search box present");
+  const oh = root.querySelector('[data-state-pick="oh"]');
+  const ca = root.querySelector('[data-state-pick="ca"]');
+  assert.equal(oh.getAttribute("aria-checked"), "true", "oh is the default current state");
+  assert.equal(ca.getAttribute("aria-checked"), "false");
+});
+
+test("search filters the state list (diacritic-insensitive)", async () => {
+  const input = document.getElementById("state-search");
+  input.value = "cali";
+  input.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+  await flush();
+  const shown = [...document.querySelectorAll("[data-state-pick]")].map((b) => b.dataset.statePick);
+  assert.deepEqual(shown, ["ca"], "only California matches 'cali'");
+  input.value = "";
+  input.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+  await flush();
+  assert.equal(document.querySelectorAll("[data-state-pick]").length, 2, "cleared search restores all");
 });
 
 test("tapping the current state is a no-op", async () => {

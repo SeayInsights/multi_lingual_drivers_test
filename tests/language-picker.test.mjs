@@ -71,20 +71,33 @@ const until = async (cond, ms = 2000) => {
   while (!cond()) { if (Date.now() - t0 > ms) throw new Error("timeout"); await new Promise((r) => setTimeout(r, 10)); }
 };
 
-test("primaryLanguages excludes the English fallback and drafts", () => {
+test("primaryLanguages excludes fallback+drafts and sorts A-Z by English name", () => {
   const tags = primaryLanguages(FIXTURE).map((l) => l.tag);
-  assert.deepEqual(tags, ["vi-VN", "es-MX"]);
+  assert.deepEqual(tags, ["es-MX", "vi-VN"], "Spanish before Vietnamese");
 });
 
-test("picker renders primary languages, current marked, draft/English hidden", async () => {
+test("picker renders primary languages A-Z, current marked, draft/English hidden", async () => {
   view.innerHTML = languageView();
   await flush();
   const root = document.getElementById("language-root");
   const btns = [...root.querySelectorAll("[data-lang-pick]")];
-  assert.deepEqual(btns.map((b) => b.dataset.langPick), ["vi-VN", "es-MX"]);
+  assert.deepEqual(btns.map((b) => b.dataset.langPick), ["es-MX", "vi-VN"], "sorted A-Z");
   assert.equal(root.querySelector('[data-lang-pick="en-US"]'), null, "English fallback not a picker option");
   assert.equal(root.querySelector('[data-lang-pick="zz-ZZ"]'), null, "draft language hidden");
-  assert.equal(btns[0].getAttribute("aria-checked"), "true", "vi-VN is current by default");
+  assert.ok(root.querySelector("#language-search"), "search box present");
+  assert.equal(root.querySelector('[data-lang-pick="vi-VN"]').getAttribute("aria-checked"), "true", "vi-VN current by default");
+});
+
+test("search filters the language list", async () => {
+  const input = document.getElementById("language-search");
+  input.value = "span";
+  input.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+  await flush();
+  assert.deepEqual([...document.querySelectorAll("[data-lang-pick]")].map((b) => b.dataset.langPick), ["es-MX"]);
+  input.value = "";
+  input.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+  await flush();
+  assert.equal(document.querySelectorAll("[data-lang-pick]").length, 2, "cleared search restores all");
 });
 
 test("current language is a no-op; switching persists and reloads", async () => {

@@ -117,6 +117,8 @@
     "settings.haptics": "Rung phản hồi",
     "settings.state": "Tiểu bang",
     "settings.darkMode": "Chế độ tối",
+    "picker.search": "Tìm kiếm…",
+    "picker.noResults": "Không tìm thấy. Thử tìm từ khác.",
     "state.title": "Chọn tiểu bang",
     "state.subtitle": "Mỗi tiểu bang có luật thi và câu hỏi riêng. Chọn tiểu bang nơi bạn sẽ thi.",
     "state.comingSoon": "Sắp có thêm nhiều tiểu bang khác.",
