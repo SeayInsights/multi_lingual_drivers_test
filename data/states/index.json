@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "states": [
     {
       "code": "oh",
@@ -39,7 +39,7 @@
         "en-US": "Florida",
         "vi-VN": "Florida"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "ga",

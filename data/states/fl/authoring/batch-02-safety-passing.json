@@ -1,0 +1,392 @@
+[
+  {
+    "id": "fl-rules-016",
+    "section": "rules",
+    "category": "speed-lanes",
+    "text": {
+      "en-US": "When passing on a Florida two-lane road, you must return to the right side before coming within how far of an oncoming vehicle?",
+      "vi-VN": "Khi vượt trên đường hai làn ở Florida, phải trở về bên phải trước khi cách xe ngược chiều bao xa?"
+    },
+    "choices": [
+      { "text": { "en-US": "200 feet", "vi-VN": "200 feet (khoảng 60 mét)" } },
+      { "text": { "en-US": "50 feet", "vi-VN": "50 feet" }, "whyWrong": { "en-US": "The law requires returning before 200 feet.", "vi-VN": "Luật bắt về làn trước 200 feet." } },
+      { "text": { "en-US": "500 feet", "vi-VN": "500 feet" }, "whyWrong": { "en-US": "500 feet is the sight distance needed to pass on hills/curves; the return rule is 200.", "vi-VN": "500 feet là tầm nhìn cần có để vượt ở dốc/khúc cua; luật trở về làn là 200." } },
+      { "text": { "en-US": "There is no distance rule", "vi-VN": "Không có quy định khoảng cách" }, "whyWrong": { "en-US": "200 feet is the law.", "vi-VN": "200 feet là luật." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Return to the right side before coming within 200 feet of any approaching vehicle. Wait until you see the passed car's tires in your mirror, signal, and never exceed the limit while passing.",
+      "vi-VN": "Phải về bên phải trước khi cách xe ngược chiều 200 feet. Chờ thấy bánh xe vừa vượt trong kính chiếu hậu, bật xi nhan, và không được lố tốc độ khi vượt."
+    },
+    "difficulty": 3,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Safety — Passing",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-017",
+    "section": "rules",
+    "category": "speed-lanes",
+    "text": {
+      "en-US": "Where is passing PROHIBITED in Florida?",
+      "vi-VN": "Ở Florida, chỗ nào CẤM vượt?"
+    },
+    "choices": [
+      { "text": { "en-US": "Within 100 feet of an intersection, bridge, or railroad crossing — and on hills/curves without 500 feet of sight", "vi-VN": "Trong vòng 100 feet trước ngã tư, cầu, hoặc đường ray — và ở dốc/khúc cua không thấy đủ 500 feet" } },
+      { "text": { "en-US": "Only where signs say No Passing", "vi-VN": "Chỉ nơi có bảng cấm vượt" }, "whyWrong": { "en-US": "The distance rules apply even without signs.", "vi-VN": "Các quy định khoảng cách áp dụng kể cả không có bảng." } },
+      { "text": { "en-US": "Nowhere — passing is always allowed with care", "vi-VN": "Không đâu cả — vượt cẩn thận là được" }, "whyWrong": { "en-US": "Solid lines, no-passing zones, hills, curves, and the 100-foot rules all prohibit passing.", "vi-VN": "Vạch liền, khu cấm vượt, dốc, khúc cua và quy định 100 feet đều cấm vượt." } },
+      { "text": { "en-US": "Only at night", "vi-VN": "Chỉ cấm ban đêm" }, "whyWrong": { "en-US": "The prohibitions apply day and night.", "vi-VN": "Cấm cả ngày lẫn đêm." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "No passing: over solid lane lines, in no-passing zones, on hills or curves without 500 feet of visibility, within 100 feet of an intersection/bridge/viaduct/tunnel/railroad crossing, at a stopped school bus, or at a crosswalk where a vehicle stopped for a pedestrian.",
+      "vi-VN": "Cấm vượt: qua vạch liền, trong khu cấm vượt, ở dốc/khúc cua không thấy đủ 500 feet, trong vòng 100 feet trước ngã tư/cầu/hầm/đường ray, chỗ xe buýt trường đang dừng, hoặc nơi có xe dừng nhường người đi bộ."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Safety — You Must Not Pass",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-018",
+    "section": "rules",
+    "category": "speed-lanes",
+    "text": {
+      "en-US": "A faster vehicle comes up behind you in the left lane of a Florida highway. What does the law require of you?",
+      "vi-VN": "Xe nhanh hơn áp sát phía sau khi bạn đang ở làn trái trên xa lộ Florida. Luật bắt bạn làm gì?"
+    },
+    "choices": [
+      { "text": { "en-US": "Move out of the left lane — and never speed up while being passed", "vi-VN": "Rời làn trái — và không được tăng tốc khi đang bị vượt" } },
+      { "text": { "en-US": "Hold the lane if you drive the limit", "vi-VN": "Giữ làn nếu mình chạy đúng tốc độ cho phép" }, "whyWrong": { "en-US": "Florida law says move out of the left lane when overtaken by faster traffic.", "vi-VN": "Luật Florida bắt rời làn trái khi bị xe nhanh hơn vượt." } },
+      { "text": { "en-US": "Speed up to stay ahead", "vi-VN": "Tăng tốc để giữ vị trí" }, "whyWrong": { "en-US": "Do not increase speed while being passed.", "vi-VN": "Không được tăng tốc khi đang bị vượt." } },
+      { "text": { "en-US": "Brake sharply so they back off", "vi-VN": "Đạp thắng gắt cho họ lùi ra" }, "whyWrong": { "en-US": "Brake-checking is dangerous, aggressive driving.", "vi-VN": "Đạp thắng dằn mặt là hành vi lái xe hung hăng, nguy hiểm." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Florida law states a driver must move out of the left lane when being overtaken from behind by a faster vehicle. When being passed, keep right in your lane and do not accelerate.",
+      "vi-VN": "Luật Florida quy định phải rời làn trái khi bị xe nhanh hơn vượt từ phía sau. Khi đang bị vượt, giữ về bên phải làn mình và không tăng tốc."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Safety — Being Passed",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-019",
+    "section": "rules",
+    "category": "speed-lanes",
+    "text": {
+      "en-US": "The center lane of a five-lane Florida road (two-way traffic) is used for:",
+      "vi-VN": "Làn giữa của đường 5 làn hai chiều ở Florida dùng để:"
+    },
+    "choices": [
+      { "text": { "en-US": "Left turns only", "vi-VN": "Chỉ để quẹo trái" } },
+      { "text": { "en-US": "Passing slower traffic", "vi-VN": "Vượt xe chậm" }, "whyWrong": { "en-US": "The center lane is a turn lane, never a passing lane.", "vi-VN": "Làn giữa là làn quẹo, không phải làn vượt." } },
+      { "text": { "en-US": "Carpool vehicles", "vi-VN": "Xe đi chung" }, "whyWrong": { "en-US": "HOV lanes are marked separately; the center lane is for left turns.", "vi-VN": "Làn HOV có ký hiệu riêng; làn giữa là để quẹo trái." } },
+      { "text": { "en-US": "Emergency stopping", "vi-VN": "Dừng khẩn cấp" }, "whyWrong": { "en-US": "Left turns only.", "vi-VN": "Chỉ để quẹo trái." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "On a three- or five-lane highway with two-way traffic, the center lane is used only for turning left.",
+      "vi-VN": "Trên đường 3 hoặc 5 làn hai chiều, làn giữa chỉ dùng để quẹo trái."
+    },
+    "difficulty": 1,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Safety — lane use",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-020",
+    "section": "rules",
+    "category": "rightofway",
+    "text": {
+      "en-US": "Entering a road from a driveway or alley in Florida, you must yield to:",
+      "vi-VN": "Từ đường nhà hoặc hẻm chạy ra đường ở Florida, bạn phải nhường:"
+    },
+    "choices": [
+      { "text": { "en-US": "Vehicles on the main road AND pedestrians/bicyclists on the sidewalk or in bike lanes", "vi-VN": "Xe trên đường chính VÀ người đi bộ/xe đạp trên lối đi bộ hoặc làn xe đạp" } },
+      { "text": { "en-US": "Only cars, not bicycles", "vi-VN": "Chỉ xe hơi, không cần nhường xe đạp" }, "whyWrong": { "en-US": "Bicyclists in bike lanes and pedestrians on the sidewalk must also be yielded to.", "vi-VN": "Xe đạp trong làn xe đạp và người đi bộ trên lối đi cũng phải được nhường." } },
+      { "text": { "en-US": "No one if you honk first", "vi-VN": "Không ai, nếu mình bấm kèn trước" }, "whyWrong": { "en-US": "Honking never creates right-of-way.", "vi-VN": "Bấm kèn không tạo quyền ưu tiên." } },
+      { "text": { "en-US": "Only traffic from the left", "vi-VN": "Chỉ xe từ bên trái tới" }, "whyWrong": { "en-US": "You yield to ALL traffic on the main road.", "vi-VN": "Phải nhường TẤT CẢ xe trên đường chính." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Drivers entering a road from a driveway, alley, or roadside yield to vehicles already on the main road and to pedestrians and bicyclists on the sidewalk or in bike lanes.",
+      "vi-VN": "Từ đường nhà, hẻm hoặc lề chạy ra đường phải nhường xe đang trên đường chính và người đi bộ, xe đạp trên lối đi bộ hoặc làn xe đạp."
+    },
+    "difficulty": 1,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Safety — Driveways",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-021",
+    "section": "rules",
+    "category": "rules",
+    "text": {
+      "en-US": "You pass your exit on a Florida limited access highway. What must you do?",
+      "vi-VN": "Bạn chạy lố lối ra trên cao tốc Florida. Phải làm gì?"
+    },
+    "choices": [
+      { "text": { "en-US": "Continue to the next exit — never back up on the highway or a ramp", "vi-VN": "Chạy tiếp tới lối ra kế — không bao giờ de lui trên cao tốc hay lối dẫn" } },
+      { "text": { "en-US": "Back up carefully on the shoulder", "vi-VN": "De lui từ từ trên lề" }, "whyWrong": { "en-US": "Backing up on a highway or ramp is illegal and extremely dangerous.", "vi-VN": "De lui trên cao tốc hoặc lối dẫn là phạm luật và cực kỳ nguy hiểm." } },
+      { "text": { "en-US": "Make a U-turn across the median", "vi-VN": "Quay đầu băng qua dải phân cách" }, "whyWrong": { "en-US": "Never drive across or park on the median.", "vi-VN": "Không bao giờ băng qua hay đậu trên dải phân cách." } },
+      { "text": { "en-US": "Stop and wait for help", "vi-VN": "Dừng lại chờ trợ giúp" }, "whyWrong": { "en-US": "Never stop on the pavement except in an emergency.", "vi-VN": "Không dừng trên mặt đường trừ khi khẩn cấp." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "If you miss your exit, go on to the next one. The only time you may back up on a ramp is when correcting a WRONG WAY / DO NOT ENTER mistake. Florida's exit numbers match the mile markers.",
+      "vi-VN": "Lố lối ra thì chạy tới lối kế tiếp. Chỉ được de lui trên lối dẫn khi sửa lỗi đi nhầm chiều (bảng WRONG WAY / DO NOT ENTER). Số lối ra ở Florida trùng với cột mốc dặm."
+    },
+    "difficulty": 1,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Safety — Limited Access Highways",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-022",
+    "section": "rules",
+    "category": "rules",
+    "text": {
+      "en-US": "Your car breaks down on a Florida limited access highway. What does the law require?",
+      "vi-VN": "Xe bạn hư trên cao tốc Florida. Luật bắt buộc gì?"
+    },
+    "choices": [
+      { "text": { "en-US": "Move it completely off the pavement — it may remain no more than six hours", "vi-VN": "Đưa xe ra hẳn khỏi mặt đường — và không để quá sáu tiếng" } },
+      { "text": { "en-US": "Leave it in the lane with hazards on", "vi-VN": "Để trong làn, bật đèn khẩn cấp" }, "whyWrong": { "en-US": "Never stop on the pavement — move fully off it.", "vi-VN": "Không dừng trên mặt đường — phải đưa xe ra hẳn." } },
+      { "text": { "en-US": "It may stay for 24 hours", "vi-VN": "Được để 24 tiếng" }, "whyWrong": { "en-US": "The limit is six hours.", "vi-VN": "Giới hạn là sáu tiếng." } },
+      { "text": { "en-US": "Park it on the median", "vi-VN": "Đậu trên dải phân cách" }, "whyWrong": { "en-US": "Never park on the median.", "vi-VN": "Không bao giờ đậu trên dải phân cách." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Never stop on the pavement, shoulder, or ramp except in an emergency. A broken-down vehicle must be moved completely off the pavement and may remain no more than six hours.",
+      "vi-VN": "Không dừng trên mặt đường, lề hay lối dẫn trừ khẩn cấp. Xe hư phải được đưa ra hẳn khỏi mặt đường và không để quá sáu tiếng."
+    },
+    "difficulty": 3,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Safety — Limited Access Highway Safety Reminders",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-023",
+    "section": "rules",
+    "category": "alcohol",
+    "text": {
+      "en-US": "A Florida driver under 21 has a blood alcohol level of .02. What happens?",
+      "vi-VN": "Tài xế dưới 21 tuổi ở Florida có nồng độ cồn 0,02. Chuyện gì xảy ra?"
+    },
+    "choices": [
+      { "text": { "en-US": "License suspension — .02 already triggers it for drivers under 21", "vi-VN": "Bị treo bằng — mức 0,02 đã đủ với người dưới 21 tuổi" } },
+      { "text": { "en-US": "Nothing below .08", "vi-VN": "Dưới 0,08 thì không sao" }, "whyWrong": { "en-US": ".08 is the adult administrative threshold; under-21 drivers face action at .02.", "vi-VN": "0,08 là mức cho người lớn; dưới 21 tuổi bị xử lý từ 0,02." } },
+      { "text": { "en-US": "A small fine only", "vi-VN": "Chỉ phạt tiền nhẹ" }, "whyWrong": { "en-US": "The consequence is suspension (with a TLSAE course required for hardship reinstatement).", "vi-VN": "Hậu quả là treo bằng (muốn xin lại theo diện khó khăn phải học khóa TLSAE)." } },
+      { "text": { "en-US": "A warning on the first offense", "vi-VN": "Lần đầu chỉ nhắc nhở" }, "whyWrong": { "en-US": "Suspension applies from the first .02 notice.", "vi-VN": "Bị treo bằng ngay từ lần đầu ở mức 0,02." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Drivers under 21 with a BAL of .02 to .05 receive a suspension and must complete a TLSAE course to reinstate on a hardship basis. Adults face administrative suspension at .08 or for refusing a test.",
+      "vi-VN": "Người dưới 21 tuổi có nồng độ cồn 0,02–0,05 bị treo bằng và phải học khóa TLSAE mới xin lại được theo diện khó khăn. Người lớn bị treo bằng hành chính từ mức 0,08 hoặc khi từ chối đo nồng độ."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Schools & Test Providers (TLSAE); Administrative Hearings",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-024",
+    "section": "rules",
+    "category": "rules",
+    "text": {
+      "en-US": "Throwing a bag of trash (under 15 pounds) from your car window in Florida costs you:",
+      "vi-VN": "Quăng bịch rác (dưới 15 pound) qua cửa sổ xe ở Florida sẽ bị:"
+    },
+    "choices": [
+      { "text": { "en-US": "A $100 fine — and over 15 pounds becomes a misdemeanor with 3 points", "vi-VN": "Phạt 100 đô — trên 15 pound thành tội nhẹ hình sự kèm 3 điểm phạt" } },
+      { "text": { "en-US": "Nothing if it is biodegradable", "vi-VN": "Không sao nếu rác tự phân hủy" }, "whyWrong": { "en-US": "Dumping litter in any amount is a crime.", "vi-VN": "Xả rác với bất cứ số lượng nào cũng là phạm pháp." } },
+      { "text": { "en-US": "A verbal warning", "vi-VN": "Chỉ bị nhắc miệng" }, "whyWrong": { "en-US": "The fine is $100 for up to 15 pounds.", "vi-VN": "Mức phạt là 100 đô cho tới 15 pound." } },
+      { "text": { "en-US": "License revocation", "vi-VN": "Bị thu bằng lái" }, "whyWrong": { "en-US": "It is a fine (and possible roadside cleanup), not revocation.", "vi-VN": "Là phạt tiền (và có thể phải đi lượm rác), không phải thu bằng." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Littering up to 15 pounds: $100 fine. More than 15 pounds: first-degree misdemeanor, up to $1,000, 3 points, and possible court-ordered litter pickup.",
+      "vi-VN": "Xả rác tới 15 pound: phạt 100 đô. Trên 15 pound: tội nhẹ hình sự bậc một, phạt tới 1.000 đô, 3 điểm, và tòa có thể bắt đi lượm rác."
+    },
+    "difficulty": 3,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Your Driving Privilege — Littering",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-025",
+    "section": "rules",
+    "category": "signals-markings",
+    "text": {
+      "en-US": "What does a fluorescent yellow-green sign mean in Florida?",
+      "vi-VN": "Bảng màu vàng-xanh lá huỳnh quang ở Florida nghĩa là gì?"
+    },
+    "choices": [
+      { "text": { "en-US": "High-emphasis warning: school, pedestrian, or bicycling activity", "vi-VN": "Cảnh báo đặc biệt: khu trường học, người đi bộ hoặc xe đạp" } },
+      { "text": { "en-US": "Construction zone", "vi-VN": "Khu công trường" }, "whyWrong": { "en-US": "Construction warnings are ORANGE.", "vi-VN": "Cảnh báo công trường màu CAM." } },
+      { "text": { "en-US": "Scenic area", "vi-VN": "Khu ngắm cảnh" }, "whyWrong": { "en-US": "Recreation/cultural signs are BROWN.", "vi-VN": "Bảng khu giải trí/văn hóa màu NÂU." } },
+      { "text": { "en-US": "Services like gas and food", "vi-VN": "Dịch vụ như xăng, đồ ăn" }, "whyWrong": { "en-US": "Service signs are BLUE.", "vi-VN": "Bảng dịch vụ màu XANH DƯƠNG." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Fluorescent yellow-green marks high-emphasis warnings for school, pedestrian, and bicycling activity. Yellow = general warning, orange = construction, red = stop/do not enter.",
+      "vi-VN": "Màu vàng-xanh lá huỳnh quang là cảnh báo đặc biệt cho khu trường học, người đi bộ và xe đạp. Vàng = cảnh báo chung, cam = công trường, đỏ = dừng/cấm vào."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Traffic Controls — Traffic Sign Colors",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-026",
+    "section": "rules",
+    "category": "parking-buses",
+    "text": {
+      "en-US": "A curb painted YELLOW in Florida means:",
+      "vi-VN": "Lề đường sơn màu VÀNG ở Florida nghĩa là:"
+    },
+    "choices": [
+      { "text": { "en-US": "No parking — often near fire hydrants or intersections", "vi-VN": "Cấm đậu xe — thường gần trụ nước cứu hỏa hoặc ngã tư" } },
+      { "text": { "en-US": "Loading zone for anyone", "vi-VN": "Khu bốc xếp cho mọi người" }, "whyWrong": { "en-US": "In Florida yellow curbs indicate no-parking zones (California's yellow-curb rule differs).", "vi-VN": "Ở Florida lề vàng là khu cấm đậu (luật lề vàng của California thì khác)." } },
+      { "text": { "en-US": "Reserved for taxis", "vi-VN": "Dành riêng cho taxi" }, "whyWrong": { "en-US": "Yellow means no parking.", "vi-VN": "Màu vàng là cấm đậu." } },
+      { "text": { "en-US": "15-minute parking", "vi-VN": "Được đậu 15 phút" }, "whyWrong": { "en-US": "It is a no-parking marking, not timed parking.", "vi-VN": "Là vạch cấm đậu, không phải đậu có giờ." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Curbs are often painted yellow in Florida to indicate no-parking zones near fire hydrants or intersections. Parking by yellow curbs is against the law.",
+      "vi-VN": "Ở Florida lề sơn vàng để báo khu cấm đậu gần trụ nước cứu hỏa hoặc ngã tư. Đậu xe cạnh lề vàng là phạm luật."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Traffic Controls — Other Markings; It's Against the Law to Park",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-027",
+    "section": "rules",
+    "category": "rules",
+    "text": {
+      "en-US": "When may you use Florida's HOV lanes?",
+      "vi-VN": "Khi nào được chạy vào làn HOV (làn xe đi chung) ở Florida?"
+    },
+    "choices": [
+      { "text": { "en-US": "With two or more occupants — or a registered low-emission vehicle with the decal — entering only at designated points", "vi-VN": "Khi xe có từ hai người trở lên — hoặc xe ít khí thải có tem đăng ký — và chỉ vào/ra ở điểm quy định" } },
+      { "text": { "en-US": "Whenever traffic is heavy", "vi-VN": "Khi kẹt xe" }, "whyWrong": { "en-US": "Occupancy (or the LEV decal) is the requirement, not congestion.", "vi-VN": "Điều kiện là số người trên xe (hoặc tem LEV), không phải kẹt xe." } },
+      { "text": { "en-US": "Any vehicle before 9 am", "vi-VN": "Xe nào cũng được trước 9 giờ sáng" }, "whyWrong": { "en-US": "Rules are about occupants/decals; hours vary by facility.", "vi-VN": "Luật dựa trên số người/tem; khung giờ tùy nơi." } },
+      { "text": { "en-US": "Motorcycles never may", "vi-VN": "Xe máy không bao giờ được vào" }, "whyWrong": { "en-US": "The handbook's stated criteria are occupancy or the LEV decal program.", "vi-VN": "Tiêu chí trong sổ tay là số người hoặc chương trình tem LEV." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "HOV lanes are reserved for vehicles with two or more occupants or registered hybrid/low-emission vehicles (decal + FLHSMV form). Enter and exit only at designated points.",
+      "vi-VN": "Làn HOV dành cho xe chở từ hai người trở lên hoặc xe hybrid/ít khí thải có đăng ký (tem + mẫu đơn FLHSMV). Chỉ vào/ra ở các điểm quy định."
+    },
+    "difficulty": 3,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Safety — HOV Lanes",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-028",
+    "section": "rules",
+    "category": "rules",
+    "text": {
+      "en-US": "Where should you NEVER make a U-turn or three-point turn in Florida?",
+      "vi-VN": "Ở Florida, chỗ nào KHÔNG bao giờ được quay đầu xe hoặc quay ba điểm?"
+    },
+    "choices": [
+      { "text": { "en-US": "On a curve, a hill, the highway, or where a sign prohibits U-turns", "vi-VN": "Trên khúc cua, con dốc, cao tốc, hoặc nơi có bảng cấm quay đầu" } },
+      { "text": { "en-US": "On any street narrower than four lanes", "vi-VN": "Trên mọi đường hẹp hơn bốn làn" }, "whyWrong": { "en-US": "Narrow streets are where three-point turns are FOR — visibility and signs are what prohibit them.", "vi-VN": "Đường hẹp chính là chỗ dùng quay ba điểm — tầm nhìn và bảng cấm mới là điều cấm." } },
+      { "text": { "en-US": "Anywhere outside your neighborhood", "vi-VN": "Mọi nơi ngoài khu mình ở" }, "whyWrong": { "en-US": "Location does not matter; sight lines and signs do.", "vi-VN": "Khu vực không quan trọng; tầm nhìn và bảng hiệu mới quan trọng." } },
+      { "text": { "en-US": "U-turns are always illegal in Florida", "vi-VN": "Quay đầu luôn bị cấm ở Florida" }, "whyWrong": { "en-US": "They are legal where visibility is good and no sign prohibits them.", "vi-VN": "Hợp lệ ở nơi tầm nhìn tốt và không có bảng cấm." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Never make a three-point turn or U-turn on a curve, a hill, the highway, or where a sign prohibits U-turns. Use a three-point turn only when the road is too narrow for a U-turn and you can't go around the block.",
+      "vi-VN": "Không quay đầu hay quay ba điểm trên khúc cua, con dốc, cao tốc, hoặc nơi có bảng cấm. Chỉ quay ba điểm khi đường quá hẹp để quay đầu và không thể chạy vòng dãy phố."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Safety — Three-Point Turns",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-029",
+    "section": "rules",
+    "category": "parking-buses",
+    "text": {
+      "en-US": "At a Florida railroad crossing with no train in sight, the vehicle ahead (a school bus) stops anyway. Why?",
+      "vi-VN": "Tại đường ray ở Florida không thấy xe lửa, xe phía trước (xe buýt trường) vẫn dừng. Tại sao?"
+    },
+    "choices": [
+      { "text": { "en-US": "Buses and certain trucks must stop at railroad crossings even when the gates are up", "vi-VN": "Xe buýt và một số xe tải bắt buộc dừng ở đường ray kể cả khi cần chắn đang mở" } },
+      { "text": { "en-US": "The driver is being overly cautious", "vi-VN": "Tài xế đó cẩn thận quá mức" }, "whyWrong": { "en-US": "It is the law for buses and hazmat trucks — expect the stop and keep your distance.", "vi-VN": "Đó là luật cho xe buýt và xe chở hàng nguy hiểm — hãy đoán trước và giữ khoảng cách." } },
+      { "text": { "en-US": "Their gate sensor must be broken", "vi-VN": "Cảm biến cần chắn chắc bị hư" }, "whyWrong": { "en-US": "The stop is required regardless of signals.", "vi-VN": "Việc dừng là bắt buộc bất kể tín hiệu." } },
+      { "text": { "en-US": "You should pass them quickly", "vi-VN": "Nên vượt nhanh qua họ" }, "whyWrong": { "en-US": "Never pass within 100 feet of a railroad crossing.", "vi-VN": "Không được vượt trong vòng 100 feet trước đường ray." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Be prepared to stop behind buses and trucks at railroad crossings — many are required to stop even when gates are up and lights are off. Check that ALL tracks are clear and there is room on the far side before you cross.",
+      "vi-VN": "Hãy sẵn sàng dừng sau xe buýt và xe tải ở đường ray — nhiều loại xe bắt buộc dừng dù cần chắn mở, đèn tắt. Trước khi băng qua, xem TẤT CẢ các đường ray đã trống và bên kia có đủ chỗ cho xe mình chưa."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Traffic Controls — railroad crossings",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  },
+  {
+    "id": "fl-rules-030",
+    "section": "rules",
+    "category": "safety",
+    "text": {
+      "en-US": "When you double your speed from 30 to 60 mph, your force of impact in a crash:",
+      "vi-VN": "Khi tăng tốc gấp đôi từ 30 lên 60 mph, lực va chạm khi tông xe sẽ:"
+    },
+    "choices": [
+      { "text": { "en-US": "Increases four times", "vi-VN": "Tăng gấp BỐN lần" } },
+      { "text": { "en-US": "Doubles", "vi-VN": "Tăng gấp đôi" }, "whyWrong": { "en-US": "Impact force grows with the square of speed — double the speed is 4× the force.", "vi-VN": "Lực va chạm tăng theo bình phương tốc độ — nhanh gấp đôi là lực gấp 4." } },
+      { "text": { "en-US": "Stays the same with good brakes", "vi-VN": "Không đổi nếu thắng tốt" }, "whyWrong": { "en-US": "Brakes do not change impact physics once a crash happens.", "vi-VN": "Thắng không thay đổi vật lý va chạm một khi đã tông." } },
+      { "text": { "en-US": "Increases nine times", "vi-VN": "Tăng gấp chín lần" }, "whyWrong": { "en-US": "Nine times is for TRIPLING your speed.", "vi-VN": "Gấp chín là khi tăng tốc gấp BA." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Doubling speed increases the force of impact four times; tripling it increases the force nine times. That is why obeying limits reduces both the chance and the severity of crashes.",
+      "vi-VN": "Tăng tốc gấp đôi thì lực va chạm tăng gấp bốn; gấp ba thì lực tăng gấp chín. Vì vậy giữ đúng tốc độ giảm cả nguy cơ lẫn mức độ nghiêm trọng của tai nạn."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "Official Florida Driver License Handbook (rev. 08/2023), FLHSMV",
+      "section": "Driving Safety — Speed Limits",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  }
+]
