@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 56,
   "states": [
     {
       "code": "oh",
@@ -48,6 +48,366 @@
         "vi-VN": "Georgia"
       },
       "status": "available"
+    },
+    {
+      "code": "va",
+      "name": {
+        "en-US": "Virginia",
+        "vi-VN": "Virginia"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "vt",
+      "name": {
+        "en-US": "Vermont",
+        "vi-VN": "Vermont"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "la",
+      "name": {
+        "en-US": "Louisiana",
+        "vi-VN": "Louisiana"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "nc",
+      "name": {
+        "en-US": "North Carolina",
+        "vi-VN": "North Carolina"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ne",
+      "name": {
+        "en-US": "Nebraska",
+        "vi-VN": "Nebraska"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "nd",
+      "name": {
+        "en-US": "North Dakota",
+        "vi-VN": "North Dakota"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "nj",
+      "name": {
+        "en-US": "New Jersey",
+        "vi-VN": "New Jersey"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "nh",
+      "name": {
+        "en-US": "New Hampshire",
+        "vi-VN": "New Hampshire"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "nm",
+      "name": {
+        "en-US": "New Mexico",
+        "vi-VN": "New Mexico"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "nv",
+      "name": {
+        "en-US": "Nevada",
+        "vi-VN": "Nevada"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ny",
+      "name": {
+        "en-US": "New York",
+        "vi-VN": "New York"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ia",
+      "name": {
+        "en-US": "Iowa",
+        "vi-VN": "Iowa"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "id",
+      "name": {
+        "en-US": "Idaho",
+        "vi-VN": "Idaho"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "in",
+      "name": {
+        "en-US": "Indiana",
+        "vi-VN": "Indiana"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "il",
+      "name": {
+        "en-US": "Illinois",
+        "vi-VN": "Illinois"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "dc",
+      "name": {
+        "en-US": "District of Columbia",
+        "vi-VN": "District of Columbia"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "de",
+      "name": {
+        "en-US": "Delaware",
+        "vi-VN": "Delaware"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "az",
+      "name": {
+        "en-US": "Arizona",
+        "vi-VN": "Arizona"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ar",
+      "name": {
+        "en-US": "Arkansas",
+        "vi-VN": "Arkansas"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ak",
+      "name": {
+        "en-US": "Alaska",
+        "vi-VN": "Alaska"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "al",
+      "name": {
+        "en-US": "Alabama",
+        "vi-VN": "Alabama"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "sd",
+      "name": {
+        "en-US": "South Dakota",
+        "vi-VN": "South Dakota"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "sc",
+      "name": {
+        "en-US": "South Carolina",
+        "vi-VN": "South Carolina"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ut",
+      "name": {
+        "en-US": "Utah",
+        "vi-VN": "Utah"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "pa",
+      "name": {
+        "en-US": "Pennsylvania",
+        "vi-VN": "Pennsylvania"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ky",
+      "name": {
+        "en-US": "Kentucky",
+        "vi-VN": "Kentucky"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ks",
+      "name": {
+        "en-US": "Kansas",
+        "vi-VN": "Kansas"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "mt",
+      "name": {
+        "en-US": "Montana",
+        "vi-VN": "Montana"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ms",
+      "name": {
+        "en-US": "Mississippi",
+        "vi-VN": "Mississippi"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "md",
+      "name": {
+        "en-US": "Maryland",
+        "vi-VN": "Maryland"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "me",
+      "name": {
+        "en-US": "Maine",
+        "vi-VN": "Maine"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ma",
+      "name": {
+        "en-US": "Massachusetts",
+        "vi-VN": "Massachusetts"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "mn",
+      "name": {
+        "en-US": "Minnesota",
+        "vi-VN": "Minnesota"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "mo",
+      "name": {
+        "en-US": "Missouri",
+        "vi-VN": "Missouri"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "mi",
+      "name": {
+        "en-US": "Michigan",
+        "vi-VN": "Michigan"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "hi",
+      "name": {
+        "en-US": "Hawaii",
+        "vi-VN": "Hawaii"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ct",
+      "name": {
+        "en-US": "Connecticut",
+        "vi-VN": "Connecticut"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "co",
+      "name": {
+        "en-US": "Colorado",
+        "vi-VN": "Colorado"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "wy",
+      "name": {
+        "en-US": "Wyoming",
+        "vi-VN": "Wyoming"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "wv",
+      "name": {
+        "en-US": "West Virginia",
+        "vi-VN": "West Virginia"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "wi",
+      "name": {
+        "en-US": "Wisconsin",
+        "vi-VN": "Wisconsin"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ri",
+      "name": {
+        "en-US": "Rhode Island",
+        "vi-VN": "Rhode Island"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "tn",
+      "name": {
+        "en-US": "Tennessee",
+        "vi-VN": "Tennessee"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "or",
+      "name": {
+        "en-US": "Oregon",
+        "vi-VN": "Oregon"
+      },
+      "status": "draft"
+    },
+    {
+      "code": "ok",
+      "name": {
+        "en-US": "Oklahoma",
+        "vi-VN": "Oklahoma"
+      },
+      "status": "draft"
     }
   ]
 }

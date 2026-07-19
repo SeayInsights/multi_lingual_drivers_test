@@ -1,0 +1,59 @@
+{
+  "code": "pa",
+  "name": {
+    "en-US": "Pennsylvania",
+    "vi-VN": "Pennsylvania"
+  },
+  "agency": {
+    "name": {
+      "en-US": "Pennsylvania — RESEARCH: official testing agency name",
+      "vi-VN": "Pennsylvania — RESEARCH: tên cơ quan (xem checklist)"
+    },
+    "abbreviation": "TODO",
+    "website": "https://example.com/RESEARCH-agency-website",
+    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+  },
+  "test": {
+    "totalQuestions": 40,
+    "passingRule": "overall",
+    "overallMinCorrect": 32,
+    "timeLimitMinutes": null,
+    "sections": [
+      {
+        "id": "signs",
+        "name": {
+          "en-US": "Road signs",
+          "vi-VN": "Biển báo giao thông"
+        },
+        "questionCount": 20,
+        "minCorrect": 0
+      },
+      {
+        "id": "rules",
+        "name": {
+          "en-US": "Road rules",
+          "vi-VN": "Luật giao thông"
+        },
+        "questionCount": 20,
+        "minCorrect": 0
+      }
+    ]
+  },
+  "licensing": {
+    "minPermitAge": 16,
+    "notes": {
+      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
+      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+    }
+  },
+  "content": {
+    "nationalSigns": true
+  },
+  "sources": [
+    {
+      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
+      "url": "https://example.com/RESEARCH",
+      "accessed": "2026-07-19"
+    }
+  ]
+}
