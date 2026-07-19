@@ -8,6 +8,12 @@
     { "tag": "zh-TW", "endonym": "中文", "englishName": "Chinese", "base": "zh", "variantLabel": "繁體中文", "status": "available" },
     { "tag": "ko-KR", "endonym": "한국어", "englishName": "Korean", "status": "available" },
     { "tag": "ja-JP", "endonym": "日本語", "englishName": "Japanese", "status": "available" },
+    { "tag": "hi-IN", "endonym": "हिन्दी", "englishName": "Hindi", "status": "available" },
+    { "tag": "th-TH", "endonym": "ไทย", "englishName": "Thai", "status": "available" },
+    { "tag": "km-KH", "endonym": "ខ្មែរ", "englishName": "Khmer", "status": "available" },
+    { "tag": "lo-LA", "endonym": "ລາວ", "englishName": "Lao", "status": "available" },
+    { "tag": "id-ID", "endonym": "Bahasa Indonesia", "englishName": "Indonesian", "status": "available" },
+    { "tag": "tl-PH", "endonym": "Tagalog", "englishName": "Tagalog", "status": "available" },
     { "tag": "es-MX", "endonym": "Español", "englishName": "Spanish", "status": "available" },
     { "tag": "ar", "endonym": "العربية", "englishName": "Arabic", "direction": "rtl", "status": "available" },
     { "tag": "en-US", "endonym": "English", "englishName": "English", "status": "available" }

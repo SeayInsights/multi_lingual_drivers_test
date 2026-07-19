@@ -7,7 +7,7 @@
  * Strategy: cache-first for same-origin GETs, falling back to network, with a
  * versioned cache purged on activate. Bump VERSION on every release.
  */
-const VERSION = "v1.24.0";
+const VERSION = "v1.25.0";
 const CACHE = `mldt-${VERSION}`;
 
 const CORE = [
@@ -57,6 +57,12 @@ const CORE = [
   "./locales/zh-TW.json",
   "./locales/ko-KR.json",
   "./locales/ja-JP.json",
+  "./locales/hi-IN.json",
+  "./locales/th-TH.json",
+  "./locales/km-KH.json",
+  "./locales/lo-LA.json",
+  "./locales/id-ID.json",
+  "./locales/tl-PH.json",
   "./locales/es-MX.json",
   "./locales/ar.json",
   "./locales/en-US.json",
