@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "states": [
     {
       "code": "oh",
@@ -47,7 +47,7 @@
         "en-US": "Georgia",
         "vi-VN": "Georgia"
       },
-      "status": "draft"
+      "status": "available"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "stateCode": "ga",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "ga-signs-001",
@@ -4626,6 +4626,1166 @@
       "source": {
         "title": "Manual on Uniform Traffic Control Devices (MUTCD), 11th Edition, FHWA",
         "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    },
+    {
+      "id": "ga-rules-001",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "What is the maximum speed limit in an urban or residential district in Georgia?",
+        "vi-VN": "Trong khu đô thị hoặc khu dân cư ở Georgia, tốc độ tối đa là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "30 mph",
+            "vi-VN": "30 mph (khoảng 48 km/giờ)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "25 mph",
+            "vi-VN": "25 mph"
+          },
+          "whyWrong": {
+            "en-US": "Georgia's urban/residential limit is 30 mph (some states use 25).",
+            "vi-VN": "Ở Georgia khu dân cư là 30 mph (một số tiểu bang khác mới là 25)."
+          }
+        },
+        {
+          "text": {
+            "en-US": "35 mph",
+            "vi-VN": "35 mph"
+          },
+          "whyWrong": {
+            "en-US": "35 mph is the limit for unpaved county roads, not urban districts.",
+            "vi-VN": "35 mph là mức cho đường đất của quận, không phải khu đô thị."
+          }
+        },
+        {
+          "text": {
+            "en-US": "45 mph",
+            "vi-VN": "45 mph"
+          },
+          "whyWrong": {
+            "en-US": "Urban and residential districts are 30 mph.",
+            "vi-VN": "Khu đô thị và dân cư là 30 mph."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Georgia's maximum is 30 mph in any urban or residential district, unless otherwise posted.",
+        "vi-VN": "Ở Georgia, tốc độ tối đa trong khu đô thị hoặc khu dân cư là 30 mph, trừ khi có bảng ghi khác."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Traveling Speed",
+        "url": "https://dds.georgia.gov/section-5-continued-keep-right-except-pass"
+      }
+    },
+    {
+      "id": "ga-rules-002",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "What is the maximum speed limit on a rural interstate in Georgia?",
+        "vi-VN": "Trên xa lộ liên bang ở vùng quê Georgia, tốc độ tối đa là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "70 mph",
+            "vi-VN": "70 mph (khoảng 113 km/giờ)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "65 mph",
+            "vi-VN": "65 mph"
+          },
+          "whyWrong": {
+            "en-US": "65 mph applies to URBAN interstates and multi-lane divided highways.",
+            "vi-VN": "65 mph là cho xa lộ trong ĐÔ THỊ và đường nhiều làn có dải phân cách."
+          }
+        },
+        {
+          "text": {
+            "en-US": "75 mph",
+            "vi-VN": "75 mph"
+          },
+          "whyWrong": {
+            "en-US": "Georgia's top limit is 70 mph on rural interstates.",
+            "vi-VN": "Mức cao nhất ở Georgia là 70 mph trên xa lộ vùng quê."
+          }
+        },
+        {
+          "text": {
+            "en-US": "80 mph",
+            "vi-VN": "80 mph"
+          },
+          "whyWrong": {
+            "en-US": "No Georgia road allows 80 mph.",
+            "vi-VN": "Không có đường nào ở Georgia cho chạy 80 mph."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Rural interstates: 70 mph. Urban interstates and multi-lane divided highways: 65 mph. Other areas: 55 mph.",
+        "vi-VN": "Xa lộ vùng quê: 70 mph. Xa lộ đô thị và đường nhiều làn có dải phân cách: 65 mph. Nơi khác: 55 mph."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Traveling Speed",
+        "url": "https://dds.georgia.gov/section-5-continued-keep-right-except-pass"
+      }
+    },
+    {
+      "id": "ga-rules-003",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "What is the speed limit on an unpaved county road in Georgia?",
+        "vi-VN": "Trên đường đất (chưa trải nhựa) của quận ở Georgia, tốc độ tối đa là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "35 mph",
+            "vi-VN": "35 mph (khoảng 56 km/giờ)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "55 mph",
+            "vi-VN": "55 mph"
+          },
+          "whyWrong": {
+            "en-US": "55 mph is for other paved areas — unpaved county roads are 35.",
+            "vi-VN": "55 mph là cho các khu vực khác có trải nhựa — đường đất của quận là 35."
+          }
+        },
+        {
+          "text": {
+            "en-US": "25 mph",
+            "vi-VN": "25 mph"
+          },
+          "whyWrong": {
+            "en-US": "The manual sets 35 mph for unpaved county roads.",
+            "vi-VN": "Sổ tay quy định 35 mph cho đường đất của quận."
+          }
+        },
+        {
+          "text": {
+            "en-US": "45 mph",
+            "vi-VN": "45 mph"
+          },
+          "whyWrong": {
+            "en-US": "It is 35 mph, not 45.",
+            "vi-VN": "Là 35 mph, không phải 45."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The maximum speed on an unpaved county road is 35 mph.",
+        "vi-VN": "Tốc độ tối đa trên đường đất của quận là 35 mph."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Traveling Speed",
+        "url": "https://dds.georgia.gov/section-5-continued-keep-right-except-pass"
+      }
+    },
+    {
+      "id": "ga-rules-004",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "On a multi-lane road in Georgia, slower vehicles should:",
+        "vi-VN": "Trên đường nhiều làn ở Georgia, xe chạy chậm nên:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Use the right lane, except when passing or turning left",
+            "vi-VN": "Chạy làn bên phải, trừ khi vượt hoặc quẹo trái"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Use the left lane so others can exit easily",
+            "vi-VN": "Chạy làn trái cho xe khác dễ ra vô"
+          },
+          "whyWrong": {
+            "en-US": "The left lane is the passing lane — slower drivers must move right.",
+            "vi-VN": "Làn trái là làn để vượt — xe chậm phải qua phải."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Use any lane at any speed",
+            "vi-VN": "Chạy làn nào cũng được, tốc độ nào cũng được"
+          },
+          "whyWrong": {
+            "en-US": "Georgia law requires slower traffic to keep right; impeding traffic is prohibited.",
+            "vi-VN": "Luật Georgia bắt xe chậm giữ bên phải; cản trở lưu thông là phạm luật."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop on the shoulder to let cars pass",
+            "vi-VN": "Dừng ở lề cho xe khác qua"
+          },
+          "whyWrong": {
+            "en-US": "You keep moving in the right lane — the shoulder is for emergencies.",
+            "vi-VN": "Cứ chạy tiếp ở làn phải — lề đường chỉ dành cho khẩn cấp."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Slower drivers must move out of the passing lane (left) and keep right; driving so slowly that you impede traffic is also prohibited.",
+        "vi-VN": "Xe chậm phải rời làn vượt (bên trái) và giữ bên phải; chạy quá chậm gây cản trở lưu thông cũng phạm luật."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Keep Right Except to Pass",
+        "url": "https://dds.georgia.gov/section-5-continued-keep-right-except-pass"
+      }
+    },
+    {
+      "id": "ga-rules-005",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "Two vehicles reach an uncontrolled intersection at the same time. Who yields?",
+        "vi-VN": "Hai xe tới ngã tư không có đèn hay bảng cùng lúc. Xe nào phải nhường?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "The driver on the left yields to the driver on the right",
+            "vi-VN": "Xe bên trái nhường cho xe bên phải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The driver on the right yields to the driver on the left",
+            "vi-VN": "Xe bên phải nhường cho xe bên trái"
+          },
+          "whyWrong": {
+            "en-US": "It is the opposite — left yields to right.",
+            "vi-VN": "Ngược lại — bên trái nhường bên phải."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whoever honks first goes first",
+            "vi-VN": "Ai bấm kèn trước đi trước"
+          },
+          "whyWrong": {
+            "en-US": "Honking never establishes right-of-way.",
+            "vi-VN": "Bấm kèn không tạo quyền ưu tiên."
+          }
+        },
+        {
+          "text": {
+            "en-US": "The vehicle on the busier road",
+            "vi-VN": "Xe trên đường đông hơn"
+          },
+          "whyWrong": {
+            "en-US": "The rule is by position: left yields to right.",
+            "vi-VN": "Luật tính theo vị trí: trái nhường phải."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "If two vehicles come to an uncontrolled intersection at the same time, the driver on the left must yield to the driver on the right.",
+        "vi-VN": "Nếu hai xe tới ngã tư không có tín hiệu cùng lúc, xe bên trái phải nhường xe bên phải."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Laws Governing Right-of-Way",
+        "url": "https://dds.georgia.gov/section-5-continued"
+      }
+    },
+    {
+      "id": "ga-rules-006",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "At a four-way stop in Georgia, who proceeds first?",
+        "vi-VN": "Tại ngã tư có bảng STOP cả bốn hướng ở Georgia, xe nào đi trước?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Vehicles proceed in first-to-arrive, first-to-proceed order — after yielding to pedestrians",
+            "vi-VN": "Xe tới trước đi trước — sau khi nhường người đi bộ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The vehicle turning left goes first",
+            "vi-VN": "Xe quẹo trái đi trước"
+          },
+          "whyWrong": {
+            "en-US": "Arrival order decides, not turn direction.",
+            "vi-VN": "Thứ tự tới nơi quyết định, không phải hướng quẹo."
+          }
+        },
+        {
+          "text": {
+            "en-US": "The largest vehicle goes first",
+            "vi-VN": "Xe lớn nhất đi trước"
+          },
+          "whyWrong": {
+            "en-US": "Vehicle size never decides right-of-way.",
+            "vi-VN": "Xe lớn nhỏ không quyết định quyền ưu tiên."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Vehicles on the wider road go first",
+            "vi-VN": "Xe trên đường rộng hơn đi trước"
+          },
+          "whyWrong": {
+            "en-US": "At a four-way stop the order of arrival controls.",
+            "vi-VN": "Tại ngã tư 4 bảng STOP, thứ tự tới nơi quyết định."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "At a four-way stop, all drivers yield to pedestrians; otherwise vehicles proceed in a first-to-arrive, first-to-proceed order.",
+        "vi-VN": "Tại ngã tư 4 bảng STOP, mọi xe nhường người đi bộ trước; sau đó xe nào tới trước thì đi trước."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Laws Governing Right-of-Way",
+        "url": "https://dds.georgia.gov/section-5-continued"
+      }
+    },
+    {
+      "id": "ga-rules-007",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "When making a left turn at an intersection or into a driveway, you must:",
+        "vi-VN": "Khi quẹo trái tại ngã tư hoặc vô đường nhà, bạn phải:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Yield the right-of-way to all traffic coming from the opposite direction",
+            "vi-VN": "Nhường đường cho tất cả xe chạy từ hướng ngược lại"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Turn quickly before oncoming traffic arrives",
+            "vi-VN": "Quẹo lẹ trước khi xe ngược chiều tới"
+          },
+          "whyWrong": {
+            "en-US": "Rushing a left turn across traffic causes crashes — you must yield.",
+            "vi-VN": "Quẹo vội cắt đầu xe gây tai nạn — phải nhường."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Expect oncoming traffic to slow down for you",
+            "vi-VN": "Chờ xe ngược chiều tự giảm tốc nhường mình"
+          },
+          "whyWrong": {
+            "en-US": "Oncoming traffic has the right-of-way.",
+            "vi-VN": "Xe ngược chiều được quyền ưu tiên."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only yield if a yield sign is posted",
+            "vi-VN": "Chỉ nhường khi có bảng nhường đường"
+          },
+          "whyWrong": {
+            "en-US": "The duty applies with or without a sign.",
+            "vi-VN": "Phải nhường dù có bảng hay không."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "When turning left at an intersection, alley, or driveway, yield the right-of-way to all traffic from the opposite direction.",
+        "vi-VN": "Khi quẹo trái tại ngã tư, hẻm hoặc đường nhà, phải nhường đường cho mọi xe chạy từ hướng ngược lại."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Laws Governing Right-of-Way",
+        "url": "https://dds.georgia.gov/section-5-continued"
+      }
+    },
+    {
+      "id": "ga-rules-008",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "An emergency vehicle approaches with blue or red lights and siren on. What must you do?",
+        "vi-VN": "Xe khẩn cấp chạy tới, đèn xanh dương hoặc đỏ chớp và hụ còi. Bạn phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Safely maneuver your vehicle out of its way",
+            "vi-VN": "Lách xe mình qua chỗ an toàn, nhường đường cho họ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Speed up to clear the area",
+            "vi-VN": "Tăng tốc chạy cho khuất"
+          },
+          "whyWrong": {
+            "en-US": "Speeding up is dangerous and illegal — move aside safely.",
+            "vi-VN": "Tăng tốc là nguy hiểm và phạm luật — phải tấp qua an toàn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop immediately wherever you are, even mid-intersection",
+            "vi-VN": "Dừng ngay tại chỗ, kể cả giữa ngã tư"
+          },
+          "whyWrong": {
+            "en-US": "Stopping in an intersection blocks the emergency vehicle — clear the way safely first.",
+            "vi-VN": "Dừng giữa ngã tư sẽ cản xe khẩn cấp — phải dọn đường an toàn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Maintain your speed and lane",
+            "vi-VN": "Giữ nguyên tốc độ và làn đường"
+          },
+          "whyWrong": {
+            "en-US": "You must yield and move out of the way.",
+            "vi-VN": "Bắt buộc phải nhường và tránh đường."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "When emergency vehicles use their lights (blue or red) and sirens, safely maneuver your vehicle out of their way.",
+        "vi-VN": "Khi xe khẩn cấp bật đèn (xanh dương hoặc đỏ) và còi hụ, phải lách xe mình ra khỏi đường đi của họ một cách an toàn."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Laws Governing Right-of-Way",
+        "url": "https://dds.georgia.gov/section-5-continued"
+      }
+    },
+    {
+      "id": "ga-rules-009",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "A school bus stops with flashing red lights and its stop arm extended. Vehicles behind and oncoming (undivided road) must:",
+        "vi-VN": "Xe buýt trường học dừng, đèn đỏ chớp và cần STOP mở ra. Xe phía sau và xe ngược chiều (đường không có dải phân cách) phải:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Stop and not pass while the bus loads or unloads",
+            "vi-VN": "Dừng lại, không được vượt trong lúc xe buýt đón hoặc trả học sinh"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Pass slowly and carefully",
+            "vi-VN": "Vượt chầm chậm, cẩn thận"
+          },
+          "whyWrong": {
+            "en-US": "Passing a stopped school bus with red lights flashing is unlawful.",
+            "vi-VN": "Vượt xe buýt trường đang chớp đèn đỏ là phạm luật."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only vehicles behind the bus stop; oncoming traffic continues",
+            "vi-VN": "Chỉ xe sau xe buýt dừng; xe ngược chiều cứ chạy"
+          },
+          "whyWrong": {
+            "en-US": "On an undivided road, oncoming traffic must stop too. Only a median divider exempts the opposite side.",
+            "vi-VN": "Trên đường không có dải phân cách, xe ngược chiều cũng phải dừng. Chỉ khi có dải phân cách thì bên kia mới khỏi dừng."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Honk and wait for children to clear",
+            "vi-VN": "Bấm kèn chờ trẻ em đi hết"
+          },
+          "whyWrong": {
+            "en-US": "Stop quietly — never hurry children with the horn.",
+            "vi-VN": "Dừng yên lặng — không được hối trẻ em bằng kèn."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Once the lights flash red and the stop signs extend, passing the stopped bus is unlawful. On a highway divided by a median, only traffic on the bus's side must stop.",
+        "vi-VN": "Khi đèn chớp đỏ và cần STOP mở, vượt xe buýt đang dừng là phạm luật. Trên đường có dải phân cách, chỉ xe cùng phía với xe buýt phải dừng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Laws Governing Right-of-Way (school buses)",
+        "url": "https://dds.georgia.gov/section-5-continued"
+      }
+    },
+    {
+      "id": "ga-rules-010",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "Under Georgia's Hands-Free Law, while driving you may NOT:",
+        "vi-VN": "Theo luật Hands-Free (rảnh tay) của Georgia, khi lái xe bạn KHÔNG được:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Hold or support a phone with any part of your body",
+            "vi-VN": "Cầm hoặc tựa điện thoại vào bất cứ bộ phận nào trên cơ thể"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Use a phone mounted in a holder",
+            "vi-VN": "Dùng điện thoại gắn trên giá đỡ"
+          },
+          "whyWrong": {
+            "en-US": "Mounted devices and hands-free equipment are exactly what the law allows.",
+            "vi-VN": "Gắn giá đỡ và thiết bị rảnh tay chính là cách luật cho phép."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Talk through wireless earbuds",
+            "vi-VN": "Nói chuyện qua tai nghe không dây"
+          },
+          "whyWrong": {
+            "en-US": "Hands-free wireless devices are permitted.",
+            "vi-VN": "Thiết bị không dây rảnh tay được phép dùng."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Use voice directions from a navigation app",
+            "vi-VN": "Nghe chỉ đường bằng giọng nói từ ứng dụng bản đồ"
+          },
+          "whyWrong": {
+            "en-US": "Voice navigation on a mounted phone is fine — holding the phone is the violation.",
+            "vi-VN": "Nghe chỉ đường khi máy gắn trên giá là hợp lệ — cầm máy mới phạm luật."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Georgia's Hands-Free Law (HB 673) bans holding or supporting a wireless device with any part of the body — use a mount, holder, or wireless device instead.",
+        "vi-VN": "Luật Hands-Free của Georgia (HB 673) cấm cầm hoặc tựa điện thoại vào bất cứ bộ phận cơ thể nào — phải dùng giá đỡ hoặc thiết bị không dây."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Texting & Cell Phones (HB 673)",
+        "url": "https://dds.georgia.gov/section-5-continued-other-laws"
+      }
+    },
+    {
+      "id": "ga-rules-011",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "What is the penalty for a FIRST conviction under Georgia's Hands-Free Law?",
+        "vi-VN": "Vi phạm luật Hands-Free ở Georgia LẦN ĐẦU bị phạt thế nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "1 point and up to $50",
+            "vi-VN": "1 điểm phạt và tới 50 đô"
+          }
+        },
+        {
+          "text": {
+            "en-US": "3 points and up to $150",
+            "vi-VN": "3 điểm phạt và tới 150 đô"
+          },
+          "whyWrong": {
+            "en-US": "That is the THIRD-or-later conviction level.",
+            "vi-VN": "Đó là mức cho lần vi phạm thứ BA trở đi."
+          }
+        },
+        {
+          "text": {
+            "en-US": "License suspension",
+            "vi-VN": "Treo bằng lái"
+          },
+          "whyWrong": {
+            "en-US": "A first conviction is 1 point and up to $50, not suspension.",
+            "vi-VN": "Lần đầu là 1 điểm và tới 50 đô, không phải treo bằng."
+          }
+        },
+        {
+          "text": {
+            "en-US": "A warning only, no fine",
+            "vi-VN": "Chỉ nhắc nhở, không phạt tiền"
+          },
+          "whyWrong": {
+            "en-US": "The law carries points and fines from the first conviction.",
+            "vi-VN": "Luật tính điểm và phạt tiền ngay từ lần đầu."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Hands-Free convictions: 1st = 1 point, up to $50; 2nd = 2 points, up to $100; 3rd or more = 3 points, up to $150.",
+        "vi-VN": "Vi phạm Hands-Free: lần 1 = 1 điểm, tới 50 đô; lần 2 = 2 điểm, tới 100 đô; lần 3 trở đi = 3 điểm, tới 150 đô."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Texting & Cell Phones (HB 673)",
+        "url": "https://dds.georgia.gov/section-5-continued-other-laws"
+      }
+    },
+    {
+      "id": "ga-rules-012",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "In Georgia, a driver aged 21 or older is legally under the influence of alcohol at what blood alcohol level?",
+        "vi-VN": "Ở Georgia, tài xế từ 21 tuổi trở lên bị coi là say rượu khi nồng độ cồn trong máu từ mức nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "0.08 grams or more",
+            "vi-VN": "Từ 0,08 gram trở lên"
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.02 grams or more",
+            "vi-VN": "Từ 0,02 gram trở lên"
+          },
+          "whyWrong": {
+            "en-US": "0.02 is the limit for drivers UNDER 21.",
+            "vi-VN": "0,02 là mức cho tài xế DƯỚI 21 tuổi."
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.10 grams or more",
+            "vi-VN": "Từ 0,10 gram trở lên"
+          },
+          "whyWrong": {
+            "en-US": "The adult threshold is 0.08.",
+            "vi-VN": "Mức cho người lớn là 0,08."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Any measurable amount",
+            "vi-VN": "Có cồn là bị coi say"
+          },
+          "whyWrong": {
+            "en-US": "For 21+, the threshold is 0.08 — near-zero (0.02) applies under 21.",
+            "vi-VN": "Từ 21 tuổi, mức là 0,08 — gần bằng 0 (0,02) chỉ áp dụng dưới 21 tuổi."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Adults 21+ are under the influence at 0.08 grams or more; drivers under 21 at just 0.02 grams or more.",
+        "vi-VN": "Người từ 21 tuổi bị coi là say từ 0,08 gram; tài xế dưới 21 tuổi chỉ cần 0,02 gram là phạm luật."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Driving Under the Influence",
+        "url": "https://dds.georgia.gov/section-5-continued-other-laws"
+      }
+    },
+    {
+      "id": "ga-rules-013",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "For a Georgia driver UNDER 21, what blood alcohol level counts as driving under the influence?",
+        "vi-VN": "Tài xế DƯỚI 21 tuổi ở Georgia bị coi là lái xe khi say rượu từ nồng độ cồn nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "0.02 grams or more",
+            "vi-VN": "Từ 0,02 gram trở lên"
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.08 grams or more",
+            "vi-VN": "Từ 0,08 gram trở lên"
+          },
+          "whyWrong": {
+            "en-US": "0.08 is the adult limit — under-21 drivers are held to 0.02.",
+            "vi-VN": "0,08 là mức người lớn — dưới 21 tuổi chỉ 0,02."
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.05 grams or more",
+            "vi-VN": "Từ 0,05 gram trở lên"
+          },
+          "whyWrong": {
+            "en-US": "Georgia sets the under-21 threshold at 0.02.",
+            "vi-VN": "Georgia quy định mức dưới 21 tuổi là 0,02."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Alcohol rules are the same at every age",
+            "vi-VN": "Mức cồn giống nhau ở mọi tuổi"
+          },
+          "whyWrong": {
+            "en-US": "Under-21 drivers face a much stricter 0.02 threshold.",
+            "vi-VN": "Dưới 21 tuổi bị mức nghiêm hơn nhiều: 0,02."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "A driver under 21 is irrefutably under the influence at 0.02 grams or more of alcohol.",
+        "vi-VN": "Tài xế dưới 21 tuổi bị coi là say (không thể biện hộ) khi có từ 0,02 gram cồn trở lên."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Driving Under the Influence",
+        "url": "https://dds.georgia.gov/section-5-continued-other-laws"
+      }
+    },
+    {
+      "id": "ga-rules-014",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Who must wear a seat belt in Georgia?",
+        "vi-VN": "Ở Georgia, ai bắt buộc phải thắt dây an toàn?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Everyone in the front seat, and every occupant under 18 anywhere in the vehicle",
+            "vi-VN": "Mọi người ngồi ghế trước, và mọi người dưới 18 tuổi ở bất cứ chỗ nào trong xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only the driver",
+            "vi-VN": "Chỉ tài xế"
+          },
+          "whyWrong": {
+            "en-US": "Front-seat passengers and all under-18 occupants must also buckle up.",
+            "vi-VN": "Khách ghế trước và mọi người dưới 18 tuổi cũng phải thắt."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only children in car seats",
+            "vi-VN": "Chỉ trẻ em ngồi ghế em bé"
+          },
+          "whyWrong": {
+            "en-US": "Adults in the front seat are covered by the law too.",
+            "vi-VN": "Người lớn ngồi ghế trước cũng bị luật bắt buộc."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Seat belts are recommended, not required",
+            "vi-VN": "Dây an toàn chỉ khuyến khích, không bắt buộc"
+          },
+          "whyWrong": {
+            "en-US": "It is the law, not a suggestion.",
+            "vi-VN": "Đây là luật, không phải lời khuyên."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Each front-seat occupant must wear a lap-and-shoulder belt, and ALL occupants under 18 must be belted wherever they sit.",
+        "vi-VN": "Mọi người ngồi ghế trước phải thắt dây (bụng và vai), và TẤT CẢ người dưới 18 tuổi phải thắt dù ngồi ở đâu."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Safety Belts",
+        "url": "https://dds.georgia.gov/section-5-continued-other-laws"
+      }
+    },
+    {
+      "id": "ga-rules-015",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "A child under 8 years old riding in your car in Georgia must be:",
+        "vi-VN": "Trẻ em dưới 8 tuổi ngồi xe ở Georgia phải được:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Properly restrained in a child seat appropriate for their height and weight",
+            "vi-VN": "Ngồi ghế trẻ em đúng chuẩn, phù hợp chiều cao và cân nặng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Held by an adult in the back seat",
+            "vi-VN": "Người lớn ôm ở ghế sau"
+          },
+          "whyWrong": {
+            "en-US": "Arms cannot restrain a child in a crash — a proper child seat is required.",
+            "vi-VN": "Tay người ôm không giữ nổi trẻ khi tông xe — bắt buộc dùng ghế trẻ em."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Wearing a regular adult seat belt",
+            "vi-VN": "Thắt dây an toàn của người lớn"
+          },
+          "whyWrong": {
+            "en-US": "Under 8, a child restraint system fitted to their size is required.",
+            "vi-VN": "Dưới 8 tuổi phải dùng ghế trẻ em đúng cỡ."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Free to sit anywhere if the trip is short",
+            "vi-VN": "Ngồi đâu cũng được nếu đi gần"
+          },
+          "whyWrong": {
+            "en-US": "The law applies on every trip, short or long.",
+            "vi-VN": "Luật áp dụng cho mọi chuyến đi, gần hay xa."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Every driver transporting a child under 8 must properly restrain the child in a child passenger restraint system appropriate for the child's height and weight.",
+        "vi-VN": "Chở trẻ dưới 8 tuổi phải cho bé ngồi ghế trẻ em đúng chuẩn, phù hợp với chiều cao và cân nặng của bé."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Safety Restraints for Children",
+        "url": "https://dds.georgia.gov/section-5-continued-other-laws"
+      }
+    },
+    {
+      "id": "ga-rules-016",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Using Georgia's counting method, you pass a fixed spot before finishing \"one-thousand-one, one-thousand-two\" after the car ahead. What does this mean?",
+        "vi-VN": "Theo cách đếm của Georgia, bạn ngang qua một điểm cố định trước khi đếm xong \"một-ngàn-lẻ-một, một-ngàn-lẻ-hai\" sau xe trước. Nghĩa là sao?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "You are following too closely — drop back",
+            "vi-VN": "Bạn đang bám quá sát — phải lùi lại"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Your distance is perfect",
+            "vi-VN": "Khoảng cách đang chuẩn"
+          },
+          "whyWrong": {
+            "en-US": "Passing the spot before the count ends means you are too close.",
+            "vi-VN": "Qua điểm đó trước khi đếm xong tức là quá gần."
+          }
+        },
+        {
+          "text": {
+            "en-US": "You may pass the car ahead",
+            "vi-VN": "Bạn được phép vượt xe trước"
+          },
+          "whyWrong": {
+            "en-US": "The count checks following distance, not permission to pass.",
+            "vi-VN": "Cách đếm để đo khoảng cách, không phải để cho phép vượt."
+          }
+        },
+        {
+          "text": {
+            "en-US": "The car ahead is too slow",
+            "vi-VN": "Xe trước chạy quá chậm"
+          },
+          "whyWrong": {
+            "en-US": "It measures YOUR gap, not their speed.",
+            "vi-VN": "Nó đo khoảng cách của BẠN, không phải tốc độ xe kia."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Count \"one-thousand-one, one-thousand-two\" after the vehicle ahead passes a spot; reaching it before you finish means you are following too closely.",
+        "vi-VN": "Đếm \"một-ngàn-lẻ-một, một-ngàn-lẻ-hai\" sau khi xe trước qua một điểm; nếu bạn tới điểm đó trước khi đếm xong là đang bám quá sát."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 8: Following Too Closely",
+        "url": "https://dds.georgia.gov/section-8-continued-more-safety-guidelines"
+      }
+    },
+    {
+      "id": "ga-rules-017",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "How far from a fire hydrant must you park in Georgia?",
+        "vi-VN": "Ở Georgia phải đậu xe cách trụ nước cứu hỏa bao xa?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "At least 15 feet",
+            "vi-VN": "Ít nhất 15 feet (khoảng 4,5 mét)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "At least 5 feet",
+            "vi-VN": "Ít nhất 5 feet"
+          },
+          "whyWrong": {
+            "en-US": "The law requires 15 feet of clearance.",
+            "vi-VN": "Luật bắt cách 15 feet."
+          }
+        },
+        {
+          "text": {
+            "en-US": "At least 30 feet",
+            "vi-VN": "Ít nhất 30 feet"
+          },
+          "whyWrong": {
+            "en-US": "30 feet is the distance from stop signs and traffic signals; hydrants are 15.",
+            "vi-VN": "30 feet là khoảng cách với bảng STOP và đèn giao thông; trụ nước là 15."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Touching is fine if you stay in the car",
+            "vi-VN": "Đậu sát cũng được nếu ngồi trong xe"
+          },
+          "whyWrong": {
+            "en-US": "The 15-foot rule applies whether or not you stay in the car.",
+            "vi-VN": "Quy định 15 feet áp dụng dù bạn có ngồi trong xe hay không."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Do not park within 15 feet of a fire hydrant, within 20 feet of a crosswalk at an intersection, or within 30 feet of a stop sign, yield sign, or traffic signal.",
+        "vi-VN": "Không đậu trong vòng 15 feet quanh trụ nước cứu hỏa, 20 feet quanh lối băng bộ hành tại ngã tư, hoặc 30 feet quanh bảng STOP, bảng nhường đường hay đèn giao thông."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: Stopping, Standing or Parking",
+        "url": "https://dds.georgia.gov/section-5-turning-signals-parallel-parking"
+      }
+    },
+    {
+      "id": "ga-rules-018",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "A police officer directs traffic differently from what the traffic light shows. What do you follow?",
+        "vi-VN": "Cảnh sát điều khiển giao thông khác với đèn tín hiệu. Bạn theo bên nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "The officer's directions — they override the light",
+            "vi-VN": "Theo hiệu lệnh của cảnh sát — hiệu lệnh thắng đèn tín hiệu"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The traffic light — machines are official",
+            "vi-VN": "Theo đèn — tín hiệu máy móc mới chính thức"
+          },
+          "whyWrong": {
+            "en-US": "Officer and firefighter directions override traffic control devices.",
+            "vi-VN": "Hiệu lệnh của cảnh sát và lính cứu hỏa được ưu tiên hơn đèn và bảng."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whichever lets you go first",
+            "vi-VN": "Bên nào cho mình đi trước thì theo"
+          },
+          "whyWrong": {
+            "en-US": "You must obey the officer, even if it delays you.",
+            "vi-VN": "Phải theo cảnh sát, dù có phải chờ lâu hơn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop and wait until the officer leaves",
+            "vi-VN": "Dừng chờ cảnh sát đi khỏi"
+          },
+          "whyWrong": {
+            "en-US": "Follow the officer's directions when given.",
+            "vi-VN": "Khi có hiệu lệnh thì phải làm theo ngay."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Obey the traffic directions of a law enforcement officer or firefighter, even if they go against what traffic control devices tell you.",
+        "vi-VN": "Phải tuân theo hiệu lệnh của cảnh sát hoặc lính cứu hỏa, kể cả khi trái với đèn hay bảng hiệu giao thông."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: 3 Most Basic Traffic Laws",
+        "url": "https://dds.georgia.gov/section-5-traffic-laws"
+      }
+    },
+    {
+      "id": "ga-rules-019",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "Where is a U-turn NOT allowed in Georgia?",
+        "vi-VN": "Ở Georgia, chỗ nào KHÔNG được quay đầu xe?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "On a curve or near the top of a hill where other drivers cannot see you",
+            "vi-VN": "Trên khúc cua hoặc gần đỉnh dốc, nơi xe khác không thấy mình"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Anywhere outside a city",
+            "vi-VN": "Mọi nơi ngoài thành phố"
+          },
+          "whyWrong": {
+            "en-US": "U-turns are restricted by visibility and signs, not by city limits.",
+            "vi-VN": "Quay đầu bị giới hạn bởi tầm nhìn và bảng cấm, không phải ranh giới thành phố."
+          }
+        },
+        {
+          "text": {
+            "en-US": "At any intersection",
+            "vi-VN": "Tại mọi ngã tư"
+          },
+          "whyWrong": {
+            "en-US": "The manual prohibits U-turns where you cannot be seen or where signs prohibit them — not at every intersection.",
+            "vi-VN": "Sổ tay cấm quay đầu nơi khuất tầm nhìn hoặc có bảng cấm — không phải mọi ngã tư."
+          }
+        },
+        {
+          "text": {
+            "en-US": "On every road with two lanes",
+            "vi-VN": "Trên mọi đường hai làn"
+          },
+          "whyWrong": {
+            "en-US": "Two-lane roads are fine when visibility is clear and no sign prohibits it.",
+            "vi-VN": "Đường hai làn vẫn quay đầu được nếu tầm nhìn tốt và không có bảng cấm."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Do not make a U-turn on a curve or near the top of a hill where approaching drivers cannot see you, or where signs prohibit U-turns.",
+        "vi-VN": "Không quay đầu trên khúc cua hoặc gần đỉnh dốc nơi xe chạy tới không thấy bạn, hoặc nơi có bảng cấm quay đầu."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 5: U-Turns",
+        "url": "https://dds.georgia.gov/section-5-turning-signals-parallel-parking"
+      }
+    },
+    {
+      "id": "ga-rules-020",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Driving beside a large truck, you cannot see the driver's face in the truck's side mirror. What does that mean?",
+        "vi-VN": "Chạy kế bên xe tải lớn, bạn không thấy mặt tài xế trong kính chiếu hậu của xe tải. Nghĩa là sao?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "You are in the truck's no-zone — the driver cannot see you",
+            "vi-VN": "Bạn đang trong điểm mù (no-zone) — tài xế xe tải không thấy bạn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The mirror is broken",
+            "vi-VN": "Kính xe tải bị hư"
+          },
+          "whyWrong": {
+            "en-US": "It means you are in a blind spot, not that the mirror is broken.",
+            "vi-VN": "Nghĩa là bạn đang ở điểm mù, không phải kính hư."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Nothing — trucks see everything from up high",
+            "vi-VN": "Không sao — xe tải ngồi cao thấy hết"
+          },
+          "whyWrong": {
+            "en-US": "Trucks have large no-zones on the sides, rear, and front.",
+            "vi-VN": "Xe tải có điểm mù rất lớn ở hai bên, phía sau và phía trước."
+          }
+        },
+        {
+          "text": {
+            "en-US": "You should honk continuously",
+            "vi-VN": "Nên bấm kèn liên tục"
+          },
+          "whyWrong": {
+            "en-US": "Move out of the blind spot instead — pass or drop back.",
+            "vi-VN": "Hãy thoát khỏi điểm mù — vượt hẳn hoặc lùi lại."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "If you cannot see the truck driver's face in their side-view mirror, they cannot see you. Trucks also have huge no-zones directly behind them, and need extra space in front.",
+        "vi-VN": "Không thấy mặt tài xế xe tải trong kính chiếu hậu tức là họ không thấy bạn. Xe tải còn có điểm mù rất lớn ngay phía sau, và cần chừa thêm khoảng trống phía trước."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "DDS Driver's Manual 2023-2024, Georgia DDS",
+        "section": "Section 9: Sharing the Road With Commercial Motor Vehicles",
+        "url": "https://dds.georgia.gov/section-9-continued-sharing-road"
       }
     }
   ]
