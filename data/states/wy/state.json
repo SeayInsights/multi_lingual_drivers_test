@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 15,
     "notes": {
-      "en-US": "Wyoming's manual does not publish an official question count or passing score, so this practice test uses a common 25-question / 80% standard (this state stays in draft until verified). An instruction permit is available from age 15 (a restricted permit at 14 for hardship). Note: Wyoming tests are given in English only — practice in English-only mode.",
-      "vi-VN": "Sổ tay Wyoming không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 25 câu / 80% (còn ở dạng nháp cho tới khi xác minh). Có thể lấy giấy phép tập lái từ 15 tuổi (giấy phép hạn chế từ 14 tuổi nếu hoàn cảnh khó khăn). Lưu ý: bài thi Wyoming chỉ có tiếng Anh — nên luyện ở chế độ chỉ tiếng Anh."
+      "en-US": "Wyoming's manual does not publish an official question count or passing score, so this practice test uses a common 25-question / 80% standard (official count/score not published — this practice test uses a common standard). An instruction permit is available from age 15 (a restricted permit at 14 for hardship). Note: Wyoming tests are given in English only — practice in English-only mode.",
+      "vi-VN": "Sổ tay Wyoming không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 25 câu / 80% (số câu/điểm chính thức không được công bố — bản luyện này dùng chuẩn phổ biến). Có thể lấy giấy phép tập lái từ 15 tuổi (giấy phép hạn chế từ 14 tuổi nếu hoàn cảnh khó khăn). Lưu ý: bài thi Wyoming chỉ có tiếng Anh — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {

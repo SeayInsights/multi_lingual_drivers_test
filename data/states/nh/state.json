@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 15.5,
     "notes": {
-      "en-US": "New Hampshire requires 80% to pass but uses a variable number of questions, so this practice test uses a 25-question / 80% standard (this state stays in draft until the official format is verified). NH does not issue learner's permits; supervised practice is allowed from age 15½. Note: the automated test does not include Vietnamese (interpreter available at the Concord DMV).",
-      "vi-VN": "New Hampshire yêu cầu đúng 80% mới đậu nhưng số câu thay đổi, nên bản luyện này dùng chuẩn 25 câu / 80% (còn ở dạng nháp cho tới khi xác minh định dạng chính thức). NH không cấp giấy phép tập lái; được tập lái có người kèm từ 15 tuổi rưỡi. Lưu ý: bài thi tự động không có tiếng Việt (có thông dịch tại DMV Concord)."
+      "en-US": "New Hampshire requires 80% to pass but uses a variable number of questions, so this practice test uses a 25-question / 80% standard (official count/score not published — this practice test uses a common standard). NH does not issue learner's permits; supervised practice is allowed from age 15½. Note: the automated test does not include Vietnamese (interpreter available at the Concord DMV).",
+      "vi-VN": "New Hampshire yêu cầu đúng 80% mới đậu nhưng số câu thay đổi, nên bản luyện này dùng chuẩn 25 câu / 80% (số câu/điểm chính thức không được công bố — bản luyện này dùng chuẩn phổ biến). NH không cấp giấy phép tập lái; được tập lái có người kèm từ 15 tuổi rưỡi. Lưu ý: bài thi tự động không có tiếng Việt (có thông dịch tại DMV Concord)."
     }
   },
   "content": {

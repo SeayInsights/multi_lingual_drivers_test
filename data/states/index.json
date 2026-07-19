@@ -1,5 +1,5 @@
 {
-  "version": 58,
+  "version": 59,
   "states": [
     {
       "code": "oh",
@@ -95,7 +95,7 @@
         "en-US": "North Dakota",
         "vi-VN": "North Dakota"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "nj",
@@ -111,7 +111,7 @@
         "en-US": "New Hampshire",
         "vi-VN": "New Hampshire"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "nm",
@@ -167,7 +167,7 @@
         "en-US": "Illinois",
         "vi-VN": "Illinois"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "dc",
@@ -175,7 +175,7 @@
         "en-US": "District of Columbia",
         "vi-VN": "District of Columbia"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "de",
@@ -207,7 +207,7 @@
         "en-US": "Alaska",
         "vi-VN": "Alaska"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "al",
@@ -215,7 +215,7 @@
         "en-US": "Alabama",
         "vi-VN": "Alabama"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "sd",
@@ -223,7 +223,7 @@
         "en-US": "South Dakota",
         "vi-VN": "South Dakota"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "sc",
@@ -231,7 +231,7 @@
         "en-US": "South Carolina",
         "vi-VN": "South Carolina"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "ut",
@@ -271,7 +271,7 @@
         "en-US": "Montana",
         "vi-VN": "Montana"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "ms",
@@ -279,7 +279,7 @@
         "en-US": "Mississippi",
         "vi-VN": "Mississippi"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "md",
@@ -311,7 +311,7 @@
         "en-US": "Minnesota",
         "vi-VN": "Minnesota"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "mo",
@@ -327,7 +327,7 @@
         "en-US": "Michigan",
         "vi-VN": "Michigan"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "hi",
@@ -335,7 +335,7 @@
         "en-US": "Hawaii",
         "vi-VN": "Hawaii"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "ct",
@@ -351,7 +351,7 @@
         "en-US": "Colorado",
         "vi-VN": "Colorado"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "wy",
@@ -359,7 +359,7 @@
         "en-US": "Wyoming",
         "vi-VN": "Wyoming"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "wv",
@@ -375,7 +375,7 @@
         "en-US": "Wisconsin",
         "vi-VN": "Wisconsin"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "ri",
@@ -383,7 +383,7 @@
         "en-US": "Rhode Island",
         "vi-VN": "Rhode Island"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "tn",

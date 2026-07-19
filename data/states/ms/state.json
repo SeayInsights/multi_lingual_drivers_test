@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 15,
     "notes": {
-      "en-US": "Mississippi does not publish an official question count or passing score, so this practice test uses a common 30-question / 80% standard (this state stays in draft until the official format is verified). A learner's permit is available from age 15.",
-      "vi-VN": "Mississippi không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 30 câu / 80% (còn ở dạng nháp cho tới khi xác minh). Có thể lấy giấy phép tập lái từ 15 tuổi."
+      "en-US": "Mississippi does not publish an official question count or passing score, so this practice test uses a common 30-question / 80% standard (official count/score not published — this practice test uses a common standard). A learner's permit is available from age 15.",
+      "vi-VN": "Mississippi không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 30 câu / 80% (số câu/điểm chính thức không được công bố — bản luyện này dùng chuẩn phổ biến). Có thể lấy giấy phép tập lái từ 15 tuổi."
     }
   },
   "content": {

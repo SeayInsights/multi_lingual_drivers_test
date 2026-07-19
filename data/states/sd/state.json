@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 14,
     "notes": {
-      "en-US": "South Dakota does not publish an official question count or passing score, so this practice test uses a common 25-question / 80% standard (this state stays in draft until verified). An instruction permit is available from age 14.",
-      "vi-VN": "South Dakota không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 25 câu / 80% (còn ở dạng nháp cho tới khi xác minh). Có thể lấy giấy phép tập lái từ 14 tuổi."
+      "en-US": "South Dakota does not publish an official question count or passing score, so this practice test uses a common 25-question / 80% standard (official count/score not published — this practice test uses a common standard). An instruction permit is available from age 14.",
+      "vi-VN": "South Dakota không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 25 câu / 80% (số câu/điểm chính thức không được công bố — bản luyện này dùng chuẩn phổ biến). Có thể lấy giấy phép tập lái từ 14 tuổi."
     }
   },
   "content": {
