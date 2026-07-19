@@ -12,3 +12,12 @@ Thumbs.db
 # authority, but not published to the repo.
 .planning/
 .dream-studio-project
+
+# Python / test cache
+__pycache__/
+*.pyc
+.pymon
+
+# stray diagnostic output
+lighthouse.json
+lighthouse-*.json
