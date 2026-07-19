@@ -2,7 +2,7 @@
   "name": "multi_lingual_drivers_test",
   "version": "0.1.0",
   "private": true,
-  "description": "Free multilingual US driver's license practice test PWA (static site — this package.json exists only for dev tooling; deployment has no build step)",
+  "description": "Free multilingual US driver's license practice test PWA (static site \u2014 this package.json exists only for dev tooling; deployment has no build step)",
   "type": "module",
   "scripts": {
     "validate": "node scripts/validate/validate-data.mjs",
@@ -17,5 +17,6 @@
     "playwright": "^1.61.1",
     "puppeteer-core": "^25.3.0",
     "sharp": "^0.35.3"
-  }
+  },
+  "license": "Apache-2.0"
 }
