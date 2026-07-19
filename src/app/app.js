@@ -82,14 +82,6 @@ function homeView() {
       </a>
     </div>
     <div class="setting-row">
-      <span>${bilingual("settings.language")}</span>
-      ${segButtons("langmode", [
-        { value: "both", label: "Việt+EN" },
-        { value: "vi", label: "Việt" },
-        { value: "en", label: "EN" },
-      ], getLangMode())}
-    </div>
-    <div class="setting-row">
       <span>${bilingual("settings.textSize")}</span>
       ${segButtons("textsize", [
         { value: "1", label: "A" },

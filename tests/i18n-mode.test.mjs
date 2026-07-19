@@ -50,7 +50,7 @@ test("t() follows the language mode", () => {
 test("bilingual() always renders both languages regardless of mode", () => {
   applyLangMode("en");
   const html = bilingual("tab.home");
-  assert.match(html, /lang="vi">Trang chính/);
+  assert.match(html, /lang="vi-VN">Trang chính/);
   assert.match(html, /lang="en">Home/);
   applyLangMode("both");
 });

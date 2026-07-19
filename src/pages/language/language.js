@@ -6,7 +6,7 @@
  * Picking a language persists the setting and reloads (offline-safe: locales
  * are runtime-cached by the service worker after first fetch).
  */
-import { t, bilingual, getPrimaryLang, SETTINGS_KEYS } from "../../i18n/i18n.js";
+import { t, bilingual, getPrimaryLang, getLangMode, applyLangMode, SETTINGS_KEYS } from "../../i18n/i18n.js";
 import { setSetting } from "../../storage/settings.js";
 
 let registry = null;
@@ -23,33 +23,48 @@ async function loadRegistry() {
   return registry;
 }
 
-/** Primary-language options (available, non-fallback), sorted A–Z by English name. */
-export function primaryLanguages(reg) {
-  const fallback = reg.fallback ?? "en-US";
+const fallbackTag = () => registry.fallback ?? "en-US";
+
+/**
+ * The tag currently selected in the picker. Choosing the English fallback puts
+ * the app in English-only mode (like the real test); any other language shows
+ * that language on top with English underneath. So "current" is English when
+ * the display mode is English-only, otherwise the chosen primary language.
+ */
+function currentTag() {
+  return getLangMode() === "en" ? fallbackTag() : getPrimaryLang();
+}
+
+/** All available languages, sorted A–Z by English name. English is included —
+ * picking it is the English-only rehearsal mode. */
+export function pickerLanguages(reg) {
   return reg.languages
-    .filter((l) => l.status === "available" && l.tag !== fallback)
+    .filter((l) => l.status === "available")
     .sort((a, b) => a.englishName.localeCompare(b.englishName));
 }
 
 function filteredLanguages() {
   const q = normalize(query.trim());
-  const all = primaryLanguages(registry);
+  const all = pickerLanguages(registry);
   if (!q) return all;
   return all.filter((l) => normalize(`${l.endonym} ${l.englishName} ${l.tag}`).includes(q));
 }
 
 function rowsHtml() {
-  const current = getPrimaryLang();
+  const current = currentTag();
   const list = filteredLanguages();
   if (list.length === 0) return `<p style="color:var(--muted)">${bilingual("picker.noResults")}</p>`;
   return list
     .map((l) => {
       const isCurrent = l.tag === current;
+      const label = l.tag === fallbackTag()
+        ? esc(l.endonym) // English shows once (it is the sole line in English-only mode)
+        : `<span lang="${esc(l.tag)}">${esc(l.endonym)}</span> · ${esc(l.englishName)}`;
       return `
       <button type="button" role="radio" aria-checked="${isCurrent}" data-lang-pick="${esc(l.tag)}"
         class="btn ${isCurrent ? "btn-primary" : "btn-secondary"}"
         style="margin-bottom:10px;justify-content:space-between;min-height:56px">
-        <span><span lang="${esc(l.tag)}">${esc(l.endonym)}</span> · ${esc(l.englishName)}</span>
+        <span>${label}</span>
         <span style="font-size:.85em">${isCurrent ? `✓ ${bilingual("language.current")}` : ""}</span>
       </button>`;
     })
@@ -92,9 +107,17 @@ async function bootLanguage() {
     const btn = e.target.closest("[data-lang-pick]");
     if (!btn) return;
     const tag = btn.dataset.langPick;
-    if (tag === getPrimaryLang()) return;
-    await setSetting("language", tag);
-    localStorage.setItem(SETTINGS_KEYS.language, tag); // ensure boot reads it before IDB
+    if (tag === currentTag()) return; // already selected
+    if (tag === fallbackTag()) {
+      // English-only mode (rehearse like the real test); primary is left intact
+      applyLangMode("en");
+      await setSetting("languageMode", "en");
+    } else {
+      await setSetting("language", tag);
+      localStorage.setItem(SETTINGS_KEYS.language, tag); // boot reads it before IDB
+      applyLangMode("both");
+      await setSetting("languageMode", "both");
+    }
     location.reload();
   });
 }
@@ -104,15 +127,15 @@ export function languageView() {
   return `<div id="language-root"><section class="card"><p>…</p></section></div>`;
 }
 
-/** Fill [data-lang-name] elements with the current primary language endonym. */
+/** Fill [data-lang-name] elements with the current language endonym (English
+ * when in English-only mode, otherwise the chosen primary language). */
 export async function fillLanguageLabels(rootEl = document) {
   try {
     await loadRegistry();
   } catch {
     return;
   }
-  const current = getPrimaryLang();
-  const entry = registry.languages.find((l) => l.tag === current);
+  const entry = registry.languages.find((l) => l.tag === currentTag());
   if (!entry) return;
   for (const el of rootEl.querySelectorAll("[data-lang-name]")) el.textContent = entry.endonym;
 }

@@ -75,9 +75,11 @@ export const tEn = (key, params = {}) => t(key, params, FALLBACK);
  * readers switch pronunciation.
  */
 export function bilingual(key, params = {}) {
-  const vi = escapeHtml(t(key, params, primaryTag));
+  const primary = escapeHtml(t(key, params, primaryTag));
   const en = escapeHtml(tEn(key, params));
-  return `<span class="vi-main" lang="vi">${vi}</span><span class="en-sub" lang="en">${en}</span>`;
+  // .vi-main / .en-sub are historical class names for the primary and English
+  // lines; the lang attribute reflects the ACTUAL primary language (vi-VN, es-MX…).
+  return `<span class="vi-main" lang="${primaryTag}">${primary}</span><span class="en-sub" lang="en">${en}</span>`;
 }
 
 /** Fill every [data-i18n] element under root with bilingual content. */
@@ -94,8 +96,9 @@ export function getLangMode() {
 export function applyLangMode(mode) {
   localStorage.setItem(SETTINGS_KEYS.langMode, mode);
   document.documentElement.dataset.langmode = mode;
-  // In EN-only mode the page is functionally English.
-  document.documentElement.lang = mode === "en" ? "en" : "vi";
+  // In EN-only mode the page is functionally English; otherwise it reflects the
+  // chosen primary language (vi, es, …) so screen readers pronounce it right.
+  document.documentElement.lang = mode === "en" ? "en" : primaryTag.split("-")[0];
 }
 
 function escapeHtml(s) {

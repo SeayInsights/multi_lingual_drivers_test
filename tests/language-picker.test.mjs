@@ -58,11 +58,11 @@ if (!globalThis.indexedDB && globalThis.window?.indexedDB) {
   globalThis.IDBKeyRange = globalThis.window.IDBKeyRange;
 }
 
-const { initI18n, getPrimaryLang } = await import("../src/i18n/i18n.js");
+const { initI18n, getPrimaryLang, getLangMode } = await import("../src/i18n/i18n.js");
 await initI18n({ primary: "vi-VN" });
 const { initSettings } = await import("../src/storage/settings.js");
 await initSettings();
-const { languageView, primaryLanguages, fillLanguageLabels } = await import("../src/pages/language/language.js");
+const { languageView, pickerLanguages, fillLanguageLabels } = await import("../src/pages/language/language.js");
 
 const view = document.getElementById("view");
 const flush = () => new Promise((r) => setTimeout(r, 0));
@@ -71,21 +71,21 @@ const until = async (cond, ms = 2000) => {
   while (!cond()) { if (Date.now() - t0 > ms) throw new Error("timeout"); await new Promise((r) => setTimeout(r, 10)); }
 };
 
-test("primaryLanguages excludes fallback+drafts and sorts A-Z by English name", () => {
-  const tags = primaryLanguages(FIXTURE).map((l) => l.tag);
-  assert.deepEqual(tags, ["es-MX", "vi-VN"], "Spanish before Vietnamese");
+test("pickerLanguages includes all available (incl. English), sorts A-Z, drops drafts", () => {
+  const tags = pickerLanguages(FIXTURE).map((l) => l.tag);
+  assert.deepEqual(tags, ["en-US", "es-MX", "vi-VN"], "English, Spanish, Vietnamese A-Z");
 });
 
-test("picker renders primary languages A-Z, current marked, draft/English hidden", async () => {
+test("picker renders languages A-Z incl. English, current primary marked, draft hidden", async () => {
   view.innerHTML = languageView();
   await flush();
   const root = document.getElementById("language-root");
   const btns = [...root.querySelectorAll("[data-lang-pick]")];
-  assert.deepEqual(btns.map((b) => b.dataset.langPick), ["es-MX", "vi-VN"], "sorted A-Z");
-  assert.equal(root.querySelector('[data-lang-pick="en-US"]'), null, "English fallback not a picker option");
+  assert.deepEqual(btns.map((b) => b.dataset.langPick), ["en-US", "es-MX", "vi-VN"], "sorted A-Z");
+  assert.ok(root.querySelector('[data-lang-pick="en-US"]'), "English IS a picker option (English-only mode)");
   assert.equal(root.querySelector('[data-lang-pick="zz-ZZ"]'), null, "draft language hidden");
   assert.ok(root.querySelector("#language-search"), "search box present");
-  assert.equal(root.querySelector('[data-lang-pick="vi-VN"]').getAttribute("aria-checked"), "true", "vi-VN current by default");
+  assert.equal(root.querySelector('[data-lang-pick="vi-VN"]').getAttribute("aria-checked"), "true", "vi-VN current in both-mode default");
 });
 
 test("search filters the language list", async () => {
@@ -97,10 +97,10 @@ test("search filters the language list", async () => {
   input.value = "";
   input.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
   await flush();
-  assert.equal(document.querySelectorAll("[data-lang-pick]").length, 2, "cleared search restores all");
+  assert.equal(document.querySelectorAll("[data-lang-pick]").length, 3, "cleared search restores all");
 });
 
-test("current language is a no-op; switching persists and reloads", async () => {
+test("current language is a no-op; picking a new primary persists + reloads (both-mode)", async () => {
   const before = reloads;
   document.querySelector('[data-lang-pick="vi-VN"]').click();
   await flush();
@@ -109,9 +109,18 @@ test("current language is a no-op; switching persists and reloads", async () => 
   await until(() => reloads === before + 1);
   assert.equal(localStorage.getItem("mldt.settings.language"), "es-MX", "primary language persisted");
   assert.equal(getPrimaryLang(), "es-MX", "i18n reads the chosen primary");
+  assert.equal(getLangMode(), "both", "non-English pick uses both-mode (primary + English)");
 });
 
-test("fillLanguageLabels shows the current primary endonym", async () => {
+test("picking English switches to English-only mode (rehearsal)", async () => {
+  const before = reloads;
+  document.querySelector('[data-lang-pick="en-US"]').click();
+  await until(() => reloads === before + 1);
+  assert.equal(getLangMode(), "en", "English pick = English-only mode");
+});
+
+test("fillLanguageLabels shows the current language endonym", async () => {
+  // after the previous test the mode is 'en' -> current is English
   await fillLanguageLabels(document);
-  assert.equal(document.querySelector("[data-lang-name]").textContent, "Español");
+  assert.equal(document.querySelector("[data-lang-name]").textContent, "English");
 });

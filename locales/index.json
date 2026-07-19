@@ -3,6 +3,7 @@
   "fallback": "en-US",
   "languages": [
     { "tag": "vi-VN", "endonym": "Tiếng Việt", "englishName": "Vietnamese", "status": "available" },
+    { "tag": "es-MX", "endonym": "Español", "englishName": "Spanish", "status": "available" },
     { "tag": "en-US", "endonym": "English", "englishName": "English", "status": "available" }
   ]
 }

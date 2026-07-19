@@ -8,6 +8,7 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Dream Studio: personal notes and machine-local marker
-.planning/personal/
+# Dream Studio: internal working state — kept on disk + in the Dream Studio
+# authority, but not published to the repo.
+.planning/
 .dream-studio-project
