@@ -1,6 +1,6 @@
 {
   "stateCode": "ca",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "ca-signs-001",
@@ -4626,6 +4626,1166 @@
       "source": {
         "title": "Manual on Uniform Traffic Control Devices (MUTCD), 11th Edition, FHWA",
         "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    },
+    {
+      "id": "ca-rules-001",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "What is the speed limit in a business or residential district in California, unless otherwise posted?",
+        "vi-VN": "Trong khu buôn bán hoặc khu dân cư ở California, tốc độ tối đa là bao nhiêu nếu không có bảng ghi khác?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "25 mph",
+            "vi-VN": "25 mph (khoảng 40 km/giờ)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "35 mph",
+            "vi-VN": "35 mph"
+          },
+          "whyWrong": {
+            "en-US": "35 mph is not the default limit — business and residential districts are 25 mph unless posted.",
+            "vi-VN": "35 mph không phải mức mặc định — khu buôn bán và khu dân cư là 25 mph nếu không có bảng."
+          }
+        },
+        {
+          "text": {
+            "en-US": "30 mph",
+            "vi-VN": "30 mph"
+          },
+          "whyWrong": {
+            "en-US": "California's default for these districts is 25 mph.",
+            "vi-VN": "Mức mặc định ở các khu này tại California là 25 mph."
+          }
+        },
+        {
+          "text": {
+            "en-US": "20 mph",
+            "vi-VN": "20 mph"
+          },
+          "whyWrong": {
+            "en-US": "The handbook sets 25 mph, not 20.",
+            "vi-VN": "Sổ tay quy định 25 mph, không phải 20."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The speed limit in business or residential districts is 25 mph, unless otherwise posted.",
+        "vi-VN": "Tốc độ tối đa trong khu buôn bán hoặc khu dân cư là 25 mph, trừ khi có bảng ghi khác."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 7: Speed Limits",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/"
+      }
+    },
+    {
+      "id": "ca-rules-002",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "You are within 500 feet of a school while children are outside. What is the speed limit?",
+        "vi-VN": "Bạn đang trong phạm vi 500 feet (khoảng 150 mét) gần trường học lúc có trẻ em bên ngoài. Tốc độ tối đa là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "25 mph — and some school zones post limits as low as 15 mph",
+            "vi-VN": "25 mph — có khu trường còn hạ xuống 15 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "35 mph at all times",
+            "vi-VN": "35 mph mọi lúc"
+          },
+          "whyWrong": {
+            "en-US": "School zones with children present are 25 mph, not 35.",
+            "vi-VN": "Khu trường học lúc có trẻ em là 25 mph, không phải 35."
+          }
+        },
+        {
+          "text": {
+            "en-US": "The normal posted limit — schools change nothing",
+            "vi-VN": "Giữ tốc độ bình thường — trường học không ảnh hưởng"
+          },
+          "whyWrong": {
+            "en-US": "The limit drops to 25 mph within 500 feet of a school while children are outside.",
+            "vi-VN": "Tốc độ hạ còn 25 mph trong phạm vi 500 feet gần trường lúc trẻ em ở bên ngoài."
+          }
+        },
+        {
+          "text": {
+            "en-US": "10 mph",
+            "vi-VN": "10 mph"
+          },
+          "whyWrong": {
+            "en-US": "The school-zone rule is 25 mph (some zones post 15), not 10.",
+            "vi-VN": "Quy định khu trường là 25 mph (có nơi ghi 15), không phải 10."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The limit is 25 mph within 500 feet of a school while children are outside or crossing; some school zones post limits as low as 15 mph.",
+        "vi-VN": "Tốc độ tối đa là 25 mph trong phạm vi 500 feet gần trường khi trẻ em ở ngoài hoặc đang băng đường; có khu trường ghi bảng thấp tới 15 mph."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 7: Speed Limits",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/"
+      }
+    },
+    {
+      "id": "ca-rules-003",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "What is the speed limit at a blind intersection (where you cannot see cross traffic)?",
+        "vi-VN": "Tốc độ tối đa tại ngã tư bị khuất tầm nhìn (không thấy xe từ đường ngang) là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "15 mph",
+            "vi-VN": "15 mph (khoảng 24 km/giờ)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "25 mph",
+            "vi-VN": "25 mph"
+          },
+          "whyWrong": {
+            "en-US": "Blind intersections are 15 mph — slower than the 25 mph district limit.",
+            "vi-VN": "Ngã tư khuất tầm nhìn là 15 mph — chậm hơn mức 25 mph của khu dân cư."
+          }
+        },
+        {
+          "text": {
+            "en-US": "20 mph",
+            "vi-VN": "20 mph"
+          },
+          "whyWrong": {
+            "en-US": "The handbook sets 15 mph for blind intersections.",
+            "vi-VN": "Sổ tay quy định 15 mph cho ngã tư khuất tầm nhìn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "10 mph",
+            "vi-VN": "10 mph"
+          },
+          "whyWrong": {
+            "en-US": "It is 15 mph, not 10.",
+            "vi-VN": "Là 15 mph, không phải 10."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The speed limit for a blind intersection is 15 mph.",
+        "vi-VN": "Tốc độ tối đa tại ngã tư khuất tầm nhìn là 15 mph."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 7: Speed Limits",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/"
+      }
+    },
+    {
+      "id": "ca-rules-004",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "What is the speed limit when driving in an alley?",
+        "vi-VN": "Chạy xe trong con hẻm, tốc độ tối đa là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "15 mph",
+            "vi-VN": "15 mph (khoảng 24 km/giờ)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "25 mph",
+            "vi-VN": "25 mph"
+          },
+          "whyWrong": {
+            "en-US": "Alleys are 15 mph, slower than regular residential streets.",
+            "vi-VN": "Trong hẻm là 15 mph, chậm hơn đường khu dân cư."
+          }
+        },
+        {
+          "text": {
+            "en-US": "5 mph",
+            "vi-VN": "5 mph"
+          },
+          "whyWrong": {
+            "en-US": "The alley limit is 15 mph, not 5.",
+            "vi-VN": "Trong hẻm quy định 15 mph, không phải 5."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whatever feels safe",
+            "vi-VN": "Tùy mình thấy an toàn"
+          },
+          "whyWrong": {
+            "en-US": "There is a set limit: 15 mph in an alley.",
+            "vi-VN": "Có mức quy định rõ: 15 mph trong hẻm."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The speed limit in an alley is 15 mph.",
+        "vi-VN": "Tốc độ tối đa trong con hẻm là 15 mph."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 7: Speed Limits",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/"
+      }
+    },
+    {
+      "id": "ca-rules-005",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "When is the speed limit 15 mph at a railroad crossing?",
+        "vi-VN": "Khi nào tốc độ tối đa tại đường ray xe lửa là 15 mph?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Within 100 feet of the crossing when you cannot see the tracks for 400 feet in both directions",
+            "vi-VN": "Trong phạm vi 100 feet gần đường ray khi không thấy được đường ray 400 feet về cả hai phía"
+          }
+        },
+        {
+          "text": {
+            "en-US": "At every railroad crossing, always",
+            "vi-VN": "Tại mọi đường ray, mọi lúc"
+          },
+          "whyWrong": {
+            "en-US": "The 15 mph rule applies only when visibility of the tracks is limited (under 400 feet both ways within 100 feet).",
+            "vi-VN": "Quy định 15 mph chỉ áp dụng khi tầm nhìn đường ray bị hạn chế (dưới 400 feet cả hai phía, trong phạm vi 100 feet)."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only when a train is visible",
+            "vi-VN": "Chỉ khi thấy xe lửa"
+          },
+          "whyWrong": {
+            "en-US": "The rule is about track visibility, not whether a train is coming.",
+            "vi-VN": "Quy định dựa trên tầm nhìn đường ray, không phải có xe lửa hay không."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Never — railroad crossings have no speed limit",
+            "vi-VN": "Không bao giờ — đường ray không giới hạn tốc độ"
+          },
+          "whyWrong": {
+            "en-US": "A 15 mph limit applies when you cannot see the tracks clearly.",
+            "vi-VN": "Có mức 15 mph khi không thấy rõ đường ray."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The limit is 15 mph within 100 feet of a railroad crossing when you cannot see the tracks for 400 feet in both directions.",
+        "vi-VN": "Tốc độ tối đa là 15 mph trong phạm vi 100 feet gần đường ray khi bạn không thấy được đường ray 400 feet về cả hai phía."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 7: Speed Limits",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/"
+      }
+    },
+    {
+      "id": "ca-rules-006",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "You want to pass a bicyclist but cannot leave 3 feet of space. What must you do?",
+        "vi-VN": "Bạn muốn vượt người đi xe đạp nhưng không chừa được 3 feet (gần 1 mét). Phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Do not pass until you can give 3 feet of clearance",
+            "vi-VN": "Không vượt cho tới khi chừa được 3 feet"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Pass slowly with less space",
+            "vi-VN": "Vượt chậm với khoảng cách hẹp hơn"
+          },
+          "whyWrong": {
+            "en-US": "California requires at least 3 feet — if you cannot give it, do not pass.",
+            "vi-VN": "California bắt buộc tối thiểu 3 feet — không chừa được thì không vượt."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Honk so the bicyclist moves over",
+            "vi-VN": "Bấm kèn cho người đạp xe né vô"
+          },
+          "whyWrong": {
+            "en-US": "Honking does not replace the required 3 feet of clearance.",
+            "vi-VN": "Bấm kèn không thay được khoảng cách 3 feet bắt buộc."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Follow within a car length until they exit",
+            "vi-VN": "Bám sát một thân xe cho tới khi họ rẽ đi"
+          },
+          "whyWrong": {
+            "en-US": "Wait at a safe distance, then pass with 3 feet of space.",
+            "vi-VN": "Chờ ở khoảng cách an toàn, rồi vượt khi chừa được 3 feet."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Allow at least 3 feet between your vehicle and a bicyclist. If you cannot give 3 feet, do not pass until you can.",
+        "vi-VN": "Phải chừa tối thiểu 3 feet giữa xe bạn và người đi xe đạp. Không chừa được 3 feet thì không được vượt."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 7: Passing a Bicyclist",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/"
+      }
+    },
+    {
+      "id": "ca-rules-007",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "Two vehicles arrive at an intersection without signs at the same time. Who has the right-of-way?",
+        "vi-VN": "Hai xe tới ngã tư không có bảng hiệu cùng một lúc. Xe nào được ưu tiên?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "The vehicle on the right — the driver on the left yields",
+            "vi-VN": "Xe bên phải — xe bên trái phải nhường"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The vehicle on the left",
+            "vi-VN": "Xe bên trái"
+          },
+          "whyWrong": {
+            "en-US": "It is the reverse: yield to the vehicle on your right.",
+            "vi-VN": "Ngược lại: phải nhường cho xe bên phải mình."
+          }
+        },
+        {
+          "text": {
+            "en-US": "The faster vehicle",
+            "vi-VN": "Xe chạy nhanh hơn"
+          },
+          "whyWrong": {
+            "en-US": "Speed never decides right-of-way.",
+            "vi-VN": "Tốc độ không quyết định quyền ưu tiên."
+          }
+        },
+        {
+          "text": {
+            "en-US": "The bigger vehicle",
+            "vi-VN": "Xe lớn hơn"
+          },
+          "whyWrong": {
+            "en-US": "Vehicle size never decides right-of-way.",
+            "vi-VN": "Xe lớn nhỏ không quyết định quyền ưu tiên."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "When vehicles arrive at the same time, give the right-of-way to the vehicle, pedestrian, or bicyclist on your right.",
+        "vi-VN": "Khi tới cùng lúc, phải nhường quyền ưu tiên cho xe, người đi bộ hoặc người đạp xe ở phía bên phải mình."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 7: Right-of-Way Rules",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/"
+      }
+    },
+    {
+      "id": "ca-rules-008",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "You are turning left at an intersection. When must you yield?",
+        "vi-VN": "Bạn quẹo trái tại ngã tư. Khi nào phải nhường đường?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "To any pedestrian or approaching vehicle close enough to be dangerous",
+            "vi-VN": "Cho người đi bộ và xe đang tới gần đủ để gây nguy hiểm"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Never — left turns have the right-of-way",
+            "vi-VN": "Không cần — xe quẹo trái được ưu tiên"
+          },
+          "whyWrong": {
+            "en-US": "Left turns must yield to oncoming traffic and pedestrians.",
+            "vi-VN": "Xe quẹo trái phải nhường xe ngược chiều và người đi bộ."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only to vehicles, not pedestrians",
+            "vi-VN": "Chỉ nhường xe, không cần nhường người đi bộ"
+          },
+          "whyWrong": {
+            "en-US": "Pedestrians must also be given the right-of-way.",
+            "vi-VN": "Người đi bộ cũng phải được nhường."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only when a yield sign is posted",
+            "vi-VN": "Chỉ khi có bảng nhường đường"
+          },
+          "whyWrong": {
+            "en-US": "The duty to yield on a left turn applies with or without a sign.",
+            "vi-VN": "Quẹo trái phải nhường dù có bảng hay không."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "When turning left, give the right-of-way to any pedestrian or approaching vehicle that is close enough to be dangerous.",
+        "vi-VN": "Khi quẹo trái, phải nhường cho người đi bộ và mọi xe đang tới gần đủ để gây nguy hiểm."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 7: Right-of-Way Rules",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/"
+      }
+    },
+    {
+      "id": "ca-rules-009",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "A pedestrian is crossing the street where there is no painted crosswalk. What must you do?",
+        "vi-VN": "Người đi bộ băng qua đường ở chỗ không có vạch kẻ dành cho người đi bộ. Bạn phải làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Use caution, slow down, or stop — pedestrians have the right-of-way even in unmarked crosswalks",
+            "vi-VN": "Cẩn thận, giảm tốc hoặc dừng lại — người đi bộ được ưu tiên kể cả ở lối băng không kẻ vạch"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Continue — no crosswalk means no right-of-way",
+            "vi-VN": "Cứ chạy — không có vạch là không được ưu tiên"
+          },
+          "whyWrong": {
+            "en-US": "Pedestrians have the right-of-way in marked or unmarked crosswalks.",
+            "vi-VN": "Người đi bộ được ưu tiên ở lối băng có vạch lẫn không vạch."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Honk and keep your speed",
+            "vi-VN": "Bấm kèn và giữ nguyên tốc độ"
+          },
+          "whyWrong": {
+            "en-US": "You must slow or stop, not warn them out of the way.",
+            "vi-VN": "Phải giảm tốc hoặc dừng, không phải hối người ta tránh."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Swerve around them quickly",
+            "vi-VN": "Lách nhanh qua người đó"
+          },
+          "whyWrong": {
+            "en-US": "Passing close to a crossing pedestrian is dangerous and illegal.",
+            "vi-VN": "Lách sát người đang băng đường là nguy hiểm và phạm luật."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "When a pedestrian is crossing with or without a crosswalk, use caution, reduce speed, or stop. Pedestrians have the right-of-way in marked or unmarked crosswalks.",
+        "vi-VN": "Khi có người băng đường, dù có vạch hay không, phải cẩn thận, giảm tốc hoặc dừng. Người đi bộ được ưu tiên ở lối băng có vạch lẫn không vạch."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 7: Right-of-Way Rules",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/"
+      }
+    },
+    {
+      "id": "ca-rules-010",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": {
+        "en-US": "At a red light, when may you turn right?",
+        "vi-VN": "Đèn đỏ, khi nào được quẹo phải?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "After a complete stop, unless a NO TURN ON RED sign is posted",
+            "vi-VN": "Sau khi dừng hẳn, trừ khi có bảng CẤM QUẸO KHI ĐÈN ĐỎ"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Never — red always means no turning",
+            "vi-VN": "Không bao giờ — đèn đỏ là cấm quẹo"
+          },
+          "whyWrong": {
+            "en-US": "Right on red is allowed after a complete stop unless a sign prohibits it.",
+            "vi-VN": "Được quẹo phải khi đèn đỏ sau khi dừng hẳn, trừ khi có bảng cấm."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Without stopping if the road looks clear",
+            "vi-VN": "Khỏi dừng nếu thấy đường trống"
+          },
+          "whyWrong": {
+            "en-US": "You must come to a complete stop first.",
+            "vi-VN": "Phải dừng xe hẳn trước đã."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only when a green arrow appears",
+            "vi-VN": "Chỉ khi có mũi tên xanh"
+          },
+          "whyWrong": {
+            "en-US": "A green arrow is not required — a stop plus a clear road is enough unless a sign forbids the turn.",
+            "vi-VN": "Không cần mũi tên xanh — dừng hẳn và đường trống là đủ, trừ khi có bảng cấm."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "You may turn right at a red light after a complete stop, unless a No Turn on Red sign is posted.",
+        "vi-VN": "Được quẹo phải khi đèn đỏ sau khi dừng xe hẳn, trừ khi có bảng cấm quẹo khi đèn đỏ."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 6: Navigating the Roads — Right Turns Against a Red Light",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads/"
+      }
+    },
+    {
+      "id": "ca-rules-011",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": {
+        "en-US": "When may you turn LEFT against a red light in California?",
+        "vi-VN": "Ở California, khi nào được quẹo TRÁI lúc đèn đỏ?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Only when turning from a one-way street onto a one-way street",
+            "vi-VN": "Chỉ khi quẹo từ đường một chiều qua đường một chiều khác"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Never, under any circumstances",
+            "vi-VN": "Không bao giờ, trong mọi trường hợp"
+          },
+          "whyWrong": {
+            "en-US": "One exception exists: one-way street onto a one-way street.",
+            "vi-VN": "Có một ngoại lệ: từ đường một chiều qua đường một chiều."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whenever traffic is clear after stopping",
+            "vi-VN": "Bất cứ khi nào đường trống sau khi dừng"
+          },
+          "whyWrong": {
+            "en-US": "Left on red is allowed only one-way onto one-way — not anywhere traffic is clear.",
+            "vi-VN": "Quẹo trái đèn đỏ chỉ được từ đường một chiều qua đường một chiều — không phải cứ trống là được."
+          }
+        },
+        {
+          "text": {
+            "en-US": "From any street onto a one-way street",
+            "vi-VN": "Từ đường nào cũng được, miễn qua đường một chiều"
+          },
+          "whyWrong": {
+            "en-US": "You must also be ON a one-way street to start with.",
+            "vi-VN": "Xe bạn cũng phải đang ở trên đường một chiều."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "You may turn left against a red light only when turning from a one-way street onto a one-way street.",
+        "vi-VN": "Chỉ được quẹo trái lúc đèn đỏ khi đi từ đường một chiều qua một đường một chiều khác."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 6: Navigating the Roads — Left Turn Against a Red Light",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads/"
+      }
+    },
+    {
+      "id": "ca-rules-012",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "Where is a U-turn ILLEGAL in California?",
+        "vi-VN": "Ở California, chỗ nào CẤM quay đầu xe (quẹo chữ U)?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "At or on a railroad crossing",
+            "vi-VN": "Tại hoặc trên đường ray xe lửa"
+          }
+        },
+        {
+          "text": {
+            "en-US": "At an intersection on a green light with no sign posted",
+            "vi-VN": "Tại ngã tư lúc đèn xanh, không có bảng cấm"
+          },
+          "whyWrong": {
+            "en-US": "That is legal — U-turns are allowed at a green light unless a NO U-TURN sign is posted.",
+            "vi-VN": "Chỗ đó được phép — quay đầu tại đèn xanh là hợp lệ trừ khi có bảng cấm."
+          }
+        },
+        {
+          "text": {
+            "en-US": "In a residential district with no vehicle within 200 feet",
+            "vi-VN": "Trong khu dân cư khi không có xe nào trong vòng 200 feet"
+          },
+          "whyWrong": {
+            "en-US": "That is one of the places U-turns ARE allowed.",
+            "vi-VN": "Đó là một chỗ ĐƯỢC quay đầu."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Across a double yellow line",
+            "vi-VN": "Băng qua hai vạch vàng liền"
+          },
+          "whyWrong": {
+            "en-US": "The handbook lists a U-turn across a double yellow line as legal.",
+            "vi-VN": "Sổ tay cho phép quay đầu băng qua hai vạch vàng liền."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "U-turns are illegal at or on a railroad crossing — also on one-way streets, in front of fire stations, and where you cannot see clearly for 200 feet in each direction.",
+        "vi-VN": "Cấm quay đầu tại hoặc trên đường ray xe lửa — cũng cấm trên đường một chiều, trước trạm cứu hỏa, và nơi không thấy rõ 200 feet về mỗi phía."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 6: Navigating the Roads — U-Turns",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads/"
+      }
+    },
+    {
+      "id": "ca-rules-013",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "When may you make a U-turn in a residential district?",
+        "vi-VN": "Trong khu dân cư, khi nào được quay đầu xe?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "When no vehicle is approaching within 200 feet",
+            "vi-VN": "Khi không có xe nào đang tới trong vòng 200 feet (khoảng 60 mét)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Any time — residential districts have no U-turn rules",
+            "vi-VN": "Lúc nào cũng được — khu dân cư không có luật quay đầu"
+          },
+          "whyWrong": {
+            "en-US": "The 200-foot clearance rule applies.",
+            "vi-VN": "Phải theo quy định 200 feet."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only at traffic lights",
+            "vi-VN": "Chỉ tại đèn giao thông"
+          },
+          "whyWrong": {
+            "en-US": "Mid-block residential U-turns are allowed with 200 feet of clearance.",
+            "vi-VN": "Được quay đầu giữa đường khu dân cư nếu trống 200 feet."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Never in a residential district",
+            "vi-VN": "Không bao giờ trong khu dân cư"
+          },
+          "whyWrong": {
+            "en-US": "They are allowed when no vehicle approaches within 200 feet.",
+            "vi-VN": "Được phép khi không có xe tới trong vòng 200 feet."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "In a residential district, you may make a U-turn if no vehicles are approaching you within 200 feet.",
+        "vi-VN": "Trong khu dân cư, được quay đầu nếu không có xe nào đang tới trong vòng 200 feet."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 6: Navigating the Roads — U-Turns",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads/"
+      }
+    },
+    {
+      "id": "ca-rules-014",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": {
+        "en-US": "May you change lanes across DOUBLE solid white lines?",
+        "vi-VN": "Có được chuyển làn băng qua HAI vạch trắng liền không?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No — never; wait for a single broken white line",
+            "vi-VN": "Không — không bao giờ; chờ tới đoạn vạch trắng đứt"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Yes, if you signal first",
+            "vi-VN": "Được, nếu bật đèn xi nhan trước"
+          },
+          "whyWrong": {
+            "en-US": "Signaling does not make it legal — double solid white lines may never be crossed to change lanes.",
+            "vi-VN": "Xi nhan không làm cho hợp lệ — hai vạch trắng liền là cấm chuyển làn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Yes, when traffic is slow",
+            "vi-VN": "Được, khi xe cộ chạy chậm"
+          },
+          "whyWrong": {
+            "en-US": "Traffic speed does not matter; the marking prohibits it.",
+            "vi-VN": "Chậm hay nhanh không quan trọng; vạch kẻ đã cấm."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Yes, double white lines only warn",
+            "vi-VN": "Được, vạch trắng đôi chỉ để nhắc nhở"
+          },
+          "whyWrong": {
+            "en-US": "They are a prohibition, not a warning.",
+            "vi-VN": "Đó là vạch cấm, không phải nhắc nhở."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Never change lanes over double solid white lines. Wait until you see a single broken white line.",
+        "vi-VN": "Không bao giờ chuyển làn băng qua hai vạch trắng liền. Chờ tới đoạn có vạch trắng đứt."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 6: Navigating the Roads — Lane Markings",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads/"
+      }
+    },
+    {
+      "id": "ca-rules-015",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "What does a RED painted curb mean?",
+        "vi-VN": "Lề đường sơn màu ĐỎ nghĩa là gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No stopping, standing, or parking",
+            "vi-VN": "Cấm dừng, cấm đứng, cấm đậu xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Passenger pick-up and drop-off only",
+            "vi-VN": "Chỉ đón, trả khách"
+          },
+          "whyWrong": {
+            "en-US": "That is the WHITE curb. Red means no stopping at all.",
+            "vi-VN": "Đó là lề TRẮNG. Lề đỏ là cấm dừng hoàn toàn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Limited-time parking",
+            "vi-VN": "Đậu xe có giới hạn thời gian"
+          },
+          "whyWrong": {
+            "en-US": "That is the GREEN curb.",
+            "vi-VN": "Đó là lề XANH LÁ."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Loading and unloading freight",
+            "vi-VN": "Bốc dỡ hàng hóa"
+          },
+          "whyWrong": {
+            "en-US": "That is the YELLOW curb.",
+            "vi-VN": "Đó là lề VÀNG."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "A red curb means no stopping, standing, or parking. White = passengers only, green = limited time, yellow = loading, blue = disabled parking.",
+        "vi-VN": "Lề đỏ: cấm dừng, đứng, đậu. Lề trắng: chỉ đón trả khách; xanh lá: đậu có giới hạn giờ; vàng: bốc dỡ hàng; xanh dương: chỗ đậu cho người khuyết tật."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 6: Navigating the Roads — Parking (colored curbs)",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads-cont1/"
+      }
+    },
+    {
+      "id": "ca-rules-016",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "You park facing DOWNHILL next to a curb. Which way do you turn your front wheels?",
+        "vi-VN": "Bạn đậu xe hướng XUỐNG dốc, sát lề. Bánh trước phải xoay hướng nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Into the curb (toward the side of the road)",
+            "vi-VN": "Hướng VÔ lề (về phía mép đường)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Away from the curb, toward the road",
+            "vi-VN": "Hướng ra ngoài đường"
+          },
+          "whyWrong": {
+            "en-US": "Away from the curb is for parking UPHILL — downhill, the curb must block the wheels if the car rolls.",
+            "vi-VN": "Hướng ra ngoài là khi đậu LÊN dốc — xuống dốc thì lề phải chặn được bánh xe nếu xe trôi."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Keep them straight",
+            "vi-VN": "Để bánh thẳng"
+          },
+          "whyWrong": {
+            "en-US": "Straight wheels let the car roll into traffic if the brake fails.",
+            "vi-VN": "Bánh thẳng thì xe trôi ra đường nếu thắng hư."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Direction does not matter with the parking brake on",
+            "vi-VN": "Hướng nào cũng được, miễn kéo thắng tay"
+          },
+          "whyWrong": {
+            "en-US": "Wheel position is required in addition to the parking brake.",
+            "vi-VN": "Ngoài thắng tay, luật vẫn bắt buộc xoay bánh đúng hướng."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Downhill: turn your front wheels into the curb. Uphill with a curb: turn them away from the curb. No curb: turn wheels toward the edge of the road.",
+        "vi-VN": "Xuống dốc: xoay bánh trước VÔ lề. Lên dốc có lề: xoay bánh RA ngoài lề. Không có lề: xoay bánh về phía mép đường."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 6: Navigating the Roads — Parking on a Hill",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads-cont1/"
+      }
+    },
+    {
+      "id": "ca-rules-017",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "When you parallel park, how close to the curb must your vehicle be — and how far must you stay from a fire hydrant?",
+        "vi-VN": "Khi đậu xe song song, xe phải cách lề bao nhiêu — và phải cách trụ nước cứu hỏa bao xa?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Within 18 inches of the curb; at least 15 feet from a hydrant",
+            "vi-VN": "Cách lề không quá 18 inch (gần nửa mét); cách trụ nước ít nhất 15 feet (khoảng 4,5 mét)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Within 3 feet of the curb; 5 feet from a hydrant",
+            "vi-VN": "Cách lề không quá 3 feet; cách trụ nước 5 feet"
+          },
+          "whyWrong": {
+            "en-US": "The limits are 18 inches and 15 feet.",
+            "vi-VN": "Quy định là 18 inch và 15 feet."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Touching the curb; 25 feet from a hydrant",
+            "vi-VN": "Sát dính lề; cách trụ nước 25 feet"
+          },
+          "whyWrong": {
+            "en-US": "Within 18 inches is required, and the hydrant rule is 15 feet.",
+            "vi-VN": "Chỉ cần trong vòng 18 inch, và quy định trụ nước là 15 feet."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Any distance, if hazard lights are on",
+            "vi-VN": "Bao xa cũng được nếu bật đèn khẩn cấp"
+          },
+          "whyWrong": {
+            "en-US": "Hazard lights do not change parking rules.",
+            "vi-VN": "Đèn khẩn cấp không thay đổi luật đậu xe."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Park within 18 inches of the curb, and never within 15 feet of a fire hydrant (or within 20 feet of a crosswalk).",
+        "vi-VN": "Đậu cách lề không quá 18 inch, và không bao giờ trong vòng 15 feet quanh trụ nước cứu hỏa (hoặc trong vòng 20 feet quanh lối băng bộ hành)."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 6: Navigating the Roads — Parking",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads-cont1/"
+      }
+    },
+    {
+      "id": "ca-rules-018",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "What blood alcohol concentration (BAC) makes it illegal for a driver who is 21 or older to drive in California?",
+        "vi-VN": "Ở California, nồng độ cồn trong máu (BAC) bao nhiêu là phạm luật với tài xế từ 21 tuổi trở lên?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "0.08% or higher (0.01% if under 21)",
+            "vi-VN": "Từ 0,08% trở lên (dưới 21 tuổi: từ 0,01%)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.10% or higher",
+            "vi-VN": "Từ 0,10% trở lên"
+          },
+          "whyWrong": {
+            "en-US": "The adult limit is 0.08%.",
+            "vi-VN": "Mức cho người lớn là 0,08%."
+          }
+        },
+        {
+          "text": {
+            "en-US": "0.05% or higher",
+            "vi-VN": "Từ 0,05% trở lên"
+          },
+          "whyWrong": {
+            "en-US": "California's adult limit is 0.08% (commercial: 0.04%).",
+            "vi-VN": "Mức cho người lớn ở California là 0,08% (xe thương mại: 0,04%)."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Any amount is illegal for all drivers",
+            "vi-VN": "Có cồn là phạm luật với mọi tài xế"
+          },
+          "whyWrong": {
+            "en-US": "Near-zero (0.01%) applies to under-21 and DUI-probation drivers, not everyone.",
+            "vi-VN": "Mức gần bằng 0 (0,01%) chỉ áp dụng cho người dưới 21 tuổi và người đang bị án treo DUI."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "It is illegal to drive with a BAC of 0.08% or higher at 21+; 0.01% under 21 or on DUI probation; 0.04% with a commercial license or ride-share passengers.",
+        "vi-VN": "Phạm luật khi BAC từ 0,08% trở lên (từ 21 tuổi); 0,01% nếu dưới 21 tuổi hoặc đang án treo DUI; 0,04% với bằng thương mại hoặc chở khách dịch vụ."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 9: Alcohol and Drugs — BAC Limits",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/alcohol-and-drugs/"
+      }
+    },
+    {
+      "id": "ca-rules-019",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "Where may you legally keep an OPEN container of alcohol in your car?",
+        "vi-VN": "Chai rượu bia ĐÃ MỞ nắp được phép để ở đâu trong xe?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "In the trunk, or an area where passengers do not sit",
+            "vi-VN": "Trong cốp xe, hoặc chỗ không có hành khách ngồi"
+          }
+        },
+        {
+          "text": {
+            "en-US": "In the glove box",
+            "vi-VN": "Trong hộc đựng đồ (glove box)"
+          },
+          "whyWrong": {
+            "en-US": "The handbook says it is specifically illegal to keep an open container in the glove box.",
+            "vi-VN": "Sổ tay ghi rõ: để chai đã mở trong hộc đựng đồ là phạm luật."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Under the driver's seat",
+            "vi-VN": "Dưới ghế tài xế"
+          },
+          "whyWrong": {
+            "en-US": "That is inside the passenger area — not allowed.",
+            "vi-VN": "Đó vẫn là khoang hành khách — không được phép."
+          }
+        },
+        {
+          "text": {
+            "en-US": "In a passenger's hands if they are 21+",
+            "vi-VN": "Trên tay hành khách nếu họ đủ 21 tuổi"
+          },
+          "whyWrong": {
+            "en-US": "Open containers are not allowed in the passenger area at all.",
+            "vi-VN": "Khoang hành khách hoàn toàn không được có chai đã mở."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "An opened alcohol container must be kept in the trunk or an area where passengers do not sit. Keeping one in the glove box is specifically illegal.",
+        "vi-VN": "Chai rượu bia đã mở phải để trong cốp xe hoặc chỗ không có hành khách ngồi. Để trong hộc đựng đồ là phạm luật."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 9: Alcohol and Drugs — Alcohol/Cannabis in a Vehicle",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/alcohol-and-drugs/"
+      }
+    },
+    {
+      "id": "ca-rules-020",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "How much following distance does the California handbook recommend behind the vehicle ahead?",
+        "vi-VN": "Sổ tay California khuyên giữ khoảng cách bao nhiêu với xe chạy phía trước?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "At least 3 seconds",
+            "vi-VN": "Ít nhất 3 giây"
+          }
+        },
+        {
+          "text": {
+            "en-US": "1 second",
+            "vi-VN": "1 giây"
+          },
+          "whyWrong": {
+            "en-US": "One second is far too close to stop safely.",
+            "vi-VN": "1 giây là quá sát, không kịp thắng an toàn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "One car length at any speed",
+            "vi-VN": "Một thân xe, ở mọi tốc độ"
+          },
+          "whyWrong": {
+            "en-US": "Car lengths do not scale with speed — the handbook teaches the three-second rule.",
+            "vi-VN": "Đếm thân xe không tăng theo tốc độ — sổ tay dạy quy tắc 3 giây."
+          }
+        },
+        {
+          "text": {
+            "en-US": "10 feet",
+            "vi-VN": "10 feet"
+          },
+          "whyWrong": {
+            "en-US": "Distance is measured in seconds, not a fixed 10 feet.",
+            "vi-VN": "Khoảng cách tính bằng giây, không phải 10 feet cố định."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Use the three-second rule: pass the same fixed object no sooner than three seconds after the vehicle ahead.",
+        "vi-VN": "Dùng quy tắc 3 giây: xe bạn đi qua cùng một điểm cố định trễ hơn xe trước ít nhất 3 giây."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "California Driver's Handbook (DL 600, rev. 6/2025), California DMV",
+        "section": "Section 8: Safe Driving — Tailgating",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/safe-driving/"
       }
     }
   ]

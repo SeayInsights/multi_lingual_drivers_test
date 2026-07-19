@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "states": [
     {
       "code": "oh",
@@ -15,7 +15,7 @@
         "en-US": "California",
         "vi-VN": "California"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "tx",
