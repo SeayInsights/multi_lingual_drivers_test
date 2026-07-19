@@ -8,7 +8,7 @@
 import { withStore, getAllFrom } from "./db.js";
 
 const LS_PREFIX = "mldt.settings.";
-const BOOT_KEYS = new Set(["theme", "textSize", "languageMode"]);
+const BOOT_KEYS = new Set(["theme", "textSize", "languageMode", "language"]);
 
 const cache = new Map();
 const emitter = new EventTarget();

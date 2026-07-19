@@ -15,7 +15,19 @@ export const SETTINGS_KEYS = {
   langMode: "mldt.settings.languageMode", // 'both' | 'vi' | 'en'
   textSize: "mldt.settings.textSize",     // '1' | '2' | '3'
   theme: "mldt.settings.theme",           // 'auto' | 'dark' | 'light'
+  language: "mldt.settings.language",     // primary display language tag, e.g. 'vi-VN'
 };
+
+const DEFAULT_PRIMARY = "vi-VN";
+
+/**
+ * The chosen primary (non-English) display language. Read synchronously from
+ * localStorage so boot can load the right locale before IndexedDB opens.
+ * Adding a language never changes this file — it is just another locale tag.
+ */
+export function getPrimaryLang() {
+  return localStorage.getItem(SETTINGS_KEYS.language) ?? DEFAULT_PRIMARY;
+}
 
 export async function loadLocale(tag) {
   if (locales.has(tag)) return locales.get(tag);
@@ -26,9 +38,18 @@ export async function loadLocale(tag) {
   return data;
 }
 
-export async function initI18n({ primary = "vi-VN", fallback = FALLBACK } = {}) {
-  primaryTag = primary;
-  await Promise.all([loadLocale(primary), loadLocale(fallback)]);
+export async function initI18n({ primary, fallback = FALLBACK } = {}) {
+  primaryTag = primary ?? getPrimaryLang();
+  // If the chosen primary IS the fallback (English), there is no separate
+  // primary to load; the app runs in English via the fallback locale.
+  const toLoad = primaryTag === fallback ? [fallback] : [primaryTag, fallback];
+  const results = await Promise.allSettled(toLoad.map(loadLocale));
+  // A missing/broken chosen locale must never brick the app — fall back to
+  // the default primary, then to English.
+  if (primaryTag !== fallback && results[0].status === "rejected") {
+    primaryTag = DEFAULT_PRIMARY;
+    try { await loadLocale(DEFAULT_PRIMARY); } catch { primaryTag = fallback; }
+  }
   applyLangMode(getLangMode());
 }
 

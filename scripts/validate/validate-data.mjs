@@ -45,7 +45,7 @@ const loadJson = (p) => {
 const ajv = new Ajv2020({ allErrors: true, strict: true });
 addFormats(ajv);
 const schemas = {};
-for (const name of ["state", "questions", "locale", "states-index"]) {
+for (const name of ["state", "questions", "locale", "states-index", "locales-index"]) {
   const s = loadJson(join(ROOT, "data", "schemas", `${name}.schema.json`));
   if (s) schemas[name] = ajv.compile(s);
 }
@@ -184,10 +184,10 @@ const checkPool = (file, declared) => {
 checkPool("national-signs.json", "nationalSigns");
 checkPool("national-rules.json", "nationalRules");
 
-// ---- 5+6: locales ----
+// ---- 5+6: locales (index.json is the language registry, not a locale file) ----
 const localesDir = join(ROOT, "locales");
 const localeFiles = existsSync(localesDir)
-  ? readdirSync(localesDir).filter((f) => f.endsWith(".json"))
+  ? readdirSync(localesDir).filter((f) => f.endsWith(".json") && f !== "index.json")
   : [];
 if (localeFiles.length === 0) fail("locales/: no locale files found");
 
@@ -209,6 +209,29 @@ for (let i = 1; i < files.length; i++) {
   for (const k of keySets[b]) if (!keySets[a].has(k)) fail(`locales/${a}: missing key '${k}' (present in ${b})`);
 }
 if (files.length > 1 && errors.length === 0) ok(`locale key parity across ${files.length} files`);
+
+// languages registry <-> locale-file consistency (mirrors the states registry)
+const langRegFile = join(localesDir, "index.json");
+if (existsSync(langRegFile)) {
+  const reg = loadJson(langRegFile);
+  if (validate("locales-index", "locales/index.json", reg)) {
+    const tagSet = new Set(reg.languages.map((l) => l.tag));
+    for (const l of reg.languages) {
+      if (l.tag === reg.fallback) continue;
+      if (!existsSync(join(localesDir, `${l.tag}.json`))) {
+        fail(`locales/index.json: language '${l.tag}' has no locale file locales/${l.tag}.json`);
+      }
+    }
+    for (const f of localeFiles) {
+      const tag = f.replace(/\.json$/, "");
+      if (!tagSet.has(tag)) fail(`locales/${f} exists but tag '${tag}' is not in locales/index.json`);
+    }
+    if (!tagSet.has(reg.fallback)) fail(`locales/index.json: fallback '${reg.fallback}' not listed in languages`);
+    ok(`locales/index.json (${reg.languages.length} languages)`);
+  }
+} else {
+  fail("locales/index.json missing — language registry required");
+}
 
 // ---- 7: service worker version guard (stale-release protection) ----
 import { spawnSync } from "node:child_process";

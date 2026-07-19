@@ -14,6 +14,7 @@ import { reviewView, fillReviewBadges } from "../pages/review/review.js";
 import { signsView } from "../pages/signs/signs.js";
 import { progressView } from "../pages/progress/progress.js";
 import { stateView, fillStateLabels } from "../pages/state/state.js";
+import { languageView, fillLanguageLabels } from "../pages/language/language.js";
 
 const TABS = [
   { path: "/home", key: "tab.home", ico: "🏠" },
@@ -50,6 +51,7 @@ function homeView() {
   queueMicrotask(fillDueBadges);
   queueMicrotask(fillReviewBadges);
   queueMicrotask(fillStateLabels);
+  queueMicrotask(fillLanguageLabels);
   return `
   <section class="card card-green">
     <h2>${bilingual("home.welcome")}</h2>
@@ -70,6 +72,13 @@ function homeView() {
       <a class="btn btn-secondary" href="#/state"
         style="width:auto;min-height:44px;padding:8px 14px;text-decoration:none;display:inline-flex;gap:8px">
         <span data-state-name>Ohio</span><span aria-hidden="true">›</span>
+      </a>
+    </div>
+    <div class="setting-row">
+      <span>${bilingual("language.setting")}</span>
+      <a class="btn btn-secondary" href="#/language"
+        style="width:auto;min-height:44px;padding:8px 14px;text-decoration:none;display:inline-flex;gap:8px">
+        <span data-lang-name>Tiếng Việt</span><span aria-hidden="true">›</span>
       </a>
     </div>
     <div class="setting-row">
@@ -114,7 +123,7 @@ const placeholder = (titleKey) => () =>
 async function boot() {
   applyTextSize(getTextSize());
   applyTheme(getTheme());
-  await initI18n({ primary: "vi-VN" });
+  await initI18n(); // primary language comes from the 'language' setting (default vi-VN)
 
   // Storage layer: load persisted settings, then one-time import of the
   // legacy Ohio quiz best score (localStorage 'ohioBest') into the new store.
@@ -136,6 +145,7 @@ async function boot() {
 
   register("/home", homeView);
   register("/state", stateView);
+  register("/language", languageView);
   register("/study", studyView);
   register("/signs", signsView);
   register("/test", testView);

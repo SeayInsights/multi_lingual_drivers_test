@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://seayinsights.github.io/multi_lingual_drivers_test/data/schemas/locales-index.schema.json",
+  "title": "Languages registry",
+  "description": "The single list of display languages the app knows about. The language picker shows 'available' languages other than the English fallback; adding a language means adding one locale file (all keys, key-parity enforced) and one entry here — app code never changes.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "fallback", "languages"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "fallback": {
+      "description": "The universal secondary/fallback language tag (English).",
+      "type": "string",
+      "pattern": "^[a-z]{2,3}-[A-Z]{2}$"
+    },
+    "languages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["tag", "endonym", "englishName", "status"],
+        "properties": {
+          "tag": { "type": "string", "pattern": "^[a-z]{2,3}-[A-Z]{2}$" },
+          "endonym": {
+            "description": "The language's own name in that language (e.g. 'Tiếng Việt').",
+            "type": "string",
+            "minLength": 1
+          },
+          "englishName": { "type": "string", "minLength": 1 },
+          "status": { "enum": ["available", "draft"] }
+        }
+      }
+    }
+  }
+}
