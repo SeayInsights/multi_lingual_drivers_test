@@ -59,6 +59,66 @@ export function totals(events) {
   };
 }
 
+/** Per-day activity for the last `days` days (oldest→newest), each
+ * {day (epoch-day int), ts (day start ms), answered, correct}. */
+export function dailyActivity(events, { days = 30, now = Date.now() } = {}) {
+  const today = Math.floor(now / DAY);
+  const from = today - days + 1;
+  const byDay = new Map();
+  for (const e of events) {
+    const d = Math.floor(e.ts / DAY);
+    if (d < from) continue;
+    let b = byDay.get(d);
+    if (!b) byDay.set(d, (b = { answered: 0, correct: 0 }));
+    b.answered++;
+    if (e.correct) b.correct++;
+  }
+  const out = [];
+  for (let d = from; d <= today; d++) {
+    const b = byDay.get(d) ?? { answered: 0, correct: 0 };
+    out.push({ day: d, ts: d * DAY, answered: b.answered, correct: b.correct });
+  }
+  return out;
+}
+
+/** Rolling accuracy over chronological buckets of `size` answers (oldest→newest). */
+export function accuracyTrend(events, { size = 20 } = {}) {
+  const out = [];
+  for (let i = 0; i < events.length; i += size) {
+    const chunk = events.slice(i, i + size);
+    const correct = chunk.filter((e) => e.correct).length;
+    out.push({ from: i, count: chunk.length, correct, pct: Math.round((100 * correct) / chunk.length) });
+  }
+  return out;
+}
+
+/** All-time accuracy per category, worst-first, for categories with >= minSample answers. */
+export function allTimeWeakAreas(events, bank, { minSample = 5 } = {}) {
+  const catOf = new Map(bank.questions.map((q) => [q.id, q.category]));
+  const byCat = new Map();
+  for (const e of events) {
+    const cat = catOf.get(e.questionId);
+    if (!cat) continue;
+    let b = byCat.get(cat);
+    if (!b) byCat.set(cat, (b = { category: cat, correct: 0, total: 0 }));
+    b.total++;
+    if (e.correct) b.correct++;
+  }
+  return [...byCat.values()]
+    .filter((b) => b.total >= minSample)
+    .map((b) => ({ ...b, pct: Math.round((100 * b.correct) / b.total) }))
+    .sort((a, b) => a.pct - b.pct);
+}
+
+/** Summary of the saved practice-test history array. */
+export function testHistorySummary(history = []) {
+  const taken = history.length;
+  const passed = history.filter((h) => h.passed).length;
+  const best = history.reduce((m, h) => Math.max(m, h.totalCorrect ?? 0), 0);
+  const lastTs = taken ? history[history.length - 1].ts ?? null : null;
+  return { taken, passed, failed: taken - passed, best, lastTs };
+}
+
 /**
  * Readiness verdict against the state file's per-section thresholds.
  * 'ready' needs every section at/above its passing ratio with at least

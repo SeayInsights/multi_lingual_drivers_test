@@ -15,6 +15,7 @@ import { signsView } from "../pages/signs/signs.js";
 import { progressView } from "../pages/progress/progress.js";
 import { stateView, fillStateLabels } from "../pages/state/state.js";
 import { languageView, fillLanguageLabels } from "../pages/language/language.js";
+import { historyView } from "../pages/history/history.js";
 
 const TABS = [
   { path: "/home", key: "tab.home", ico: "🏠" },
@@ -61,9 +62,12 @@ function homeView() {
     <span>🃏 ${bilingual("flash.entry")}</span>
     <span class="flash-due-badge" style="font-weight:600;font-size:.85em;color:var(--muted)"></span>
   </a>
-  <a class="btn btn-secondary" href="#/review" style="margin-bottom:14px;text-decoration:none;justify-content:space-between">
+  <a class="btn btn-secondary" href="#/review" style="margin-bottom:10px;text-decoration:none;justify-content:space-between">
     <span>🔁 ${bilingual("review.entry")}</span>
     <span class="review-missed-badge" style="font-weight:600;font-size:.85em;color:var(--orange)"></span>
+  </a>
+  <a class="btn btn-secondary" href="#/history" style="margin-bottom:14px;text-decoration:none">
+    <span>📈 ${bilingual("history.entry")}</span>
   </a>
   <section class="card">
     <h2>${bilingual("settings.title")}</h2>
@@ -143,6 +147,7 @@ async function boot() {
   register("/test", testView);
   register("/flashcards", flashcardsView);
   register("/review", reviewView);
+  register("/history", historyView);
   register("/progress", progressView);
   setNotFound(() => `<section class="card"><h2>404</h2><p><a href="#/home">${t("action.back")}</a></p></section>`);
 
