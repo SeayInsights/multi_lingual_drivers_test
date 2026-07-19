@@ -42,13 +42,11 @@ const base = existsSync(baseFile)
 const questions = [...base.questions];
 const seen = new Set(questions.map((q) => q.id));
 
-// National MUTCD signs pool — shared across states, ids stamped per state.
+// National pools — shared across states, ids stamped per state (us-* -> <code>-*).
 let poolVersion = 0;
-if (state.content?.nationalSigns === true) {
-  const pool = JSON.parse(
-    readFileSync(join(ROOT, "data", "questions", "national-signs.json"), "utf-8")
-  );
-  poolVersion = pool.version;
+const stampPool = (file) => {
+  const pool = JSON.parse(readFileSync(join(ROOT, "data", "questions", file), "utf-8"));
+  poolVersion += pool.version;
   for (const q of pool.questions) {
     const stamped = structuredClone(q);
     stamped.id = q.id.replace(/^us-/, `${code}-`);
@@ -59,7 +57,9 @@ if (state.content?.nationalSigns === true) {
     seen.add(stamped.id);
     questions.push(stamped);
   }
-}
+};
+if (state.content?.nationalSigns === true) stampPool("national-signs.json");
+if (state.content?.nationalRules === true) stampPool("national-rules.json");
 
 const authoringDir = join(dir, "authoring");
 const batchFiles = existsSync(authoringDir)

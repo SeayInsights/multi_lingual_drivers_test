@@ -87,6 +87,10 @@
         "nationalSigns": {
           "description": "true: build-questions.mjs stamps the national MUTCD signs pool (data/questions/national-signs.json) into this state's bank with ids rewritten us-signs-NNN -> <code>-signs-NNN. The state's authoring batches then only need to cover state-specific content.",
           "type": "boolean"
+        },
+        "nationalRules": {
+          "description": "true: build-questions.mjs stamps the national rules pool (data/questions/national-rules.json — universally-true US driving rules with no state-varying numbers) into this state's bank with ids rewritten us-rules-NNN -> <code>-rules-NNN. The state's authoring batches then only need to cover state-SPECIFIC numbers (speed limits, permit age, move-over mph, minor-BAC, penalties); those batches use ids <code>-rules-101+ to avoid collision with the stamped pool.",
+          "type": "boolean"
         }
       }
     },

@@ -47,7 +47,8 @@
     }
   },
   "content": {
-    "nationalSigns": true
+    "nationalSigns": true,
+    "nationalRules": true
   },
   "sources": [
     {

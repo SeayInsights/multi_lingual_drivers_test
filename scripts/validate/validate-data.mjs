@@ -165,22 +165,24 @@ for (const code of stateDirs) {
   }
 }
 
-// ---- 4: national MUTCD signs pool ----
-const poolFile = join(ROOT, "data", "questions", "national-signs.json");
-if (existsSync(poolFile)) {
-  const pool = loadJson(poolFile);
-  if (validate("questions", "data/questions/national-signs.json", pool)) {
-    checkQuestions("data/questions/national-signs.json", pool, { idPrefix: "us-" });
-    const leaks = pool.questions.filter((q) => /ohio|bmv|tipic|digest/i.test(JSON.stringify(q)));
-    for (const q of leaks) {
-      fail(`data/questions/national-signs.json (${q.id}): state-specific reference in national pool`);
+// ---- 4: national pools (shared, stamped per state) ----
+const checkPool = (file, declared) => {
+  const poolFile = join(ROOT, "data", "questions", file);
+  if (existsSync(poolFile)) {
+    const pool = loadJson(poolFile);
+    if (validate("questions", `data/questions/${file}`, pool)) {
+      checkQuestions(`data/questions/${file}`, pool, { idPrefix: "us-" });
+      // No Ohio-specific content may leak into a national pool.
+      const leaks = pool.questions.filter((q) => /\bohio\b|\bbmv\b|tipic|digest/i.test(JSON.stringify(q)));
+      for (const q of leaks) fail(`data/questions/${file} (${q.id}): Ohio-specific reference in national pool`);
+      ok(`data/questions/${file} (${pool.questions.length} questions)`);
     }
-    ok(`data/questions/national-signs.json (${pool.questions.length} questions)`);
+  } else if (Object.values(stateConfigs).some((s) => s.content?.[declared] === true)) {
+    fail(`data/questions/${file} missing but a state declares content.${declared}`);
   }
-} else {
-  const needsPool = Object.values(stateConfigs).some((s) => s.content?.nationalSigns === true);
-  if (needsPool) fail("data/questions/national-signs.json missing but a state declares content.nationalSigns");
-}
+};
+checkPool("national-signs.json", "nationalSigns");
+checkPool("national-rules.json", "nationalRules");
 
 // ---- 5+6: locales ----
 const localesDir = join(ROOT, "locales");

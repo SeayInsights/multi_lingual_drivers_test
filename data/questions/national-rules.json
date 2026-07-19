@@ -1,0 +1,582 @@
+{
+  "stateCode": "us",
+  "version": 1,
+  "questions": [
+    {
+      "id": "us-rules-001",
+      "section": "rules",
+      "category": "rightofway",
+      "text": { "en-US": "Two vehicles reach an intersection with no signs or signals at the same time. Who yields?", "vi-VN": "Hai xe tới ngã tư không có bảng hay đèn cùng một lúc. Xe nào phải nhường?" },
+      "choices": [
+        { "text": { "en-US": "The driver on the left yields to the driver on the right", "vi-VN": "Xe bên trái nhường cho xe bên phải" } },
+        { "text": { "en-US": "The driver on the right yields to the driver on the left", "vi-VN": "Xe bên phải nhường cho xe bên trái" }, "whyWrong": { "en-US": "It is the opposite — yield to the vehicle on your right.", "vi-VN": "Ngược lại — phải nhường xe bên phải mình." } },
+        { "text": { "en-US": "The faster vehicle goes first", "vi-VN": "Xe nhanh hơn đi trước" }, "whyWrong": { "en-US": "Speed never decides right-of-way.", "vi-VN": "Tốc độ không quyết định quyền ưu tiên." } },
+        { "text": { "en-US": "The larger vehicle goes first", "vi-VN": "Xe lớn hơn đi trước" }, "whyWrong": { "en-US": "Vehicle size never decides right-of-way.", "vi-VN": "Xe lớn nhỏ không quyết định quyền ưu tiên." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "At an uncontrolled intersection, when two vehicles arrive together, the driver on the left yields to the driver on the right.", "vi-VN": "Tại ngã tư không có tín hiệu, khi hai xe tới cùng lúc, xe bên trái nhường xe bên phải." },
+      "difficulty": 1,
+      "source": { "title": "Right-of-way rule uniform across US state driver handbooks (CA, TX, WA, FL, GA, CT, OH)", "section": "Right-of-Way" }
+    },
+    {
+      "id": "us-rules-002",
+      "section": "rules",
+      "category": "rightofway",
+      "text": { "en-US": "You are turning left at an intersection. When must you yield?", "vi-VN": "Bạn quẹo trái tại ngã tư. Khi nào phải nhường?" },
+      "choices": [
+        { "text": { "en-US": "To oncoming traffic and pedestrians close enough to be dangerous", "vi-VN": "Cho xe ngược chiều và người đi bộ tới gần đủ để gây nguy hiểm" } },
+        { "text": { "en-US": "Never — left turns have priority", "vi-VN": "Không cần — xe quẹo trái được ưu tiên" }, "whyWrong": { "en-US": "A left-turning driver must yield to oncoming traffic and pedestrians.", "vi-VN": "Xe quẹo trái phải nhường xe ngược chiều và người đi bộ." } },
+        { "text": { "en-US": "Only to trucks", "vi-VN": "Chỉ nhường xe tải" }, "whyWrong": { "en-US": "You yield to all oncoming vehicles and pedestrians, not just trucks.", "vi-VN": "Phải nhường mọi xe ngược chiều và người đi bộ, không riêng xe tải." } },
+        { "text": { "en-US": "Only when a sign tells you to", "vi-VN": "Chỉ khi có bảng bắt nhường" }, "whyWrong": { "en-US": "The duty applies with or without a sign.", "vi-VN": "Phải nhường dù có bảng hay không." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "When turning left, yield to oncoming vehicles and to pedestrians that are close enough to be dangerous.", "vi-VN": "Khi quẹo trái, nhường xe ngược chiều và người đi bộ đang tới gần đủ để gây nguy hiểm." },
+      "difficulty": 1,
+      "source": { "title": "Left-turn yield rule uniform across US state driver handbooks", "section": "Right-of-Way" }
+    },
+    {
+      "id": "us-rules-003",
+      "section": "rules",
+      "category": "rightofway",
+      "text": { "en-US": "A pedestrian is crossing at a corner with no marked crosswalk. What must you do?", "vi-VN": "Người đi bộ băng qua ở góc đường không có vạch kẻ. Bạn phải làm gì?" },
+      "choices": [
+        { "text": { "en-US": "Yield — pedestrians have the right-of-way in marked and unmarked crosswalks", "vi-VN": "Nhường — người đi bộ được ưu tiên ở lối băng có vạch lẫn không vạch" } },
+        { "text": { "en-US": "Continue; no paint means no crosswalk", "vi-VN": "Cứ chạy; không vạch là không có lối băng" }, "whyWrong": { "en-US": "Every intersection has crosswalks whether painted or not.", "vi-VN": "Mọi ngã tư đều có lối băng dù có vạch hay không." } },
+        { "text": { "en-US": "Honk and keep going", "vi-VN": "Bấm kèn rồi chạy tiếp" }, "whyWrong": { "en-US": "You must yield, not warn them out of the way.", "vi-VN": "Phải nhường, không phải hối người ta tránh." } },
+        { "text": { "en-US": "Speed past behind them", "vi-VN": "Chạy lẹ qua phía sau họ" }, "whyWrong": { "en-US": "Wait until the pedestrian is safely across.", "vi-VN": "Chờ người đi bộ qua an toàn." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Pedestrians have the right-of-way in both marked and unmarked crosswalks; slow down or stop and let them cross safely.", "vi-VN": "Người đi bộ được ưu tiên ở cả lối băng có vạch lẫn không vạch; giảm tốc hoặc dừng cho họ qua an toàn." },
+      "difficulty": 1,
+      "source": { "title": "Pedestrian right-of-way rule uniform across US state driver handbooks", "section": "Right-of-Way" }
+    },
+    {
+      "id": "us-rules-004",
+      "section": "rules",
+      "category": "rightofway",
+      "text": { "en-US": "You are entering a road from a private driveway. Who has the right-of-way?", "vi-VN": "Bạn từ đường nhà chạy ra đường. Ai được ưu tiên?" },
+      "choices": [
+        { "text": { "en-US": "Traffic and pedestrians already on the road — you yield", "vi-VN": "Xe và người đi bộ đã trên đường — bạn phải nhường" } },
+        { "text": { "en-US": "You, because you are entering", "vi-VN": "Bạn, vì bạn đang nhập vào" }, "whyWrong": { "en-US": "Drivers entering from a driveway yield to everyone already on the road.", "vi-VN": "Xe từ đường nhà ra phải nhường mọi người đã trên đường." } },
+        { "text": { "en-US": "Whoever honks first", "vi-VN": "Ai bấm kèn trước" }, "whyWrong": { "en-US": "Honking does not grant right-of-way.", "vi-VN": "Bấm kèn không tạo quyền ưu tiên." } },
+        { "text": { "en-US": "Nobody — merge quickly", "vi-VN": "Không ai — nhập lẹ" }, "whyWrong": { "en-US": "You must yield first.", "vi-VN": "Phải nhường trước." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Drivers entering a road from a driveway, alley, or roadside must yield to vehicles, bicyclists, and pedestrians already there.", "vi-VN": "Xe từ đường nhà, hẻm hoặc lề ra phải nhường xe, người đạp xe và người đi bộ đã ở đó." },
+      "difficulty": 1,
+      "source": { "title": "Driveway right-of-way rule uniform across US state driver handbooks", "section": "Right-of-Way" }
+    },
+    {
+      "id": "us-rules-005",
+      "section": "rules",
+      "category": "rightofway",
+      "text": { "en-US": "An emergency vehicle approaches with siren and flashing lights. What must you do?", "vi-VN": "Xe khẩn cấp chạy tới, còi hụ và đèn chớp. Bạn phải làm gì?" },
+      "choices": [
+        { "text": { "en-US": "Pull to the right edge of the road and stop until it passes", "vi-VN": "Tấp vào lề phải và dừng cho tới khi xe qua" } },
+        { "text": { "en-US": "Stop immediately in your lane, even in an intersection", "vi-VN": "Dừng ngay tại làn, kể cả giữa ngã tư" }, "whyWrong": { "en-US": "Clear the intersection first, then pull right and stop.", "vi-VN": "Qua khỏi ngã tư trước, rồi tấp phải và dừng." } },
+        { "text": { "en-US": "Speed up to clear the road", "vi-VN": "Tăng tốc cho khuất" }, "whyWrong": { "en-US": "Pull right and stop; do not speed up.", "vi-VN": "Tấp phải và dừng; không tăng tốc." } },
+        { "text": { "en-US": "Keep your speed and lane", "vi-VN": "Giữ tốc độ và làn" }, "whyWrong": { "en-US": "You must yield and stop.", "vi-VN": "Phải nhường và dừng." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Yield to emergency vehicles using a siren and lights: pull to the right edge and stop. If you are in an intersection, drive through it first, then pull over.", "vi-VN": "Nhường xe khẩn cấp đang hụ còi và chớp đèn: tấp vào lề phải và dừng. Nếu đang ở giữa ngã tư, qua khỏi rồi mới tấp." },
+      "difficulty": 1,
+      "source": { "title": "Emergency-vehicle rule uniform across US state driver handbooks (WA, GA, TX, CT)", "section": "Right-of-Way" }
+    },
+    {
+      "id": "us-rules-006",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": { "en-US": "A school bus ahead stops with red lights flashing and its stop arm out. What must you do?", "vi-VN": "Xe buýt trường phía trước dừng, chớp đèn đỏ và mở cần STOP. Bạn phải làm gì?" },
+      "choices": [
+        { "text": { "en-US": "Stop and do not pass while it loads or unloads children", "vi-VN": "Dừng lại, không vượt trong lúc xe đón hoặc trả học sinh" } },
+        { "text": { "en-US": "Pass slowly and carefully", "vi-VN": "Vượt chầm chậm, cẩn thận" }, "whyWrong": { "en-US": "Passing a stopped school bus with red lights flashing is illegal.", "vi-VN": "Vượt xe buýt trường đang chớp đèn đỏ là phạm luật." } },
+        { "text": { "en-US": "Honk so children hurry", "vi-VN": "Bấm kèn cho trẻ đi lẹ" }, "whyWrong": { "en-US": "Stop quietly; never rush children with the horn.", "vi-VN": "Dừng yên lặng; không hối trẻ bằng kèn." } },
+        { "text": { "en-US": "Continue if you do not see children", "vi-VN": "Cứ chạy nếu không thấy trẻ em" }, "whyWrong": { "en-US": "Flashing red lights require a stop regardless.", "vi-VN": "Đèn đỏ chớp là phải dừng, bất kể có thấy trẻ hay không." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "When a school bus displays flashing red lights and an extended stop arm, you must stop and may not pass until the lights stop and the arm folds. (On a divided highway, oncoming traffic separated by a median may be exempt — follow your state's rule.)", "vi-VN": "Khi xe buýt trường chớp đèn đỏ và mở cần STOP, phải dừng và không vượt cho tới khi đèn tắt và cần gạt về. (Trên đường có dải phân cách, xe ngược chiều có thể được miễn — theo luật tiểu bang của bạn.)" },
+      "difficulty": 1,
+      "source": { "title": "Stopped-school-bus rule uniform across US state driver handbooks", "section": "School Buses" }
+    },
+    {
+      "id": "us-rules-007",
+      "section": "rules",
+      "category": "rightofway",
+      "text": { "en-US": "You are entering a roundabout. Who has the right-of-way?", "vi-VN": "Bạn đang vào vòng xoay. Ai được ưu tiên?" },
+      "choices": [
+        { "text": { "en-US": "Traffic already circulating in the roundabout", "vi-VN": "Xe đang chạy trong vòng xoay" } },
+        { "text": { "en-US": "Entering traffic goes first", "vi-VN": "Xe đang vào đi trước" }, "whyWrong": { "en-US": "Entering traffic yields to circulating traffic.", "vi-VN": "Xe vào phải nhường xe đang chạy trong vòng." } },
+        { "text": { "en-US": "The larger vehicle", "vi-VN": "Xe lớn hơn" }, "whyWrong": { "en-US": "Size does not matter; yield to circulating traffic.", "vi-VN": "Xe lớn nhỏ không quan trọng; nhường xe trong vòng." } },
+        { "text": { "en-US": "Whoever enters fastest", "vi-VN": "Ai vào nhanh nhất" }, "whyWrong": { "en-US": "Yield, then enter on a safe gap.", "vi-VN": "Nhường, rồi vào khi có khoảng trống an toàn." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "At a roundabout, traffic moves counter-clockwise and vehicles entering must yield to traffic already circulating. Do not stop or change lanes inside.", "vi-VN": "Ở vòng xoay, xe chạy ngược chiều kim đồng hồ và xe vào phải nhường xe đang chạy trong vòng. Không dừng hay đổi làn bên trong." },
+      "difficulty": 1,
+      "source": { "title": "Roundabout rule uniform across US state driver handbooks (FL, CT)", "section": "Roundabouts" }
+    },
+    {
+      "id": "us-rules-008",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": { "en-US": "What does a steady RED traffic light mean?", "vi-VN": "Đèn giao thông ĐỎ đứng yên nghĩa là gì?" },
+      "choices": [
+        { "text": { "en-US": "Stop and wait behind the line until the light turns green", "vi-VN": "Dừng và chờ sau vạch cho tới khi đèn xanh" } },
+        { "text": { "en-US": "Slow down and proceed if clear", "vi-VN": "Giảm tốc rồi đi nếu trống" }, "whyWrong": { "en-US": "That is a yield/flashing-yellow rule; steady red means stop.", "vi-VN": "Đó là luật nhường/chớp vàng; đèn đỏ đứng yên là phải dừng." } },
+        { "text": { "en-US": "Go if no police are watching", "vi-VN": "Đi nếu không có cảnh sát" }, "whyWrong": { "en-US": "Red means stop, always.", "vi-VN": "Đèn đỏ là phải dừng, luôn luôn." } },
+        { "text": { "en-US": "Speed up to beat the light", "vi-VN": "Tăng tốc vượt đèn" }, "whyWrong": { "en-US": "You must come to a full stop.", "vi-VN": "Phải dừng hẳn." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "A steady red light means come to a complete stop behind the line or crosswalk and wait until it turns green and the way is clear.", "vi-VN": "Đèn đỏ đứng yên nghĩa là dừng hẳn sau vạch hoặc lối băng và chờ tới khi đèn xanh và đường thông thoáng." },
+      "difficulty": 1,
+      "source": { "title": "MUTCD traffic-signal meaning, uniform across US", "section": "Traffic Signals" }
+    },
+    {
+      "id": "us-rules-009",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": { "en-US": "At a red light, when may you generally turn right?", "vi-VN": "Đèn đỏ, thông thường khi nào được quẹo phải?" },
+      "choices": [
+        { "text": { "en-US": "After a complete stop, unless a NO TURN ON RED sign is posted", "vi-VN": "Sau khi dừng hẳn, trừ khi có bảng CẤM QUẸO KHI ĐÈN ĐỎ" } },
+        { "text": { "en-US": "Never at a red light", "vi-VN": "Không bao giờ khi đèn đỏ" }, "whyWrong": { "en-US": "Right on red after a full stop is allowed unless a sign forbids it.", "vi-VN": "Được quẹo phải sau khi dừng hẳn trừ khi có bảng cấm." } },
+        { "text": { "en-US": "Without stopping if the road looks clear", "vi-VN": "Khỏi dừng nếu thấy đường trống" }, "whyWrong": { "en-US": "A complete stop always comes first.", "vi-VN": "Phải dừng hẳn trước." } },
+        { "text": { "en-US": "Only with a green arrow", "vi-VN": "Chỉ khi có mũi tên xanh" }, "whyWrong": { "en-US": "A green arrow is not required for right-on-red.", "vi-VN": "Không cần mũi tên xanh để quẹo phải đèn đỏ." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "In most places you may turn right on red after a complete stop and yielding, unless a NO TURN ON RED sign is posted. Some cities restrict it — obey posted signs.", "vi-VN": "Ở đa số nơi được quẹo phải khi đèn đỏ sau khi dừng hẳn và nhường đường, trừ khi có bảng cấm. Một số thành phố hạn chế — hãy theo bảng hiệu." },
+      "difficulty": 1,
+      "source": { "title": "Right-on-red rule uniform across US state driver handbooks (CA, WA, CT)", "section": "Traffic Signals" }
+    },
+    {
+      "id": "us-rules-010",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": { "en-US": "What does a solid yellow line on your side of the center of a two-way road mean?", "vi-VN": "Vạch vàng liền ở phía bên bạn của đường hai chiều nghĩa là gì?" },
+      "choices": [
+        { "text": { "en-US": "Do not cross it to pass", "vi-VN": "Không được băng qua để vượt" } },
+        { "text": { "en-US": "Passing is allowed anytime", "vi-VN": "Được vượt bất cứ lúc nào" }, "whyWrong": { "en-US": "A solid yellow line on your side means no passing.", "vi-VN": "Vạch vàng liền bên bạn nghĩa là cấm vượt." } },
+        { "text": { "en-US": "The road is one-way", "vi-VN": "Đường một chiều" }, "whyWrong": { "en-US": "Yellow lines separate opposing traffic on two-way roads.", "vi-VN": "Vạch vàng ngăn hai chiều xe ngược nhau." } },
+        { "text": { "en-US": "You may park there", "vi-VN": "Được đậu ở đó" }, "whyWrong": { "en-US": "It is a no-passing marking, not a parking rule.", "vi-VN": "Là vạch cấm vượt, không phải luật đậu xe." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "A solid yellow line on your side of the road means passing is not allowed. A broken yellow line means you may pass when it is safe.", "vi-VN": "Vạch vàng liền bên phía bạn nghĩa là cấm vượt. Vạch vàng đứt nghĩa là được vượt khi an toàn." },
+      "difficulty": 1,
+      "source": { "title": "MUTCD pavement-marking meaning, uniform across US", "section": "Pavement Markings" }
+    },
+    {
+      "id": "us-rules-011",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": { "en-US": "A flashing RED traffic signal means:", "vi-VN": "Đèn giao thông chớp ĐỎ nghĩa là:" },
+      "choices": [
+        { "text": { "en-US": "Treat it like a stop sign — full stop, then go when safe", "vi-VN": "Coi như bảng STOP — dừng hẳn, rồi đi khi an toàn" } },
+        { "text": { "en-US": "Slow down but do not stop", "vi-VN": "Giảm tốc nhưng không dừng" }, "whyWrong": { "en-US": "That is a flashing-yellow rule; flashing red requires a full stop.", "vi-VN": "Đó là luật chớp vàng; chớp đỏ phải dừng hẳn." } },
+        { "text": { "en-US": "The signal is broken; ignore it", "vi-VN": "Đèn hư, khỏi để ý" }, "whyWrong": { "en-US": "A flashing red works as a stop sign — it is not broken.", "vi-VN": "Chớp đỏ có giá trị như bảng STOP — không phải hư." } },
+        { "text": { "en-US": "Stop and wait for green", "vi-VN": "Dừng chờ đèn xanh" }, "whyWrong": { "en-US": "It keeps flashing; go after stopping when it is your turn.", "vi-VN": "Đèn chớp hoài; sau khi dừng, tới lượt thì đi." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "A flashing red signal works exactly like a stop sign: stop completely, then proceed when it is safe.", "vi-VN": "Đèn chớp đỏ có giá trị y như bảng STOP: dừng hẳn, rồi đi khi an toàn." },
+      "difficulty": 1,
+      "source": { "title": "MUTCD flashing-signal meaning, uniform across US", "section": "Traffic Signals" }
+    },
+    {
+      "id": "us-rules-012",
+      "section": "rules",
+      "category": "alcohol",
+      "text": { "en-US": "In every US state, a driver 21 or older is legally drunk (DUI) at what blood alcohol concentration?", "vi-VN": "Ở mọi tiểu bang Hoa Kỳ, tài xế từ 21 tuổi bị coi là say (DUI) ở nồng độ cồn trong máu bao nhiêu?" },
+      "choices": [
+        { "text": { "en-US": "0.08% or higher", "vi-VN": "Từ 0,08% trở lên" } },
+        { "text": { "en-US": "0.10% or higher", "vi-VN": "Từ 0,10% trở lên" }, "whyWrong": { "en-US": "The nationwide adult limit is 0.08%.", "vi-VN": "Mức toàn quốc cho người lớn là 0,08%." } },
+        { "text": { "en-US": "0.05% or higher", "vi-VN": "Từ 0,05% trở lên" }, "whyWrong": { "en-US": "The standard legal limit for adults is 0.08% (a few places are stricter, but 0.08 is the national standard).", "vi-VN": "Mức luật chuẩn cho người lớn là 0,08% (vài nơi nghiêm hơn, nhưng 0,08 là mức chuẩn toàn quốc)." } },
+        { "text": { "en-US": "Any amount is illegal for all drivers", "vi-VN": "Có cồn là phạm luật với mọi tài xế" }, "whyWrong": { "en-US": "Near-zero limits apply to drivers under 21, not to everyone.", "vi-VN": "Mức gần bằng 0 chỉ áp dụng cho tài xế dưới 21 tuổi." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Across the US, it is illegal for a driver 21 or older to drive with a BAC of 0.08% or higher. Commercial drivers and drivers under 21 face much lower limits.", "vi-VN": "Trên toàn nước Mỹ, tài xế từ 21 tuổi lái xe với nồng độ cồn từ 0,08% trở lên là phạm luật. Tài xế thương mại và dưới 21 tuổi bị mức thấp hơn nhiều." },
+      "difficulty": 1,
+      "source": { "title": "0.08% BAC per se limit — national standard, all 50 states", "section": "Alcohol and Driving" }
+    },
+    {
+      "id": "us-rules-013",
+      "section": "rules",
+      "category": "alcohol",
+      "text": { "en-US": "Under \"zero tolerance\" laws, why is drinking any alcohol especially risky for a driver under 21?", "vi-VN": "Theo luật \"không khoan nhượng\", vì sao uống bất kỳ lượng cồn nào đặc biệt nguy hiểm với tài xế dưới 21 tuổi?" },
+      "choices": [
+        { "text": { "en-US": "Under-21 drivers face a near-zero BAC limit — even a small amount can mean a DUI and license loss", "vi-VN": "Tài xế dưới 21 tuổi bị mức cồn gần bằng 0 — chỉ một chút cũng có thể thành DUI và mất bằng" } },
+        { "text": { "en-US": "There is no limit for minors", "vi-VN": "Không có mức nào cho vị thành niên" }, "whyWrong": { "en-US": "Every state sets a near-zero limit for drivers under 21.", "vi-VN": "Mọi tiểu bang đặt mức gần bằng 0 cho dưới 21 tuổi." } },
+        { "text": { "en-US": "Minors are held to the same 0.08% as adults", "vi-VN": "Vị thành niên bị mức 0,08% như người lớn" }, "whyWrong": { "en-US": "Zero tolerance sets a far lower limit for under-21 drivers.", "vi-VN": "Luật không khoan nhượng đặt mức thấp hơn nhiều cho dưới 21 tuổi." } },
+        { "text": { "en-US": "Only hard liquor counts", "vi-VN": "Chỉ rượu mạnh mới tính" }, "whyWrong": { "en-US": "Beer, wine, and liquor all count.", "vi-VN": "Bia, rượu vang và rượu mạnh đều tính." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "All 50 states have zero-tolerance laws: drivers under 21 face a near-zero BAC limit, so even one drink can result in a DUI and loss of license. (The exact number varies by state — 0.00 to 0.02%.)", "vi-VN": "Cả 50 tiểu bang có luật không khoan nhượng: tài xế dưới 21 tuổi bị mức cồn gần bằng 0, nên chỉ một ly cũng có thể bị DUI và mất bằng. (Con số chính xác tùy tiểu bang — 0,00 đến 0,02%.)" },
+      "difficulty": 2,
+      "source": { "title": "Zero-tolerance laws for drivers under 21 — all 50 states", "section": "Alcohol and Driving" }
+    },
+    {
+      "id": "us-rules-014",
+      "section": "rules",
+      "category": "rules",
+      "text": { "en-US": "What is the safest thing to do about texting while driving?", "vi-VN": "Cách an toàn nhất với việc nhắn tin khi lái xe là gì?" },
+      "choices": [
+        { "text": { "en-US": "Never text while driving — it is illegal in almost every state and extremely dangerous", "vi-VN": "Không bao giờ nhắn tin khi lái — gần như mọi tiểu bang đều cấm và rất nguy hiểm" } },
+        { "text": { "en-US": "Text only at red lights", "vi-VN": "Chỉ nhắn khi đèn đỏ" }, "whyWrong": { "en-US": "You are still operating the vehicle at a red light.", "vi-VN": "Chờ đèn đỏ vẫn là đang điều khiển xe." } },
+        { "text": { "en-US": "Text with one hand on the wheel", "vi-VN": "Nhắn tin với một tay trên vô lăng" }, "whyWrong": { "en-US": "Texting takes your eyes and mind off the road — it is the most dangerous distraction.", "vi-VN": "Nhắn tin làm mất tập trung mắt và đầu óc — là xao lãng nguy hiểm nhất." } },
+        { "text": { "en-US": "Text only on the highway", "vi-VN": "Chỉ nhắn trên xa lộ" }, "whyWrong": { "en-US": "High speeds make texting even more dangerous.", "vi-VN": "Tốc độ cao làm nhắn tin càng nguy hiểm hơn." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Texting combines visual, manual, and mental distraction and is illegal in nearly every state. Put the phone away before you drive.", "vi-VN": "Nhắn tin gộp cả xao lãng mắt, tay và đầu óc, và bị cấm ở gần như mọi tiểu bang. Cất điện thoại trước khi lái." },
+      "difficulty": 1,
+      "source": { "title": "Texting-while-driving bans — nearly all US states", "section": "Distracted Driving" }
+    },
+    {
+      "id": "us-rules-015",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "How does the distance needed to stop change as your speed increases?", "vi-VN": "Khoảng cách cần để dừng thay đổi thế nào khi tốc độ tăng?" },
+      "choices": [
+        { "text": { "en-US": "It increases sharply — much more than in proportion to speed", "vi-VN": "Tăng rất mạnh — nhiều hơn nhiều so với mức tăng tốc độ" } },
+        { "text": { "en-US": "It stays the same", "vi-VN": "Không đổi" }, "whyWrong": { "en-US": "Higher speed greatly increases stopping distance.", "vi-VN": "Tốc độ cao làm khoảng cách dừng tăng rất nhiều." } },
+        { "text": { "en-US": "It decreases", "vi-VN": "Giảm đi" }, "whyWrong": { "en-US": "Faster driving needs more stopping distance, not less.", "vi-VN": "Chạy nhanh cần nhiều khoảng cách dừng hơn, không phải ít hơn." } },
+        { "text": { "en-US": "Only reaction time matters, not speed", "vi-VN": "Chỉ thời gian phản ứng, không phải tốc độ" }, "whyWrong": { "en-US": "Braking distance grows with the square of speed.", "vi-VN": "Quãng đường thắng tăng theo bình phương tốc độ." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Doubling your speed more than doubles your stopping distance (it roughly quadruples the braking part), which is why you must slow down for conditions.", "vi-VN": "Tăng tốc gấp đôi làm khoảng cách dừng tăng hơn gấp đôi (phần thắng tăng khoảng gấp bốn), vì vậy phải giảm tốc theo điều kiện đường." },
+      "difficulty": 2,
+      "source": { "title": "Stopping-distance physics, uniform across US driver handbooks", "section": "Safe Driving" }
+    },
+    {
+      "id": "us-rules-016",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "What is the purpose of a following-distance rule (such as counting seconds behind the car ahead)?", "vi-VN": "Mục đích của quy tắc khoảng cách theo sau (như đếm giây sau xe trước) là gì?" },
+      "choices": [
+        { "text": { "en-US": "To keep enough space and time to stop or react safely", "vi-VN": "Để giữ đủ khoảng cách và thời gian dừng hoặc xử lý an toàn" } },
+        { "text": { "en-US": "To let you drive faster", "vi-VN": "Để được chạy nhanh hơn" }, "whyWrong": { "en-US": "It is about safe spacing, not speed.", "vi-VN": "Là về khoảng cách an toàn, không phải tốc độ." } },
+        { "text": { "en-US": "To stay close and save fuel", "vi-VN": "Để bám sát tiết kiệm xăng" }, "whyWrong": { "en-US": "Tailgating is dangerous; keep a safe gap.", "vi-VN": "Bám sát rất nguy hiểm; giữ khoảng cách an toàn." } },
+        { "text": { "en-US": "To signal the driver behind you", "vi-VN": "Để ra hiệu cho xe sau" }, "whyWrong": { "en-US": "It measures YOUR gap to the car ahead.", "vi-VN": "Nó đo khoảng cách của BẠN với xe trước." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "A following-distance rule keeps enough space to see, react, and stop. Increase your following distance in rain, fog, at night, or behind large vehicles. (The exact seconds recommended vary by state and conditions.)", "vi-VN": "Quy tắc khoảng cách theo sau giữ đủ chỗ để thấy, xử lý và dừng. Tăng khoảng cách khi mưa, sương mù, ban đêm, hoặc sau xe lớn. (Số giây khuyến nghị tùy tiểu bang và điều kiện.)" },
+      "difficulty": 1,
+      "source": { "title": "Following-distance concept, uniform across US driver handbooks (CA 3s, TX/FL 4s, CT 3s)", "section": "Safe Driving" }
+    },
+    {
+      "id": "us-rules-017",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "How should you share a lane with a motorcycle?", "vi-VN": "Bạn nên chia sẻ làn với xe mô tô thế nào?" },
+      "choices": [
+        { "text": { "en-US": "Give it the full lane — do not pass it within the same lane", "vi-VN": "Nhường trọn làn — không vượt trong cùng làn" } },
+        { "text": { "en-US": "Share side by side since it is small", "vi-VN": "Chạy song song vì xe nhỏ" }, "whyWrong": { "en-US": "A motorcycle is entitled to a full lane and space to react.", "vi-VN": "Xe mô tô được quyền dùng trọn làn và cần chỗ xử lý." } },
+        { "text": { "en-US": "Pass closely to get by", "vi-VN": "Vượt sát cho lẹ" }, "whyWrong": { "en-US": "Give it room; do not pass in the same lane.", "vi-VN": "Chừa chỗ; không vượt trong cùng làn." } },
+        { "text": { "en-US": "Tailgate so it speeds up", "vi-VN": "Bám đuôi cho họ chạy nhanh" }, "whyWrong": { "en-US": "Keep a safe distance behind motorcycles.", "vi-VN": "Giữ khoảng cách an toàn sau xe mô tô." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Motorcycles are entitled to a full traffic lane. Do not share or pass within the same lane, and check your blind spots — motorcycles are small and easy to miss.", "vi-VN": "Xe mô tô được quyền dùng trọn làn. Không chạy chung hay vượt trong cùng làn, và kiểm tra điểm mù — xe mô tô nhỏ, dễ bị bỏ sót." },
+      "difficulty": 1,
+      "source": { "title": "Motorcycle lane rule uniform across US driver handbooks (CT, GA)", "section": "Sharing the Road" }
+    },
+    {
+      "id": "us-rules-018",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "You are beside a large truck and cannot see its driver in the side mirror. What does that mean?", "vi-VN": "Bạn ở cạnh xe tải lớn và không thấy tài xế trong kính chiếu hậu. Nghĩa là sao?" },
+      "choices": [
+        { "text": { "en-US": "You are in the truck's blind spot (No-Zone) — the driver cannot see you", "vi-VN": "Bạn đang trong điểm mù (No-Zone) của xe tải — tài xế không thấy bạn" } },
+        { "text": { "en-US": "The mirror is broken", "vi-VN": "Kính bị hư" }, "whyWrong": { "en-US": "It means you are in a blind spot, not a broken mirror.", "vi-VN": "Nghĩa là bạn ở điểm mù, không phải kính hư." } },
+        { "text": { "en-US": "Nothing — trucks see everything", "vi-VN": "Không sao — xe tải thấy hết" }, "whyWrong": { "en-US": "Trucks have large blind spots on all sides.", "vi-VN": "Xe tải có điểm mù lớn ở mọi phía." } },
+        { "text": { "en-US": "You should stay there", "vi-VN": "Nên ở yên đó" }, "whyWrong": { "en-US": "Move out of the blind spot — pass or drop back.", "vi-VN": "Thoát khỏi điểm mù — vượt hẳn hoặc lùi lại." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "If you cannot see a truck driver's face in the mirror, the driver cannot see you. Trucks have large No-Zones on the sides, rear, and front — do not linger there.", "vi-VN": "Không thấy mặt tài xế xe tải trong kính tức là họ không thấy bạn. Xe tải có điểm mù lớn ở hai bên, phía sau và phía trước — đừng nấn ná." },
+      "difficulty": 1,
+      "source": { "title": "Truck No-Zone rule uniform across US driver handbooks (CT, GA)", "section": "Sharing the Road" }
+    },
+    {
+      "id": "us-rules-019",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "A driver behind you is tailgating. What is the safe response?", "vi-VN": "Một xe phía sau đang bám sát đuôi. Cách xử lý an toàn là gì?" },
+      "choices": [
+        { "text": { "en-US": "Move right if you can, or slow down gradually to let them pass", "vi-VN": "Qua phải nếu được, hoặc giảm tốc từ từ cho họ vượt" } },
+        { "text": { "en-US": "Brake hard to warn them", "vi-VN": "Đạp thắng gấp để cảnh cáo" }, "whyWrong": { "en-US": "Braking suddenly at a tailgater raises your risk of being hit.", "vi-VN": "Thắng gấp với xe bám đuôi làm tăng nguy cơ bị tông." } },
+        { "text": { "en-US": "Speed up to escape", "vi-VN": "Tăng tốc bỏ chạy" }, "whyWrong": { "en-US": "Let them pass instead of racing.", "vi-VN": "Để họ vượt thay vì đua tốc độ." } },
+        { "text": { "en-US": "Ignore it", "vi-VN": "Kệ họ" }, "whyWrong": { "en-US": "Give them room to pass to reduce the danger.", "vi-VN": "Chừa chỗ cho họ vượt để giảm nguy hiểm." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "If you are tailgated, move to the right lane or slow gradually so the tailgater can pass. Never brake suddenly to punish them.", "vi-VN": "Bị bám đuôi thì qua làn phải hoặc giảm tốc từ từ cho họ vượt. Không bao giờ thắng gấp để dằn mặt." },
+      "difficulty": 2,
+      "source": { "title": "Tailgating-response rule uniform across US driver handbooks (CT)", "section": "Safe Driving" }
+    },
+    {
+      "id": "us-rules-020",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "How much space must you leave when passing a bicyclist in most states?", "vi-VN": "Ở đa số tiểu bang, phải chừa bao nhiêu khoảng trống khi vượt người đi xe đạp?" },
+      "choices": [
+        { "text": { "en-US": "At least 3 feet", "vi-VN": "Ít nhất 3 feet (gần 1 mét)" } },
+        { "text": { "en-US": "A few inches is fine", "vi-VN": "Vài inch là đủ" }, "whyWrong": { "en-US": "Most states require about 3 feet of clearance.", "vi-VN": "Đa số tiểu bang bắt chừa khoảng 3 feet." } },
+        { "text": { "en-US": "Only enough to fit your car", "vi-VN": "Vừa đủ lọt xe mình" }, "whyWrong": { "en-US": "If you cannot give ~3 feet, wait to pass.", "vi-VN": "Không chừa được ~3 feet thì chờ vượt." } },
+        { "text": { "en-US": "Bicyclists must get out of your way", "vi-VN": "Người đạp xe phải tránh đường bạn" }, "whyWrong": { "en-US": "Bicyclists have a right to the road; give them room.", "vi-VN": "Người đạp xe có quyền dùng đường; chừa chỗ cho họ." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Most states require at least about 3 feet of clearance when passing a bicyclist. If you cannot give that space, wait until you can.", "vi-VN": "Đa số tiểu bang bắt chừa ít nhất khoảng 3 feet khi vượt người đi xe đạp. Không chừa được thì chờ tới khi được." },
+      "difficulty": 1,
+      "source": { "title": "~3-foot bicycle passing law — majority of US states (CA, WA)", "section": "Sharing the Road" }
+    },
+    {
+      "id": "us-rules-021",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "When should you turn on your headlights?", "vi-VN": "Khi nào nên bật đèn pha?" },
+      "choices": [
+        { "text": { "en-US": "In darkness and in rain, fog, or low visibility", "vi-VN": "Khi trời tối và khi mưa, sương mù, hoặc tầm nhìn kém" } },
+        { "text": { "en-US": "Only when it is completely dark", "vi-VN": "Chỉ khi trời tối hẳn" }, "whyWrong": { "en-US": "Use them at dusk, in rain, and in fog too — not only in full dark.", "vi-VN": "Bật cả lúc chạng vạng, mưa và sương mù — không riêng khi tối hẳn." } },
+        { "text": { "en-US": "Only on highways", "vi-VN": "Chỉ trên xa lộ" }, "whyWrong": { "en-US": "Headlight rules apply on all roads.", "vi-VN": "Luật đèn pha áp dụng trên mọi đường." } },
+        { "text": { "en-US": "Never in daytime rain", "vi-VN": "Không bao giờ khi mưa ban ngày" }, "whyWrong": { "en-US": "Many states require headlights on whenever wipers are on.", "vi-VN": "Nhiều tiểu bang bắt bật đèn khi gạt nước hoạt động." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Use headlights from around dusk to dawn and whenever visibility is low — rain, fog, or snow. Many states require them whenever your wipers are on. Use low beams in fog and near oncoming traffic.", "vi-VN": "Bật đèn từ chạng vạng tới rạng sáng và bất cứ khi nào tầm nhìn kém — mưa, sương mù, tuyết. Nhiều tiểu bang bắt bật đèn khi gạt nước chạy. Dùng đèn cốt khi sương mù và gần xe ngược chiều." },
+      "difficulty": 1,
+      "source": { "title": "Headlight-use rule uniform across US driver handbooks (WA, TX)", "section": "Safe Driving" }
+    },
+    {
+      "id": "us-rules-022",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "The road is wet and your car begins to hydroplane (slide on water). What should you do?", "vi-VN": "Đường ướt và xe bắt đầu trượt nước (hydroplane). Bạn nên làm gì?" },
+      "choices": [
+        { "text": { "en-US": "Ease off the gas and steer straight — do not brake hard", "vi-VN": "Nhả ga từ từ và giữ lái thẳng — không thắng gấp" } },
+        { "text": { "en-US": "Brake hard immediately", "vi-VN": "Đạp thắng gấp ngay" }, "whyWrong": { "en-US": "Hard braking can worsen the skid; ease off the gas.", "vi-VN": "Thắng gấp làm trượt nặng hơn; hãy nhả ga." } },
+        { "text": { "en-US": "Turn the wheel sharply", "vi-VN": "Bẻ lái gấp" }, "whyWrong": { "en-US": "Sharp steering can send you into a spin.", "vi-VN": "Bẻ lái gấp có thể làm xe xoay." } },
+        { "text": { "en-US": "Speed up to regain grip", "vi-VN": "Tăng tốc để bám lại" }, "whyWrong": { "en-US": "Higher speed increases hydroplaning.", "vi-VN": "Tốc độ cao làm trượt nước nặng hơn." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "To recover from hydroplaning, ease your foot off the gas, hold the wheel straight, and avoid hard braking until your tires regain contact. Slow down in the rain to prevent it.", "vi-VN": "Để thoát trượt nước, nhả chân ga từ từ, giữ vô lăng thẳng, và tránh thắng gấp cho tới khi bánh bám lại. Giảm tốc khi mưa để phòng tránh." },
+      "difficulty": 2,
+      "source": { "title": "Hydroplaning guidance uniform across US driver handbooks", "section": "Safe Driving" }
+    },
+    {
+      "id": "us-rules-023",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": { "en-US": "Railroad crossing gates are down and lights are flashing, but you do not see a train. What must you do?", "vi-VN": "Cần chắn đường ray hạ xuống và đèn chớp, nhưng bạn không thấy xe lửa. Bạn phải làm gì?" },
+      "choices": [
+        { "text": { "en-US": "Stop and wait — never go around lowered gates", "vi-VN": "Dừng và chờ — không bao giờ đi vòng qua cần chắn đang hạ" } },
+        { "text": { "en-US": "Drive around the gates if no train is visible", "vi-VN": "Lách qua cần chắn nếu không thấy xe lửa" }, "whyWrong": { "en-US": "Trains are faster and closer than they appear; never go around gates.", "vi-VN": "Xe lửa nhanh và gần hơn ta tưởng; không bao giờ lách qua cần chắn." } },
+        { "text": { "en-US": "Stop on the tracks to look", "vi-VN": "Dừng trên đường ray để nhìn" }, "whyWrong": { "en-US": "Never stop on the tracks.", "vi-VN": "Không bao giờ dừng trên đường ray." } },
+        { "text": { "en-US": "Honk and proceed", "vi-VN": "Bấm kèn rồi đi" }, "whyWrong": { "en-US": "Wait for the gates to rise and lights to stop.", "vi-VN": "Chờ cần chắn nâng lên và đèn tắt." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Stop for flashing lights or lowered gates and remain stopped until they stop and the gates rise. Trains cannot stop quickly and always have the right-of-way — never drive around a gate.", "vi-VN": "Dừng khi đèn chớp hoặc cần chắn hạ và chờ tới khi đèn tắt và cần nâng lên. Xe lửa không dừng nhanh được và luôn được ưu tiên — không bao giờ lách qua cần chắn." },
+      "difficulty": 1,
+      "source": { "title": "Railroad-crossing rule uniform across US driver handbooks (TX, FL)", "section": "Railroad Crossings" }
+    },
+    {
+      "id": "us-rules-024",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "Why must you slow down in a work zone even when no workers are present?", "vi-VN": "Vì sao phải giảm tốc trong khu công trường dù không có công nhân?" },
+      "choices": [
+        { "text": { "en-US": "Narrow lanes, equipment, and sudden stops make work zones hazardous; fines are often doubled", "vi-VN": "Làn hẹp, máy móc và việc dừng đột ngột khiến khu công trường nguy hiểm; tiền phạt thường tăng gấp đôi" } },
+        { "text": { "en-US": "It is only a suggestion", "vi-VN": "Chỉ là gợi ý" }, "whyWrong": { "en-US": "Work-zone speed limits are enforced by law.", "vi-VN": "Tốc độ khu công trường được luật cưỡng chế." } },
+        { "text": { "en-US": "You never need to slow if you see no workers", "vi-VN": "Không thấy công nhân thì khỏi giảm tốc" }, "whyWrong": { "en-US": "Reduce speed even with no workers — hazards remain.", "vi-VN": "Giảm tốc dù không có công nhân — nguy hiểm vẫn còn." } },
+        { "text": { "en-US": "Only trucks slow down in work zones", "vi-VN": "Chỉ xe tải giảm tốc trong khu công trường" }, "whyWrong": { "en-US": "All vehicles must slow in work zones.", "vi-VN": "Mọi xe phải giảm tốc trong khu công trường." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Work zones have narrow lanes, rough pavement, equipment, and sudden stops. Slow down, increase your following distance, and watch for workers — many states double fines in work zones.", "vi-VN": "Khu công trường có làn hẹp, mặt đường xấu, máy móc và dừng đột ngột. Giảm tốc, tăng khoảng cách theo sau, và chú ý công nhân — nhiều tiểu bang phạt gấp đôi trong khu công trường." },
+      "difficulty": 1,
+      "source": { "title": "Work-zone safety rule uniform across US driver handbooks", "section": "Work Zones" }
+    },
+    {
+      "id": "us-rules-025",
+      "section": "rules",
+      "category": "rules",
+      "text": { "en-US": "On a multi-lane highway, the left lane is generally for:", "vi-VN": "Trên xa lộ nhiều làn, làn trái thường dùng để:" },
+      "choices": [
+        { "text": { "en-US": "Passing — keep right except to pass", "vi-VN": "Vượt — giữ bên phải, chỉ qua trái để vượt" } },
+        { "text": { "en-US": "Driving as fast as you want", "vi-VN": "Chạy nhanh tùy thích" }, "whyWrong": { "en-US": "Speed limits apply in every lane.", "vi-VN": "Tốc độ cho phép áp dụng ở mọi làn." } },
+        { "text": { "en-US": "Slow drivers", "vi-VN": "Xe chạy chậm" }, "whyWrong": { "en-US": "Slower traffic keeps right; the left lane is for passing.", "vi-VN": "Xe chậm giữ phải; làn trái để vượt." } },
+        { "text": { "en-US": "Parking", "vi-VN": "Đậu xe" }, "whyWrong": { "en-US": "You never park in a travel lane.", "vi-VN": "Không bao giờ đậu trong làn đang chạy." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Keep right except to pass. Drive in the right lanes and use the left lane to pass slower traffic, then move back right. Slower traffic must not block the left lane.", "vi-VN": "Giữ bên phải, chỉ qua trái để vượt. Chạy làn phải và dùng làn trái để vượt xe chậm, rồi về lại phải. Xe chậm không được chắn làn trái." },
+      "difficulty": 1,
+      "source": { "title": "Keep-right-except-to-pass rule uniform across US driver handbooks (WA, FL)", "section": "Lane Use" }
+    },
+    {
+      "id": "us-rules-026",
+      "section": "rules",
+      "category": "rules",
+      "text": { "en-US": "You want to change lanes on a highway. What should you do before moving over?", "vi-VN": "Bạn muốn đổi làn trên xa lộ. Trước khi qua làn, nên làm gì?" },
+      "choices": [
+        { "text": { "en-US": "Signal, check mirrors, and look over your shoulder for blind spots", "vi-VN": "Bật xi nhan, nhìn kính, và ngoái nhìn điểm mù" } },
+        { "text": { "en-US": "Just move over quickly", "vi-VN": "Cứ qua lẹ" }, "whyWrong": { "en-US": "You must check for vehicles in your blind spot first.", "vi-VN": "Phải kiểm tra xe trong điểm mù trước." } },
+        { "text": { "en-US": "Only use your mirrors", "vi-VN": "Chỉ nhìn kính" }, "whyWrong": { "en-US": "Mirrors miss blind spots — look over your shoulder too.", "vi-VN": "Kính không thấy điểm mù — phải ngoái nhìn thêm." } },
+        { "text": { "en-US": "Signal only after you move", "vi-VN": "Bật xi nhan sau khi đã qua" }, "whyWrong": { "en-US": "Signal before you move, not after.", "vi-VN": "Bật xi nhan trước khi qua, không phải sau." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Before changing lanes: signal, check your mirrors, and glance over your shoulder to check the blind spot your mirrors miss. Then move over smoothly when it is clear.", "vi-VN": "Trước khi đổi làn: bật xi nhan, nhìn kính, và ngoái đầu kiểm tra điểm mù mà kính không thấy. Rồi qua làn êm khi trống." },
+      "difficulty": 1,
+      "source": { "title": "Lane-change procedure uniform across US driver handbooks", "section": "Lane Use" }
+    },
+    {
+      "id": "us-rules-027",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": { "en-US": "You approach a stop sign. What must you do?", "vi-VN": "Bạn tới một bảng STOP. Phải làm gì?" },
+      "choices": [
+        { "text": { "en-US": "Come to a complete stop at the line, then yield before proceeding", "vi-VN": "Dừng hẳn tại vạch, rồi nhường đường trước khi đi" } },
+        { "text": { "en-US": "Slow down and roll through if clear", "vi-VN": "Chạy chậm rồi lăn qua nếu trống" }, "whyWrong": { "en-US": "A stop sign requires a full stop, not a rolling stop.", "vi-VN": "Bảng STOP bắt dừng hẳn, không phải lăn qua." } },
+        { "text": { "en-US": "Stop only if other cars are present", "vi-VN": "Chỉ dừng nếu có xe khác" }, "whyWrong": { "en-US": "You must stop fully every time.", "vi-VN": "Phải dừng hẳn mỗi lần." } },
+        { "text": { "en-US": "Honk and continue", "vi-VN": "Bấm kèn rồi đi" }, "whyWrong": { "en-US": "Stop completely, then yield.", "vi-VN": "Dừng hẳn, rồi nhường đường." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "A stop sign means a full stop at the line, crosswalk, or corner. Look both ways, yield to pedestrians and cross traffic, then proceed when safe.", "vi-VN": "Bảng STOP nghĩa là dừng hẳn tại vạch, lối băng hoặc góc đường. Nhìn hai phía, nhường người đi bộ và xe cắt ngang, rồi đi khi an toàn." },
+      "difficulty": 1,
+      "source": { "title": "Stop-sign rule uniform across US driver handbooks", "section": "Signs" }
+    },
+    {
+      "id": "us-rules-028",
+      "section": "rules",
+      "category": "rules",
+      "text": { "en-US": "Most states have a \"Move Over\" law. What does it require?", "vi-VN": "Đa số tiểu bang có luật \"Move Over\". Luật này yêu cầu gì?" },
+      "choices": [
+        { "text": { "en-US": "Move over a lane, or slow down, when passing a stopped emergency or service vehicle with flashing lights", "vi-VN": "Qua làn khác, hoặc giảm tốc, khi đi qua xe khẩn cấp hay công vụ đang dừng chớp đèn" } },
+        { "text": { "en-US": "Always come to a full stop", "vi-VN": "Luôn dừng hẳn" }, "whyWrong": { "en-US": "You move over or slow down — stopping in a lane is dangerous.", "vi-VN": "Phải qua làn hoặc giảm tốc — dừng giữa làn nguy hiểm." } },
+        { "text": { "en-US": "Speed up to clear the area", "vi-VN": "Tăng tốc cho khuất" }, "whyWrong": { "en-US": "Slow down; do not speed up.", "vi-VN": "Giảm tốc; không tăng tốc." } },
+        { "text": { "en-US": "It only applies to police cars", "vi-VN": "Chỉ áp dụng cho xe cảnh sát" }, "whyWrong": { "en-US": "It also covers tow trucks, utility, and maintenance vehicles.", "vi-VN": "Áp dụng cả xe kéo, xe điện nước và xe bảo trì." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "The Move Over law requires you to change to a farther lane when safe, or slow down, when passing a stopped emergency, tow, utility, or maintenance vehicle showing flashing lights. (The exact speed reduction varies by state.)", "vi-VN": "Luật Move Over bắt bạn qua làn xa hơn khi an toàn, hoặc giảm tốc, khi đi qua xe khẩn cấp, xe kéo, điện nước hay bảo trì đang dừng chớp đèn. (Mức giảm tốc chính xác tùy tiểu bang.)" },
+      "difficulty": 2,
+      "source": { "title": "Move Over law — all 50 states (exact speed varies)", "section": "Emergency Vehicles" }
+    },
+    {
+      "id": "us-rules-029",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "Who is required to wear a seat belt?", "vi-VN": "Ai bắt buộc phải thắt dây an toàn?" },
+      "choices": [
+        { "text": { "en-US": "The driver and passengers as required by law; young children must use child seats", "vi-VN": "Tài xế và hành khách theo luật; trẻ nhỏ phải dùng ghế trẻ em" } },
+        { "text": { "en-US": "Only the driver", "vi-VN": "Chỉ tài xế" }, "whyWrong": { "en-US": "Passengers are covered too, and children need child seats.", "vi-VN": "Hành khách cũng bị bắt buộc, và trẻ nhỏ cần ghế trẻ em." } },
+        { "text": { "en-US": "Only on the highway", "vi-VN": "Chỉ trên xa lộ" }, "whyWrong": { "en-US": "Seat-belt laws apply on all roads.", "vi-VN": "Luật dây an toàn áp dụng trên mọi đường." } },
+        { "text": { "en-US": "Seat belts are optional", "vi-VN": "Dây an toàn tùy ý" }, "whyWrong": { "en-US": "Seat-belt use is required by law and saves lives.", "vi-VN": "Thắt dây là bắt buộc theo luật và cứu mạng." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Seat belts are required by law and dramatically reduce injury and death. Young children must ride in an age- and size-appropriate child restraint. (Exact ages and seating rules vary by state.)", "vi-VN": "Dây an toàn là bắt buộc theo luật và giảm mạnh thương tích, tử vong. Trẻ nhỏ phải ngồi ghế trẻ em phù hợp tuổi và cỡ. (Tuổi và quy định ghế ngồi chính xác tùy tiểu bang.)" },
+      "difficulty": 1,
+      "source": { "title": "Seat-belt and child-restraint requirement — all US states (details vary)", "section": "Occupant Protection" }
+    },
+    {
+      "id": "us-rules-030",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": { "en-US": "What must you do before every turn or lane change?", "vi-VN": "Trước mỗi lần quẹo hoặc đổi làn, phải làm gì?" },
+      "choices": [
+        { "text": { "en-US": "Signal in advance to let others know your intention", "vi-VN": "Bật xi nhan trước để báo cho người khác biết ý định" } },
+        { "text": { "en-US": "Signal only if someone is behind you", "vi-VN": "Chỉ xi nhan nếu có xe sau" }, "whyWrong": { "en-US": "Always signal — you may not see everyone.", "vi-VN": "Luôn xi nhan — bạn có thể không thấy hết mọi người." } },
+        { "text": { "en-US": "Turn first, then signal", "vi-VN": "Quẹo trước, rồi xi nhan" }, "whyWrong": { "en-US": "Signal before you turn, giving advance warning.", "vi-VN": "Xi nhan trước khi quẹo, báo trước." } },
+        { "text": { "en-US": "Signals are optional on quiet roads", "vi-VN": "Đường vắng thì khỏi xi nhan" }, "whyWrong": { "en-US": "Signaling is required by law when turning or changing lanes.", "vi-VN": "Luật bắt xi nhan khi quẹo hoặc đổi làn." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Always signal in advance before turning or changing lanes so other drivers, bicyclists, and pedestrians know what you plan to do. (Many states require signaling a set distance ahead.)", "vi-VN": "Luôn bật xi nhan trước khi quẹo hoặc đổi làn để tài xế, người đạp xe và người đi bộ khác biết ý định của bạn. (Nhiều tiểu bang bắt xi nhan trước một khoảng cách nhất định.)" },
+      "difficulty": 1,
+      "source": { "title": "Turn-signal requirement uniform across US driver handbooks", "section": "Turning" }
+    },
+    {
+      "id": "us-rules-031",
+      "section": "rules",
+      "category": "rightofway",
+      "text": { "en-US": "At a four-way stop, who goes first?", "vi-VN": "Tại ngã tư bốn bảng STOP, ai đi trước?" },
+      "choices": [
+        { "text": { "en-US": "The first to arrive; if two arrive together, the one on the right", "vi-VN": "Xe tới trước; nếu hai xe tới cùng lúc, xe bên phải" } },
+        { "text": { "en-US": "The vehicle turning left", "vi-VN": "Xe quẹo trái" }, "whyWrong": { "en-US": "Arrival order controls, not turn direction.", "vi-VN": "Thứ tự tới quyết định, không phải hướng quẹo." } },
+        { "text": { "en-US": "The largest vehicle", "vi-VN": "Xe lớn nhất" }, "whyWrong": { "en-US": "Size never decides right-of-way.", "vi-VN": "Xe lớn nhỏ không quyết định quyền ưu tiên." } },
+        { "text": { "en-US": "The fastest vehicle", "vi-VN": "Xe nhanh nhất" }, "whyWrong": { "en-US": "Speed never decides right-of-way.", "vi-VN": "Tốc độ không quyết định quyền ưu tiên." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "At a four-way stop, vehicles proceed in the order they arrive. If two arrive at the same time, the driver on the left yields to the driver on the right. Always yield to pedestrians.", "vi-VN": "Tại ngã tư bốn bảng STOP, xe đi theo thứ tự tới. Nếu hai xe tới cùng lúc, xe bên trái nhường xe bên phải. Luôn nhường người đi bộ." },
+      "difficulty": 1,
+      "source": { "title": "Four-way-stop rule uniform across US driver handbooks (GA, FL)", "section": "Right-of-Way" }
+    },
+    {
+      "id": "us-rules-032",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "What is the safest way to handle drowsy driving on a long trip?", "vi-VN": "Cách an toàn nhất khi buồn ngủ trong chuyến đi dài là gì?" },
+      "choices": [
+        { "text": { "en-US": "Stop and rest — do not rely on coffee or open windows to stay awake", "vi-VN": "Dừng lại nghỉ — đừng trông cậy cà phê hay mở cửa sổ để tỉnh" } },
+        { "text": { "en-US": "Drive faster to arrive sooner", "vi-VN": "Chạy nhanh cho tới sớm" }, "whyWrong": { "en-US": "Speeding while drowsy is very dangerous.", "vi-VN": "Chạy nhanh khi buồn ngủ rất nguy hiểm." } },
+        { "text": { "en-US": "Turn up the radio and keep going", "vi-VN": "Mở radio to rồi chạy tiếp" }, "whyWrong": { "en-US": "Tricks do not replace real rest; pull over.", "vi-VN": "Mẹo vặt không thay được nghỉ thật; hãy tấp vào." } },
+        { "text": { "en-US": "Close one eye to rest it", "vi-VN": "Nhắm một mắt cho đỡ mỏi" }, "whyWrong": { "en-US": "If you are that tired, stop driving.", "vi-VN": "Mệt tới vậy thì phải ngừng lái." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Drowsiness slows reaction like alcohol. If you feel tired, pull over somewhere safe and rest or switch drivers — coffee and fresh air are not reliable fixes.", "vi-VN": "Buồn ngủ làm chậm phản ứng như rượu. Nếu thấy mệt, tấp vào chỗ an toàn nghỉ hoặc đổi tài xế — cà phê và gió mát không đáng tin." },
+      "difficulty": 1,
+      "source": { "title": "Drowsy-driving guidance uniform across US driver handbooks", "section": "Driver Condition" }
+    },
+    {
+      "id": "us-rules-033",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": { "en-US": "A flashing YELLOW traffic signal means:", "vi-VN": "Đèn giao thông chớp VÀNG nghĩa là:" },
+      "choices": [
+        { "text": { "en-US": "Slow down and proceed with caution", "vi-VN": "Giảm tốc và đi cẩn thận" } },
+        { "text": { "en-US": "Come to a full stop", "vi-VN": "Dừng hẳn" }, "whyWrong": { "en-US": "That is flashing red; flashing yellow means caution.", "vi-VN": "Đó là chớp đỏ; chớp vàng nghĩa là cẩn thận." } },
+        { "text": { "en-US": "Speed up through the intersection", "vi-VN": "Tăng tốc qua ngã tư" }, "whyWrong": { "en-US": "Slow down and be cautious.", "vi-VN": "Giảm tốc và cẩn thận." } },
+        { "text": { "en-US": "The signal is off", "vi-VN": "Đèn tắt" }, "whyWrong": { "en-US": "A flashing yellow is working — proceed with caution.", "vi-VN": "Chớp vàng là đèn đang hoạt động — đi cẩn thận." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "A flashing yellow light means slow down and proceed with caution, watching for cross traffic and pedestrians.", "vi-VN": "Đèn chớp vàng nghĩa là giảm tốc và đi cẩn thận, chú ý xe cắt ngang và người đi bộ." },
+      "difficulty": 1,
+      "source": { "title": "MUTCD flashing-yellow meaning, uniform across US", "section": "Traffic Signals" }
+    },
+    {
+      "id": "us-rules-034",
+      "section": "rules",
+      "category": "rules",
+      "text": { "en-US": "If you approach an intersection where a police officer's directions conflict with the traffic signal, you should:", "vi-VN": "Tới ngã tư mà hiệu lệnh của cảnh sát khác với đèn tín hiệu, bạn nên:" },
+      "choices": [
+        { "text": { "en-US": "Obey the officer — their directions override signals and signs", "vi-VN": "Theo cảnh sát — hiệu lệnh của họ thắng đèn và bảng hiệu" } },
+        { "text": { "en-US": "Obey the signal — machines are official", "vi-VN": "Theo đèn — máy móc mới chính thức" }, "whyWrong": { "en-US": "An officer's directions override traffic control devices.", "vi-VN": "Hiệu lệnh cảnh sát thắng đèn và bảng." } },
+        { "text": { "en-US": "Choose whichever lets you go", "vi-VN": "Chọn bên nào cho mình đi" }, "whyWrong": { "en-US": "Follow the officer even if it delays you.", "vi-VN": "Theo cảnh sát dù phải chờ lâu hơn." } },
+        { "text": { "en-US": "Stop and wait for them to leave", "vi-VN": "Dừng chờ họ đi khỏi" }, "whyWrong": { "en-US": "Follow their directions when given.", "vi-VN": "Khi có hiệu lệnh thì làm theo ngay." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Always obey directions from a police officer or firefighter directing traffic, even when they conflict with signals or signs.", "vi-VN": "Luôn tuân theo hiệu lệnh của cảnh sát hoặc lính cứu hỏa điều khiển giao thông, kể cả khi trái với đèn hay bảng hiệu." },
+      "difficulty": 1,
+      "source": { "title": "Officer-overrides-signals rule uniform across US driver handbooks (GA)", "section": "Traffic Control" }
+    },
+    {
+      "id": "us-rules-035",
+      "section": "rules",
+      "category": "safety",
+      "text": { "en-US": "When entering a freeway from an on-ramp, you should:", "vi-VN": "Khi vào xa lộ từ lối dẫn, bạn nên:" },
+      "choices": [
+        { "text": { "en-US": "Use the acceleration lane to match traffic speed, then merge when there is a safe gap", "vi-VN": "Dùng làn tăng tốc để bằng tốc độ dòng xe, rồi nhập khi có khoảng trống an toàn" } },
+        { "text": { "en-US": "Stop at the end of the ramp and wait", "vi-VN": "Dừng ở cuối lối dẫn chờ" }, "whyWrong": { "en-US": "Stopping on a ramp is dangerous; accelerate and merge.", "vi-VN": "Dừng trên lối dẫn nguy hiểm; tăng tốc và nhập làn." } },
+        { "text": { "en-US": "Enter slowly and force your way in", "vi-VN": "Vào chậm rồi ép vào" }, "whyWrong": { "en-US": "Match the speed of traffic and merge on a gap.", "vi-VN": "Bằng tốc độ dòng xe và nhập khi có khoảng trống." } },
+        { "text": { "en-US": "Expect highway traffic to stop for you", "vi-VN": "Chờ xe trên xa lộ dừng cho mình" }, "whyWrong": { "en-US": "Traffic already on the freeway has the right-of-way.", "vi-VN": "Xe đã trên xa lộ được ưu tiên." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Speed up in the acceleration lane to match freeway traffic, signal, check your blind spot, and merge into a safe gap. Yield to traffic already on the freeway.", "vi-VN": "Tăng tốc trong làn tăng tốc cho bằng dòng xe xa lộ, bật xi nhan, kiểm tra điểm mù, và nhập vào khoảng trống an toàn. Nhường xe đã trên xa lộ." },
+      "difficulty": 1,
+      "source": { "title": "Freeway merge procedure uniform across US driver handbooks (TX, FL)", "section": "Highway Driving" }
+    },
+    {
+      "id": "us-rules-036",
+      "section": "rules",
+      "category": "rules",
+      "text": { "en-US": "You may drive UNDER the posted speed limit and still get a ticket when:", "vi-VN": "Bạn chạy DƯỚI tốc độ cho phép nhưng vẫn bị phạt khi:" },
+      "choices": [
+        { "text": { "en-US": "You are going too fast for wet, icy, foggy, or crowded conditions", "vi-VN": "Bạn chạy quá nhanh so với điều kiện đường ướt, đóng băng, sương mù hoặc đông xe" } },
+        { "text": { "en-US": "Never — under the limit is always legal", "vi-VN": "Không bao giờ — dưới mức là luôn hợp lệ" }, "whyWrong": { "en-US": "You can be cited for driving too fast for conditions even under the limit.", "vi-VN": "Vẫn bị phạt vì chạy quá nhanh so với điều kiện dù dưới mức cho phép." } },
+        { "text": { "en-US": "Only if you crash", "vi-VN": "Chỉ khi tông xe" }, "whyWrong": { "en-US": "The unsafe speed itself is the violation.", "vi-VN": "Chạy tốc độ không an toàn đã là vi phạm." } },
+        { "text": { "en-US": "Only commercial drivers", "vi-VN": "Chỉ tài xế thương mại" }, "whyWrong": { "en-US": "It applies to all drivers.", "vi-VN": "Áp dụng cho mọi tài xế." } }
+      ],
+      "answerIndex": 0,
+      "explanation": { "en-US": "Speed limits are set for ideal conditions. In rain, ice, fog, or heavy traffic you must slow down — you can be ticketed for driving too fast for conditions even below the posted limit.", "vi-VN": "Tốc độ cho phép đặt cho điều kiện lý tưởng. Khi mưa, băng, sương mù hoặc đông xe phải giảm tốc — vẫn bị phạt vì chạy quá nhanh so với điều kiện dù dưới mức cho phép." },
+      "difficulty": 1,
+      "source": { "title": "Basic speed law (too fast for conditions) uniform across US driver handbooks", "section": "Speed" }
+    }
+  ]
+}
