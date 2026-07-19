@@ -35,38 +35,83 @@ function currentTag() {
   return getLangMode() === "en" ? fallbackTag() : getPrimaryLang();
 }
 
-/** All available languages, sorted A–Z by English name. English is included —
- * picking it is the English-only rehearsal mode. */
+const expanded = new Set(); // base keys the user expanded
+
+/** All available languages, flat, sorted A–Z by English name (English included). */
 export function pickerLanguages(reg) {
   return reg.languages
     .filter((l) => l.status === "available")
     .sort((a, b) => a.englishName.localeCompare(b.englishName));
 }
 
-function filteredLanguages() {
+/** Available languages grouped by base (dialects together), groups A–Z by English name. */
+export function languageGroups(reg) {
+  const byBase = new Map();
+  for (const l of reg.languages.filter((x) => x.status === "available")) {
+    const key = l.base ?? l.tag;
+    if (!byBase.has(key)) byBase.set(key, []);
+    byBase.get(key).push(l);
+  }
+  return [...byBase.entries()]
+    .map(([base, variants]) => ({ base, variants }))
+    .sort((a, b) => a.variants[0].englishName.localeCompare(b.variants[0].englishName));
+}
+
+function matchesQuery(l) {
   const q = normalize(query.trim());
-  const all = pickerLanguages(registry);
-  if (!q) return all;
-  return all.filter((l) => normalize(`${l.endonym} ${l.englishName} ${l.tag}`).includes(q));
+  if (!q) return true;
+  return normalize(`${l.endonym} ${l.englishName} ${l.tag} ${l.variantLabel ?? ""}`).includes(q);
+}
+
+function pickRow(l, current) {
+  const isCurrent = l.tag === current;
+  const label = l.tag === fallbackTag()
+    ? esc(l.endonym) // English shows once (it is the sole line in English-only mode)
+    : `<span lang="${esc(l.tag)}">${esc(l.endonym)}</span> · ${esc(l.englishName)}`;
+  return `
+    <button type="button" role="radio" aria-checked="${isCurrent}" data-lang-pick="${esc(l.tag)}"
+      class="btn ${isCurrent ? "btn-primary" : "btn-secondary"}"
+      style="margin-bottom:10px;justify-content:space-between;min-height:56px">
+      <span>${label}</span>
+      <span style="font-size:.85em">${isCurrent ? `✓ ${bilingual("language.current")}` : ""}</span>
+    </button>`;
+}
+
+function variantRow(l, current) {
+  const isCurrent = l.tag === current;
+  return `
+    <button type="button" role="radio" aria-checked="${isCurrent}" data-lang-pick="${esc(l.tag)}"
+      class="btn ${isCurrent ? "btn-primary" : "btn-secondary"}"
+      style="margin:0 0 8px 16px;justify-content:space-between;min-height:48px;width:calc(100% - 16px)">
+      <span lang="${esc(l.tag)}">${esc(l.variantLabel ?? l.endonym)}</span>
+      <span style="font-size:.85em">${isCurrent ? `✓ ${bilingual("language.current")}` : ""}</span>
+    </button>`;
 }
 
 function rowsHtml() {
   const current = currentTag();
-  const list = filteredLanguages();
-  if (list.length === 0) return `<p style="color:var(--muted)">${bilingual("picker.noResults")}</p>`;
-  return list
-    .map((l) => {
-      const isCurrent = l.tag === current;
-      const label = l.tag === fallbackTag()
-        ? esc(l.endonym) // English shows once (it is the sole line in English-only mode)
-        : `<span lang="${esc(l.tag)}">${esc(l.endonym)}</span> · ${esc(l.englishName)}`;
-      return `
-      <button type="button" role="radio" aria-checked="${isCurrent}" data-lang-pick="${esc(l.tag)}"
-        class="btn ${isCurrent ? "btn-primary" : "btn-secondary"}"
-        style="margin-bottom:10px;justify-content:space-between;min-height:56px">
-        <span>${label}</span>
-        <span style="font-size:.85em">${isCurrent ? `✓ ${bilingual("language.current")}` : ""}</span>
-      </button>`;
+  const groups = languageGroups(registry)
+    .map((g) => ({ ...g, variants: g.variants.filter(matchesQuery) }))
+    .filter((g) => g.variants.length > 0);
+  if (groups.length === 0) return `<p style="color:var(--muted)">${bilingual("picker.noResults")}</p>`;
+  const searching = normalize(query.trim()).length > 0;
+  return groups
+    .map((g) => {
+      // single-variant group → a plain selectable row
+      if (g.variants.length === 1 && !g.variants[0].variantLabel) return pickRow(g.variants[0], current);
+      // multi-variant group → a base row that expands to dialect choices
+      const first = g.variants[0];
+      const hasCurrent = g.variants.some((v) => v.tag === current);
+      const open = searching || hasCurrent || expanded.has(g.base);
+      const base = `
+        <button type="button" data-lang-group="${esc(g.base)}" aria-expanded="${open}"
+          class="btn ${hasCurrent ? "btn-primary" : "btn-secondary"}"
+          style="margin-bottom:${open ? "6px" : "10px"};justify-content:space-between;min-height:56px">
+          <span><span lang="${esc(first.tag)}">${esc(first.endonym)}</span> · ${esc(first.englishName)}</span>
+          <span aria-hidden="true">${open ? "▾" : "▸"}</span>
+        </button>`;
+      const subs = open ? g.variants.map((v) => variantRow(v, current)).join("") : "";
+      return base + subs;
     })
     .join("");
 }
@@ -107,6 +152,15 @@ async function bootLanguage() {
     if (rows) rows.innerHTML = rowsHtml();
   });
   root.addEventListener("click", async (e) => {
+    const group = e.target.closest("[data-lang-group]");
+    if (group) {
+      const base = group.dataset.langGroup;
+      if (expanded.has(base)) expanded.delete(base);
+      else expanded.add(base);
+      const rows = document.getElementById("language-rows");
+      if (rows) rows.innerHTML = rowsHtml();
+      return;
+    }
     const btn = e.target.closest("[data-lang-pick]");
     if (!btn) return;
     const tag = btn.dataset.langPick;

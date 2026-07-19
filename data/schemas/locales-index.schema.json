@@ -21,13 +21,31 @@
         "additionalProperties": false,
         "required": ["tag", "endonym", "englishName", "status"],
         "properties": {
-          "tag": { "type": "string", "pattern": "^[a-z]{2,3}-[A-Z]{2}$" },
+          "tag": {
+            "description": "BCP-47 language tag: language, optional region, optional private-use variant (e.g. 'ar', 'vi-VN', 'zh-TW', 'vi-VN-x-north').",
+            "type": "string",
+            "pattern": "^[a-z]{2,3}(-[A-Z]{2})?(-x-[a-z0-9-]+)?$"
+          },
           "endonym": {
-            "description": "The language's own name in that language (e.g. 'Tiếng Việt').",
+            "description": "The language's own name in that language (e.g. 'Tiếng Việt'). For a dialect, this is the BASE language name; variantLabel names the dialect.",
             "type": "string",
             "minLength": 1
           },
           "englishName": { "type": "string", "minLength": 1 },
+          "base": {
+            "description": "Group key for dialects of one language (e.g. 'vi' groups Southern and Northern Vietnamese). Omit for a standalone language (it forms its own group).",
+            "type": "string",
+            "pattern": "^[a-z]{2,3}$"
+          },
+          "variantLabel": {
+            "description": "The dialect's own name within its base group (e.g. 'Miền Nam' / 'Miền Bắc'). Present only for grouped dialects.",
+            "type": "string",
+            "minLength": 1
+          },
+          "direction": {
+            "description": "Text direction; 'rtl' for Arabic, Farsi, Urdu, Hebrew. Defaults to 'ltr'.",
+            "enum": ["ltr", "rtl"]
+          },
           "status": { "enum": ["available", "draft"] }
         }
       }

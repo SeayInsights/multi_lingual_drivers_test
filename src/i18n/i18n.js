@@ -99,6 +99,15 @@ export function applyLangMode(mode) {
   // In EN-only mode the page is functionally English; otherwise it reflects the
   // chosen primary language (vi, es, …) so screen readers pronounce it right.
   document.documentElement.lang = mode === "en" ? "en" : primaryTag.split("-")[0];
+  // Text direction follows the primary locale's meta.direction (rtl for Arabic,
+  // etc.). English-only mode is always ltr.
+  const dir = mode === "en" ? "ltr" : (locales.get(primaryTag)?.meta?.direction ?? "ltr");
+  document.documentElement.dir = dir;
+}
+
+/** The text direction of the current primary language ('ltr' | 'rtl'). */
+export function primaryDirection() {
+  return locales.get(primaryTag)?.meta?.direction ?? "ltr";
 }
 
 function escapeHtml(s) {
