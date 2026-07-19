@@ -79,6 +79,17 @@
         "notes": { "$ref": "#/$defs/localizedString" }
       }
     },
+    "content": {
+      "description": "How this state's question bank is composed. Omitted entirely for states whose bank is fully self-authored (Ohio).",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "nationalSigns": {
+          "description": "true: build-questions.mjs stamps the national MUTCD signs pool (data/questions/national-signs.json) into this state's bank with ids rewritten us-signs-NNN -> <code>-signs-NNN. The state's authoring batches then only need to cover state-specific content.",
+          "type": "boolean"
+        }
+      }
+    },
     "sources": {
       "description": "Citations backing every fact in this file. Reviewers verify against these.",
       "type": "array",

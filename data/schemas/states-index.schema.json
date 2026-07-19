@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://seayinsights.github.io/multi_lingual_drivers_test/data/schemas/states-index.schema.json",
+  "title": "States registry",
+  "description": "The single list of states the app knows about. The state picker renders 'available' states; 'draft' states exist on disk for authoring but are hidden from users and exempt from bank-sufficiency validation. Adding a state to the app means adding its data/states/<code>/ directory and one entry here — app code never changes. The validator enforces registry <-> directory consistency both ways.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "states"],
+  "properties": {
+    "version": {
+      "description": "Bump on any change; the service worker uses it for cache busting.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "states": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "name", "status"],
+        "properties": {
+          "code": {
+            "description": "USPS two-letter state code, lowercase. Must match a data/states/<code>/ directory.",
+            "type": "string",
+            "pattern": "^[a-z]{2}$"
+          },
+          "name": { "$ref": "#/$defs/localizedString" },
+          "status": {
+            "description": "available: shown in the state picker, full validation. draft: authoring in progress, hidden from users, schema-checked but exempt from bank sufficiency.",
+            "enum": ["available", "draft"]
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "localizedString": {
+      "type": "object",
+      "required": ["en-US"],
+      "minProperties": 1,
+      "properties": {
+        "en-US": { "type": "string", "minLength": 1 }
+      },
+      "propertyNames": { "pattern": "^[a-z]{2,3}-[A-Z]{2}$" },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    }
+  }
+}

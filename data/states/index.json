@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "states": [
+    {
+      "code": "oh",
+      "name": {
+        "en-US": "Ohio",
+        "vi-VN": "Ohio"
+      },
+      "status": "available"
+    }
+  ]
+}
