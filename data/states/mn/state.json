@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Minnesota — RESEARCH: official testing agency name",
-      "vi-VN": "Minnesota — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Minnesota Driver and Vehicle Services (DPS)",
+      "vi-VN": "Nha Lộ Vận Minnesota (DVS)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DVS",
+    "website": "https://dps.mn.gov/divisions/dvs",
+    "handbookUrl": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 20,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Minnesota does not publish an official question count or passing score, so this practice test uses a common 25-question / 80% standard (this state stays in draft until verified). An instruction permit is available from age 15 after passing the knowledge test (30 hours of classroom driver-ed required). DVS offers the knowledge test in Vietnamese.",
+      "vi-VN": "Minnesota không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 25 câu / 80% (còn ở dạng nháp cho tới khi xác minh). Có thể lấy giấy phép tập lái từ 15 tuổi sau khi đậu bài lý thuyết (cần 30 giờ học lái xe trên lớp). DVS có bài thi bằng tiếng Việt."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Minnesota DVS — Driver Education (permit age 15; format)",
+      "url": "https://dps.mn.gov/divisions/dvs/license-and-id/driver-education",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Minnesota DVS — DL-ALL (knowledge test offered in Vietnamese)",
+      "url": "https://dps.mn.gov/divisions/dvs/license-and-id/dl-all",
       "accessed": "2026-07-19"
     }
   ]

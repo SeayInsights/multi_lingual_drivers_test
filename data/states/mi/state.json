@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Michigan — RESEARCH: official testing agency name",
-      "vi-VN": "Michigan — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Michigan Department of State",
+      "vi-VN": "Nha Lộ Vận Michigan (SOS)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "SOS",
+    "website": "https://www.michigan.gov/sos",
+    "handbookUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/WEDMK/WEDMK.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 30,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 24,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -40,10 +40,10 @@
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 14.75,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Michigan's knowledge test has an 'Operator' (rules) section and a 'Signs' section; the official question count and passing score are not published, so this practice test uses a 30-question / 80% standard (this state stays in draft until verified). A GDL Level 1 permit is available from age 14 years 9 months with driver education. Note: the road-sign section is English-only — practice in English-only mode.",
+      "vi-VN": "Bài thi Michigan có phần 'Operator' (luật) và phần 'Signs' (biển báo); số câu và điểm đậu chính thức không được công bố, nên bản luyện này dùng chuẩn 30 câu / 80% (còn ở dạng nháp cho tới khi xác minh). Có thể lấy giấy phép GDL Cấp 1 từ 14 tuổi 9 tháng kèm học lái xe. Lưu ý: phần biển báo chỉ có tiếng Anh — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Michigan SOS — New Drivers (Operator + Signs sections; road-sign test English only)",
+      "url": "https://www.michigan.gov/sos/license-id/new-drivers-18-older",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "What Every Driver Must Know (WEDMK, Oct 2025)",
+      "url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/WEDMK/WEDMK.pdf",
       "accessed": "2026-07-19"
     }
   ]

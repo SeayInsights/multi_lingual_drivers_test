@@ -6,44 +6,43 @@
   },
   "agency": {
     "name": {
-      "en-US": "Indiana — RESEARCH: official testing agency name",
-      "vi-VN": "Indiana — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Indiana Bureau of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Indiana (BMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "BMV",
+    "website": "https://www.in.gov/bmv",
+    "handbookUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf"
   },
   "test": {
-    "totalQuestions": 40,
-    "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "totalQuestions": 25,
+    "passingRule": "per-section",
     "timeLimitMinutes": null,
     "sections": [
       {
         "id": "signs",
         "name": {
-          "en-US": "Road signs",
+          "en-US": "Traffic signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
-        "minCorrect": 0
+        "questionCount": 10,
+        "minCorrect": 8
       },
       {
         "id": "rules",
         "name": {
-          "en-US": "Road rules",
-          "vi-VN": "Luật giao thông"
+          "en-US": "Traffic maneuvers",
+          "vi-VN": "Luật và thao tác lái xe"
         },
-        "questionCount": 20,
-        "minCorrect": 0
+        "questionCount": 15,
+        "minCorrect": 12
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Indiana's knowledge exam has two components — traffic signs and traffic maneuvers — and you must score 80% on EACH. The BMV does not publish a question count, so this simulation uses 10 sign + 15 maneuver questions (8 and 12 to pass). A learner's permit is available from age 15 with driver-education enrollment (16 without). The BMV offers the knowledge exam in Vietnamese.",
+      "vi-VN": "Bài thi Indiana có hai phần — biển báo và luật/thao tác lái xe — và phải đúng 80% ở MỖI phần. BMV không công bố số câu, nên bản mô phỏng này dùng 10 câu biển báo + 15 câu luật (đúng 8 và 12 để đậu). Có thể lấy giấy phép tập lái từ 15 tuổi nếu ghi danh học lái xe (16 tuổi nếu không). BMV có bài thi bằng tiếng Việt."
     }
   },
   "content": {
@@ -51,8 +50,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Indiana BMV — Knowledge Exam (two components, 80% each, Vietnamese offered)",
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/knowledge-exam",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Indiana BMV — Learner's Permit (age 15 w/ driver-ed)",
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/",
       "accessed": "2026-07-19"
     }
   ]

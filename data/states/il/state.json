@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Illinois — RESEARCH: official testing agency name",
-      "vi-VN": "Illinois — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Illinois Secretary of State, Driver Services",
+      "vi-VN": "Nha Lộ Vận Illinois (SOS)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "SOS",
+    "website": "https://www.ilsos.gov",
+    "handbookUrl": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 35,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 28,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       },
       {
@@ -40,10 +40,10 @@
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The written exam has 35 questions — 15 on traffic-sign identification and 20 multiple-choice/true-false. Illinois publishes an 80% pass mark only for CDL tests; the standard-license passing score is not officially stated, so this simulation uses 80% (28 of 35) and stays in draft until verified. An instruction permit is available from age 15 with an approved driver-education course.",
+      "vi-VN": "Bài thi viết có 35 câu — 15 câu nhận biết biển báo và 20 câu trắc nghiệm/đúng-sai. Illinois chỉ công bố mức đậu 80% cho bằng CDL; điểm đậu bằng thường không nêu chính thức, nên bản mô phỏng này dùng 80% (28/35) và còn ở dạng nháp cho tới khi xác minh. Có thể lấy giấy phép tập lái từ 15 tuổi kèm khóa học lái xe được công nhận."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Illinois SOS — Rules of the Road Review Workbook (35 questions: 15 signs + 20)",
+      "url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_ds9.pdf",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Illinois SOS — Instruction Permit (age 15 w/ driver-ed)",
+      "url": "https://www.ilsos.gov/departments/drivers/driver-education/instructpermit.html",
       "accessed": "2026-07-19"
     }
   ]

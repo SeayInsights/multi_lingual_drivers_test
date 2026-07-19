@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Wisconsin — RESEARCH: official testing agency name",
-      "vi-VN": "Wisconsin — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Wisconsin Department of Transportation, DMV",
+      "vi-VN": "Nha Lộ Vận Wisconsin (WisDOT DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://wisconsindot.gov",
+    "handbookUrl": "https://wisconsindot.gov/documents/dmv/shared/bds126-motorists-handbook.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 50,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 40,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 30,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Wisconsin's two-part knowledge test (road rules and road signs) requires a final score of 80% to pass; it is reported as a 50-question exam (40 correct = 80%). An instruction permit is available from age 15 with enrollment in a certified driver-education program. Note: the test is not offered in Vietnamese — practice in English-only mode.",
+      "vi-VN": "Bài thi hai phần của Wisconsin (luật và biển báo) yêu cầu đạt 80% mới đậu; được cho là bài 50 câu (đúng 40 = 80%). Có thể lấy giấy phép tập lái từ 15 tuổi nếu ghi danh chương trình học lái xe được cấp phép. Lưu ý: bài thi không có tiếng Việt — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "WisDOT — Knowledge test (two-part, 80% to pass; languages, no Vietnamese)",
+      "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/teen-hw-aply/knowledge.aspx",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "WisDOT — Instruction Permit (age 15 w/ driver-ed)",
+      "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/permit.aspx",
       "accessed": "2026-07-19"
     }
   ]

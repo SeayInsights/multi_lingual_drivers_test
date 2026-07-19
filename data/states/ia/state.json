@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Iowa — RESEARCH: official testing agency name",
-      "vi-VN": "Iowa — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Iowa Department of Transportation, Motor Vehicle Division",
+      "vi-VN": "Nha Lộ Vận Iowa (Iowa DOT)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DOT",
+    "website": "https://iowadot.gov",
+    "handbookUrl": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 20,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 14,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Iowa requires 80% to pass; the official real-test question count is not published (the practice test uses 25 questions), so this simulation uses 25 questions (20 correct = 80%). An instruction permit is available from age 14. Iowa DOT offers the manual and a study guide in Vietnamese, plus the knowledge test with an interpreter by appointment.",
+      "vi-VN": "Iowa yêu cầu đúng 80% mới đậu; số câu bài thi thật không được công bố (bài luyện dùng 25 câu), nên bản mô phỏng này dùng 25 câu (đúng 20 = 80%). Có thể lấy giấy phép tập lái từ 14 tuổi. Iowa DOT có sổ tay và tài liệu ôn bằng tiếng Việt, và cho thi kèm thông dịch viên khi hẹn trước."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Iowa DOT — Practice Test / knowledge test (80% to pass)",
+      "url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/take-practice-test",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Iowa DOT — Instruction Permit under 18 (age 14)",
+      "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/instruction-permit-under-age-18",
       "accessed": "2026-07-19"
     }
   ]
