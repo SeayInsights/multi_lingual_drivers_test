@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ct-rules-001",
+    "section": "rules",
+    "category": "safety",
+    "text": {
+      "en-US": "How much following distance does Connecticut recommend behind a truck?",
+      "vi-VN": "Connecticut khuyên giữ khoảng cách bao nhiêu khi chạy sau xe tải?"
+    },
+    "choices": [
+      { "text": { "en-US": "At least three seconds", "vi-VN": "Ít nhất ba giây" } },
+      { "text": { "en-US": "One second", "vi-VN": "Một giây" }, "whyWrong": { "en-US": "Never follow a truck at less than a three-second interval.", "vi-VN": "Không bao giờ chạy sau xe tải dưới ba giây." } },
+      { "text": { "en-US": "One car length", "vi-VN": "Một thân xe" }, "whyWrong": { "en-US": "Connecticut counts seconds, not car lengths.", "vi-VN": "Connecticut đếm giây, không đếm thân xe." } },
+      { "text": { "en-US": "Close enough to see around the truck", "vi-VN": "Sát đủ để nhìn vòng qua xe tải" }, "whyWrong": { "en-US": "Following a truck closely means driving blind — the driver can't see you either.", "vi-VN": "Bám sát xe tải là lái mù — tài xế xe tải cũng không thấy bạn." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Never follow a truck at less than a three-second interval. Pick a landmark; if you pass it before counting \"one-one-thousand, two-one-thousand, three-one-thousand,\" you are too close.",
+      "vi-VN": "Không bao giờ chạy sau xe tải dưới ba giây. Chọn một điểm mốc; nếu bạn qua điểm đó trước khi đếm xong \"một-ngàn-lẻ-một, hai-ngàn-lẻ-hai, ba-ngàn-lẻ-ba\" là quá gần."
+    },
+    "difficulty": 1,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Keep a Safe Following Distance Behind Trucks",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-002",
+    "section": "rules",
+    "category": "speed-lanes",
+    "text": {
+      "en-US": "You are driving at the posted speed limit, but the road is icy. Can you still be ticketed?",
+      "vi-VN": "Bạn chạy đúng tốc độ cho phép nhưng đường đóng băng. Có thể bị phạt không?"
+    },
+    "choices": [
+      { "text": { "en-US": "Yes — speed limits are for ideal conditions; you must slow down when they are poor", "vi-VN": "Có — tốc độ cho phép là cho điều kiện lý tưởng; điều kiện xấu thì phải giảm tốc" } },
+      { "text": { "en-US": "No — the posted limit is always legal", "vi-VN": "Không — chạy đúng mức cho phép là luôn hợp lệ" }, "whyWrong": { "en-US": "You can be ticketed for traveling too fast for road conditions even at the posted limit.", "vi-VN": "Vẫn bị phạt vì chạy quá nhanh so với điều kiện đường, dù đúng mức cho phép." } },
+      { "text": { "en-US": "Only if you crash", "vi-VN": "Chỉ khi tông xe" }, "whyWrong": { "en-US": "The unsafe speed itself is the violation — no crash required.", "vi-VN": "Chạy tốc độ không an toàn đã là vi phạm — không cần tai nạn." } },
+      { "text": { "en-US": "Only new drivers can be ticketed for this", "vi-VN": "Chỉ tài xế mới bị phạt lỗi này" }, "whyWrong": { "en-US": "It applies to every driver.", "vi-VN": "Áp dụng cho mọi tài xế." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Speed limits are posted for ideal conditions. If the road is wet or icy, visibility is poor, or traffic is heavy, you must slow down or risk a ticket for traveling too fast for conditions.",
+      "vi-VN": "Tốc độ cho phép được đặt cho điều kiện lý tưởng. Đường ướt hay đóng băng, tầm nhìn kém, hoặc xe đông thì phải giảm tốc, nếu không có thể bị phạt vì chạy quá nhanh so với điều kiện."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Speed Limits",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-003",
+    "section": "rules",
+    "category": "speed-lanes",
+    "text": {
+      "en-US": "Compared with stopping from 30 mph, stopping from 60 mph takes about:",
+      "vi-VN": "So với dừng từ 30 mph, dừng từ 60 mph mất khoảng:"
+    },
+    "choices": [
+      { "text": { "en-US": "More than three times the distance", "vi-VN": "Hơn ba lần khoảng cách" } },
+      { "text": { "en-US": "Twice the distance", "vi-VN": "Gấp đôi khoảng cách" }, "whyWrong": { "en-US": "Doubling speed more than triples the stopping distance, not doubles it.", "vi-VN": "Tăng tốc gấp đôi làm khoảng cách dừng tăng hơn ba lần, không phải gấp đôi." } },
+      { "text": { "en-US": "The same distance", "vi-VN": "Bằng nhau" }, "whyWrong": { "en-US": "Higher speed sharply increases stopping distance.", "vi-VN": "Tốc độ cao làm khoảng cách dừng tăng mạnh." } },
+      { "text": { "en-US": "Half the distance", "vi-VN": "Nửa khoảng cách" }, "whyWrong": { "en-US": "Faster speeds need MORE distance to stop, not less.", "vi-VN": "Chạy nhanh cần NHIỀU khoảng cách hơn để dừng, không phải ít hơn." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Stopping at 60 mph does not take twice the distance of 30 mph — it takes over three times the distance. The faster you go, the more distance you need to turn, slow, or stop.",
+      "vi-VN": "Dừng ở 60 mph không phải gấp đôi khoảng cách của 30 mph — mà hơn ba lần. Chạy càng nhanh càng cần nhiều khoảng cách để quẹo, giảm tốc hay dừng."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Speed Limits",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-004",
+    "section": "rules",
+    "category": "rightofway",
+    "text": {
+      "en-US": "You are pulling out of a private driveway onto a main road. Who has the right-of-way?",
+      "vi-VN": "Bạn từ đường nhà chạy ra đường chính. Ai được ưu tiên?"
+    },
+    "choices": [
+      { "text": { "en-US": "Traffic already on the main road — you must yield", "vi-VN": "Xe đang chạy trên đường chính — bạn phải nhường" } },
+      { "text": { "en-US": "You, because you are entering", "vi-VN": "Bạn, vì bạn đang nhập vào" }, "whyWrong": { "en-US": "Drivers entering from a driveway must yield to vehicles already on the road.", "vi-VN": "Xe từ đường nhà ra phải nhường xe đang trên đường." } },
+      { "text": { "en-US": "Whoever is going faster", "vi-VN": "Xe nào nhanh hơn" }, "whyWrong": { "en-US": "Speed never decides right-of-way.", "vi-VN": "Tốc độ không quyết định quyền ưu tiên." } },
+      { "text": { "en-US": "Nobody — just merge quickly", "vi-VN": "Không ai — cứ nhập lẹ" }, "whyWrong": { "en-US": "You must yield to main-road traffic first.", "vi-VN": "Phải nhường xe trên đường chính trước." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Drivers entering a road from a driveway, alley, or roadside must yield to vehicles already on the main road.",
+      "vi-VN": "Xe từ đường nhà, hẻm hoặc lề chạy ra phải nhường xe đã ở trên đường chính."
+    },
+    "difficulty": 1,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Right-of-Way",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-005",
+    "section": "rules",
+    "category": "rightofway",
+    "text": {
+      "en-US": "The light is green but traffic ahead is backed up through the intersection. What should you do?",
+      "vi-VN": "Đèn xanh nhưng xe phía trước kẹt cứng qua ngã tư. Bạn nên làm gì?"
+    },
+    "choices": [
+      { "text": { "en-US": "Wait — do not enter until you can clear the intersection", "vi-VN": "Chờ — không vào cho tới khi qua hẳn được ngã tư" } },
+      { "text": { "en-US": "Enter anyway; the green light gives you the right", "vi-VN": "Cứ vào; đèn xanh cho mình quyền đi" }, "whyWrong": { "en-US": "Blocking the intersection when the light changes can get you a ticket.", "vi-VN": "Kẹt giữa ngã tư khi đèn đổi có thể bị phạt." } },
+      { "text": { "en-US": "Honk until traffic moves", "vi-VN": "Bấm kèn cho xe chạy" }, "whyWrong": { "en-US": "Wait for space; do not block the box.", "vi-VN": "Chờ có chỗ trống; đừng chắn giữa ngã tư." } },
+      { "text": { "en-US": "Drive onto the shoulder to get around", "vi-VN": "Chạy lên lề để vòng qua" }, "whyWrong": { "en-US": "Just wait until the intersection is clear.", "vi-VN": "Chỉ cần chờ tới khi ngã tư thông thoáng." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "You may not enter an intersection unless you can get through it without stopping. If caught in it when the light turns red, you block others and can get a ticket.",
+      "vi-VN": "Không được vào ngã tư trừ khi qua được mà không phải dừng. Kẹt lại khi đèn chuyển đỏ sẽ chắn xe khác và có thể bị phạt."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Right-of-Way",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-006",
+    "section": "rules",
+    "category": "rightofway",
+    "text": {
+      "en-US": "An emergency vehicle approaches with siren and flashing lights. What must you do in Connecticut?",
+      "vi-VN": "Xe khẩn cấp chạy tới, còi hụ và đèn chớp. Ở Connecticut bạn phải làm gì?"
+    },
+    "choices": [
+      { "text": { "en-US": "Pull to the right edge and stop until it passes (clear the intersection first if you are in one)", "vi-VN": "Tấp vào lề phải và dừng cho tới khi xe qua (nếu đang ở giữa ngã tư thì qua khỏi trước)" } },
+      { "text": { "en-US": "Stop immediately, even in the intersection", "vi-VN": "Dừng ngay, kể cả giữa ngã tư" }, "whyWrong": { "en-US": "If you are in an intersection, drive through it first, then pull over.", "vi-VN": "Nếu đang ở giữa ngã tư, qua khỏi trước rồi mới tấp vào." } },
+      { "text": { "en-US": "Speed up to get out of the way", "vi-VN": "Tăng tốc để tránh đường" }, "whyWrong": { "en-US": "Pull right and stop — do not speed up.", "vi-VN": "Tấp phải và dừng — không tăng tốc." } },
+      { "text": { "en-US": "Maintain your speed and lane", "vi-VN": "Giữ nguyên tốc độ và làn" }, "whyWrong": { "en-US": "You must yield, pull over, and stop.", "vi-VN": "Phải nhường, tấp vào và dừng lại." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Yield to any emergency vehicle using a siren or red/blue flashing lights: pull to the right edge and stop until it passes. If you are in an intersection, drive through it before pulling over.",
+      "vi-VN": "Nhường mọi xe khẩn cấp đang hụ còi hoặc chớp đèn đỏ/xanh: tấp vào lề phải và dừng cho tới khi xe qua. Nếu đang ở giữa ngã tư, qua khỏi rồi mới tấp vào."
+    },
+    "difficulty": 1,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Right-of-Way",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-007",
+    "section": "rules",
+    "category": "parking-buses",
+    "text": {
+      "en-US": "A school bus is stopped with red lights flashing on the OPPOSITE side of an undivided road. What must you do?",
+      "vi-VN": "Xe buýt trường dừng chớp đèn đỏ ở phía ĐỐI DIỆN trên đường không có dải phân cách. Bạn phải làm gì?"
+    },
+    "choices": [
+      { "text": { "en-US": "Stop — you must stop whether the bus is on your side, the opposite side, or ahead", "vi-VN": "Dừng — phải dừng dù xe buýt cùng phía, phía đối diện, hay phía trước" } },
+      { "text": { "en-US": "Keep going; opposite-side traffic never stops", "vi-VN": "Cứ chạy; xe phía đối diện khỏi dừng" }, "whyWrong": { "en-US": "On an undivided road you must stop from both directions. Only a median or barrier exempts the opposite side.", "vi-VN": "Trên đường không có dải phân cách, cả hai hướng đều phải dừng. Chỉ dải phân cách mới miễn cho phía đối diện." } },
+      { "text": { "en-US": "Slow to 15 mph and pass", "vi-VN": "Giảm còn 15 mph rồi vượt" }, "whyWrong": { "en-US": "You must fully stop, not slow down.", "vi-VN": "Phải dừng hẳn, không phải giảm tốc." } },
+      { "text": { "en-US": "Stop only if you see children", "vi-VN": "Chỉ dừng nếu thấy trẻ em" }, "whyWrong": { "en-US": "Flashing red lights require a stop regardless.", "vi-VN": "Đèn đỏ chớp là phải dừng, bất kể có thấy trẻ em hay không." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Stop for a school bus with red lights flashing whether it is on your side, the opposite side, or at an intersection ahead. You need not stop only if a median or physical barrier separates the roadway. Wait until the lights stop and children have left the road.",
+      "vi-VN": "Dừng khi xe buýt trường chớp đèn đỏ dù cùng phía, phía đối diện, hay tại ngã tư phía trước. Chỉ khỏi dừng khi có dải phân cách. Chờ đèn tắt và trẻ em rời khỏi đường mới đi tiếp."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Right-of-Way",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-008",
+    "section": "rules",
+    "category": "rightofway",
+    "text": {
+      "en-US": "You are entering a roundabout. Who has the right-of-way?",
+      "vi-VN": "Bạn đang vào vòng xoay. Ai được ưu tiên?"
+    },
+    "choices": [
+      { "text": { "en-US": "Traffic already circulating in the roundabout — you must yield", "vi-VN": "Xe đang chạy trong vòng xoay — bạn phải nhường" } },
+      { "text": { "en-US": "Entering traffic goes first", "vi-VN": "Xe đang vào đi trước" }, "whyWrong": { "en-US": "Each approach has a yield sign; entering traffic yields to circulating traffic.", "vi-VN": "Mỗi lối vào có bảng nhường; xe vào phải nhường xe đang chạy trong vòng." } },
+      { "text": { "en-US": "The larger vehicle", "vi-VN": "Xe lớn hơn" }, "whyWrong": { "en-US": "Size does not matter; yield to circulating traffic.", "vi-VN": "Xe lớn nhỏ không quan trọng; nhường xe đang trong vòng." } },
+      { "text": { "en-US": "Whoever enters fastest", "vi-VN": "Ai vào nhanh nhất" }, "whyWrong": { "en-US": "Yield first, then enter when there is a safe gap.", "vi-VN": "Nhường trước, rồi vào khi có khoảng trống an toàn." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "At a roundabout, each approaching road is marked with a yield sign. Entering traffic must yield the right-of-way to traffic already circulating.",
+      "vi-VN": "Ở vòng xoay, mỗi lối vào đều có bảng nhường đường. Xe đang vào phải nhường quyền ưu tiên cho xe đang chạy trong vòng."
+    },
+    "difficulty": 1,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Roundabouts",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-009",
+    "section": "rules",
+    "category": "safety",
+    "text": {
+      "en-US": "How should you share a lane with a motorcycle?",
+      "vi-VN": "Bạn nên chia sẻ làn đường với xe mô tô thế nào?"
+    },
+    "choices": [
+      { "text": { "en-US": "Give it the full lane — do not pass a motorcycle within the same lane", "vi-VN": "Nhường trọn làn — không vượt xe mô tô trong cùng một làn" } },
+      { "text": { "en-US": "Share the lane side by side since it is small", "vi-VN": "Chạy song song cùng làn vì xe nhỏ" }, "whyWrong": { "en-US": "A motorcycle is entitled to a complete lane and needs space to react.", "vi-VN": "Xe mô tô được quyền dùng trọn làn và cần chỗ để xử lý." } },
+      { "text": { "en-US": "Pass closely to get by quickly", "vi-VN": "Vượt sát cho lẹ" }, "whyWrong": { "en-US": "Do not pass a motorcycle in the same lane; give it room.", "vi-VN": "Không vượt xe mô tô trong cùng làn; chừa chỗ cho họ." } },
+      { "text": { "en-US": "Tailgate so it speeds up", "vi-VN": "Bám sát cho họ chạy nhanh" }, "whyWrong": { "en-US": "Keep a safe distance — motorcycles can stop or swerve suddenly.", "vi-VN": "Giữ khoảng cách an toàn — xe mô tô có thể dừng hoặc né bất ngờ." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Motorcycle operators have the right to use a complete traffic lane. Do not pass a motorcycle in the same lane — it needs the space to react to traffic.",
+      "vi-VN": "Người lái mô tô có quyền dùng trọn một làn. Không vượt xe mô tô trong cùng làn — họ cần khoảng trống để xử lý tình huống."
+    },
+    "difficulty": 1,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Motorcycles",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-010",
+    "section": "rules",
+    "category": "safety",
+    "text": {
+      "en-US": "Beside a large truck, you cannot see the driver's face in the truck's side mirror. What does that mean?",
+      "vi-VN": "Chạy kế xe tải lớn, bạn không thấy mặt tài xế trong kính chiếu hậu của xe tải. Nghĩa là sao?"
+    },
+    "choices": [
+      { "text": { "en-US": "You are in a No-Zone (blind spot) — the driver cannot see you", "vi-VN": "Bạn đang ở điểm mù (No-Zone) — tài xế không thấy bạn" } },
+      { "text": { "en-US": "The mirror is broken", "vi-VN": "Kính bị hư" }, "whyWrong": { "en-US": "It means you are in a blind spot, not that the mirror is broken.", "vi-VN": "Nghĩa là bạn đang ở điểm mù, không phải kính hư." } },
+      { "text": { "en-US": "Nothing — trucks see everything", "vi-VN": "Không sao — xe tải thấy hết" }, "whyWrong": { "en-US": "Trucks have large No-Zones on the sides, rear, and front.", "vi-VN": "Xe tải có điểm mù lớn ở hai bên, phía sau và phía trước." } },
+      { "text": { "en-US": "You should stay there where it is safe", "vi-VN": "Nên ở yên đó cho an toàn" }, "whyWrong": { "en-US": "Move out of the blind spot — pass or drop back.", "vi-VN": "Thoát khỏi điểm mù — vượt hẳn hoặc lùi lại." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "If you cannot see the truck driver's face in the side mirror, the driver cannot see you. Trucks have large No-Zones on their sides, rear, and front — avoid lingering in them.",
+      "vi-VN": "Không thấy mặt tài xế xe tải trong kính chiếu hậu tức là họ không thấy bạn. Xe tải có điểm mù lớn ở hai bên, phía sau và phía trước — đừng nấn ná trong đó."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "No-Zone",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-011",
+    "section": "rules",
+    "category": "safety",
+    "text": {
+      "en-US": "Another driver is tailgating you closely. What is the safe response?",
+      "vi-VN": "Một xe khác đang bám sát đuôi bạn. Cách xử lý an toàn là gì?"
+    },
+    "choices": [
+      { "text": { "en-US": "Move to the right lane if there is one, or slow down gradually to let them pass", "vi-VN": "Qua làn phải nếu có, hoặc giảm tốc từ từ cho họ vượt" } },
+      { "text": { "en-US": "Brake quickly to warn them off", "vi-VN": "Đạp thắng gấp để cảnh cáo họ" }, "whyWrong": { "en-US": "Never slow down quickly to discourage a tailgater — it increases your risk of being hit from behind.", "vi-VN": "Không bao giờ thắng gấp để dằn mặt xe bám đuôi — làm tăng nguy cơ bị tông từ sau." } },
+      { "text": { "en-US": "Speed up to outrun them", "vi-VN": "Tăng tốc bỏ họ lại" }, "whyWrong": { "en-US": "Speeding up is dangerous; let them pass instead.", "vi-VN": "Tăng tốc rất nguy hiểm; hãy để họ vượt." } },
+      { "text": { "en-US": "Ignore it and keep your speed", "vi-VN": "Kệ họ, giữ nguyên tốc độ" }, "whyWrong": { "en-US": "Give the tailgater room by moving right or slowing gradually.", "vi-VN": "Chừa chỗ cho họ bằng cách qua phải hoặc giảm tốc từ từ." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "If you are being tailgated and there is a right lane, move over. If not, wait until the road ahead is clear, then reduce speed slowly to encourage them to pass. Never brake suddenly at a tailgater.",
+      "vi-VN": "Bị bám đuôi mà có làn phải thì qua phải. Nếu không, chờ đường trống rồi giảm tốc từ từ cho họ vượt. Không bao giờ thắng gấp với xe bám đuôi."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Being Tailgated",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-012",
+    "section": "rules",
+    "category": "safety",
+    "text": {
+      "en-US": "A truck is passing you on a two-lane road. What should you do?",
+      "vi-VN": "Một xe tải đang vượt bạn trên đường hai làn. Bạn nên làm gì?"
+    },
+    "choices": [
+      { "text": { "en-US": "Slow down slightly to shorten the pass — never speed up", "vi-VN": "Giảm tốc một chút cho họ vượt nhanh hơn — không bao giờ tăng tốc" } },
+      { "text": { "en-US": "Speed up so they finish sooner", "vi-VN": "Tăng tốc cho họ xong lẹ" }, "whyWrong": { "en-US": "Speeding up while being passed is dangerous and illegal.", "vi-VN": "Tăng tốc khi bị vượt là nguy hiểm và phạm luật." } },
+      { "text": { "en-US": "Move toward the center line", "vi-VN": "Lấn về vạch giữa" }, "whyWrong": { "en-US": "Keep to the right to give the truck room.", "vi-VN": "Giữ về bên phải để chừa chỗ cho xe tải." } },
+      { "text": { "en-US": "Flash your high beams", "vi-VN": "Nháy đèn pha cao" }, "whyWrong": { "en-US": "High beams can blind the driver; just slow slightly and keep right.", "vi-VN": "Đèn cao làm chói mắt tài xế; chỉ cần giảm tốc nhẹ và giữ phải." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "If a truck passes you, help it pass safely by slowing down slightly to shorten the time required. Never speed up — that is dangerous and illegal.",
+      "vi-VN": "Khi xe tải vượt bạn, giúp họ vượt an toàn bằng cách giảm tốc một chút cho ngắn thời gian vượt. Không bao giờ tăng tốc — làm vậy nguy hiểm và phạm luật."
+    },
+    "difficulty": 1,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Sharing the Road with Trucks",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-013",
+    "section": "rules",
+    "category": "safety",
+    "text": {
+      "en-US": "Which children must be in a rear-facing car seat in Connecticut?",
+      "vi-VN": "Trẻ nào phải ngồi ghế quay mặt về sau ở Connecticut?"
+    },
+    "choices": [
+      { "text": { "en-US": "Children under age 2, or under 30 pounds regardless of age", "vi-VN": "Trẻ dưới 2 tuổi, hoặc dưới 30 pound bất kể tuổi" } },
+      { "text": { "en-US": "Only newborns", "vi-VN": "Chỉ trẻ sơ sinh" }, "whyWrong": { "en-US": "Rear-facing is required under age 2 or under 30 pounds, not just newborns.", "vi-VN": "Ghế quay về sau bắt buộc cho dưới 2 tuổi hoặc dưới 30 pound, không chỉ sơ sinh." } },
+      { "text": { "en-US": "Children up to age 8", "vi-VN": "Trẻ tới 8 tuổi" }, "whyWrong": { "en-US": "By age 2–5 a forward-facing harness is allowed; a booster covers ages 5–8.", "vi-VN": "Từ 2–5 tuổi được dùng ghế quay tới có đai; ghế nâng cho 5–8 tuổi." } },
+      { "text": { "en-US": "No child seats are required in Connecticut", "vi-VN": "Connecticut không bắt ghế trẻ em" }, "whyWrong": { "en-US": "Connecticut has a mandatory child-restraint law by age and weight.", "vi-VN": "Connecticut có luật ghế trẻ em bắt buộc theo tuổi và cân nặng." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Under age 2 or under 30 pounds: rear-facing seat. Age 2–5 or under 40 pounds: forward- or rear-facing harness. Age 5–8 or 40–60 pounds: harness or booster. Age 8+ and 60+ pounds: booster or seat belt.",
+      "vi-VN": "Dưới 2 tuổi hoặc dưới 30 pound: ghế quay về sau. 2–5 tuổi hoặc dưới 40 pound: ghế có đai (quay trước hoặc sau). 5–8 tuổi hoặc 40–60 pound: đai hoặc ghế nâng. Từ 8 tuổi và 60 pound: ghế nâng hoặc dây an toàn."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Child Restraint Requirements",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-014",
+    "section": "rules",
+    "category": "alcohol",
+    "text": {
+      "en-US": "In Connecticut, how much alcohol can make a driver under 21 impaired?",
+      "vi-VN": "Ở Connecticut, tài xế dưới 21 tuổi có thể bị coi là say sau bao nhiêu rượu?"
+    },
+    "choices": [
+      { "text": { "en-US": "As little as one drink — any amount can affect driving", "vi-VN": "Chỉ một ly — bất kỳ lượng nào cũng ảnh hưởng lái xe" } },
+      { "text": { "en-US": "Only after several drinks", "vi-VN": "Chỉ sau nhiều ly" }, "whyWrong": { "en-US": "Under 21, even one drink can make you impaired and subject to arrest.", "vi-VN": "Dưới 21 tuổi, chỉ một ly cũng có thể khiến bạn say và bị bắt." } },
+      { "text": { "en-US": "Alcohol never affects experienced drivers", "vi-VN": "Rượu không ảnh hưởng tài xế lâu năm" }, "whyWrong": { "en-US": "No one can drink and drive safely — new drivers are affected even more.", "vi-VN": "Không ai uống rượu mà lái an toàn — tài xế mới còn bị ảnh hưởng nhiều hơn." } },
+      { "text": { "en-US": "Only hard liquor counts, not beer", "vi-VN": "Chỉ rượu mạnh mới tính, bia thì không" }, "whyWrong": { "en-US": "Beer, wine, and liquor all contain alcohol that impairs driving.", "vi-VN": "Bia, rượu vang và rượu mạnh đều có cồn làm giảm khả năng lái." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Any amount of alcohol can affect your driving. In Connecticut, people under 21 could be considered impaired after only one drink and could be arrested for operating under the influence.",
+      "vi-VN": "Bất kỳ lượng cồn nào cũng ảnh hưởng khả năng lái. Ở Connecticut, người dưới 21 tuổi có thể bị coi là say chỉ sau một ly và có thể bị bắt vì lái xe khi có cồn."
+    },
+    "difficulty": 1,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Alcohol and You",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  },
+  {
+    "id": "ct-rules-015",
+    "section": "rules",
+    "category": "safety",
+    "text": {
+      "en-US": "When must a bicyclist in Connecticut wear a helmet, and what must a driver do around bicyclists?",
+      "vi-VN": "Ở Connecticut, khi nào người đi xe đạp phải đội nón bảo hiểm, và tài xế phải làm gì khi gần người đạp xe?"
+    },
+    "choices": [
+      { "text": { "en-US": "Helmets are required under age 16; drivers must yield to bicyclists at intersections like other vehicles", "vi-VN": "Dưới 16 tuổi phải đội nón bảo hiểm; tài xế phải nhường người đạp xe tại ngã tư như với xe khác" } },
+      { "text": { "en-US": "Bicyclists never need helmets; drivers may ignore them", "vi-VN": "Người đạp xe không cần nón; tài xế khỏi để ý" }, "whyWrong": { "en-US": "Under-16 riders must wear helmets, and drivers must yield to bicyclists as they would to vehicles.", "vi-VN": "Dưới 16 tuổi phải đội nón, và tài xế phải nhường người đạp xe như với xe cộ." } },
+      { "text": { "en-US": "All ages must wear helmets; drivers have priority", "vi-VN": "Mọi tuổi phải đội nón; tài xế được ưu tiên" }, "whyWrong": { "en-US": "Helmets are legally required only under 16, and drivers must yield to bicyclists.", "vi-VN": "Luật chỉ bắt đội nón khi dưới 16 tuổi, và tài xế phải nhường người đạp xe." } },
+      { "text": { "en-US": "Bicyclists must ride on sidewalks only", "vi-VN": "Người đạp xe chỉ được đi trên lề" }, "whyWrong": { "en-US": "Bicyclists are considered vehicles and ride with traffic, following the same rules.", "vi-VN": "Người đạp xe được coi như xe cộ, chạy cùng dòng xe và theo cùng luật." } }
+    ],
+    "answerIndex": 0,
+    "explanation": {
+      "en-US": "Bicyclists are treated as vehicles with the same rights and responsibilities. Riders under 16 must wear a helmet, and as a driver you must yield to bicyclists at intersections just as you would to pedestrians and other vehicles.",
+      "vi-VN": "Người đạp xe được coi như xe cộ, cùng quyền và trách nhiệm. Người dưới 16 tuổi phải đội nón bảo hiểm, và tài xế phải nhường người đạp xe tại ngã tư như với người đi bộ và xe khác."
+    },
+    "difficulty": 2,
+    "source": {
+      "title": "State of Connecticut Driver's Manual 2023, CT DMV",
+      "section": "Bicyclists",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+    }
+  }
+]
