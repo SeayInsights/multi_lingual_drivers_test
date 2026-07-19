@@ -4,6 +4,10 @@
   "languages": [
     { "tag": "vi-VN", "endonym": "Tiếng Việt", "englishName": "Vietnamese", "base": "vi", "variantLabel": "Miền Nam", "status": "available" },
     { "tag": "vi-VN-x-north", "endonym": "Tiếng Việt", "englishName": "Vietnamese", "base": "vi", "variantLabel": "Miền Bắc", "status": "available" },
+    { "tag": "zh-CN", "endonym": "中文", "englishName": "Chinese", "base": "zh", "variantLabel": "简体中文", "status": "available" },
+    { "tag": "zh-TW", "endonym": "中文", "englishName": "Chinese", "base": "zh", "variantLabel": "繁體中文", "status": "available" },
+    { "tag": "ko-KR", "endonym": "한국어", "englishName": "Korean", "status": "available" },
+    { "tag": "ja-JP", "endonym": "日本語", "englishName": "Japanese", "status": "available" },
     { "tag": "es-MX", "endonym": "Español", "englishName": "Spanish", "status": "available" },
     { "tag": "ar", "endonym": "العربية", "englishName": "Arabic", "direction": "rtl", "status": "available" },
     { "tag": "en-US", "endonym": "English", "englishName": "English", "status": "available" }
