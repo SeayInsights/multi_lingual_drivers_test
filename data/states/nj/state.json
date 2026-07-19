@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "New Jersey — RESEARCH: official testing agency name",
-      "vi-VN": "New Jersey — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "New Jersey Motor Vehicle Commission",
+      "vi-VN": "Nha Lộ Vận New Jersey (MVC)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "MVC",
+    "website": "https://www.nj.gov/mvc",
+    "handbookUrl": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 30,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 24,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 16,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "New Jersey requires 80% to pass; the MVC does not publish the auto-test question count, so this simulation uses 30 questions (24 correct = 80%). A special learner's permit is available from age 16 with a driver-training course (standard examination permit at 17). Note: the test is not offered in Vietnamese — practice in English-only mode.",
+      "vi-VN": "New Jersey yêu cầu đúng 80% mới đậu; MVC không công bố số câu bài thi xe hơi, nên bản mô phỏng này dùng 30 câu (đúng 24 câu = 80%). Có thể lấy giấy phép tập lái đặc biệt từ 16 tuổi kèm khóa học lái xe (giấy phép thi thường từ 17 tuổi). Lưu ý: bài thi không có tiếng Việt — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "NJ MVC — Knowledge Test (80% to pass; auto-test count not published)",
+      "url": "https://www.nj.gov/mvc/license/knowledgetest.htm",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "NJ MVC — Getting Your First License (special learner permit age 16)",
+      "url": "https://www.nj.gov/mvc/license/firstlic.htm",
       "accessed": "2026-07-19"
     }
   ]

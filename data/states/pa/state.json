@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Pennsylvania — RESEARCH: official testing agency name",
-      "vi-VN": "Pennsylvania — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Pennsylvania Department of Transportation, Driver & Vehicle Services",
+      "vi-VN": "Nha Lộ Vận Pennsylvania (PennDOT)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "PennDOT",
+    "website": "https://www.pa.gov/agencies/dmv",
+    "handbookUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 18,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 15,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 6,
         "minCorrect": 0
       },
       {
@@ -34,7 +34,7 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 12,
         "minCorrect": 0
       }
     ]
@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 16,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The knowledge test has 18 multiple-choice questions; you must answer 15 correctly to pass. A learner's permit is available from age 16. PennDOT offers the knowledge test in Vietnamese (written and audio) upon request.",
+      "vi-VN": "Bài thi lý thuyết có 18 câu trắc nghiệm; phải đúng 15 câu mới đậu. Có thể lấy giấy phép tập lái từ 16 tuổi. PennDOT có bài thi bằng tiếng Việt (chữ viết và âm thanh) khi yêu cầu."
     }
   },
   "content": {
@@ -51,8 +51,8 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "PennDOT — Driver's Manual Testing (18 questions, 15 to pass, Vietnamese on request)",
+      "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing",
       "accessed": "2026-07-19"
     }
   ]

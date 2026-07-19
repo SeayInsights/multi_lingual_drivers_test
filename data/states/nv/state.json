@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Nevada — RESEARCH: official testing agency name",
-      "vi-VN": "Nevada — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Nevada Department of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Nevada (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://dmv.nv.gov",
+    "handbookUrl": "https://dmv.nv.gov/pdfforms/dlbook.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 20,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15.5,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The Class C knowledge test has 25 multiple-choice questions; 80% (20 correct) passes and the test stops at 20 correct or 6 wrong. An instruction permit is available from age 15½. Note: Nevada's real test is offered in English and Spanish only — practice in English-only mode to prepare.",
+      "vi-VN": "Bài thi lý thuyết hạng C có 25 câu trắc nghiệm; đúng 80% (20 câu) là đậu, bài dừng khi đạt 20 câu đúng hoặc 6 câu sai. Có thể lấy giấy phép tập lái từ 15 tuổi rưỡi. Lưu ý: bài thi thật ở Nevada CHỈ có tiếng Anh và tiếng Tây Ban Nha — nên luyện ở chế độ chỉ tiếng Anh để chuẩn bị."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Nevada DMV — Drive Testing (25 questions, 80%, stops at 20 correct/6 wrong, EN/ES only)",
+      "url": "https://dmv.nv.gov/dltesting.htm",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Nevada DMV — Teen instruction permit (age 15½)",
+      "url": "https://dmv.nv.gov/dlipteens.htm",
       "accessed": "2026-07-19"
     }
   ]

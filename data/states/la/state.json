@@ -6,12 +6,12 @@
   },
   "agency": {
     "name": {
-      "en-US": "Louisiana — RESEARCH: official testing agency name",
-      "vi-VN": "Louisiana — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Louisiana Office of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Louisiana (OMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "OMV",
+    "website": "https://expresslane.dps.louisiana.gov",
+    "handbookUrl": "https://expresslane.dps.louisiana.gov"
   },
   "test": {
     "totalQuestions": 40,
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 25,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The Class E knowledge test has 40 questions; you must score 80% (32 of 40) to pass. A learner's permit is available from age 15 (graduated licensing). Practice in English-only mode if your test center administers the test in English.",
+      "vi-VN": "Bài thi lý thuyết hạng E có 40 câu; phải đúng 80% (32/40) mới đậu. Có thể lấy giấy phép tập lái từ 15 tuổi (chương trình cấp bằng theo giai đoạn). Nên luyện ở chế độ chỉ tiếng Anh nếu trung tâm thi bằng tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,8 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Louisiana OMV — Class E Learner's Permit Requirements (40 questions, 80% to pass, permit age 15)",
+      "url": "https://expresslane.dps.louisiana.gov/CDLForms/CLASS%20E%20Learner's%20Permit%20requirements.pdf",
       "accessed": "2026-07-19"
     }
   ]

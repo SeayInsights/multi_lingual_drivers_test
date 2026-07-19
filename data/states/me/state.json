@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Maine — RESEARCH: official testing agency name",
-      "vi-VN": "Maine — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Maine Bureau of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Maine (BMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "BMV",
+    "website": "https://www.maine.gov/sos/bmv",
+    "handbookUrl": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/motoristhandbook.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 30,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 24,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -40,10 +40,10 @@
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The knowledge test has 30 questions; you must answer at least 24 correctly to pass. A permit is available from age 15 (driver-ed certificate required under 18). Note: the standard test is offered in 8 languages not including Vietnamese — a free interpreter is available; practice in English-only mode.",
+      "vi-VN": "Bài thi lý thuyết có 30 câu; phải đúng ít nhất 24 câu mới đậu. Có thể lấy giấy phép từ 15 tuổi (dưới 18 cần chứng chỉ học lái xe). Lưu ý: bài thi chuẩn có 8 thứ tiếng, không có tiếng Việt — có thông dịch viên miễn phí; nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Maine BMV — Driver's License Exam (30 questions, 24 to pass)",
+      "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/drivers-license-exam",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Maine BMV — How to Obtain a License (permit age 15)",
+      "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/how-to-obtain-a-license",
       "accessed": "2026-07-19"
     }
   ]

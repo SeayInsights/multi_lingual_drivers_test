@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Oregon — RESEARCH: official testing agency name",
-      "vi-VN": "Oregon — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Oregon Driver & Motor Vehicle Services (ODOT DMV)",
+      "vi-VN": "Nha Lộ Vận Oregon (ODOT DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://www.oregon.gov/odot/dmv",
+    "handbookUrl": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 35,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 28,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       },
       {
@@ -40,10 +40,10 @@
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The knowledge test has 35 multiple-choice questions; you must answer 28 correctly (80%) to pass. A Provisional Instruction Permit is available from age 15. ODOT DMV offers the Class C knowledge test in Vietnamese.",
+      "vi-VN": "Bài thi lý thuyết có 35 câu trắc nghiệm; phải đúng 28 câu (80%) mới đậu. Có thể lấy giấy phép tập lái tạm (Provisional) từ 15 tuổi. ODOT DMV có bài thi hạng C bằng tiếng Việt."
     }
   },
   "content": {
@@ -51,8 +51,18 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Oregon DMV — Testing (35 questions, 28 to pass)",
+      "url": "https://www.oregon.gov/odot/dmv/pages/online_manual/testing.aspx",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Oregon DMV — Online knowledge testing (Vietnamese offered)",
+      "url": "https://www.oregon.gov/odot/dmv/pages/online_services/online_knowledge_testing.aspx",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Oregon Driver Manual 2026-2027 (ODOT DMV form 37)",
+      "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
       "accessed": "2026-07-19"
     }
   ]

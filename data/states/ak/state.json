@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Alaska — RESEARCH: official testing agency name",
-      "vi-VN": "Alaska — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Alaska Division of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Alaska (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://dmv.alaska.gov",
+    "handbookUrl": "https://dmv.alaska.gov/media/t5ef5vi2/dlman.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 20,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 16,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 8,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 12,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 14,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Alaska does not publish an official question count or passing score online, so this practice test uses a common 20-question / 80% standard (this state stays in draft until the official format is verified). An instruction permit is available from age 14. Note: Alaska's real test is offered in English and Spanish only — practice in English-only mode.",
+      "vi-VN": "Alaska không công bố số câu hay điểm đậu chính thức trên mạng, nên bản luyện này dùng chuẩn phổ biến 20 câu / 80% (tiểu bang này còn ở dạng nháp cho tới khi xác minh được định dạng chính thức). Có thể lấy giấy phép tập lái từ 14 tuổi. Lưu ý: bài thi thật ở Alaska CHỈ có tiếng Anh và tiếng Tây Ban Nha — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Alaska DMV — Instruction Permit (age 14)",
+      "url": "https://dmv.alaska.gov/credential-services/instruction-permit/",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Alaska Driver Manual (official count/passing score not stated)",
+      "url": "https://dmv.alaska.gov/media/t5ef5vi2/dlman.pdf",
       "accessed": "2026-07-19"
     }
   ]

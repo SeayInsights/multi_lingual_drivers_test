@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Vermont — RESEARCH: official testing agency name",
-      "vi-VN": "Vermont — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Vermont Department of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Vermont (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://dmv.vermont.gov",
+    "handbookUrl": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 20,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 16,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 8,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 12,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The online knowledge test has 20 questions; you must answer at least 16 correctly (80%) to pass. A learner's permit is available from age 15 (parental consent under 18). Note: the exam is not offered in Vietnamese — practice in English-only mode.",
+      "vi-VN": "Bài thi lý thuyết trực tuyến có 20 câu; phải đúng ít nhất 16 câu (80%) mới đậu. Có thể lấy giấy phép tập lái từ 15 tuổi (dưới 18 cần cha mẹ đồng ý). Lưu ý: bài thi không có tiếng Việt — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Vermont DMV — Prepare for a Written Test (20 questions, 16 to pass)",
+      "url": "https://dmv.vermont.gov/licenses/new/prepare-for-a-written-test",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Vermont DMV — Learner's Permit (age 15)",
+      "url": "https://dmv.vermont.gov/licenses/new/learners-permit",
       "accessed": "2026-07-19"
     }
   ]

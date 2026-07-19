@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "West Virginia — RESEARCH: official testing agency name",
-      "vi-VN": "West Virginia — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "West Virginia Division of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận West Virginia (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://transportation.wv.gov/DMV",
+    "handbookUrl": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 19,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The knowledge exam has at least 25 questions; you must answer 19 of 25 correctly (76%) to pass. The real test is timed (unanswered questions count as wrong); the official duration is not published. A Level 1 Instruction Permit is available from age 15.",
+      "vi-VN": "Bài thi lý thuyết có ít nhất 25 câu; phải đúng 19/25 câu (76%) mới đậu. Bài thi thật có giới hạn thời gian (câu chưa trả lời tính là sai); thời lượng chính thức không được công bố. Có thể lấy giấy phép tập lái Cấp 1 từ 15 tuổi."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "WV Driver's Licensing Handbook (rev. 07/2022) — 25 questions, 19 to pass, timed",
+      "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "WV DMV — Driver's Licenses (Level 1 permit age 15)",
+      "url": "https://transportation.wv.gov/DMV/Drivers/Pages/Drivers-Licenses.aspx",
       "accessed": "2026-07-19"
     }
   ]

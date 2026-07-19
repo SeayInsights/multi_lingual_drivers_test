@@ -6,18 +6,18 @@
   },
   "agency": {
     "name": {
-      "en-US": "Rhode Island — RESEARCH: official testing agency name",
-      "vi-VN": "Rhode Island — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Rhode Island Division of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Rhode Island (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://dmv.ri.gov",
+    "handbookUrl": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/manuals/Driver_Manual_FINAL.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
-    "timeLimitMinutes": null,
+    "overallMinCorrect": 20,
+    "timeLimitMinutes": 90,
     "sections": [
       {
         "id": "signs",
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,7 +34,7 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 16,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Rhode Island does not publish an official question count or passing score, so this practice test uses a common 25-question / 80% standard (this state stays in draft until the official format is verified). The computerized test has a 90-minute maximum. A permit is available from age 16 with a driver-education course. Note: the exam is offered in English, Spanish, and Portuguese — practice in English-only mode.",
+      "vi-VN": "Rhode Island không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 25 câu / 80% (còn ở dạng nháp cho tới khi xác minh). Bài thi trên máy tối đa 90 phút. Có thể lấy giấy phép từ 16 tuổi kèm khóa học lái xe. Lưu ý: bài thi có tiếng Anh, Tây Ban Nha và Bồ Đào Nha — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "RI DMV — Knowledge Exams (90-minute max; count/score not published)",
+      "url": "https://dmv.ri.gov/licenses-permits-ids/permits-tests/knowledge-exams",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Rhode Island Driver's Manual (permit age 16, driver-ed)",
+      "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/manuals/Driver_Manual_FINAL.pdf",
       "accessed": "2026-07-19"
     }
   ]

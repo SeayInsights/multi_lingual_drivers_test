@@ -6,18 +6,18 @@
   },
   "agency": {
     "name": {
-      "en-US": "Maryland — RESEARCH: official testing agency name",
-      "vi-VN": "Maryland — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Maryland Motor Vehicle Administration (MDOT MVA)",
+      "vi-VN": "Nha Lộ Vận Maryland (MVA)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "MVA",
+    "website": "https://mva.maryland.gov",
+    "handbookUrl": "https://mva.maryland.gov/licenses-ids/prepare-drivers-license-test"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
-    "timeLimitMinutes": null,
+    "overallMinCorrect": 22,
+    "timeLimitMinutes": 20,
     "sections": [
       {
         "id": "signs",
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15.75,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The Class C knowledge test has 25 questions; you must score 88% (22 of 25) to pass, within a 20-minute limit. A learner's permit is available from age 15 years 9 months. MDOT MVA offers the knowledge test in Vietnamese.",
+      "vi-VN": "Bài thi lý thuyết hạng C có 25 câu; phải đúng 88% (22/25) mới đậu, trong 20 phút. Có thể lấy giấy phép tập lái từ 15 tuổi 9 tháng. MVA có bài thi bằng tiếng Việt."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Maryland MVA — Knowledge Tests (25 questions, 88%, 20 minutes, Vietnamese offered)",
+      "url": "https://mva.maryland.gov/licenses-ids/prepare-drivers-license-test/knowledge-tests",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Maryland MVA — Learner's Permit (age 15 years 9 months)",
+      "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit",
       "accessed": "2026-07-19"
     }
   ]

@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "New Mexico — RESEARCH: official testing agency name",
-      "vi-VN": "New Mexico — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "New Mexico Motor Vehicle Division (Taxation & Revenue Department)",
+      "vi-VN": "Nha Lộ Vận New Mexico (MVD)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "MVD",
+    "website": "https://www.mvd.newmexico.gov",
+    "handbookUrl": "https://www.mvd.newmexico.gov/mvd-drivers-license-manuals/"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 30,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 21,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -40,10 +40,10 @@
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The official passing score is 70%. NM does not publish the number of questions, so this simulation uses 30 questions (21 correct = 70%). An instruction permit is available from age 15 with approved driver-education enrollment. MVD offers the knowledge exam in Vietnamese.",
+      "vi-VN": "Chuẩn đậu chính thức là 70%. New Mexico không công bố số câu, nên bản mô phỏng này dùng 30 câu (đúng 21 câu = 70%). Có thể lấy giấy phép tập lái từ 15 tuổi nếu ghi danh khóa học lái xe được công nhận. MVD có bài thi bằng tiếng Việt."
     }
   },
   "content": {
@@ -51,8 +51,18 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "NM MVD — Chapter 11: Road and Written Test Requirements (70% to pass)",
+      "url": "https://www.mvd.newmexico.gov/chapter-11-road-and-written-test-requirements/",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "NM MVD — Knowledge/Written Examination Changes (Vietnamese offered)",
+      "url": "https://www.mvd.newmexico.gov/knowledge-written-examination-changes/",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "NM MVD — Driver's License Manuals",
+      "url": "https://www.mvd.newmexico.gov/mvd-drivers-license-manuals/",
       "accessed": "2026-07-19"
     }
   ]

@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Alabama — RESEARCH: official testing agency name",
-      "vi-VN": "Alabama — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Alabama Law Enforcement Agency",
+      "vi-VN": "Nha Lộ Vận Alabama (ALEA)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "ALEA",
+    "website": "https://www.alea.gov/dps/driver-license",
+    "handbookUrl": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 30,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 24,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -40,10 +40,10 @@
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Alabama does not publish an official question count or passing score, so this practice test uses a common 30-question / 80% standard (this state stays in draft until the official format is verified). A restricted Learner License is available from age 15. ALEA offers the written test in Vietnamese.",
+      "vi-VN": "Alabama không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 30 câu / 80% (còn ở dạng nháp cho tới khi xác minh). Có thể lấy giấy phép tập lái giới hạn từ 15 tuổi. ALEA có bài thi viết bằng tiếng Việt."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Alabama Driver License Manual (Nov 2024; written test in Vietnamese; count/score not stated)",
+      "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "ALEA — Graduated Driver License (Learner License age 15)",
+      "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
       "accessed": "2026-07-19"
     }
   ]

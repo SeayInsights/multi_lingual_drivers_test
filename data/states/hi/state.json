@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Hawaii — RESEARCH: official testing agency name",
-      "vi-VN": "Hawaii — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Hawaii Department of Transportation (county-administered exams)",
+      "vi-VN": "Sở Giao Thông Hawaii (HDOT) — các quận tổ chức thi"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "HDOT",
+    "website": "https://hidot.hawaii.gov",
+    "handbookUrl": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 30,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 24,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -40,10 +40,10 @@
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15.5,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Driver licensing in Hawaii is county-run using a common state manual. The county in-person exam has 30 questions; more than 6 errors fails (24 of 30 = 80%). An instruction permit is available from age 15 years 6 months. Note: the exam is offered in English and Spanish only — practice in English-only mode.",
+      "vi-VN": "Việc cấp bằng lái ở Hawaii do các quận tổ chức, dùng chung một sổ tay của tiểu bang. Bài thi trực tiếp tại quận có 30 câu; sai quá 6 câu là rớt (đúng 24/30 = 80%). Có thể lấy giấy phép tập lái từ 15 tuổi rưỡi. Lưu ý: bài thi chỉ có tiếng Anh và tiếng Tây Ban Nha — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,18 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Hawaii DOT — Online Learner's Permit Test (25-q online, 1-hour, EN/ES)",
+      "url": "https://hidot.hawaii.gov/online-learners-permit-test/",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Maui County — Class 3 Instructional Permit (30-question exam, >6 errors fails, permit 15½)",
+      "url": "https://www.mauicounty.gov/1541/Class-3-Instructional-Permit",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Hawaii Driver's Manual (2023 edition), HDOT",
+      "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
       "accessed": "2026-07-19"
     }
   ]

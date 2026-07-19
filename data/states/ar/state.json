@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Arkansas — RESEARCH: official testing agency name",
-      "vi-VN": "Arkansas — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Arkansas State Police, Driver Examination",
+      "vi-VN": "Nha Lộ Vận Arkansas (ASP)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "ASP",
+    "website": "https://dps.arkansas.gov/law-enforcement/arkansas-state-police/services-programs/driver-examination/",
+    "handbookUrl": "https://dps.arkansas.gov/wp-content/uploads/Arkansas-DL-Manual-English_October2024-10082024.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 20,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 14,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Arkansas's test runs until you reach 20 correct answers (or too many wrong); the total count is not published, so this simulation uses 25 questions needing 20 correct. An instruction permit is available from age 14. The official study guide is available in Vietnamese.",
+      "vi-VN": "Bài thi Arkansas chạy tới khi bạn đạt 20 câu đúng (hoặc sai quá nhiều); tổng số câu không được công bố, nên bản mô phỏng này dùng 25 câu cần đúng 20. Có thể lấy giấy phép tập lái từ 14 tuổi. Sổ tay chính thức có bản tiếng Việt."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Arkansas State Police — Driver Audio Testing Instructions (20 correct to pass)",
+      "url": "https://dps.arkansas.gov/wp-content/uploads/2020/05/Audio-Testing-Instructions.pdf",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Arkansas Driver License Study Guide (Oct 2024; permit age 14; Vietnamese study guide)",
+      "url": "https://dps.arkansas.gov/wp-content/uploads/Arkansas-DL-Manual-English_October2024-10082024.pdf",
       "accessed": "2026-07-19"
     }
   ]

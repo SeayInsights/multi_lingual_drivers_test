@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "North Carolina — RESEARCH: official testing agency name",
-      "vi-VN": "North Carolina — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "North Carolina Division of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận North Carolina (NCDMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "NCDMV",
+    "website": "https://www.ncdot.gov/dmv",
+    "handbookUrl": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/driver-handbook.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 20,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "North Carolina's rule sets an 80% pass threshold and a separate road-sign test (identify 9 of 12 signs); it does not publish a fixed knowledge-question count, so this simulation uses 25 questions (20 correct = 80%). A limited learner permit is available from age 15 with a driver-education certificate.",
+      "vi-VN": "Quy định North Carolina đặt mức đậu 80% và một bài nhận biết biển báo riêng (đúng 9/12 biển); tiểu bang không công bố số câu cố định, nên bản mô phỏng này dùng 25 câu (đúng 20 câu = 80%). Có thể lấy giấy phép tập lái giới hạn từ 15 tuổi kèm chứng chỉ học lái xe."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "NCDMV rule 19A NCAC 03B .0201 (80% to pass; 9 of 12 road signs; count not fixed)",
+      "url": "https://www.ncdot.gov/about-us/how-we-operate/policy-process/rules/Documents/19b-ncac-03b-201.pdf",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "NCDMV — Driver License Tests (permit age 15)",
+      "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-license-tests.aspx",
       "accessed": "2026-07-19"
     }
   ]

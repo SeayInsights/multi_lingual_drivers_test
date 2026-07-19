@@ -6,44 +6,43 @@
   },
   "agency": {
     "name": {
-      "en-US": "Virginia — RESEARCH: official testing agency name",
-      "vi-VN": "Virginia — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Virginia Department of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Virginia (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://www.dmv.virginia.gov",
+    "handbookUrl": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
   },
   "test": {
     "totalQuestions": 40,
-    "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "passingRule": "per-section",
     "timeLimitMinutes": null,
     "sections": [
       {
         "id": "signs",
         "name": {
-          "en-US": "Road signs",
-          "vi-VN": "Biển báo giao thông"
+          "en-US": "Road signs (Part 1)",
+          "vi-VN": "Biển báo (Phần 1)"
         },
-        "questionCount": 20,
-        "minCorrect": 0
+        "questionCount": 10,
+        "minCorrect": 10
       },
       {
         "id": "rules",
         "name": {
-          "en-US": "Road rules",
-          "vi-VN": "Luật giao thông"
+          "en-US": "General knowledge (Part 2)",
+          "vi-VN": "Kiến thức chung (Phần 2)"
         },
-        "questionCount": 20,
-        "minCorrect": 0
+        "questionCount": 30,
+        "minCorrect": 24
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15.5,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Virginia's exam has two parts: Part 1 is 10 road-sign questions and you must get ALL 10 correct to continue; Part 2 is 30 general-knowledge questions and you must get 24 of 30 (80%). A learner's permit is available from age 15 years 6 months. Virginia DMV offers the knowledge exam in Vietnamese.",
+      "vi-VN": "Bài thi Virginia có hai phần: Phần 1 gồm 10 câu biển báo và phải đúng CẢ 10 câu mới được thi tiếp; Phần 2 gồm 30 câu kiến thức chung và phải đúng 24/30 (80%). Có thể lấy giấy phép tập lái từ 15 tuổi rưỡi. Virginia DMV có bài thi bằng tiếng Việt."
     }
   },
   "content": {
@@ -51,8 +50,18 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Virginia DMV — Knowledge Exam (two parts: 10 signs all-correct + 30 general, 24 to pass; Vietnamese offered)",
+      "url": "https://www.dmv.virginia.gov/licenses-ids/exams/know-exam",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Virginia DMV — Apply for a Learner's Permit (age 15 years 6 months)",
+      "url": "https://www.dmv.virginia.gov/licenses-ids/learners/apply",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Virginia Driver's Manual (DMV 39)",
+      "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
       "accessed": "2026-07-19"
     }
   ]

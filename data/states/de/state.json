@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Delaware — RESEARCH: official testing agency name",
-      "vi-VN": "Delaware — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Delaware Division of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Delaware (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://dmv.de.gov",
+    "handbookUrl": "https://dmv.de.gov/forms/driver_serv_forms/pdfs/dr_frm_manual.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 32,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 26,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 12,
         "minCorrect": 0
       },
       {
@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 16,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Delaware's Class D knowledge test has 32 questions; 26 correct passes (per the written-test page; a separate DMV FAQ page states 30 questions / 24 to pass). A Level 1 Learner's Permit is available from age 16 with a driver-education certificate. Note: the exam is offered in English and Spanish — practice in English-only mode.",
+      "vi-VN": "Bài thi lý thuyết hạng D của Delaware có 32 câu; đúng 26 câu là đậu (theo trang thi viết chính thức; một trang hỏi-đáp khác của DMV ghi 30 câu / 24 câu đậu). Có thể lấy giấy phép tập lái Cấp 1 từ 16 tuổi kèm chứng chỉ học lái xe. Lưu ý: bài thi có tiếng Anh và tiếng Tây Ban Nha — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,18 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Delaware DMV — Written test (32 questions, 26 to pass)",
+      "url": "https://dmv.de.gov/DriverServices/drivers_license/index.shtml?dc=dr_lic_written",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Delaware DMV — General FAQ (states 30 questions / 24 to pass — source conflict noted)",
+      "url": "https://dmv.de.gov/DriverServices/faqs/index.shtml?dc=dr_faq_general",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Delaware DMV — Graduated Driver License (Level 1 permit age 16)",
+      "url": "https://dmv.de.gov/DriverServices/drivers_license/index.shtml?dc=dr_lic_grad_dl",
       "accessed": "2026-07-19"
     }
   ]

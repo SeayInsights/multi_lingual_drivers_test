@@ -6,18 +6,18 @@
   },
   "agency": {
     "name": {
-      "en-US": "Oklahoma — RESEARCH: official testing agency name",
-      "vi-VN": "Oklahoma — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Service Oklahoma",
+      "vi-VN": "Nha Lộ Vận Oklahoma (SO)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "SO",
+    "website": "https://oklahoma.gov/service",
+    "handbookUrl": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 20,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
-    "timeLimitMinutes": null,
+    "overallMinCorrect": 15,
+    "timeLimitMinutes": 60,
     "sections": [
       {
         "id": "signs",
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 8,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 12,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The written knowledge test has 20 questions; you must answer 15 of 20 correctly (75%) to pass, within 60 minutes. A learner permit is available from age 15 with driver-education enrollment (16 without). Note: the written test is only available in English — practice in English-only mode.",
+      "vi-VN": "Bài thi lý thuyết có 20 câu; phải đúng 15/20 câu (75%) mới đậu, trong 60 phút. Có thể lấy giấy phép tập lái từ 15 tuổi nếu ghi danh học lái xe (16 tuổi nếu không). Lưu ý: bài thi chỉ có tiếng Anh — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Service Oklahoma — Written Knowledge Test (15 of 20 to pass, 60 minutes, English only)",
+      "url": "https://oklahoma.gov/service/popular-services/written-test.html",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Service Oklahoma — Learner Permit (age 15 w/ driver-ed)",
+      "url": "https://oklahoma.gov/service/all-pages/learner-permit.html",
       "accessed": "2026-07-19"
     }
   ]

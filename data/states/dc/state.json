@@ -2,22 +2,22 @@
   "code": "dc",
   "name": {
     "en-US": "District of Columbia",
-    "vi-VN": "District of Columbia"
+    "vi-VN": "Washington, D.C."
   },
   "agency": {
     "name": {
-      "en-US": "District of Columbia — RESEARCH: official testing agency name",
-      "vi-VN": "District of Columbia — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "District of Columbia Department of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Washington, D.C. (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://dmv.dc.gov",
+    "handbookUrl": "https://dmv.dc.gov/publication/dc-dmv-automobile-driver-manual"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
-    "timeLimitMinutes": null,
+    "overallMinCorrect": 20,
+    "timeLimitMinutes": 60,
     "sections": [
       {
         "id": "signs",
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,7 +34,7 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 16,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "DC does not publish an official question count or passing score, so this practice test uses a common 25-question / 80% standard (this jurisdiction stays in draft until the official format is verified). The non-commercial test allows 60 minutes. A learner permit is available from age 16. DC DMV offers the knowledge test and manual in Vietnamese.",
+      "vi-VN": "Washington, D.C. không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 25 câu / 80% (còn ở dạng nháp cho tới khi xác minh định dạng chính thức). Bài thi thường cho 60 phút. Có thể lấy giấy phép tập lái từ 16 tuổi. DC DMV có bài thi và sổ tay bằng tiếng Việt."
     }
   },
   "content": {
@@ -51,8 +51,18 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "DC DMV — Knowledge Test (60-minute limit, offered in Vietnamese; count/score not stated)",
+      "url": "https://dmv.dc.gov/service/knowledge-test",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "DC DMV — Learner Permits (age 16)",
+      "url": "https://dmv.dc.gov/service/learner-permits-and-provisional-licenses",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "DC DMV Automobile Driver Manual (Jan 2024; Vietnamese edition available)",
+      "url": "https://dmv.dc.gov/publication/dc-dmv-automobile-driver-manual",
       "accessed": "2026-07-19"
     }
   ]

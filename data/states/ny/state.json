@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "New York — RESEARCH: official testing agency name",
-      "vi-VN": "New York — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "New York State Department of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận New York (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://dmv.ny.gov",
+    "handbookUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 20,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 14,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 4,
         "minCorrect": 0
       },
       {
@@ -34,7 +34,7 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 16,
         "minCorrect": 0
       }
     ]
@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 16,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The written test has 20 questions; you must get at least 14 correct AND at least 2 of the 4 road-sign questions to pass. A learner permit is available from age 16. Note: the permit test is not offered in Vietnamese — practice in English-only mode.",
+      "vi-VN": "Bài thi viết có 20 câu; phải đúng ít nhất 14 câu VÀ ít nhất 2 trong 4 câu biển báo mới đậu. Có thể lấy giấy phép tập lái từ 16 tuổi. Lưu ý: bài thi không có tiếng Việt — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "NY DMV — Driver's Manual Ch.1 (14 of 20, and 2 of 4 road signs)",
+      "url": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "NY DMV — Learner Permit (age 16); permit-test languages (no Vietnamese)",
+      "url": "https://dmv.ny.gov/learner-permit",
       "accessed": "2026-07-19"
     }
   ]

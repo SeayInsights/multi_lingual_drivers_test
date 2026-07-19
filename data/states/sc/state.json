@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "South Carolina — RESEARCH: official testing agency name",
-      "vi-VN": "South Carolina — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "South Carolina Department of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận South Carolina (SCDMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "SCDMV",
+    "website": "https://dmv.sc.gov",
+    "handbookUrl": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 30,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 24,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -40,10 +40,10 @@
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "South Carolina does not publish an official question count or passing score, so this practice test uses a common 30-question / 80% standard (this state stays in draft until the official format is verified). A beginner's permit is available from age 15.",
+      "vi-VN": "South Carolina không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 30 câu / 80% (còn ở dạng nháp cho tới khi xác minh định dạng chính thức). Có thể lấy giấy phép tập lái từ 15 tuổi."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "SCDMV — Beginner's Permits (age 15; count/score not published)",
+      "url": "https://dmv.sc.gov/driver-services/drivers-license/beginner-permits",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "South Carolina Driver's Manual (Jan 2026 edition)",
+      "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf",
       "accessed": "2026-07-19"
     }
   ]

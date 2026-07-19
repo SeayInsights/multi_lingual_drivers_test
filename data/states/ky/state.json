@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Kentucky — RESEARCH: official testing agency name",
-      "vi-VN": "Kentucky — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Kentucky State Police / Kentucky Transportation Cabinet",
+      "vi-VN": "Nha Lộ Vận Kentucky (KSP)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "KSP",
+    "website": "https://drive.ky.gov",
+    "handbookUrl": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2023/11/Kentucky-Driver-Manual-10-11-2023.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 20,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Kentucky requires 80% to pass; the question count is not published, so this simulation uses 25 questions (20 correct = 80%). The current DRIVE web page sets the permit age at 15 (the 2023 manual still says 16 — sources conflict). Note: the test is not offered in Vietnamese — practice in English-only mode.",
+      "vi-VN": "Kentucky yêu cầu đúng 80% mới đậu; số câu không được công bố, nên bản mô phỏng này dùng 25 câu (đúng 20 câu = 80%). Trang DRIVE hiện tại quy định tuổi lấy giấy phép là 15 (sổ tay 2023 vẫn ghi 16 — hai nguồn khác nhau). Lưu ý: bài thi không có tiếng Việt — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Kentucky DRIVE — GDLP (80% to pass; permit age 15 on live page)",
+      "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Kentucky Driver Manual (10-11-2023; states permit age 16 — conflict noted)",
+      "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2023/11/Kentucky-Driver-Manual-10-11-2023.pdf",
       "accessed": "2026-07-19"
     }
   ]

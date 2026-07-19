@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Connecticut — RESEARCH: official testing agency name",
-      "vi-VN": "Connecticut — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Connecticut Department of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Connecticut (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://portal.ct.gov/dmv",
+    "handbookUrl": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 20,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,7 +34,7 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
@@ -42,8 +42,8 @@
   "licensing": {
     "minPermitAge": 16,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The knowledge test has 25 questions; you must get at least 20 correct to pass. A learner's permit is available from age 16 (adults apply at 18). CT DMV offers the test in Vietnamese.",
+      "vi-VN": "Bài thi lý thuyết có 25 câu; phải đúng ít nhất 20 câu mới đậu. Có thể lấy giấy phép tập lái từ 16 tuổi (người lớn nộp đơn từ 18 tuổi). CT DMV có bài thi bằng tiếng Việt."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "CT DMV — Take the Knowledge/Vision Test (25 questions, 20 to pass, Vietnamese offered)",
+      "url": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "CT DMV — Teen Driver's License (permit age 16)",
+      "url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license",
       "accessed": "2026-07-19"
     }
   ]
