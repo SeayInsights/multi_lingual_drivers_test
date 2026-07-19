@@ -1,6 +1,6 @@
 {
   "stateCode": "wa",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "wa-signs-001",
@@ -4626,6 +4626,1166 @@
       "source": {
         "title": "Manual on Uniform Traffic Control Devices (MUTCD), 11th Edition, FHWA",
         "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    },
+    {
+      "id": "wa-rules-001",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "You see a tow truck stopped ahead with flashing lights (an emergency zone). Washington law requires you to:",
+        "vi-VN": "Bạn thấy xe kéo đậu phía trước, đèn chớp sáng (khu vực khẩn cấp). Luật Washington bắt bạn phải:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Move over a lane, or slow to at least 10 mph below the limit — never over 50 mph in the zone",
+            "vi-VN": "Qua làn xa hơn, hoặc giảm ít nhất 10 mph dưới mức cho phép — không quá 50 mph trong khu đó"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Flash your lights and continue at the speed limit",
+            "vi-VN": "Nháy đèn rồi chạy tiếp đúng tốc độ cho phép"
+          },
+          "whyWrong": {
+            "en-US": "You must move over or slow down — keeping the speed limit is not enough.",
+            "vi-VN": "Phải qua làn hoặc giảm tốc — giữ tốc độ cho phép là chưa đủ."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop completely behind the tow truck",
+            "vi-VN": "Dừng hẳn phía sau xe kéo"
+          },
+          "whyWrong": {
+            "en-US": "Stopping in a travel lane creates a new hazard — move over or slow down instead.",
+            "vi-VN": "Dừng giữa làn tạo thêm nguy hiểm — hãy qua làn hoặc giảm tốc."
+          }
+        },
+        {
+          "text": {
+            "en-US": "This law only applies to police cars",
+            "vi-VN": "Luật này chỉ áp dụng cho xe cảnh sát"
+          },
+          "whyWrong": {
+            "en-US": "It covers tow trucks, maintenance, utility vehicles, fire trucks, ambulances, and more.",
+            "vi-VN": "Luật áp dụng cho xe kéo, xe bảo trì, xe điện nước, xe cứu hỏa, cứu thương và nhiều loại khác."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "In an emergency zone you must either move over into a farther lane or slow to at least 10 mph below the posted limit — and never drive faster than 50 mph in an emergency zone.",
+        "vi-VN": "Trong khu vực khẩn cấp phải hoặc qua làn xa hơn, hoặc giảm ít nhất 10 mph dưới mức cho phép — và không bao giờ chạy quá 50 mph trong khu đó."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "4.17 Zones — Emergency zone",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-002",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "What is the school zone speed limit in Washington?",
+        "vi-VN": "Tốc độ tối đa trong khu trường học ở Washington là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "20 mph",
+            "vi-VN": "20 mph (khoảng 32 km/giờ)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "25 mph",
+            "vi-VN": "25 mph"
+          },
+          "whyWrong": {
+            "en-US": "Washington school zones are 20 mph (some other states use 25).",
+            "vi-VN": "Khu trường học ở Washington là 20 mph (một số tiểu bang khác mới là 25)."
+          }
+        },
+        {
+          "text": {
+            "en-US": "15 mph",
+            "vi-VN": "15 mph"
+          },
+          "whyWrong": {
+            "en-US": "The Washington school zone limit is 20 mph.",
+            "vi-VN": "Khu trường học ở Washington quy định 20 mph."
+          }
+        },
+        {
+          "text": {
+            "en-US": "30 mph",
+            "vi-VN": "30 mph"
+          },
+          "whyWrong": {
+            "en-US": "20 mph — higher speeds sharply increase the risk of fatal crashes with children.",
+            "vi-VN": "20 mph — chạy nhanh hơn làm tăng mạnh nguy cơ tai nạn chết người với trẻ em."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The school zone speed limit is 20 mph. Signs may clarify when it applies — and school zone speeding is enforced by automated cameras.",
+        "vi-VN": "Tốc độ khu trường học là 20 mph. Bảng hiệu cho biết khi nào áp dụng — và khu trường học có camera phạt tự động."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "4.17 Zones — School zone",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-003",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "A school bus ahead of you stops with red lights flashing and its stop sign extended. What must you do — and what happens to fines if you pass?",
+        "vi-VN": "Xe buýt trường phía trước dừng, đèn đỏ chớp và cần STOP mở ra. Bạn phải làm gì — và tiền phạt ra sao nếu vượt?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Stop — passing is unlawful, and fines are DOUBLED for passing a stopped school bus",
+            "vi-VN": "Dừng lại — vượt là phạm luật, và tiền phạt TĂNG GẤP ĐÔI nếu vượt xe buýt trường đang dừng"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Pass carefully using the center turn lane",
+            "vi-VN": "Vượt cẩn thận bằng làn quẹo giữa"
+          },
+          "whyWrong": {
+            "en-US": "The guide says specifically: don't use a center turn lane to pass a school bus.",
+            "vi-VN": "Sổ tay ghi rõ: không được dùng làn quẹo giữa để vượt xe buýt trường."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Slow to 20 mph and continue",
+            "vi-VN": "Giảm còn 20 mph rồi chạy tiếp"
+          },
+          "whyWrong": {
+            "en-US": "You must STOP, not slow down.",
+            "vi-VN": "Phải DỪNG hẳn, không phải giảm tốc."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop only if children are visible",
+            "vi-VN": "Chỉ dừng nếu thấy trẻ em"
+          },
+          "whyWrong": {
+            "en-US": "Flashing red lights and the stop arm require a stop whether or not you see children.",
+            "vi-VN": "Đèn đỏ chớp và cần STOP là phải dừng, dù có thấy trẻ em hay không."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Never pass a school bus with flashing red lights. Go only after the lights stop, the sign retracts, and the arm returns to the bumper. Fines are doubled for passing a stopped school bus.",
+        "vi-VN": "Không bao giờ vượt xe buýt trường đang chớp đèn đỏ. Chỉ đi khi đèn tắt, bảng thu lại và cần gạt về cản trước. Tiền phạt tăng gấp đôi nếu vượt."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "4.2 Sharing with school buses",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-004",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": {
+        "en-US": "At a solid red light in Washington, when may you turn right?",
+        "vi-VN": "Ở Washington, đèn đỏ, khi nào được quẹo phải?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "After a complete stop, if there is no NO TURN ON RED sign and room to enter traffic",
+            "vi-VN": "Sau khi dừng hẳn, nếu không có bảng CẤM QUẸO KHI ĐÈN ĐỎ và có đủ chỗ nhập làn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Never — red means no movement",
+            "vi-VN": "Không bao giờ — đèn đỏ là cấm đi"
+          },
+          "whyWrong": {
+            "en-US": "Right on red after a complete stop is legal unless a sign prohibits it.",
+            "vi-VN": "Quẹo phải khi đèn đỏ sau khi dừng hẳn là hợp lệ trừ khi có bảng cấm."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Without stopping, if the intersection is empty",
+            "vi-VN": "Khỏi cần dừng nếu ngã tư vắng"
+          },
+          "whyWrong": {
+            "en-US": "A complete stop always comes first.",
+            "vi-VN": "Luôn phải dừng hẳn trước."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only between certain hours",
+            "vi-VN": "Chỉ trong một số giờ nhất định"
+          },
+          "whyWrong": {
+            "en-US": "The rule is about the stop and signage, not the time of day.",
+            "vi-VN": "Luật dựa vào việc dừng và bảng hiệu, không phải giờ giấc."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "After coming to a complete stop at a red light, you can turn right if there is no 'no turn on red' sign and you have plenty of room to enter traffic.",
+        "vi-VN": "Sau khi dừng hẳn ở đèn đỏ, được quẹo phải nếu không có bảng cấm và có đủ chỗ để nhập vào dòng xe."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "4.11 Traffic light signals — Solid red",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-005",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": {
+        "en-US": "A flashing RED traffic light means:",
+        "vi-VN": "Đèn giao thông chớp ĐỎ nghĩa là:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Treat it like a stop sign — full stop, then go when it's your turn",
+            "vi-VN": "Coi như bảng STOP — dừng hẳn, rồi đi khi tới lượt mình"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Slow down and proceed with caution",
+            "vi-VN": "Giảm tốc, chạy cẩn thận"
+          },
+          "whyWrong": {
+            "en-US": "That is the flashing YELLOW rule — flashing red requires a full stop.",
+            "vi-VN": "Đó là luật đèn chớp VÀNG — chớp đỏ phải dừng hẳn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "The signal is broken; ignore it",
+            "vi-VN": "Đèn bị hư, khỏi để ý"
+          },
+          "whyWrong": {
+            "en-US": "A flashing red functions as a stop sign — it is not broken.",
+            "vi-VN": "Đèn chớp đỏ có giá trị như bảng STOP — không phải đèn hư."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop and wait until it turns green",
+            "vi-VN": "Dừng chờ tới khi đèn xanh"
+          },
+          "whyWrong": {
+            "en-US": "It will keep flashing — go when it's your turn after stopping, like at a stop sign.",
+            "vi-VN": "Đèn sẽ chớp hoài — sau khi dừng, tới lượt thì đi, như ở bảng STOP."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "A flashing red traffic light functions as a stop sign: come to a full stop, then go when it's your turn.",
+        "vi-VN": "Đèn chớp đỏ có giá trị như bảng STOP: dừng xe hẳn, rồi đi khi tới lượt mình."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "4.11 Traffic light signals — Flashing red",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-006",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "You enter an uncontrolled intersection (no signs or signals). In which situation must you YIELD?",
+        "vi-VN": "Bạn vào ngã tư không có bảng hay đèn. Trường hợp nào bạn phải NHƯỜNG đường?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "A vehicle is already in the intersection",
+            "vi-VN": "Có xe đang ở sẵn trong ngã tư"
+          }
+        },
+        {
+          "text": {
+            "en-US": "You arrived first from the right side",
+            "vi-VN": "Mình tới trước và ở phía bên phải"
+          },
+          "whyWrong": {
+            "en-US": "Arriving first from the right generally gives you the right-of-way, not a duty to yield.",
+            "vi-VN": "Tới trước và ở bên phải thường là được ưu tiên, không phải nhường."
+          }
+        },
+        {
+          "text": {
+            "en-US": "The other car is smaller",
+            "vi-VN": "Xe kia nhỏ hơn xe mình"
+          },
+          "whyWrong": {
+            "en-US": "Size never matters for right-of-way.",
+            "vi-VN": "Xe lớn nhỏ không liên quan quyền ưu tiên."
+          }
+        },
+        {
+          "text": {
+            "en-US": "You are going straight and the other driver waves",
+            "vi-VN": "Mình đi thẳng và tài xế kia vẫy tay"
+          },
+          "whyWrong": {
+            "en-US": "Follow the rules, not waves — the listed yield cases are what the law defines.",
+            "vi-VN": "Theo luật, không theo vẫy tay — luật đã định rõ các trường hợp phải nhường."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "At an uncontrolled intersection you must yield when: a vehicle is already in the intersection; you enter a state highway from a secondary road; you enter a paved road from an unpaved road; or you turn left with oncoming traffic approaching.",
+        "vi-VN": "Tại ngã tư không tín hiệu, phải nhường khi: có xe ở sẵn trong ngã tư; mình từ đường phụ vào xa lộ tiểu bang; từ đường đất vào đường nhựa; hoặc quẹo trái khi có xe ngược chiều đang tới."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "Uncontrolled intersection",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-007",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "You are on an unpaved road crossing onto a paved road. Who has the right-of-way?",
+        "vi-VN": "Bạn từ đường đất chạy vào đường trải nhựa. Xe nào được ưu tiên?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Traffic on the paved road — you must yield",
+            "vi-VN": "Xe trên đường nhựa — bạn phải nhường"
+          }
+        },
+        {
+          "text": {
+            "en-US": "You — smaller roads go first",
+            "vi-VN": "Bạn — đường nhỏ được đi trước"
+          },
+          "whyWrong": {
+            "en-US": "It is the opposite: entering a paved road from an unpaved road, you yield.",
+            "vi-VN": "Ngược lại: từ đường đất vào đường nhựa thì mình phải nhường."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whoever is driving faster",
+            "vi-VN": "Xe nào chạy nhanh hơn"
+          },
+          "whyWrong": {
+            "en-US": "Speed never decides right-of-way.",
+            "vi-VN": "Tốc độ không quyết định quyền ưu tiên."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Both must stop first",
+            "vi-VN": "Cả hai đều phải dừng trước"
+          },
+          "whyWrong": {
+            "en-US": "Paved-road traffic continues; the unpaved-road driver yields.",
+            "vi-VN": "Xe trên đường nhựa đi tiếp; xe từ đường đất phải nhường."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "You must yield when you enter a paved road from an unpaved road — and when entering a state highway from a secondary road.",
+        "vi-VN": "Phải nhường khi từ đường đất vào đường nhựa — và khi từ đường phụ vào xa lộ tiểu bang."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "Uncontrolled intersection",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-008",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "Fire trucks, ambulances, and police cars using lights or sirens:",
+        "vi-VN": "Xe cứu hỏa, cứu thương và cảnh sát đang bật đèn hoặc còi:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Always have the right-of-way",
+            "vi-VN": "Luôn luôn được quyền ưu tiên"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Have the right-of-way only at intersections",
+            "vi-VN": "Chỉ được ưu tiên tại ngã tư"
+          },
+          "whyWrong": {
+            "en-US": "They have the right-of-way everywhere, not only at intersections.",
+            "vi-VN": "Họ được ưu tiên ở mọi nơi, không riêng ngã tư."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Must still wait for a green light",
+            "vi-VN": "Vẫn phải chờ đèn xanh"
+          },
+          "whyWrong": {
+            "en-US": "With lights/sirens they may proceed — you yield to them.",
+            "vi-VN": "Khi bật đèn/còi họ được đi — mình phải nhường."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only have priority over trucks",
+            "vi-VN": "Chỉ ưu tiên hơn xe tải"
+          },
+          "whyWrong": {
+            "en-US": "Every vehicle must yield to them.",
+            "vi-VN": "Mọi xe đều phải nhường họ."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Fire trucks, ambulances, and police cars using lights and/or sirens always have the right-of-way.",
+        "vi-VN": "Xe cứu hỏa, cứu thương và cảnh sát bật đèn và/hoặc còi luôn luôn được quyền ưu tiên."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "4.9 Sharing with emergency vehicles",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-009",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "In Washington, a driver 21 or older is DUI at what levels of alcohol or cannabis?",
+        "vi-VN": "Ở Washington, tài xế từ 21 tuổi bị coi là lái xe khi say (DUI) ở mức cồn hoặc cần sa nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "BAC 0.08% or more, or THC 5.00 ng or more",
+            "vi-VN": "BAC từ 0,08% trở lên, hoặc THC từ 5,00 ng trở lên"
+          }
+        },
+        {
+          "text": {
+            "en-US": "BAC 0.10%; cannabis is legal so it never counts",
+            "vi-VN": "BAC 0,10%; cần sa hợp pháp nên không tính"
+          },
+          "whyWrong": {
+            "en-US": "Legal to possess does not mean legal to drive on — 5.00 ng THC is a DUI.",
+            "vi-VN": "Được phép sở hữu không có nghĩa lái xe được — 5,00 ng THC là DUI."
+          }
+        },
+        {
+          "text": {
+            "en-US": "BAC 0.05% or any THC",
+            "vi-VN": "BAC 0,05% hoặc có THC là dính"
+          },
+          "whyWrong": {
+            "en-US": "Those are not the adult limits — 0.08% BAC / 5.00 ng THC (any THC applies to minors).",
+            "vi-VN": "Không phải mức người lớn — 0,08% BAC / 5,00 ng THC (có THC là dính chỉ áp dụng cho vị thành niên)."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only alcohol counts toward DUI",
+            "vi-VN": "Chỉ rượu bia mới tính DUI"
+          },
+          "whyWrong": {
+            "en-US": "Cannabis (THC) has its own DUI threshold.",
+            "vi-VN": "Cần sa (THC) có ngưỡng DUI riêng."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Adults 21+: DUI at BAC 0.08% or more, or THC 5.00 ng or more. Under 21: BAC 0.02% or any THC above 0.00 ng.",
+        "vi-VN": "Từ 21 tuổi: DUI khi BAC từ 0,08% hoặc THC từ 5,00 ng. Dưới 21 tuổi: BAC 0,02% hoặc có THC trên 0,00 ng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "1.15 Driving under the influence (DUI)",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-010",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "A Washington driver UNDER 21 is DUI at what alcohol level?",
+        "vi-VN": "Tài xế DƯỚI 21 tuổi ở Washington bị coi là DUI từ mức cồn nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "BAC 0.02% or more (and ANY THC above 0.00 ng)",
+            "vi-VN": "BAC từ 0,02% trở lên (và CÓ THC trên 0,00 ng là dính)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "BAC 0.08%, the same as adults",
+            "vi-VN": "BAC 0,08%, giống người lớn"
+          },
+          "whyWrong": {
+            "en-US": "Minors are held to 0.02% — far stricter than the adult 0.08%.",
+            "vi-VN": "Vị thành niên bị mức 0,02% — nghiêm hơn nhiều so với 0,08% của người lớn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "BAC 0.05%",
+            "vi-VN": "BAC 0,05%"
+          },
+          "whyWrong": {
+            "en-US": "The under-21 threshold is 0.02%.",
+            "vi-VN": "Mức cho dưới 21 tuổi là 0,02%."
+          }
+        },
+        {
+          "text": {
+            "en-US": "There is no limit for minors — they cannot legally drink anyway",
+            "vi-VN": "Không có mức cho vị thành niên — vì họ đâu được uống rượu"
+          },
+          "whyWrong": {
+            "en-US": "There IS a legal driving threshold: 0.02% BAC or any THC.",
+            "vi-VN": "Vẫn có ngưỡng luật khi lái xe: BAC 0,02% hoặc có THC."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Drivers under 21 are DUI at a BAC of 0.02% or more, or any THC above 0.00 ng.",
+        "vi-VN": "Tài xế dưới 21 tuổi bị DUI khi BAC từ 0,02% trở lên, hoặc có THC trên 0,00 ng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "1.15 Driving under the influence (DUI)",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-011",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "Washington's distracted-driving law says that while driving you may:",
+        "vi-VN": "Luật chống xao lãng của Washington quy định khi lái xe bạn được:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Not hold ANY electronic device — hands-free only",
+            "vi-VN": "KHÔNG cầm bất cứ thiết bị điện tử nào — chỉ được dùng chế độ rảnh tay"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Hold the phone at red lights",
+            "vi-VN": "Cầm điện thoại lúc chờ đèn đỏ"
+          },
+          "whyWrong": {
+            "en-US": "You are still driving at a red light — holding a device is not allowed.",
+            "vi-VN": "Chờ đèn đỏ vẫn là đang lái xe — không được cầm máy."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Text if you keep one hand on the wheel",
+            "vi-VN": "Nhắn tin nếu một tay vẫn giữ vô lăng"
+          },
+          "whyWrong": {
+            "en-US": "Texting means holding the device — illegal while driving.",
+            "vi-VN": "Nhắn tin là đang cầm máy — phạm luật khi lái."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Hold the phone for maps but not calls",
+            "vi-VN": "Cầm máy coi bản đồ, miễn không gọi"
+          },
+          "whyWrong": {
+            "en-US": "Holding the device for ANY purpose is prohibited.",
+            "vi-VN": "Cầm máy vì BẤT CỨ lý do gì cũng bị cấm."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "You cannot hold any electronic device while driving — use hands-free operation.",
+        "vi-VN": "Không được cầm bất cứ thiết bị điện tử nào khi lái xe — phải dùng chế độ rảnh tay."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "3.4 Avoiding distracted driving",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-012",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "You have an instruction permit or intermediate license in Washington. When may you use a phone while driving?",
+        "vi-VN": "Bạn có giấy phép tập lái hoặc bằng trung cấp ở Washington. Khi nào được dùng điện thoại lúc lái xe?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Never — not even hands-free",
+            "vi-VN": "Không bao giờ — kể cả chế độ rảnh tay"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Hands-free only, like adult drivers",
+            "vi-VN": "Chỉ rảnh tay, giống tài xế có bằng đầy đủ"
+          },
+          "whyWrong": {
+            "en-US": "Permit and intermediate license holders cannot use ANY mobile device, even hands-free.",
+            "vi-VN": "Người có giấy phép tập lái hoặc bằng trung cấp không được dùng BẤT CỨ thiết bị nào, kể cả rảnh tay."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only for navigation",
+            "vi-VN": "Chỉ để chỉ đường"
+          },
+          "whyWrong": {
+            "en-US": "No mobile electronic device use at all while driving.",
+            "vi-VN": "Hoàn toàn không được dùng thiết bị di động khi lái."
+          }
+        },
+        {
+          "text": {
+            "en-US": "With a parent in the car",
+            "vi-VN": "Khi có cha mẹ ngồi trong xe"
+          },
+          "whyWrong": {
+            "en-US": "A supervisor does not lift the phone ban.",
+            "vi-VN": "Có người kèm cũng không được dùng điện thoại."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "With an instruction permit or intermediate license, you cannot use a cell phone or any mobile electronic device while driving — even hands-free.",
+        "vi-VN": "Có giấy phép tập lái hoặc bằng trung cấp thì không được dùng điện thoại hay thiết bị di động nào khi lái xe — kể cả rảnh tay."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "Hearing (device rules for permit holders)",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-013",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "May you drive in Washington wearing noise-canceling headphones over both ears?",
+        "vi-VN": "Ở Washington có được lái xe khi đeo tai nghe chống ồn cả hai tai không?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "No — driving with earbuds, headphones, or headsets is against the law",
+            "vi-VN": "Không — lái xe khi đeo tai nghe là phạm luật"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Yes, if the volume is low",
+            "vi-VN": "Được, nếu mở nhỏ"
+          },
+          "whyWrong": {
+            "en-US": "Volume does not matter — headphones while driving are illegal.",
+            "vi-VN": "Nhỏ hay lớn không quan trọng — đeo tai nghe khi lái là phạm luật."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Yes, music through headphones is safer than speakers",
+            "vi-VN": "Được, nghe tai nghe an toàn hơn mở loa"
+          },
+          "whyWrong": {
+            "en-US": "You need to hear horns and sirens — that is why the law bans them.",
+            "vi-VN": "Bạn cần nghe được kèn và còi hụ — vì vậy luật cấm tai nghe."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only passengers must remove headphones",
+            "vi-VN": "Chỉ hành khách mới phải bỏ tai nghe"
+          },
+          "whyWrong": {
+            "en-US": "The ban applies to the driver; a compliant one-ear hands-free device is the only exception.",
+            "vi-VN": "Lệnh cấm áp dụng cho tài xế; ngoại lệ duy nhất là thiết bị rảnh tay một tai đúng chuẩn."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "It is against the law to drive wearing earbuds, earphones, headphones, or headsets that broadcast sound or cancel noise. A compliant hands-free device in ONE ear is allowed.",
+        "vi-VN": "Phạm luật khi lái xe mà đeo tai nghe phát âm thanh hoặc chống ồn. Chỉ được dùng thiết bị rảnh tay MỘT tai đúng chuẩn."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "Hearing",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-014",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Under Washington's child restraint guidance, a child should ride in a rear-facing seat until age:",
+        "vi-VN": "Theo hướng dẫn ghế trẻ em của Washington, bé nên ngồi ghế quay mặt về sau tới mấy tuổi?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "2 — then forward-facing with harness (ages 2–4), then booster until the belt fits (about 8–12)",
+            "vi-VN": "2 tuổi — rồi ghế quay tới có đai (2–4 tuổi), rồi ghế nâng tới khi vừa dây (khoảng 8–12 tuổi)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "1",
+            "vi-VN": "1 tuổi"
+          },
+          "whyWrong": {
+            "en-US": "Rear-facing is until age 2.",
+            "vi-VN": "Ghế quay về sau dùng tới 2 tuổi."
+          }
+        },
+        {
+          "text": {
+            "en-US": "5",
+            "vi-VN": "5 tuổi"
+          },
+          "whyWrong": {
+            "en-US": "By 5, most children are in forward-facing or booster seats — rear-facing is to age 2.",
+            "vi-VN": "5 tuổi thường đã dùng ghế quay tới hoặc ghế nâng — quay về sau là tới 2 tuổi."
+          }
+        },
+        {
+          "text": {
+            "en-US": "There is no age guidance",
+            "vi-VN": "Không có hướng dẫn theo tuổi"
+          },
+          "whyWrong": {
+            "en-US": "The guide gives stages: rear-facing to 2, forward 2–4, booster until the belt fits.",
+            "vi-VN": "Sổ tay chia giai đoạn: quay sau tới 2, quay tới 2–4, ghế nâng tới khi vừa dây."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Rear-facing to age 2; forward-facing with harness ages 2–4; booster seat until the seat belt fits properly, typically between ages 8 and 12.",
+        "vi-VN": "Quay mặt về sau tới 2 tuổi; ghế quay tới có đai từ 2–4 tuổi; ghế nâng tới khi dây an toàn vừa vặn, thường khoảng 8–12 tuổi."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "2.6 Occupant protection",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-015",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "When must your headlights be on in Washington?",
+        "vi-VN": "Ở Washington, khi nào bắt buộc bật đèn pha?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "From a half hour after sunset to a half hour before sunrise",
+            "vi-VN": "Từ nửa tiếng sau khi mặt trời lặn tới nửa tiếng trước khi mặt trời mọc"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only when it is completely dark",
+            "vi-VN": "Chỉ khi trời tối hẳn"
+          },
+          "whyWrong": {
+            "en-US": "The requirement starts a half hour after sunset — before full darkness.",
+            "vi-VN": "Bắt buộc từ nửa tiếng sau khi mặt trời lặn — trước khi trời tối hẳn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whenever you feel it helps",
+            "vi-VN": "Khi nào thấy cần thì bật"
+          },
+          "whyWrong": {
+            "en-US": "The half-hour rule is law, not preference.",
+            "vi-VN": "Quy định nửa tiếng là luật, không phải tùy thích."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only on freeways at night",
+            "vi-VN": "Chỉ trên xa lộ ban đêm"
+          },
+          "whyWrong": {
+            "en-US": "It applies on every road during the required hours.",
+            "vi-VN": "Áp dụng trên mọi con đường trong khung giờ quy định."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Headlights are required from a half hour after sunset to a half hour before sunrise. At night, also drive so you can stop inside the lit area of your headlights.",
+        "vi-VN": "Bắt buộc bật đèn từ nửa tiếng sau khi mặt trời lặn tới nửa tiếng trước khi mặt trời mọc. Ban đêm, chạy sao cho có thể dừng trong vùng đèn chiếu sáng."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "2.5 Vehicle maintenance (headlights); Seeing at night",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-016",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "How much space must you leave when passing a bicyclist in Washington?",
+        "vi-VN": "Ở Washington phải chừa bao nhiêu khoảng trống khi vượt người đi xe đạp?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "At least 3 feet",
+            "vi-VN": "Ít nhất 3 feet (gần 1 mét)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "One car door's width",
+            "vi-VN": "Bằng bề ngang cánh cửa xe"
+          },
+          "whyWrong": {
+            "en-US": "The guide states at least 3 feet of space.",
+            "vi-VN": "Sổ tay quy định ít nhất 3 feet."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whatever fits in your lane",
+            "vi-VN": "Vừa làn mình là được"
+          },
+          "whyWrong": {
+            "en-US": "If 3 feet does not fit, wait — do not squeeze past.",
+            "vi-VN": "Không đủ 3 feet thì chờ — không được ép sát vượt qua."
+          }
+        },
+        {
+          "text": {
+            "en-US": "6 feet at all speeds",
+            "vi-VN": "6 feet ở mọi tốc độ"
+          },
+          "whyWrong": {
+            "en-US": "The requirement is at least 3 feet.",
+            "vi-VN": "Quy định là ít nhất 3 feet."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Leave at least 3 feet of space when passing a bicyclist.",
+        "vi-VN": "Phải chừa ít nhất 3 feet khi vượt người đi xe đạp."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "4.6 Sharing with bicyclists",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-017",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "How far from a parked position must these be in Washington: curb distance, fire hydrant, stop sign?",
+        "vi-VN": "Ở Washington, đậu xe phải theo các khoảng cách nào: cách lề, trụ nước cứu hỏa, bảng STOP?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Within 12 inches of the curb; 15 feet from a hydrant; 30 feet from a stop sign or signal",
+            "vi-VN": "Cách lề không quá 12 inch; cách trụ nước 15 feet; cách bảng STOP hoặc đèn 30 feet"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Within 18 inches; 10 feet; 20 feet",
+            "vi-VN": "Không quá 18 inch; 10 feet; 20 feet"
+          },
+          "whyWrong": {
+            "en-US": "Washington uses 12 inches, 15 feet, and 30 feet.",
+            "vi-VN": "Washington quy định 12 inch, 15 feet và 30 feet."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Any distance if flashers are on",
+            "vi-VN": "Bao xa cũng được nếu bật đèn khẩn cấp"
+          },
+          "whyWrong": {
+            "en-US": "Hazard lights never change parking rules.",
+            "vi-VN": "Đèn khẩn cấp không thay đổi luật đậu xe."
+          }
+        },
+        {
+          "text": {
+            "en-US": "3 feet; 50 feet; 100 feet",
+            "vi-VN": "3 feet; 50 feet; 100 feet"
+          },
+          "whyWrong": {
+            "en-US": "Those are not the rules — 12 inches, 15 feet, 30 feet (50 feet applies to railroad crossings).",
+            "vi-VN": "Không đúng — 12 inch, 15 feet, 30 feet (50 feet là cho đường ray xe lửa)."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Park no more than 12 inches from the curb, never within 15 feet of a fire hydrant, 30 feet of a signal/stop/yield sign, 50 feet of a railroad crossing, or facing oncoming traffic.",
+        "vi-VN": "Đậu cách lề không quá 12 inch; không trong vòng 15 feet quanh trụ nước, 30 feet quanh đèn/bảng STOP/bảng nhường, 50 feet quanh đường ray, và không đậu ngược chiều xe chạy."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "4.18 Parking — General parking rules",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-018",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "You are driving UNDER the posted limit, but the road is icy and you slide. Can you still get a ticket?",
+        "vi-VN": "Bạn chạy DƯỚI tốc độ cho phép, nhưng đường đóng băng và xe bị trượt. Vẫn có thể bị phạt không?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Yes — the limit is for ideal conditions; driving too fast for conditions is a violation",
+            "vi-VN": "Có — mức cho phép là cho điều kiện lý tưởng; chạy quá nhanh so với điều kiện đường vẫn phạm luật"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No — under the limit is always legal",
+            "vi-VN": "Không — dưới mức cho phép là luôn hợp lệ"
+          },
+          "whyWrong": {
+            "en-US": "You can be ticketed for traveling too fast for road conditions even under the limit.",
+            "vi-VN": "Vẫn bị phạt vì chạy quá nhanh so với điều kiện đường, dù dưới mức cho phép."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only if you hit something",
+            "vi-VN": "Chỉ khi tông trúng gì đó"
+          },
+          "whyWrong": {
+            "en-US": "No crash is needed — the violation is the unsafe speed itself.",
+            "vi-VN": "Không cần tai nạn — chạy tốc độ không an toàn đã là vi phạm."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only commercial drivers can be ticketed for this",
+            "vi-VN": "Chỉ tài xế xe thương mại mới bị phạt lỗi này"
+          },
+          "whyWrong": {
+            "en-US": "The rule applies to every driver.",
+            "vi-VN": "Luật áp dụng cho mọi tài xế."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The maximum speed limit is for ideal conditions. Even under the posted limit, you can get a ticket for traveling too fast for road conditions.",
+        "vi-VN": "Tốc độ tối đa chỉ dành cho điều kiện lý tưởng. Dù chạy dưới mức cho phép, vẫn có thể bị phạt vì chạy quá nhanh so với điều kiện đường."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "Common signs — Speed limit",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-019",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "On a multi-lane road in Washington, the left lane is for:",
+        "vi-VN": "Trên đường nhiều làn ở Washington, làn bên trái dùng để:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Passing slower traffic — keep right otherwise",
+            "vi-VN": "Vượt xe chậm hơn — còn lại phải giữ làn phải"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Faster drivers to cruise at any speed",
+            "vi-VN": "Xe nhanh chạy thoải mái, tốc độ nào cũng được"
+          },
+          "whyWrong": {
+            "en-US": "Speed limits apply even when passing in the left lane.",
+            "vi-VN": "Ngay cả khi vượt ở làn trái vẫn phải theo tốc độ cho phép."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Carpools — carpool lanes are passing lanes",
+            "vi-VN": "Xe đi chung — làn carpool là làn vượt"
+          },
+          "whyWrong": {
+            "en-US": "The guide states carpool lanes are NOT passing lanes.",
+            "vi-VN": "Sổ tay ghi rõ làn carpool KHÔNG phải làn vượt."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Anyone, in any lane, at any time",
+            "vi-VN": "Ai chạy làn nào cũng được, lúc nào cũng được"
+          },
+          "whyWrong": {
+            "en-US": "Keep right except to pass is the rule.",
+            "vi-VN": "Luật là giữ bên phải, chỉ qua trái để vượt."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Keep right except to pass: drive in the right lane and use the left lane to pass slower traffic. Carpool lanes are not passing lanes, and never pass on the shoulder.",
+        "vi-VN": "Giữ bên phải, chỉ dùng làn trái để vượt xe chậm hơn. Làn carpool không phải làn vượt, và không bao giờ vượt bằng lề đường."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "4.10 Traffic laws — General driving guidance",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+      }
+    },
+    {
+      "id": "wa-rules-020",
+      "section": "rules",
+      "category": "signals-markings",
+      "text": {
+        "en-US": "You stop at a red light and see a painted bicycle box in front of your lane. What is the rule?",
+        "vi-VN": "Bạn dừng đèn đỏ và thấy ô kẻ dành cho xe đạp (bicycle box) trước làn mình. Luật thế nào?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Stay behind the white line; no right turn on red near a bicycle box",
+            "vi-VN": "Đứng sau vạch trắng; không được quẹo phải khi đèn đỏ gần ô xe đạp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Pull into the box to be ready to go",
+            "vi-VN": "Chạy vô ô đó cho sẵn sàng đi"
+          },
+          "whyWrong": {
+            "en-US": "The box is for bicyclists to wait in front of vehicles.",
+            "vi-VN": "Ô đó dành cho xe đạp đứng chờ phía trước xe hơi."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Turn right on red normally if it is clear",
+            "vi-VN": "Quẹo phải đèn đỏ như thường nếu đường trống"
+          },
+          "whyWrong": {
+            "en-US": "Right turns on red are not allowed near a bicycle box.",
+            "vi-VN": "Không được quẹo phải khi đèn đỏ ở chỗ có ô xe đạp."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Honk so bicyclists clear the box",
+            "vi-VN": "Bấm kèn cho xe đạp dọn khỏi ô"
+          },
+          "whyWrong": {
+            "en-US": "Bicyclists are supposed to be there — they cross first on green.",
+            "vi-VN": "Xe đạp được quyền đứng đó — đèn xanh họ đi trước."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "At a bicycle box, stay behind the white line; bicyclists cross first when the light turns green, and you can't turn right on red near a bicycle box.",
+        "vi-VN": "Ở ô xe đạp, đứng sau vạch trắng; đèn xanh thì xe đạp qua trước, và không được quẹo phải lúc đèn đỏ gần ô xe đạp."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "Washington Driver Guide, Washington State DOL",
+        "section": "Bicycle boxes",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
       }
     }
   ]

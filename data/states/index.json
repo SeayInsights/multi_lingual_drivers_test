@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "states": [
     {
       "code": "oh",
@@ -31,7 +31,7 @@
         "en-US": "Washington",
         "vi-VN": "Washington"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "fl",
