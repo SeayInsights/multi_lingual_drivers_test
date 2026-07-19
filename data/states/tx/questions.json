@@ -1,6 +1,6 @@
 {
   "stateCode": "tx",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "tx-signs-001",
@@ -4626,6 +4626,1166 @@
       "source": {
         "title": "Manual on Uniform Traffic Control Devices (MUTCD), 11th Edition, FHWA",
         "url": "https://mutcd.fhwa.dot.gov/"
+      }
+    },
+    {
+      "id": "tx-rules-001",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "What is the maximum speed limit in an urban district in Texas?",
+        "vi-VN": "Trong khu đô thị ở Texas, tốc độ tối đa là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "30 mph",
+            "vi-VN": "30 mph (khoảng 48 km/giờ)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "25 mph",
+            "vi-VN": "25 mph"
+          },
+          "whyWrong": {
+            "en-US": "Texas urban districts are 30 mph (25 is common in some other states).",
+            "vi-VN": "Khu đô thị Texas là 30 mph (25 là mức của một số tiểu bang khác)."
+          }
+        },
+        {
+          "text": {
+            "en-US": "35 mph",
+            "vi-VN": "35 mph"
+          },
+          "whyWrong": {
+            "en-US": "The handbook's speed table sets 30 mph for urban districts.",
+            "vi-VN": "Bảng tốc độ trong sổ tay quy định 30 mph cho khu đô thị."
+          }
+        },
+        {
+          "text": {
+            "en-US": "40 mph",
+            "vi-VN": "40 mph"
+          },
+          "whyWrong": {
+            "en-US": "Urban districts are 30 mph unless posted otherwise.",
+            "vi-VN": "Khu đô thị là 30 mph trừ khi có bảng ghi khác."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The Texas speed table: urban district 30 mph, alley 15 mph. Cities and counties may post different limits.",
+        "vi-VN": "Bảng tốc độ Texas: khu đô thị 30 mph, con hẻm 15 mph. Thành phố và quận có thể treo bảng mức khác."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 8: Speed Limits (Table 22)",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-002",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "What is the speed limit in an alley in Texas?",
+        "vi-VN": "Trong con hẻm ở Texas, tốc độ tối đa là bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "15 mph",
+            "vi-VN": "15 mph (khoảng 24 km/giờ)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "30 mph",
+            "vi-VN": "30 mph"
+          },
+          "whyWrong": {
+            "en-US": "30 mph is the urban district limit; alleys are 15.",
+            "vi-VN": "30 mph là mức khu đô thị; con hẻm là 15."
+          }
+        },
+        {
+          "text": {
+            "en-US": "20 mph",
+            "vi-VN": "20 mph"
+          },
+          "whyWrong": {
+            "en-US": "The speed table sets 15 mph for alleys.",
+            "vi-VN": "Bảng tốc độ quy định 15 mph cho hẻm."
+          }
+        },
+        {
+          "text": {
+            "en-US": "10 mph",
+            "vi-VN": "10 mph"
+          },
+          "whyWrong": {
+            "en-US": "It is 15 mph, not 10.",
+            "vi-VN": "Là 15 mph, không phải 10."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Alleys have a 15 mph limit — the same as beaches and county roads adjacent to a public beach when so declared.",
+        "vi-VN": "Con hẻm giới hạn 15 mph — bằng với bãi biển và đường của quận cạnh bãi biển công cộng khi được công bố."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 8: Speed Limits (Table 22)",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-003",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "On a numbered Texas or U.S. highway outside an urban district, the maximum speed for passenger cars is:",
+        "vi-VN": "Trên xa lộ mang số hiệu Texas hoặc Hoa Kỳ, ngoài khu đô thị, tốc độ tối đa cho xe hơi là:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "70 mph (some limited-access highways post 75–85)",
+            "vi-VN": "70 mph (một số xa lộ cao tốc treo bảng 75–85)"
+          }
+        },
+        {
+          "text": {
+            "en-US": "60 mph",
+            "vi-VN": "60 mph"
+          },
+          "whyWrong": {
+            "en-US": "60 is for UNNUMBERED highways outside urban districts.",
+            "vi-VN": "60 là cho xa lộ KHÔNG mang số hiệu ngoài khu đô thị."
+          }
+        },
+        {
+          "text": {
+            "en-US": "55 mph",
+            "vi-VN": "55 mph"
+          },
+          "whyWrong": {
+            "en-US": "The numbered-highway limit is 70 mph.",
+            "vi-VN": "Xa lộ mang số hiệu giới hạn 70 mph."
+          }
+        },
+        {
+          "text": {
+            "en-US": "85 mph everywhere",
+            "vi-VN": "85 mph ở mọi nơi"
+          },
+          "whyWrong": {
+            "en-US": "85 exists only on specific posted limited-access highways.",
+            "vi-VN": "85 chỉ có trên vài xa lộ cao tốc có bảng riêng."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Numbered highways outside urban districts: 70 mph (includes Farm to Market roads). Unnumbered highways: 60 mph. Some limited-access highways post 75 up to 85 mph.",
+        "vi-VN": "Xa lộ mang số hiệu ngoài đô thị: 70 mph (gồm đường Farm to Market). Xa lộ không số hiệu: 60 mph. Một số cao tốc treo bảng 75 tới 85 mph."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 8: Speed Limits (Table 22)",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-004",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Driving at 45 mph in good conditions, what following gap does the Texas handbook require behind the car ahead?",
+        "vi-VN": "Chạy 45 mph trong điều kiện tốt, sổ tay Texas yêu cầu giữ khoảng cách bao nhiêu với xe trước?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "4 seconds — the rule for speeds above 30 mph",
+            "vi-VN": "4 giây — quy tắc cho tốc độ trên 30 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "2 seconds at any speed",
+            "vi-VN": "2 giây ở mọi tốc độ"
+          },
+          "whyWrong": {
+            "en-US": "2 seconds applies at 30 mph or less; above 30 mph Texas teaches 4 seconds.",
+            "vi-VN": "2 giây cho tốc độ từ 30 mph trở xuống; trên 30 mph Texas dạy 4 giây."
+          }
+        },
+        {
+          "text": {
+            "en-US": "1 car length per 10 mph",
+            "vi-VN": "Một thân xe cho mỗi 10 mph"
+          },
+          "whyWrong": {
+            "en-US": "Texas uses time gaps (2s/4s), not car lengths.",
+            "vi-VN": "Texas tính bằng giây (2/4 giây), không đếm thân xe."
+          }
+        },
+        {
+          "text": {
+            "en-US": "10 feet",
+            "vi-VN": "10 feet"
+          },
+          "whyWrong": {
+            "en-US": "At 45 mph you cover far more than 10 feet in reaction time alone.",
+            "vi-VN": "Ở 45 mph, chỉ riêng thời gian phản ứng đã chạy hơn 10 feet rất nhiều."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Texas: at 30 mph or less keep at least a 2-second gap; above 30 mph keep 4 seconds — and more in poor conditions. It takes about 1½ seconds just to think and react.",
+        "vi-VN": "Texas: từ 30 mph trở xuống giữ ít nhất 2 giây; trên 30 mph giữ 4 giây — điều kiện xấu thì lâu hơn. Riêng suy nghĩ và phản ứng đã mất khoảng 1 giây rưỡi."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 8: Speed",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-005",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "A police car is stopped on a Texas highway (posted 65) with lights flashing, and you cannot change lanes. How slow must you go?",
+        "vi-VN": "Xe cảnh sát đậu bên xa lộ Texas (bảng 65) đèn chớp sáng, và bạn không đổi làn được. Phải giảm còn bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "At most 45 mph — 20 mph below the posted limit",
+            "vi-VN": "Tối đa 45 mph — thấp hơn mức cho phép 20 mph"
+          }
+        },
+        {
+          "text": {
+            "en-US": "At most 55 mph — 10 mph below",
+            "vi-VN": "Tối đa 55 mph — thấp hơn 10 mph"
+          },
+          "whyWrong": {
+            "en-US": "Texas requires 20 mph below the limit (10-below is other states' rule).",
+            "vi-VN": "Texas bắt giảm 20 mph dưới mức cho phép (giảm 10 là luật tiểu bang khác)."
+          }
+        },
+        {
+          "text": {
+            "en-US": "The posted 65 is fine if you steer wide",
+            "vi-VN": "Giữ 65 cũng được nếu lách rộng ra"
+          },
+          "whyWrong": {
+            "en-US": "If you cannot vacate the lane, you MUST slow down — keeping the limit is illegal here.",
+            "vi-VN": "Không đổi làn được thì BẮT BUỘC giảm tốc — giữ nguyên tốc độ là phạm luật."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop completely on the roadway",
+            "vi-VN": "Dừng hẳn trên đường"
+          },
+          "whyWrong": {
+            "en-US": "Stopping in a live lane creates a new hazard.",
+            "vi-VN": "Dừng giữa làn đang chạy tạo thêm nguy hiểm."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Texas Move Over/Slow Down: vacate the lane closest to the stopped emergency vehicle, OR slow to 20 mph below the limit (posted 25+); below a 25 mph limit, slow to under 5 mph.",
+        "vi-VN": "Luật Move Over của Texas: đổi qua làn xa xe khẩn cấp, HOẶC giảm 20 mph dưới mức cho phép (bảng từ 25 trở lên); nơi bảng dưới 25 mph thì giảm còn dưới 5 mph."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 4: Right-of-Way — stopped emergency vehicles",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-006",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "A school bus on your road has alternating flashing red lights. When may you pass it?",
+        "vi-VN": "Xe buýt trường trên đường bạn đang chớp đèn đỏ luân phiên. Khi nào được vượt?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Only after the bus moves again, the driver signals you on, or the red lights stop flashing",
+            "vi-VN": "Chỉ khi xe buýt chạy tiếp, tài xế buýt ra hiệu cho đi, hoặc đèn đỏ ngừng chớp"
+          }
+        },
+        {
+          "text": {
+            "en-US": "When no children are visible",
+            "vi-VN": "Khi không thấy trẻ em"
+          },
+          "whyWrong": {
+            "en-US": "Children may be hidden — the lights control when you may pass, not what you can see.",
+            "vi-VN": "Trẻ em có thể bị khuất — đèn quyết định khi nào được đi, không phải mắt mình thấy gì."
+          }
+        },
+        {
+          "text": {
+            "en-US": "After stopping for 10 seconds",
+            "vi-VN": "Sau khi dừng đủ 10 giây"
+          },
+          "whyWrong": {
+            "en-US": "There is no time count — wait for the bus to move, a signal, or lights off.",
+            "vi-VN": "Không có đếm giây — phải chờ xe buýt chạy, có hiệu lệnh, hoặc đèn tắt."
+          }
+        },
+        {
+          "text": {
+            "en-US": "If you approach from the opposite direction, you never stop",
+            "vi-VN": "Chạy ngược chiều thì khỏi dừng"
+          },
+          "whyWrong": {
+            "en-US": "You must stop from EITHER direction on the same road (a different road or controlled-access loading zone is the exception).",
+            "vi-VN": "Cùng con đường thì hướng nào cũng phải dừng (chỉ đường khác hoặc cao tốc có khu đón riêng mới là ngoại lệ)."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Approaching from either direction, stop for a school bus with flashing red lights. Do not pass until the bus moves, the driver signals you to proceed, or the lights stop flashing.",
+        "vi-VN": "Từ hướng nào cũng phải dừng khi xe buýt trường chớp đèn đỏ. Không vượt cho tới khi xe buýt chạy tiếp, tài xế ra hiệu, hoặc đèn ngừng chớp."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 4: Yield Right-of-Way to School Buses",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-007",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "What is the fine for a FIRST conviction of illegally passing a stopped school bus in Texas?",
+        "vi-VN": "Vượt xe buýt trường đang dừng ở Texas, lần đầu bị phạt bao nhiêu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "$500 to $1,250",
+            "vi-VN": "500 tới 1.250 đô"
+          }
+        },
+        {
+          "text": {
+            "en-US": "$25 to $50",
+            "vi-VN": "25 tới 50 đô"
+          },
+          "whyWrong": {
+            "en-US": "That is the seat-belt fine range — school bus passing starts at $500.",
+            "vi-VN": "Đó là mức phạt dây an toàn — vượt xe buýt trường bắt đầu từ 500 đô."
+          }
+        },
+        {
+          "text": {
+            "en-US": "A warning for a first offense",
+            "vi-VN": "Lần đầu chỉ nhắc nhở"
+          },
+          "whyWrong": {
+            "en-US": "The first conviction already costs $500–$1,250.",
+            "vi-VN": "Ngay lần đầu đã bị phạt 500–1.250 đô."
+          }
+        },
+        {
+          "text": {
+            "en-US": "$100 plus one license point",
+            "vi-VN": "100 đô cộng 1 điểm phạt"
+          },
+          "whyWrong": {
+            "en-US": "The fine is $500–$1,250; repeat offenses can also suspend the license.",
+            "vi-VN": "Mức phạt là 500–1.250 đô; tái phạm còn có thể bị treo bằng."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "First conviction: $500–$1,250. A second within five years: $1,000–$2,000 and possible license suspension up to six months. Causing serious injury can mean jail.",
+        "vi-VN": "Lần đầu: 500–1.250 đô. Lần hai trong vòng 5 năm: 1.000–2.000 đô và có thể treo bằng tới 6 tháng. Gây thương tích nặng có thể ở tù."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 4: Table 15 — School bus penalties",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-008",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "A railroad crossing gate is lowered. Where must you stop?",
+        "vi-VN": "Cần chắn đường ray đang hạ xuống. Bạn phải dừng ở đâu?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Between 15 and 50 feet from the nearest rail",
+            "vi-VN": "Cách đường ray gần nhất từ 15 tới 50 feet"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Right at the gate arm",
+            "vi-VN": "Sát ngay cần chắn"
+          },
+          "whyWrong": {
+            "en-US": "The law sets a 15–50 foot zone from the nearest rail.",
+            "vi-VN": "Luật quy định vùng dừng cách ray gần nhất 15–50 feet."
+          }
+        },
+        {
+          "text": {
+            "en-US": "100 feet back, always",
+            "vi-VN": "Lùi 100 feet, luôn luôn"
+          },
+          "whyWrong": {
+            "en-US": "The stopping zone is 15–50 feet.",
+            "vi-VN": "Vùng dừng là 15–50 feet."
+          }
+        },
+        {
+          "text": {
+            "en-US": "On the tracks if traffic is backed up",
+            "vi-VN": "Trên đường ray nếu kẹt xe"
+          },
+          "whyWrong": {
+            "en-US": "NEVER stop on the tracks — trains cannot stop and always have the right-of-way.",
+            "vi-VN": "KHÔNG BAO GIỜ dừng trên đường ray — xe lửa không dừng được và luôn được ưu tiên."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Stop 15–50 feet from the nearest rail when a signal warns, a gate is down, a flag person signals, or a train is within about 1,500 feet or visibly close. Never stop on the tracks.",
+        "vi-VN": "Dừng cách ray gần nhất 15–50 feet khi có tín hiệu, cần chắn hạ, người phất cờ, hoặc xe lửa trong khoảng 1.500 feet hay đang tới gần. Không bao giờ dừng trên đường ray."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 4: Railroad Grade Crossings",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-009",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Your car stalls on railroad tracks and a train is approaching. What should you do?",
+        "vi-VN": "Xe bạn chết máy trên đường ray và xe lửa đang tới. Nên làm gì?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Get out fast and run TOWARD the train, angled away from the tracks",
+            "vi-VN": "Rời xe thật nhanh và chạy VỀ PHÍA xe lửa, chếch ra xa đường ray"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stay and keep trying to restart the engine",
+            "vi-VN": "Ngồi lại đề máy tiếp"
+          },
+          "whyWrong": {
+            "en-US": "With a train coming, leave the car immediately.",
+            "vi-VN": "Xe lửa đang tới thì phải rời xe ngay lập tức."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Run in the same direction the train is going",
+            "vi-VN": "Chạy cùng hướng xe lửa đang chạy"
+          },
+          "whyWrong": {
+            "en-US": "Running away from the train puts you in the path of debris thrown forward by the crash.",
+            "vi-VN": "Chạy xuôi hướng xe lửa là chạy vào vùng mảnh vỡ văng tới sau cú tông."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stand next to the car and wave at the train",
+            "vi-VN": "Đứng cạnh xe vẫy cho xe lửa thấy"
+          },
+          "whyWrong": {
+            "en-US": "Trains cannot stop in time — get well clear of the tracks.",
+            "vi-VN": "Xe lửa không thắng kịp — phải rời xa đường ray."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "If stalled and a train approaches: get out quickly, move away from the tracks, and run toward the approaching train (to its side) so crash debris flies past you, not at you.",
+        "vi-VN": "Xe chết máy mà xe lửa tới: rời xe nhanh, ra xa đường ray, chạy về phía xe lửa (bên hông đường ray) để mảnh vỡ văng qua khỏi mình chứ không trúng mình."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 4: Safe Driving Procedures at Railroad Crossings",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-010",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "You are on a two-lane road that crosses a divided highway. Who yields?",
+        "vi-VN": "Bạn trên đường hai làn cắt ngang một xa lộ có dải phân cách. Ai phải nhường?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "You — traffic on the divided (or 3+ lane) road has the right-of-way",
+            "vi-VN": "Bạn — xe trên đường có dải phân cách (hoặc từ 3 làn trở lên) được ưu tiên"
+          }
+        },
+        {
+          "text": {
+            "en-US": "The divided-highway traffic yields to you",
+            "vi-VN": "Xe trên xa lộ nhường bạn"
+          },
+          "whyWrong": {
+            "en-US": "It is the reverse — the smaller road yields to the bigger road.",
+            "vi-VN": "Ngược lại — đường nhỏ nhường đường lớn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whoever arrives first",
+            "vi-VN": "Ai tới trước đi trước"
+          },
+          "whyWrong": {
+            "en-US": "Road type decides here: single/two-lane yields to divided or 3+ lanes.",
+            "vi-VN": "Loại đường quyết định: đường 1–2 làn nhường đường có dải phân cách hoặc 3 làn trở lên."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Nobody — divided highways have no crossings",
+            "vi-VN": "Không ai — xa lộ có dải phân cách không có giao lộ"
+          },
+          "whyWrong": {
+            "en-US": "They do, and the handbook gives this exact rule for them.",
+            "vi-VN": "Vẫn có, và sổ tay có đúng quy định này cho trường hợp đó."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Driving on a single or two-lane road that intersects a divided road or one with three or more lanes, you must yield to traffic on the bigger road.",
+        "vi-VN": "Đang trên đường 1 hoặc 2 làn cắt ngang đường có dải phân cách hoặc từ 3 làn trở lên, bạn phải nhường xe trên đường lớn."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 4: Right-of-Way at Intersections",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-011",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "Driving on an unpaved road that crosses a paved road in Texas, you must:",
+        "vi-VN": "Chạy trên đường đất cắt ngang đường trải nhựa ở Texas, bạn phải:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Yield to vehicles on the paved road",
+            "vi-VN": "Nhường xe trên đường nhựa"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Proceed first — dirt roads have priority",
+            "vi-VN": "Đi trước — đường đất được ưu tiên"
+          },
+          "whyWrong": {
+            "en-US": "The unpaved road yields to the paved road.",
+            "vi-VN": "Đường đất phải nhường đường nhựa."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Honk and cross without slowing",
+            "vi-VN": "Bấm kèn rồi băng qua không giảm tốc"
+          },
+          "whyWrong": {
+            "en-US": "You must yield; honking does not replace it.",
+            "vi-VN": "Phải nhường; bấm kèn không thay thế được."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop only if a sign says so",
+            "vi-VN": "Chỉ dừng nếu có bảng"
+          },
+          "whyWrong": {
+            "en-US": "The unpaved-yields-to-paved rule applies even without a sign.",
+            "vi-VN": "Luật đường đất nhường đường nhựa áp dụng kể cả không có bảng."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "If you are on an unpaved road intersecting a paved road, yield the right-of-way to vehicles on the paved road.",
+        "vi-VN": "Từ đường đất cắt ngang đường nhựa, phải nhường quyền ưu tiên cho xe trên đường nhựa."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 4: Right-of-Way at Intersections",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-012",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "At a Texas intersection with no signs, signals, or lane/pavement differences, you yield to:",
+        "vi-VN": "Tại ngã tư Texas không có bảng, đèn, hay khác biệt làn/mặt đường, bạn nhường cho:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Any vehicle that has entered or is approaching from your right",
+            "vi-VN": "Xe đã vào ngã tư hoặc đang tới từ phía bên phải bạn"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Any vehicle approaching from your left",
+            "vi-VN": "Xe đang tới từ phía bên trái"
+          },
+          "whyWrong": {
+            "en-US": "The vehicle on the RIGHT gets the right-of-way.",
+            "vi-VN": "Xe bên PHẢI được quyền ưu tiên."
+          }
+        },
+        {
+          "text": {
+            "en-US": "No one — first to enter wins",
+            "vi-VN": "Không ai — ai vào trước người đó thắng"
+          },
+          "whyWrong": {
+            "en-US": "The rule protects the vehicle on the right, whether entered or approaching.",
+            "vi-VN": "Luật bảo vệ xe bên phải, dù đã vào hay đang tới."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only trucks and buses",
+            "vi-VN": "Chỉ nhường xe tải và xe buýt"
+          },
+          "whyWrong": {
+            "en-US": "Vehicle type does not matter; position does.",
+            "vi-VN": "Loại xe không quan trọng; vị trí mới quan trọng."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Yield to any vehicle that has entered or approaches on your right — and even when you legally have the right-of-way, make sure the other driver actually yields before proceeding.",
+        "vi-VN": "Nhường xe đã vào hoặc đang tới từ bên phải — và kể cả khi mình được ưu tiên theo luật, hãy chắc xe kia thật sự nhường rồi mới đi."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 4: Intersections Not Controlled",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-013",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "Leaving a private driveway to enter a street in Texas, you must:",
+        "vi-VN": "Từ đường nhà chạy ra đường phố ở Texas, bạn phải:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Stop BEFORE the sidewalk and yield to all approaching vehicles",
+            "vi-VN": "Dừng TRƯỚC lối đi bộ và nhường mọi xe đang tới"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Roll slowly across the sidewalk and merge",
+            "vi-VN": "Bò từ từ qua lối đi bộ rồi nhập làn"
+          },
+          "whyWrong": {
+            "en-US": "You must STOP before the sidewalk — pedestrians use it.",
+            "vi-VN": "Phải DỪNG trước lối đi bộ — người đi bộ đang dùng nó."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Yield only to vehicles on your side of the road",
+            "vi-VN": "Chỉ nhường xe cùng chiều bên mình"
+          },
+          "whyWrong": {
+            "en-US": "Yield to ALL approaching vehicles.",
+            "vi-VN": "Phải nhường TẤT CẢ xe đang tới."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Expect street traffic to let you in",
+            "vi-VN": "Chờ xe ngoài đường tự nhường mình vô"
+          },
+          "whyWrong": {
+            "en-US": "Traffic on the street has the right-of-way over driveways.",
+            "vi-VN": "Xe trên đường phố được ưu tiên hơn xe từ đường nhà ra."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Entering or crossing a road from a private road, alley, building, or driveway: stop prior to the sidewalk and yield to all approaching vehicles (and pedestrians).",
+        "vi-VN": "Từ đường riêng, hẻm, tòa nhà hoặc đường nhà ra đường phố: dừng trước lối đi bộ và nhường mọi xe đang tới (và người đi bộ)."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 4: Private Roads and Driveways",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-014",
+      "section": "rules",
+      "category": "rightofway",
+      "text": {
+        "en-US": "Driving on a frontage road along a Texas controlled-access highway, you must yield to:",
+        "vi-VN": "Chạy trên đường gom (frontage road) dọc cao tốc Texas, bạn phải nhường cho:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Vehicles entering or leaving the highway to/from the frontage road",
+            "vi-VN": "Xe đang vào hoặc rời cao tốc qua đường gom"
+          }
+        },
+        {
+          "text": {
+            "en-US": "No one — frontage roads have priority",
+            "vi-VN": "Không ai — đường gom được ưu tiên"
+          },
+          "whyWrong": {
+            "en-US": "It is the opposite: frontage-road traffic yields to highway ramps.",
+            "vi-VN": "Ngược lại: xe đường gom phải nhường xe ra vô cao tốc."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only trucks entering the highway",
+            "vi-VN": "Chỉ nhường xe tải vào cao tốc"
+          },
+          "whyWrong": {
+            "en-US": "The rule covers every vehicle entering or leaving the highway.",
+            "vi-VN": "Luật áp dụng cho mọi xe ra vô cao tốc."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Vehicles behind you",
+            "vi-VN": "Xe chạy phía sau mình"
+          },
+          "whyWrong": {
+            "en-US": "The yield duty is to ramp traffic, not followers.",
+            "vi-VN": "Phải nhường xe ở lối ra vô, không phải xe sau."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "On a frontage road, yield to vehicles entering or about to enter the frontage road from the highway, and to vehicles leaving the frontage road to enter the highway.",
+        "vi-VN": "Trên đường gom, phải nhường xe đang (hoặc sắp) từ cao tốc xuống đường gom, và xe từ đường gom lên cao tốc."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 4: Enter or Leave Controlled-Access Highway",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-015",
+      "section": "rules",
+      "category": "parking-buses",
+      "text": {
+        "en-US": "Which parking distances are correct in Texas?",
+        "vi-VN": "Bộ khoảng cách đậu xe nào đúng luật Texas?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "15 ft from a hydrant, 20 ft from a crosswalk, 30 ft from a stop sign, 50 ft from a rail",
+            "vi-VN": "15 feet với trụ nước, 20 feet với lối băng bộ, 30 feet với bảng STOP, 50 feet với đường ray"
+          }
+        },
+        {
+          "text": {
+            "en-US": "5 ft, 10 ft, 15 ft, 25 ft",
+            "vi-VN": "5, 10, 15, 25 feet"
+          },
+          "whyWrong": {
+            "en-US": "Texas uses 15/20/30/50 feet for these.",
+            "vi-VN": "Texas quy định 15/20/30/50 feet cho các chỗ này."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Distances only matter if a sign is posted",
+            "vi-VN": "Khoảng cách chỉ tính khi có bảng"
+          },
+          "whyWrong": {
+            "en-US": "These statutory distances apply without any sign.",
+            "vi-VN": "Các khoảng cách luật định này áp dụng dù không có bảng."
+          }
+        },
+        {
+          "text": {
+            "en-US": "There are no fixed distances in Texas",
+            "vi-VN": "Texas không có khoảng cách cố định"
+          },
+          "whyWrong": {
+            "en-US": "The handbook lists exact distances.",
+            "vi-VN": "Sổ tay ghi rõ từng con số."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Do not park within 15 ft of a fire hydrant, 20 ft of a crosswalk at an intersection, 30 ft of a stop/yield sign or signal, or 50 ft of the nearest rail at a railroad crossing.",
+        "vi-VN": "Không đậu trong vòng 15 feet quanh trụ nước, 20 feet quanh lối băng bộ tại ngã tư, 30 feet quanh bảng STOP/bảng nhường/đèn tín hiệu, hoặc 50 feet quanh đường ray gần nhất."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 7: Parking, Stopping, or Standing",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-016",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "When must headlights be on in Texas?",
+        "vi-VN": "Ở Texas, khi nào bắt buộc bật đèn pha?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "From 30 minutes after sunset to 30 minutes before sunrise, or when you can't see people/vehicles for 1,000 feet",
+            "vi-VN": "Từ 30 phút sau khi mặt trời lặn tới 30 phút trước khi mọc, hoặc khi không thấy rõ người/xe trong 1.000 feet"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only when it is fully dark",
+            "vi-VN": "Chỉ khi trời tối hẳn"
+          },
+          "whyWrong": {
+            "en-US": "The rule starts 30 minutes after sunset and includes low-visibility daytime.",
+            "vi-VN": "Bắt buộc từ 30 phút sau khi mặt trời lặn và cả ban ngày khi tầm nhìn kém."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Whenever it rains, and never otherwise",
+            "vi-VN": "Chỉ khi mưa, ngoài ra thì không"
+          },
+          "whyWrong": {
+            "en-US": "Rain can trigger the 1,000-foot visibility rule, but nighttime hours always require them.",
+            "vi-VN": "Mưa có thể rơi vào quy định tầm nhìn 1.000 feet, nhưng giờ ban đêm thì luôn bắt buộc."
+          }
+        },
+        {
+          "text": {
+            "en-US": "High beams at all times at night",
+            "vi-VN": "Đèn pha cao mọi lúc ban đêm"
+          },
+          "whyWrong": {
+            "en-US": "Use LOW beams within 500 ft of oncoming traffic or 300 ft when following.",
+            "vi-VN": "Phải dùng đèn CỐT khi cách xe ngược chiều 500 feet hoặc theo sau xe khác 300 feet."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Headlights: 30 minutes after sunset until 30 minutes before sunrise, or anytime you cannot clearly see people or vehicles for at least 1,000 feet.",
+        "vi-VN": "Đèn pha: từ 30 phút sau khi mặt trời lặn tới 30 phút trước khi mọc, hoặc bất cứ lúc nào không thấy rõ người/xe trong ít nhất 1.000 feet."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 9: Headlights",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-017",
+      "section": "rules",
+      "category": "rules",
+      "text": {
+        "en-US": "At night in Texas, when must you switch to LOW beam headlights?",
+        "vi-VN": "Ban đêm ở Texas, khi nào phải chuyển sang đèn cốt (đèn thấp)?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Within 500 feet of an oncoming vehicle, or within 300 feet when following one",
+            "vi-VN": "Cách xe ngược chiều 500 feet, hoặc theo sau xe khác trong vòng 300 feet"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only when the other driver flashes you",
+            "vi-VN": "Chỉ khi xe kia nháy đèn nhắc"
+          },
+          "whyWrong": {
+            "en-US": "The distances are the law — no reminder needed.",
+            "vi-VN": "Khoảng cách là luật — không cần ai nhắc."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Never — high beams are safer everywhere",
+            "vi-VN": "Không bao giờ — đèn pha cao an toàn hơn"
+          },
+          "whyWrong": {
+            "en-US": "High beams blind other drivers up close; low beams are required at these distances (and in fog, rain, sleet, snow, dust).",
+            "vi-VN": "Đèn cao làm chói mắt tài xế khác; phải dùng đèn cốt ở các khoảng cách này (và khi sương mù, mưa lớn, tuyết, bụi)."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only inside city limits",
+            "vi-VN": "Chỉ trong nội ô"
+          },
+          "whyWrong": {
+            "en-US": "The 500/300-foot rule applies everywhere.",
+            "vi-VN": "Quy định 500/300 feet áp dụng ở mọi nơi."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Use low beams within 500 feet of an approaching vehicle, within 300 feet behind another vehicle, on lighted roads, and in fog, heavy rain, sleet, snow, or dust.",
+        "vi-VN": "Dùng đèn cốt khi cách xe ngược chiều 500 feet, theo sau xe khác 300 feet, trên đường có đèn, và khi sương mù, mưa lớn, tuyết hoặc bụi."
+      },
+      "difficulty": 3,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 9: Headlights",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-018",
+      "section": "rules",
+      "category": "safety",
+      "text": {
+        "en-US": "Who must be secured in a Texas passenger vehicle?",
+        "vi-VN": "Trong xe hơi ở Texas, ai bắt buộc phải được cài dây/ghế an toàn?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Driver and ALL passengers of every age; children under 8 need a child seat unless taller than 4'9\"",
+            "vi-VN": "Tài xế và MỌI hành khách ở mọi tuổi; trẻ dưới 8 tuổi phải ngồi ghế trẻ em trừ khi cao hơn 4 feet 9 inch"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Front-seat occupants only",
+            "vi-VN": "Chỉ người ngồi ghế trước"
+          },
+          "whyWrong": {
+            "en-US": "Texas requires belts for ALL occupants, in every seat.",
+            "vi-VN": "Texas bắt buộc dây an toàn cho MỌI người, mọi ghế."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only children under 17",
+            "vi-VN": "Chỉ trẻ dưới 17 tuổi"
+          },
+          "whyWrong": {
+            "en-US": "Adults are required to buckle up too.",
+            "vi-VN": "Người lớn cũng bắt buộc phải thắt."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Belts are optional in pickups",
+            "vi-VN": "Xe bán tải khỏi cần thắt"
+          },
+          "whyWrong": {
+            "en-US": "The requirement includes pickups, SUVs, and trucks.",
+            "vi-VN": "Luật áp dụng cả xe bán tải, SUV và xe tải."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "The driver and all passengers, regardless of age, must use safety belts. Children under 8 must ride in a federally approved child seat unless they are taller than 4 feet 9 inches.",
+        "vi-VN": "Tài xế và mọi hành khách, bất kể tuổi, phải thắt dây an toàn. Trẻ dưới 8 tuổi phải ngồi ghế trẻ em đạt chuẩn liên bang, trừ khi cao hơn 4 feet 9 inch."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 14: Safety Belts",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-019",
+      "section": "rules",
+      "category": "alcohol",
+      "text": {
+        "en-US": "A Texas driver under 21 is stopped with a tiny, detectable amount of alcohol — below 0.08. What happens?",
+        "vi-VN": "Tài xế dưới 21 tuổi ở Texas bị chặn lại, có chút cồn trong người — dưới mức 0,08. Chuyện gì xảy ra?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "It is an offense — zero tolerance means ANY detectable alcohol counts for minors",
+            "vi-VN": "Vẫn phạm luật — 'không khoan nhượng' nghĩa là CÓ cồn là tính, với người dưới 21 tuổi"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Nothing, because 0.08 is the legal limit",
+            "vi-VN": "Không sao, vì mức luật định là 0,08"
+          },
+          "whyWrong": {
+            "en-US": "0.08 is the intoxication limit for adults — minors face zero tolerance.",
+            "vi-VN": "0,08 là mức say cho người lớn — vị thành niên bị luật không khoan nhượng."
+          }
+        },
+        {
+          "text": {
+            "en-US": "A warning on the first stop",
+            "vi-VN": "Lần đầu chỉ bị nhắc nhở"
+          },
+          "whyWrong": {
+            "en-US": "It is the offense of Driving Under the Influence by a Minor, with license suspension.",
+            "vi-VN": "Đó là tội 'Vị thành niên lái xe có cồn', kèm treo bằng."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Only a fine if driving badly",
+            "vi-VN": "Chỉ bị phạt nếu lái ẩu"
+          },
+          "whyWrong": {
+            "en-US": "Any detectable amount while driving is itself the offense.",
+            "vi-VN": "Chỉ cần có cồn khi lái là đã phạm tội."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Texas zero tolerance: a minor (under 21) driving with ANY detectable amount of alcohol commits Driving Under the Influence of Alcohol by a Minor — even below the adult 0.08 intoxication limit. License suspension follows (60 days for a first failure).",
+        "vi-VN": "Luật không khoan nhượng của Texas: người dưới 21 tuổi lái xe mà CÓ cồn (dù dưới mức say 0,08 của người lớn) là phạm tội — và bị treo bằng (lần đầu 60 ngày)."
+      },
+      "difficulty": 2,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 10: Zero Tolerance for Minors",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
+      }
+    },
+    {
+      "id": "tx-rules-020",
+      "section": "rules",
+      "category": "speed-lanes",
+      "text": {
+        "en-US": "When entering a Texas freeway from the ramp, you must:",
+        "vi-VN": "Khi từ lối dẫn nhập vào cao tốc Texas, bạn phải:"
+      },
+      "choices": [
+        {
+          "text": {
+            "en-US": "Yield to vehicles already on the highway, then speed up in the merge lane to match traffic",
+            "vi-VN": "Nhường xe đang chạy trên cao tốc, rồi tăng tốc ở làn nhập để hòa vào dòng xe"
+          }
+        },
+        {
+          "text": {
+            "en-US": "Stop at the end of the ramp and wait for a gap",
+            "vi-VN": "Dừng ở cuối lối dẫn chờ chỗ trống"
+          },
+          "whyWrong": {
+            "en-US": "Stopping on a ramp is dangerous — use the speed-change lane to accelerate and merge.",
+            "vi-VN": "Dừng trên lối dẫn rất nguy hiểm — phải dùng làn tăng tốc để nhập làn."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Enter at any speed — highway traffic must let you in",
+            "vi-VN": "Vô tốc độ nào cũng được — xe trên cao tốc phải nhường mình"
+          },
+          "whyWrong": {
+            "en-US": "Vehicles already on the highway have the right-of-way.",
+            "vi-VN": "Xe đang trên cao tốc được quyền ưu tiên."
+          }
+        },
+        {
+          "text": {
+            "en-US": "Use the left lane immediately after entering",
+            "vi-VN": "Nhập xong qua ngay làn trái"
+          },
+          "whyWrong": {
+            "en-US": "Use the right lane for slower travel; middle/left lanes are for faster traffic and passing.",
+            "vi-VN": "Làn phải cho xe chạy chậm; làn giữa/trái cho xe nhanh và để vượt."
+          }
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "en-US": "Yield to vehicles already on the highway; enter the speed-change lane, signal, and accelerate to merge with the flow. Use the right lane if driving at or below the flow of traffic.",
+        "vi-VN": "Nhường xe đang trên cao tốc; vào làn tăng tốc, bật xi nhan và tăng tốc để hòa vào dòng xe. Chạy chậm thì đi làn phải."
+      },
+      "difficulty": 1,
+      "source": {
+        "title": "Texas Driver Handbook (DL-7, rev. January 2026), Texas DPS",
+        "section": "Chapter 9: Entering the Highway",
+        "url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "states": [
     {
       "code": "oh",
@@ -23,7 +23,7 @@
         "en-US": "Texas",
         "vi-VN": "Texas"
       },
-      "status": "draft"
+      "status": "available"
     },
     {
       "code": "wa",
