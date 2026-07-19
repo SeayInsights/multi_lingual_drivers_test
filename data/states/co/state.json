@@ -6,18 +6,18 @@
   },
   "agency": {
     "name": {
-      "en-US": "Colorado — RESEARCH: official testing agency name",
-      "vi-VN": "Colorado — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Colorado Division of Motor Vehicles (Department of Revenue)",
+      "vi-VN": "Nha Lộ Vận Colorado (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://dmv.colorado.gov",
+    "handbookUrl": "https://dmv.colorado.gov/sites/dmv/files/documents/DR_2337_Jan2025.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
-    "timeLimitMinutes": null,
+    "overallMinCorrect": 20,
+    "timeLimitMinutes": 60,
     "sections": [
       {
         "id": "signs",
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Colorado does not publish an official question count or passing score for the DMV knowledge test, so this practice test uses a common 25-question / 80% standard (this state stays in draft until verified). The @Home online test allows 60 minutes. A learner's permit is available from age 15 (driver-education required). Note: the test is offered in English and Spanish — practice in English-only mode.",
+      "vi-VN": "Colorado không công bố số câu hay điểm đậu chính thức cho bài thi lý thuyết DMV, nên bản luyện này dùng chuẩn phổ biến 25 câu / 80% (còn ở dạng nháp cho tới khi xác minh). Bài thi trực tuyến @Home cho 60 phút. Có thể lấy giấy phép tập lái từ 15 tuổi (cần học lái xe). Lưu ý: bài thi có tiếng Anh và tiếng Tây Ban Nha — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Colorado @Home Driving Knowledge Tests (60-minute limit; English/Spanish)",
+      "url": "https://dmv.colorado.gov/home-driving-knowledge-tests",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Colorado Driver Handbook (DR 2337, Jan 2025; count/score not stated); permit age 15",
+      "url": "https://dmv.colorado.gov/permits-first-time-driver-license",
       "accessed": "2026-07-19"
     }
   ]

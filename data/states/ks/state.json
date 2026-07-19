@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Kansas — RESEARCH: official testing agency name",
-      "vi-VN": "Kansas — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Kansas Department of Revenue, Division of Vehicles",
+      "vi-VN": "Nha Lộ Vận Kansas (KDOR)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "KDOR",
+    "website": "https://www.ksrevenue.gov/dovindex.html",
+    "handbookUrl": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 20,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 14,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The knowledge test has 25 multiple-choice questions; you must score 80% (20 of 25) to pass. It is not timed in the office. An instruction permit is available from age 14. Note: the test is offered in English and Spanish only — practice in English-only mode.",
+      "vi-VN": "Bài thi lý thuyết có 25 câu trắc nghiệm; phải đúng 80% (20/25) mới đậu. Thi tại văn phòng không giới hạn thời gian. Có thể lấy giấy phép tập lái từ 14 tuổi. Lưu ý: bài thi chỉ có tiếng Anh và tiếng Tây Ban Nha — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Kansas Driving Handbook (25 questions, 80% to pass, not timed)",
+      "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Kansas DOR — Graduated Driver Licensing (permit age 14)",
+      "url": "https://www.ksrevenue.gov/dovgdl.html",
       "accessed": "2026-07-19"
     }
   ]

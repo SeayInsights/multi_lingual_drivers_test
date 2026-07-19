@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Nebraska — RESEARCH: official testing agency name",
-      "vi-VN": "Nebraska — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Nebraska Department of Motor Vehicles",
+      "vi-VN": "Nha Lộ Vận Nebraska (DMV)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DMV",
+    "website": "https://dmv.nebraska.gov",
+    "handbookUrl": "https://dmv.nebraska.gov/manuals"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 20,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 14,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The Class O written test has 25 questions; you must score 80% — you can miss up to 5 and still pass. A School Learner's Permit is available from age 14 (standard permit at 15). Note: the test is offered in English, Spanish, and ASL only — practice in English-only mode.",
+      "vi-VN": "Bài thi viết hạng O có 25 câu; phải đúng 80% — được sai tối đa 5 câu vẫn đậu. Có thể lấy giấy phép tập lái học đường từ 14 tuổi (giấy phép thường từ 15 tuổi). Lưu ý: bài thi chỉ có tiếng Anh, Tây Ban Nha và ngôn ngữ ký hiệu — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,8 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Nebraska DMV — Manuals & Class O written test (25 questions, miss ≤5)",
+      "url": "https://dmv.nebraska.gov/manuals",
       "accessed": "2026-07-19"
     }
   ]

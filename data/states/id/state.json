@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Idaho — RESEARCH: official testing agency name",
-      "vi-VN": "Idaho — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Idaho Transportation Department, DMV",
+      "vi-VN": "Nha Lộ Vận Idaho (ITD)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "ITD",
+    "website": "https://itd.idaho.gov",
+    "handbookUrl": "https://itd.idaho.gov/wp-content/uploads/2025/03/driver_manual.pdf"
   },
   "test": {
     "totalQuestions": 40,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 34,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 25,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 14.5,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "The knowledge test has 40 questions; you can miss up to 6 (34 of 40, about 85%) to pass. A Driver Training Permit is available from age 14½. ITD offers the knowledge test in Vietnamese (written and aural).",
+      "vi-VN": "Bài thi lý thuyết có 40 câu; được sai tối đa 6 câu (đúng 34/40, khoảng 85%) mới đậu. Có thể lấy giấy phép tập lái từ 14 tuổi rưỡi. ITD có bài thi bằng tiếng Việt (chữ viết và âm thanh)."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Idaho Driver's Handbook (40 questions, miss up to 6; Vietnamese offered)",
+      "url": "https://itd.idaho.gov/wp-content/uploads/2025/03/driver_manual.pdf",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Idaho ITD — Taking the Driver's Test (Vietnamese written and aural)",
+      "url": "https://itd.idaho.gov/guide/taking-the-drivers-test/",
       "accessed": "2026-07-19"
     }
   ]

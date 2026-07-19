@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Utah — RESEARCH: official testing agency name",
-      "vi-VN": "Utah — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Utah Driver License Division (Department of Public Safety)",
+      "vi-VN": "Nha Lộ Vận Utah (DLD)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "DLD",
+    "website": "https://dld.utah.gov",
+    "handbookUrl": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 50,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 40,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 30,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "For never-licensed applicants the written test is a closed-book 50-question test; you must pass with 80% or better. It is not timed. A learner permit is available from age 15. Utah offers the written knowledge test in Vietnamese (text).",
+      "vi-VN": "Với người chưa từng có bằng, bài thi viết là 50 câu (không được coi tài liệu); phải đúng 80% trở lên mới đậu. Bài thi không giới hạn thời gian. Có thể lấy giấy phép tập lái từ 15 tuổi. Utah có bài thi bằng tiếng Việt (chữ viết)."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Utah DLD — Written Knowledge Test (50-question never-licensed test, 80%, Vietnamese text)",
+      "url": "https://dld.utah.gov/written-knowledge-test/",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "Utah DLD — Learner Permit (age 15)",
+      "url": "https://dld.utah.gov/learner-permit/",
       "accessed": "2026-07-19"
     }
   ]

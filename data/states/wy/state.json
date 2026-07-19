@@ -6,17 +6,17 @@
   },
   "agency": {
     "name": {
-      "en-US": "Wyoming — RESEARCH: official testing agency name",
-      "vi-VN": "Wyoming — RESEARCH: tên cơ quan (xem checklist)"
+      "en-US": "Wyoming Department of Transportation, Driver Services",
+      "vi-VN": "Nha Lộ Vận Wyoming (WYDOT)"
     },
-    "abbreviation": "TODO",
-    "website": "https://example.com/RESEARCH-agency-website",
-    "handbookUrl": "https://example.com/RESEARCH-official-handbook"
+    "abbreviation": "WYDOT",
+    "website": "https://www.dot.state.wy.us",
+    "handbookUrl": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021%20Drivers%20License%20manual_ClassC_web.pdf"
   },
   "test": {
-    "totalQuestions": 40,
+    "totalQuestions": 25,
     "passingRule": "overall",
-    "overallMinCorrect": 32,
+    "overallMinCorrect": 20,
     "timeLimitMinutes": null,
     "sections": [
       {
@@ -25,7 +25,7 @@
           "en-US": "Road signs",
           "vi-VN": "Biển báo giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 10,
         "minCorrect": 0
       },
       {
@@ -34,16 +34,16 @@
           "en-US": "Road rules",
           "vi-VN": "Luật giao thông"
         },
-        "questionCount": 20,
+        "questionCount": 15,
         "minCorrect": 0
       }
     ]
   },
   "licensing": {
-    "minPermitAge": 16,
+    "minPermitAge": 15,
     "notes": {
-      "en-US": "RESEARCH: test format and permit facts from the official handbook.",
-      "vi-VN": "RESEARCH: điền thông tin thi và giấy phép từ sổ tay chính thức."
+      "en-US": "Wyoming's manual does not publish an official question count or passing score, so this practice test uses a common 25-question / 80% standard (this state stays in draft until verified). An instruction permit is available from age 15 (a restricted permit at 14 for hardship). Note: Wyoming tests are given in English only — practice in English-only mode.",
+      "vi-VN": "Sổ tay Wyoming không công bố số câu hay điểm đậu chính thức, nên bản luyện này dùng chuẩn phổ biến 25 câu / 80% (còn ở dạng nháp cho tới khi xác minh). Có thể lấy giấy phép tập lái từ 15 tuổi (giấy phép hạn chế từ 14 tuổi nếu hoàn cảnh khó khăn). Lưu ý: bài thi Wyoming chỉ có tiếng Anh — nên luyện ở chế độ chỉ tiếng Anh."
     }
   },
   "content": {
@@ -51,8 +51,13 @@
   },
   "sources": [
     {
-      "title": "RESEARCH: replace with the official sources used (state-sourcing-checklist.md §A)",
-      "url": "https://example.com/RESEARCH",
+      "title": "Wyoming Driver License Manual (Class C, 2021; English only; count/score not stated)",
+      "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021%20Drivers%20License%20manual_ClassC_web.pdf",
+      "accessed": "2026-07-19"
+    },
+    {
+      "title": "WYDOT — Testing (English only)",
+      "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/testing.html",
       "accessed": "2026-07-19"
     }
   ]
