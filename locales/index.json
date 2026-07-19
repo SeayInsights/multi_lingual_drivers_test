@@ -16,6 +16,9 @@
     { "tag": "tl-PH", "endonym": "Tagalog", "englishName": "Tagalog", "status": "available" },
     { "tag": "es-MX", "endonym": "Español", "englishName": "Spanish", "status": "available" },
     { "tag": "ar", "endonym": "العربية", "englishName": "Arabic", "direction": "rtl", "status": "available" },
+    { "tag": "fa", "endonym": "فارسی", "englishName": "Persian", "direction": "rtl", "status": "available" },
+    { "tag": "ur", "endonym": "اردو", "englishName": "Urdu", "direction": "rtl", "status": "available" },
+    { "tag": "he", "endonym": "עברית", "englishName": "Hebrew", "direction": "rtl", "status": "available" },
     { "tag": "en-US", "endonym": "English", "englishName": "English", "status": "available" }
   ]
 }
