@@ -77,6 +77,8 @@
     "topic.licensing": "Licensing rules",
     "test.introTitle": "Simulate the real test",
     "test.rules": "{total} questions: {signs} road signs + {rules} rules. You must get {minCorrect}/{sectionCount} in EACH section to pass.",
+    "test.rules.overall": "{total} questions: {signs} road signs + {rules} rules. You must get {minCorrect}/{total} correct overall to pass.",
+    "test.result.needed": "{min} correct needed to pass",
     "test.timedOption": "Timer (optional — the real test is untimed)",
     "test.begin": "Begin test",
     "test.reviewTitle": "Review before submitting",

@@ -36,20 +36,17 @@ function shuffled(arr) {
 /* ---------- intro ---------- */
 function introHtml() {
   const sections = stateCfg.test.sections;
-  const rules = t("test.rules", {
+  const overall = stateCfg.test.passingRule === "overall";
+  const ruleKey = overall ? "test.rules.overall" : "test.rules";
+  const params = {
     total: stateCfg.test.totalQuestions,
     signs: sections[0].questionCount,
     rules: sections[1]?.questionCount ?? 0,
-    minCorrect: sections[0].minCorrect,
+    minCorrect: overall ? stateCfg.test.overallMinCorrect : sections[0].minCorrect,
     sectionCount: sections[0].questionCount,
-  });
-  const rulesEn = t("test.rules", {
-    total: stateCfg.test.totalQuestions,
-    signs: sections[0].questionCount,
-    rules: sections[1]?.questionCount ?? 0,
-    minCorrect: sections[0].minCorrect,
-    sectionCount: sections[0].questionCount,
-  }, "en-US");
+  };
+  const rules = t(ruleKey, params);
+  const rulesEn = t(ruleKey, params, "en-US");
   return `
   <section class="card">
     <h2>${bilingual("test.introTitle")}</h2>
@@ -159,8 +156,12 @@ async function grade() {
       }).catch(() => {});
     }
   }
-  const passed = Object.values(perSection).every((s) => s.correct >= s.min);
   const totalCorrect = Object.values(perSection).reduce((n, s) => n + s.correct, 0);
+  // per-section (Ohio, Georgia): every section clears its own minCorrect.
+  // overall (Washington, Florida, ...): one total score against overallMinCorrect.
+  const passed = stateCfg.test.passingRule === "overall"
+    ? totalCorrect >= stateCfg.test.overallMinCorrect
+    : Object.values(perSection).every((s) => s.correct >= s.min);
   const summary = {
     ts: Date.now(), state: stateCode, sessionId: sim.sessionId,
     passed, totalCorrect, total: sim.order.length,
@@ -175,8 +176,14 @@ async function grade() {
 }
 
 function resultsHtml({ perSection, passed, totalCorrect, missed }) {
+  const overall = stateCfg.test.passingRule === "overall";
   const sectionRows = stateCfg.test.sections.map((s) => {
     const r = perSection[s.id];
+    if (overall) {
+      // no per-section pass bar — sections are informational breakdown only
+      return `<div class="setting-row"><span>${L(s.name)}</span>
+        <strong>${r.correct}/${r.total}</strong></div>`;
+    }
     const ok = r.correct >= r.min;
     return `<div class="setting-row"><span>${L(s.name)}</span>
       <strong style="color:${ok ? "var(--green)" : "var(--red)"}">${r.correct}/${r.total} ${ok ? "✓" : `(cần ${r.min})`}</strong></div>`;
@@ -185,6 +192,7 @@ function resultsHtml({ perSection, passed, totalCorrect, missed }) {
   <section class="card ${passed ? "card-green" : ""}" style="text-align:center">
     <h2 style="font-size:1.6rem">${bilingual(passed ? "test.result.pass" : "test.result.fail")}</h2>
     <p style="font-family:var(--font-sign);font-weight:900;font-size:1.4rem">${t("test.result.score", { correct: totalCorrect, total: sim.order.length })}</p>
+    ${overall ? `<p style="color:var(--muted)">${bilingual("test.result.needed", { min: stateCfg.test.overallMinCorrect })}</p>` : ""}
   </section>
   <section class="card">${sectionRows}</section>
   ${missed.length ? `

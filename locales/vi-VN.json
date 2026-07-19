@@ -77,6 +77,8 @@
     "topic.licensing": "Bằng lái và quy định",
     "test.introTitle": "Thi thử như thi thật",
     "test.rules": "{total} câu hỏi: {signs} câu biển báo + {rules} câu luật. Phải đúng {minCorrect}/{sectionCount} câu MỖI phần mới đậu.",
+    "test.rules.overall": "{total} câu hỏi: {signs} câu biển báo + {rules} câu luật. Phải đúng {minCorrect}/{total} câu tính chung mới đậu.",
+    "test.result.needed": "Cần đúng {min} câu mới đậu",
     "test.timedOption": "Bấm giờ (tùy chọn — thi thật không giới hạn giờ)",
     "test.begin": "Bắt đầu thi",
     "test.reviewTitle": "Kiểm tra lại trước khi nộp",
