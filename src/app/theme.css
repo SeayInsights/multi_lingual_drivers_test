@@ -93,16 +93,19 @@ button { font-family: inherit; cursor: pointer; }
   letter-spacing: .01em;
 }
 .hdr .route {
-  display: inline-block;
+  /* tappable since M4: opens the state picker — keep >= 44px touch target */
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   background: #fff;
   color: var(--green-dk);
   font-family: var(--font-sign);
   font-weight: 900;
   font-size: .68rem;
   letter-spacing: .14em;
-  padding: 2px 10px;
+  padding: 2px 16px;
   border-radius: 999px;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
 }
 
 /* ---- main view ---- */

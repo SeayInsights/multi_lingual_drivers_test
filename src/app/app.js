@@ -13,6 +13,7 @@ import { fillDueBadges } from "../srs/badge.js";
 import { reviewView, fillReviewBadges } from "../pages/review/review.js";
 import { signsView } from "../pages/signs/signs.js";
 import { progressView } from "../pages/progress/progress.js";
+import { stateView, fillStateLabels } from "../pages/state/state.js";
 
 const TABS = [
   { path: "/home", key: "tab.home", ico: "🏠" },
@@ -48,6 +49,7 @@ function segButtons(name, options, current) {
 function homeView() {
   queueMicrotask(fillDueBadges);
   queueMicrotask(fillReviewBadges);
+  queueMicrotask(fillStateLabels);
   return `
   <section class="card card-green">
     <h2>${bilingual("home.welcome")}</h2>
@@ -63,6 +65,13 @@ function homeView() {
   </a>
   <section class="card">
     <h2>${bilingual("settings.title")}</h2>
+    <div class="setting-row">
+      <span>${bilingual("settings.state")}</span>
+      <a class="btn btn-secondary" href="#/state"
+        style="width:auto;min-height:44px;padding:8px 14px;text-decoration:none;display:inline-flex;gap:8px">
+        <span data-state-name>Ohio</span><span aria-hidden="true">›</span>
+      </a>
+    </div>
     <div class="setting-row">
       <span>${bilingual("settings.language")}</span>
       ${segButtons("langmode", [
@@ -126,6 +135,7 @@ async function boot() {
   ).join("");
 
   register("/home", homeView);
+  register("/state", stateView);
   register("/study", studyView);
   register("/signs", signsView);
   register("/test", testView);
@@ -133,6 +143,9 @@ async function boot() {
   register("/review", reviewView);
   register("/progress", progressView);
   setNotFound(() => `<section class="card"><h2>404</h2><p><a href="#/home">${t("action.back")}</a></p></section>`);
+
+  // header route chip shows the chosen state (decorative — fills when ready)
+  fillStateLabels(document);
 
   const viewEl = document.getElementById("view");
   startRouter(viewEl, {
